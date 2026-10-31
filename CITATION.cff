@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: "MCAB — Machine Civilization Autonomy Benchmark"
+message: "If you use MCAB in research, please cite this repository and the relevant annual baseline release."
+type: software
+authors:
+  - family-names: "Qiang"
+    given-names: "Amos"
+repository-code: "https://github.com/Amosqiang/Machine-Civilization-Autonomy"
+abstract: "An open benchmark for measuring how far AI–robotics–industrial systems can continue operating, repairing, expanding, and reproducing as human support is progressively removed."
+keywords:
+  - artificial intelligence
+  - robotics
+  - industrial autonomy
+  - autonomous replication
+  - machine civilization
+  - benchmark
+license: "NOASSERTION"
