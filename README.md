@@ -1,6 +1,18 @@
 # MCAB — Machine Civilization Autonomy Benchmark
 
+> **A public benchmark for measuring how far AI–robotics–industrial systems can continue operating, repairing, expanding, and reproducing as human support is progressively removed.**
+>
 > 机器文明自主性基准：测试逐步移除人类后，AI—机器人—工业系统还能否持续运行、修复、扩容、复制并继续发展。
+
+## Why MCAB?
+
+Most AI benchmarks measure intelligence, coding, reasoning, tool use, agent performance, or digital self-replication. MCAB asks a different systems-level question:
+
+**How dependent is a machine civilization on human civilization?**
+
+The project studies the full dependency chain from AI and software to energy, mining, materials, manufacturing, semiconductors, robotics, logistics, economic coordination, maintenance, recovery, and physical reproduction.
+
+MCAB is intended to be an open, evidence-backed, annually updated research benchmark. Contributions from AI researchers, roboticists, industrial engineers, semiconductor experts, energy researchers, economists, systems researchers, and other domain specialists are welcome.
 
 ## 核心问题
 
@@ -95,6 +107,19 @@ H 越高，人类从系统中撤场造成的性能损失越大。理想独立状
 - **证据优先**：每个评分必须标明公开证据、日期、来源类型与置信度。
 - **时间序列**：目标不是预测某一个“AGI日期”，而是逐年更新 MCAB-2026、MCAB-2027……观察哪个环节成为最后的人类脐带。
 - **双世界比较**：同时比较 AI-with-humans 与 AI-without-humans 两条能力/增长曲线，寻找自主性反转点。
+
+## How to contribute
+
+MCAB is designed as a community research project. Useful contributions include:
+
+- primary-source evidence for any subsystem;
+- corrections to the ontology or dependency graph;
+- domain-expert review of scores and assumptions;
+- reproducible code, tests, visualizations, and simulations;
+- yearly updates and historical backfills;
+- translations and clearer documentation.
+
+Please read `CONTRIBUTING.md` before opening a pull request. Evidence-backed corrections are preferred over unsupported estimates.
 
 ## 当前阶段
 
