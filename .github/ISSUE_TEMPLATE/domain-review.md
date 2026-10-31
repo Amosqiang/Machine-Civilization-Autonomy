@@ -1,7 +1,7 @@
 ---
 name: Domain review
 about: Review one MCAB domain or subsystem as a subject-matter expert
- title: "Domain review: "
+title: "Domain review: "
 labels: []
 assignees: []
 ---
