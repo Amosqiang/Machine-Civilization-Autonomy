@@ -1,0 +1,24 @@
+field,description
+record_id,Unique evidence record ID
+year,Baseline year
+as_of_date,Date evidence was current
+domain_id,MCAB domain ID
+subsystem_id,MCAB subsystem ID
+metric_id,Autonomy metric ID
+human_removal_scenario,HR100/HR50/HR10/HR1/HR0
+score_0_5,Autonomy score from 0 to 5
+evidence_level,E0-E5
+confidence,Low/Medium/High
+observed_capability,What the system demonstrably can do
+remaining_human_role,Human role still required
+failure_mode,Known failure or boundary condition
+upstream_dependencies,Dependencies required for the capability
+substitutes,Available substitute pathways
+recovery_time,Observed or estimated recovery time
+stockpile_duration,How long operation can continue without resupply
+single_point_of_failure,Yes/No/Unknown
+source_title,Source title
+source_url,Source URL
+source_type,Paper/benchmark/field-data/company-doc/government/other
+source_date,Publication or observation date
+notes,Analyst notes
