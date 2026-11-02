@@ -4,6 +4,8 @@
 
 首次核对时有13个开放Issue、没有PR，main为7f80078。本轮在任务分支`codex/mcab-2026-evidence-engineering`保留既有成果，接续工程机制及文献对照。以下是当前分支的交付，不代表已合入main或完成科学验证。
 
+可审阅草稿：[PR #14](https://github.com/Amosqiang/Machine-Civilization-Autonomy/pull/14)。
+
 ## #2：工程交付主线
 
 [Issue #2](https://github.com/Amosqiang/Machine-Civilization-Autonomy/issues/2)的原评论要求保留已有工作、完成工程余项并形成可审阅PR。
