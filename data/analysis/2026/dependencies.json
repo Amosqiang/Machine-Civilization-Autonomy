@@ -1,0 +1,553 @@
+{
+  "schema_version": "0.1",
+  "edge_direction": "consumer_to_upstream",
+  "edge_count": 20,
+  "structural_hypothesis_edge_count": 20,
+  "verified_edge_count": 0,
+  "assessment_status": "structural_hypotheses_only",
+  "reasons": [
+    "Graph exposure and ordinal-score rankings are separate; neither establishes causal human dependence.",
+    "No verified dependencies are present; the graph cannot establish observed bottlenecks."
+  ],
+  "structural_exposure": {
+    "basis": "structural_hypotheses_only",
+    "edge_count": 20,
+    "node_count": 23,
+    "edges": [
+      {
+        "dependency_id": "DEP-001",
+        "consumer_subsystem_id": "2.4",
+        "upstream_subsystem_id": "7.10",
+        "dependency_type": "component",
+        "critical": "Unknown",
+        "verification_status": "structural_hypothesis",
+        "evidence_refs": "",
+        "substitutes": "其他计算载体路线未评估",
+        "notes": "仅据本体定义提出结构假设：若云集群以服务器整机承载则需系统集成；未核实具体设施及不可替代性。"
+      },
+      {
+        "dependency_id": "DEP-002",
+        "consumer_subsystem_id": "2.6",
+        "upstream_subsystem_id": "7.10",
+        "dependency_type": "component",
+        "critical": "Unknown",
+        "verification_status": "structural_hypothesis",
+        "evidence_refs": "",
+        "substitutes": "其他训练硬件路线未评估",
+        "notes": "仅据本体定义提出结构假设：若训练采用服务器集群则需服务器整机；不代表已验证供应闭环。"
+      },
+      {
+        "dependency_id": "DEP-003",
+        "consumer_subsystem_id": "3.5",
+        "upstream_subsystem_id": "2.6",
+        "dependency_type": "software",
+        "critical": "Unknown",
+        "verification_status": "structural_hypothesis",
+        "evidence_refs": "",
+        "substitutes": "单机或其他训练路线未评估",
+        "notes": "仅据本体定义提出结构假设：若模型训练使用大规模分布式栈则依赖训练基础设施；未核实运行范围。"
+      },
+      {
+        "dependency_id": "DEP-004",
+        "consumer_subsystem_id": "6.1",
+        "upstream_subsystem_id": "4.5",
+        "dependency_type": "energy",
+        "critical": "Unknown",
+        "verification_status": "structural_hypothesis",
+        "evidence_refs": "",
+        "substitutes": "厂内自供电和其他能源路线未评估",
+        "notes": "仅据本体定义提出结构假设：若机械加工设备采用外接配电供电则需末端配电；不把该路线宣称为全球唯一供能方案。"
+      },
+      {
+        "dependency_id": "DEP-005",
+        "consumer_subsystem_id": "6.1",
+        "upstream_subsystem_id": "6.8",
+        "dependency_type": "component",
+        "critical": "Unknown",
+        "verification_status": "structural_hypothesis",
+        "evidence_refs": "",
+        "substitutes": "非切削加工替代路线未评估",
+        "notes": "仅据本体定义提出结构假设：若执行车铣磨钻路线则需机床和生产设备；未核实某台设备的备份及维修方案。"
+      },
+      {
+        "dependency_id": "DEP-006",
+        "consumer_subsystem_id": "6.8",
+        "upstream_subsystem_id": "6.1",
+        "dependency_type": "component",
+        "critical": "Unknown",
+        "verification_status": "structural_hypothesis",
+        "evidence_refs": "",
+        "substitutes": "铸造增材及其他零件成形路线未评估",
+        "notes": "仅据本体定义提出结构假设：若新机床零件采用精密切削工艺则需机械加工；与机床供给形成的循环允许存在且不证明闭环已成立。"
+      },
+      {
+        "dependency_id": "DEP-007",
+        "consumer_subsystem_id": "8.5",
+        "upstream_subsystem_id": "6.5",
+        "dependency_type": "component",
+        "critical": "Unknown",
+        "verification_status": "structural_hypothesis",
+        "evidence_refs": "",
+        "substitutes": "非电机执行路线未评估",
+        "notes": "仅据本体定义提出结构假设：若机器人本体采用电机伺服或液压执行器则需相应制造；未核实特定机器人设计。"
+      },
+      {
+        "dependency_id": "DEP-008",
+        "consumer_subsystem_id": "8.5",
+        "upstream_subsystem_id": "6.6",
+        "dependency_type": "component",
+        "critical": "Unknown",
+        "verification_status": "structural_hypothesis",
+        "evidence_refs": "",
+        "substitutes": "直驱和其他传动路线未评估",
+        "notes": "仅据本体定义提出结构假设：若机器人采用轴承齿轮或减速器则需精密传动制造；并非所有机器人必须采用同一传动路线。"
+      },
+      {
+        "dependency_id": "DEP-009",
+        "consumer_subsystem_id": "8.5",
+        "upstream_subsystem_id": "6.7",
+        "dependency_type": "component",
+        "critical": "Unknown",
+        "verification_status": "structural_hypothesis",
+        "evidence_refs": "",
+        "substitutes": "不同传感器组合未评估",
+        "notes": "仅据本体定义提出结构假设：若机器人复制包括测量控制硬件则需传感器与仪器制造；未核实自产能力。"
+      },
+      {
+        "dependency_id": "DEP-010",
+        "consumer_subsystem_id": "8.2",
+        "upstream_subsystem_id": "6.5",
+        "dependency_type": "component",
+        "critical": "Unknown",
+        "verification_status": "structural_hypothesis",
+        "evidence_refs": "",
+        "substitutes": "其他操作机构和执行路线未评估",
+        "notes": "仅据本体定义提出结构假设：若机械臂由本体列举的执行器驱动则需相应执行器供给；未验证现场依赖。"
+      },
+      {
+        "dependency_id": "DEP-011",
+        "consumer_subsystem_id": "7.9",
+        "upstream_subsystem_id": "5.5",
+        "dependency_type": "material",
+        "critical": "Unknown",
+        "verification_status": "structural_hypothesis",
+        "evidence_refs": "",
+        "substitutes": "不同衬底及芯片路线未评估",
+        "notes": "仅据本体定义提出结构假设：若计算芯片采用半导体级材料则需高纯制备；不据此认定全部工艺材料已被列全。"
+      },
+      {
+        "dependency_id": "DEP-012",
+        "consumer_subsystem_id": "7.9",
+        "upstream_subsystem_id": "5.7",
+        "dependency_type": "material",
+        "critical": "Unknown",
+        "verification_status": "structural_hypothesis",
+        "evidence_refs": "",
+        "substitutes": "不同图形化和化学工艺路线未评估",
+        "notes": "仅据本体定义提出结构假设：若芯片路线使用光刻胶特气或超纯试剂则需电子化学品；未验证实际配方及替代性。"
+      },
+      {
+        "dependency_id": "DEP-013",
+        "consumer_subsystem_id": "7.9",
+        "upstream_subsystem_id": "7.2",
+        "dependency_type": "component",
+        "critical": "Unknown",
+        "verification_status": "structural_hypothesis",
+        "evidence_refs": "",
+        "substitutes": "无掩模及其他图形化路线未评估",
+        "notes": "仅据本体定义提出结构假设：若芯片制造采用掩模光刻则需光刻系统与掩模；不推断该路线在任意场景不可替代。"
+      },
+      {
+        "dependency_id": "DEP-014",
+        "consumer_subsystem_id": "7.10",
+        "upstream_subsystem_id": "7.9",
+        "dependency_type": "component",
+        "critical": "Unknown",
+        "verification_status": "structural_hypothesis",
+        "evidence_refs": "",
+        "substitutes": "不同计算架构未评估",
+        "notes": "仅据本体定义提出结构假设：若服务器集成CPU或GPU等计算芯片则需该类芯片供给；未核实任何厂商供应关系。"
+      },
+      {
+        "dependency_id": "DEP-015",
+        "consumer_subsystem_id": "7.10",
+        "upstream_subsystem_id": "7.8",
+        "dependency_type": "component",
+        "critical": "Unknown",
+        "verification_status": "structural_hypothesis",
+        "evidence_refs": "",
+        "substitutes": "不同存储层级和技术路线未评估",
+        "notes": "仅据本体定义提出结构假设：若服务器采用DRAM或HBM则需该类存储制造；不主张所有服务器都需HBM。"
+      },
+      {
+        "dependency_id": "DEP-016",
+        "consumer_subsystem_id": "5.4",
+        "upstream_subsystem_id": "5.3",
+        "dependency_type": "material",
+        "critical": "Unknown",
+        "verification_status": "structural_hypothesis",
+        "evidence_refs": "",
+        "substitutes": "再生金属和其他原料路线未评估",
+        "notes": "仅据本体定义提出结构假设：若冶炼使用经选矿的原生矿料则需选矿分离；回收原料路径另需分析。"
+      },
+      {
+        "dependency_id": "DEP-017",
+        "consumer_subsystem_id": "5.3",
+        "upstream_subsystem_id": "5.2",
+        "dependency_type": "material",
+        "critical": "Unknown",
+        "verification_status": "structural_hypothesis",
+        "evidence_refs": "",
+        "substitutes": "存量矿料尾矿和回收原料路线未评估",
+        "notes": "仅据本体定义提出结构假设：若选矿原料来自新采天然矿石则需采矿开采；未核实库存持续时间。"
+      },
+      {
+        "dependency_id": "DEP-018",
+        "consumer_subsystem_id": "5.2",
+        "upstream_subsystem_id": "8.8",
+        "dependency_type": "logistics",
+        "critical": "Unknown",
+        "verification_status": "structural_hypothesis",
+        "evidence_refs": "",
+        "substitutes": "公路皮带及现场加工路线未评估",
+        "notes": "仅据本体定义提出结构假设：若矿山采用重载铁路或港口外运则需相应运输保障；不将可选运输路线视为普遍关键边。"
+      },
+      {
+        "dependency_id": "DEP-019",
+        "consumer_subsystem_id": "4.3",
+        "upstream_subsystem_id": "4.9",
+        "dependency_type": "maintenance",
+        "critical": "Unknown",
+        "verification_status": "structural_hypothesis",
+        "evidence_refs": "",
+        "substitutes": "模块更换和冗余发电路线未评估",
+        "notes": "仅据本体定义提出结构假设：若发电设备生命周期内故障需要修复则需能源设施维修；未核实故障率与备用能力。"
+      },
+      {
+        "dependency_id": "DEP-020",
+        "consumer_subsystem_id": "4.9",
+        "upstream_subsystem_id": "8.2",
+        "dependency_type": "maintenance",
+        "critical": "Unknown",
+        "verification_status": "structural_hypothesis",
+        "evidence_refs": "",
+        "substitutes": "专用维修机构和其他操作路线未评估",
+        "notes": "仅据本体定义提出结构假设：若能源维修采用机械臂精细操作则需该操作能力；并非已有无人维修实证。"
+      }
+    ],
+    "nodes": [
+      {
+        "subsystem_id": "2.4",
+        "direct_upstream_count": 1,
+        "direct_consumer_count": 0,
+        "transitive_consumer_count": 0,
+        "single_point_of_failure": "Unknown"
+      },
+      {
+        "subsystem_id": "2.6",
+        "direct_upstream_count": 1,
+        "direct_consumer_count": 1,
+        "transitive_consumer_count": 1,
+        "single_point_of_failure": "Unknown"
+      },
+      {
+        "subsystem_id": "3.5",
+        "direct_upstream_count": 1,
+        "direct_consumer_count": 0,
+        "transitive_consumer_count": 0,
+        "single_point_of_failure": "Unknown"
+      },
+      {
+        "subsystem_id": "4.3",
+        "direct_upstream_count": 1,
+        "direct_consumer_count": 0,
+        "transitive_consumer_count": 0,
+        "single_point_of_failure": "Unknown"
+      },
+      {
+        "subsystem_id": "4.5",
+        "direct_upstream_count": 0,
+        "direct_consumer_count": 1,
+        "transitive_consumer_count": 2,
+        "single_point_of_failure": "Unknown"
+      },
+      {
+        "subsystem_id": "4.9",
+        "direct_upstream_count": 1,
+        "direct_consumer_count": 1,
+        "transitive_consumer_count": 1,
+        "single_point_of_failure": "Unknown"
+      },
+      {
+        "subsystem_id": "5.2",
+        "direct_upstream_count": 1,
+        "direct_consumer_count": 1,
+        "transitive_consumer_count": 2,
+        "single_point_of_failure": "Unknown"
+      },
+      {
+        "subsystem_id": "5.3",
+        "direct_upstream_count": 1,
+        "direct_consumer_count": 1,
+        "transitive_consumer_count": 1,
+        "single_point_of_failure": "Unknown"
+      },
+      {
+        "subsystem_id": "5.4",
+        "direct_upstream_count": 1,
+        "direct_consumer_count": 0,
+        "transitive_consumer_count": 0,
+        "single_point_of_failure": "Unknown"
+      },
+      {
+        "subsystem_id": "5.5",
+        "direct_upstream_count": 0,
+        "direct_consumer_count": 1,
+        "transitive_consumer_count": 5,
+        "single_point_of_failure": "Unknown"
+      },
+      {
+        "subsystem_id": "5.7",
+        "direct_upstream_count": 0,
+        "direct_consumer_count": 1,
+        "transitive_consumer_count": 5,
+        "single_point_of_failure": "Unknown"
+      },
+      {
+        "subsystem_id": "6.1",
+        "direct_upstream_count": 2,
+        "direct_consumer_count": 1,
+        "transitive_consumer_count": 1,
+        "single_point_of_failure": "Unknown"
+      },
+      {
+        "subsystem_id": "6.5",
+        "direct_upstream_count": 0,
+        "direct_consumer_count": 2,
+        "transitive_consumer_count": 4,
+        "single_point_of_failure": "Unknown"
+      },
+      {
+        "subsystem_id": "6.6",
+        "direct_upstream_count": 0,
+        "direct_consumer_count": 1,
+        "transitive_consumer_count": 1,
+        "single_point_of_failure": "Unknown"
+      },
+      {
+        "subsystem_id": "6.7",
+        "direct_upstream_count": 0,
+        "direct_consumer_count": 1,
+        "transitive_consumer_count": 1,
+        "single_point_of_failure": "Unknown"
+      },
+      {
+        "subsystem_id": "6.8",
+        "direct_upstream_count": 1,
+        "direct_consumer_count": 1,
+        "transitive_consumer_count": 1,
+        "single_point_of_failure": "Unknown"
+      },
+      {
+        "subsystem_id": "7.2",
+        "direct_upstream_count": 0,
+        "direct_consumer_count": 1,
+        "transitive_consumer_count": 5,
+        "single_point_of_failure": "Unknown"
+      },
+      {
+        "subsystem_id": "7.8",
+        "direct_upstream_count": 0,
+        "direct_consumer_count": 1,
+        "transitive_consumer_count": 4,
+        "single_point_of_failure": "Unknown"
+      },
+      {
+        "subsystem_id": "7.9",
+        "direct_upstream_count": 3,
+        "direct_consumer_count": 1,
+        "transitive_consumer_count": 4,
+        "single_point_of_failure": "Unknown"
+      },
+      {
+        "subsystem_id": "7.10",
+        "direct_upstream_count": 2,
+        "direct_consumer_count": 2,
+        "transitive_consumer_count": 3,
+        "single_point_of_failure": "Unknown"
+      },
+      {
+        "subsystem_id": "8.2",
+        "direct_upstream_count": 1,
+        "direct_consumer_count": 1,
+        "transitive_consumer_count": 2,
+        "single_point_of_failure": "Unknown"
+      },
+      {
+        "subsystem_id": "8.5",
+        "direct_upstream_count": 3,
+        "direct_consumer_count": 0,
+        "transitive_consumer_count": 0,
+        "single_point_of_failure": "Unknown"
+      },
+      {
+        "subsystem_id": "8.8",
+        "direct_upstream_count": 0,
+        "direct_consumer_count": 1,
+        "transitive_consumer_count": 3,
+        "single_point_of_failure": "Unknown"
+      }
+    ],
+    "exposure_order": [
+      "5.5",
+      "5.7",
+      "7.2",
+      "6.5",
+      "7.8",
+      "7.9",
+      "7.10",
+      "8.8",
+      "4.5",
+      "5.2",
+      "8.2",
+      "2.6",
+      "4.9",
+      "5.3",
+      "6.1",
+      "6.6",
+      "6.7",
+      "6.8",
+      "2.4",
+      "3.5",
+      "4.3",
+      "5.4",
+      "8.5"
+    ],
+    "strongly_connected_components": [
+      [
+        "2.4"
+      ],
+      [
+        "2.6"
+      ],
+      [
+        "3.5"
+      ],
+      [
+        "4.3"
+      ],
+      [
+        "4.5"
+      ],
+      [
+        "4.9"
+      ],
+      [
+        "5.2"
+      ],
+      [
+        "5.3"
+      ],
+      [
+        "5.4"
+      ],
+      [
+        "5.5"
+      ],
+      [
+        "5.7"
+      ],
+      [
+        "6.1",
+        "6.8"
+      ],
+      [
+        "6.5"
+      ],
+      [
+        "6.6"
+      ],
+      [
+        "6.7"
+      ],
+      [
+        "7.2"
+      ],
+      [
+        "7.8"
+      ],
+      [
+        "7.9"
+      ],
+      [
+        "7.10"
+      ],
+      [
+        "8.2"
+      ],
+      [
+        "8.5"
+      ],
+      [
+        "8.8"
+      ]
+    ],
+    "cyclic_components": [
+      [
+        "6.1",
+        "6.8"
+      ]
+    ],
+    "interpretation": "Counts describe the listed edges only; neither degree nor reachability proves indispensability, failure propagation or a single point of failure."
+  },
+  "verified_graph": {
+    "basis": "contributor_declared_verified_edges_only",
+    "edge_count": 0,
+    "node_count": 0,
+    "edges": [],
+    "nodes": [],
+    "exposure_order": [],
+    "strongly_connected_components": [],
+    "cyclic_components": [],
+    "interpretation": "Counts describe the listed edges only; neither degree nor reachability proves indispensability, failure propagation or a single point of failure."
+  },
+  "weakest_nodes": [],
+  "highest_human_dependence": [],
+  "possible_bottlenecks": [],
+  "evidence_reported_single_points_of_failure": [],
+  "evidence_reported_spof_assessment": {
+    "status": "not_assessed",
+    "reported_assessment_count": 0,
+    "reason": "Explicit Yes assertions retain their original scenario and source provenance; they are manual source claims, not independently verified or inferred from graph degree. An empty list, No or Unknown assertions do not prove the absence of single points of failure."
+  },
+  "critical_path_minimum_score": null,
+  "score_assessment": {
+    "status": "not_assessed",
+    "reason": "Only complete HR0 subsystem scores supplied by the scoring artifact are ranked; null or absent scores remain unknown.",
+    "scored_subsystems": 0
+  },
+  "human_dependence_assessment": {
+    "status": "not_assessed",
+    "reason": "Requires paired complete HR100 > 0 and HR0 subsystem scores. H_ordinal_proxy = 1 - HR0/HR100 is an ordinal-score proxy, not measured performance loss or human dependence.",
+    "excluded_monotonicity_violations": []
+  },
+  "critical_path_assessment": {
+    "status": "not_assessed",
+    "scope": "endpoints_of_declared_verified_critical_edges_only",
+    "scope_ids": [],
+    "all_complete": false,
+    "missing_score_ids": [],
+    "reason": "No verified critical edges are declared, so no scoped minimum is assessed."
+  },
+  "limitations": [
+    "The seed graph is incomplete and route-conditional, not a census of industrial dependencies.",
+    "Verification status is a contributor declaration; this script checks presence of evidence references, not their factual adequacy.",
+    "Every single_point_of_failure remains Unknown: redundancy, substitution, capacity and recovery evidence have not been assessed.",
+    "Manually reported single-point-of-failure assertions are carried separately with their original scope; they do not change graph-node assessments.",
+    "Do not derive Closure, R_M or human-free growth from these graph counts or ordinal rankings."
+  ],
+  "dependency_csv_sha256": "ef3c9b0c461ef3b0777eb6d00b50680153aaf43cd8caaa58f2b12e9fbb4eb6d9",
+  "taxonomy_sha256": "ff58fefdbb3071cb477b55de23831619fa07c1a7ecb785a74b2634116b7e3de4",
+  "metrics_sha256": "cb2d7fa58fc84ce95862b2394d50f2437292baf31251e642a18a1c197755f3f1",
+  "scores_sha256": "ae83b6d21fbe8cdf6ede2138b85844b91c0ea35aa12a9d819866391d0aad82d3"
+}

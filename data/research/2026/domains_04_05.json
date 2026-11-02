@@ -1,0 +1,3441 @@
+{
+  "as_of_date": "2026-11-02",
+  "domain_ids": [
+    "4",
+    "5"
+  ],
+  "sources": [
+    {
+      "source_id": "D04-S01",
+      "title": "Autonomous Energy Systems | Grid Modernization | NLR",
+      "url": "https://www.nlr.gov/grid/autonomous-energy",
+      "publisher": "National Laboratory of the Rockies",
+      "publication_date": "",
+      "retrieved_at": "2026-11-02",
+      "source_type": "government",
+      "supporting_excerpt": "NLR developed and tested effective optimization and",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_04_05/aeg2.txt",
+      "limitations": "技术综述包含试验与示范；并非全网长期无人运行记录。"
+    },
+    {
+      "source_id": "D04-S02",
+      "title": "Solar and Wind Forecasting | Grid Modernization | NLR",
+      "url": "https://www.nlr.gov/grid/solar-wind-forecasting",
+      "publisher": "National Laboratory of the Rockies",
+      "publication_date": "",
+      "retrieved_at": "2026-11-02",
+      "source_type": "government",
+      "supporting_excerpt": "WindView is an open-source situational awareness and decision support platform",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_04_05/forecast2.txt",
+      "limitations": "页面只有更新日期；预测与决策支持不等于自主勘探和设备保障。"
+    },
+    {
+      "source_id": "D04-S03",
+      "title": "Black Start | Grid Modernization | NLR",
+      "url": "https://www.nlr.gov/grid/black-start",
+      "publisher": "National Laboratory of the Rockies",
+      "publication_date": "",
+      "retrieved_at": "2026-11-02",
+      "source_type": "government",
+      "supporting_excerpt": "Black start is the ability of generation to restart parts of the power system",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_04_05/black.txt",
+      "limitations": "研究与方法说明，不是整条供电工业链无人重建的实证。"
+    },
+    {
+      "source_id": "D04-S04",
+      "title": "As Local Power Grows, Utilities Reorganize for Resilience | NLR",
+      "url": "https://www.nlr.gov/news/detail/program/2026/as-local-power-grows-utilities-reorganize-for-resilience",
+      "publisher": "National Laboratory of the Rockies",
+      "publication_date": "2026-09-30",
+      "retrieved_at": "2026-11-02",
+      "source_type": "government",
+      "supporting_excerpt": "REORG recovered power according to plans.",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_04_05/newgrid26.txt",
+      "limitations": "现场短时失网恢复；初始硬件、柴油、UPS与工程部署由人提供；页面更新脚注早于正文日期，以正文发表日期为准。"
+    },
+    {
+      "source_id": "D04-S05",
+      "title": "Energy Storage | PNNL",
+      "url": "https://www.pnnl.gov/energy-storage",
+      "publisher": "Pacific Northwest National Laboratory",
+      "publication_date": "",
+      "retrieved_at": "2026-11-02",
+      "source_type": "government",
+      "supporting_excerpt": "Our research teams support field deployments",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_04_05/pnnl.txt",
+      "limitations": "官方研究能力介绍，不是储能制造维护和供料闭环的验证。"
+    },
+    {
+      "source_id": "D04-S06",
+      "title": "Robots and AI Take Wind Turbine Maintenance Tech to New Heights | The Government of Japan - JapanGov -",
+      "url": "https://www.japan.go.jp/kizuna/2025/08/robots_ai_wind_turbine_maintenance.html",
+      "publisher": "Government of Japan",
+      "publication_date": "2025-10-24",
+      "retrieved_at": "2026-11-02",
+      "source_type": "government",
+      "supporting_excerpt": "An operator uses remote control to guide a repair robot as it fixes damage to a blade.",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_04_05/windrobot.txt",
+      "limitations": "政府对企业案例的介绍；维修当时仍由地面操作员遥控，未来全自主为目标。"
+    },
+    {
+      "source_id": "D04-S07",
+      "title": "Aramco and Yokogawa Achieve a Major Milestone with Commissioning of Multiple Autonomous Control AI Agents at Major Gas Facility | Yokogawa America",
+      "url": "https://www.yokogawa.com/us/news/press-releases/2025/2025-10-29",
+      "publisher": "Yokogawa Electric Corporation",
+      "publication_date": "2025-10-29",
+      "retrieved_at": "2026-11-02",
+      "source_type": "company-doc",
+      "supporting_excerpt": "directly and autonomously control and optimize acid gas removal (AGR) operations",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_04_05/yokogas.txt",
+      "limitations": "厂商联合项目公告，初步结果仍在详细评估；仅气体脱酸单元控制，非无人燃料供应链。"
+    },
+    {
+      "source_id": "D04-S08",
+      "title": "Grid-Forming Inverter Controls | Grid Modernization | NLR",
+      "url": "https://www.nlr.gov/grid/grid-forming-inverter-controls",
+      "publisher": "National Laboratory of the Rockies",
+      "publication_date": "",
+      "retrieved_at": "2026-11-02",
+      "source_type": "government",
+      "supporting_excerpt": "NLR is developing grid-forming controls for distributed inverters",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_04_05/gridforming.txt",
+      "limitations": "研发综述，不证明逆变器自主制造、故障维修或所有电网拓扑的可用性。"
+    },
+    {
+      "source_id": "D04-S09",
+      "title": "Power distribution system blackstart restoration using renewable energy | Nature Communications",
+      "url": "https://www.nature.com/articles/s41467-026-76692-0",
+      "publisher": "Nature Communications",
+      "publication_date": "2026-08-17",
+      "retrieved_at": "2026-11-02",
+      "source_type": "Paper",
+      "supporting_excerpt": "If an unverified device is the sole path to a critical load",
+      "verification": "full_text",
+      "cache_path": ".research_cache/domains_04_05/naturegrid26.txt",
+      "limitations": "综述归纳黑启动约束与方法；不是作者完成完全无人电网重建的试验。"
+    },
+    {
+      "source_id": "D04-S10",
+      "title": "Yokogawa and ANYbotics to Integrate OpreX Robot Management Core Software with ANYmal Robotic Inspection Solutions | Yokogawa Europe",
+      "url": "https://www.yokogawa.com/eu/news/press-releases/2026/2026-02-10/",
+      "publisher": "Yokogawa Electric Corporation",
+      "publication_date": "2026-02-10",
+      "retrieved_at": "2026-11-02",
+      "source_type": "company-doc",
+      "supporting_excerpt": "ANYmal is an autonomous and remotely operable four-legged inspection robot",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_04_05/robot26.txt",
+      "limitations": "合作与集成公告含已有产品描述；自主巡检不等于机械维修，爆炸环境型号部分部署为原型。"
+    },
+    {
+      "source_id": "D04-S11",
+      "title": "Yokogawa to Provide Power Plant Controller and Batteries for Cosmo Eco Power's Wind Power Plant in Northern Japan | Yokogawa Europe",
+      "url": "https://www.yokogawa.com/eu/news/press-releases/2026/2026-03-05/",
+      "publisher": "Yokogawa Electric Corporation",
+      "publication_date": "2026-03-05",
+      "retrieved_at": "2026-11-02",
+      "source_type": "company-doc",
+      "supporting_excerpt": "is expected to start operation in 2029.",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_04_05/power26.txt",
+      "limitations": "供货订单及2029投运计划，不能算2026已投产或机器人建厂能力。"
+    },
+    {
+      "source_id": "D05-S01",
+      "title": "Science - KoBold Metals",
+      "url": "https://koboldmetals.com/science/",
+      "publisher": "KoBold Metals",
+      "publication_date": "",
+      "retrieved_at": "2026-11-02",
+      "source_type": "company-doc",
+      "supporting_excerpt": "Machine Prospector model predictions include quantified uncertainty",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_04_05/koboldscience.txt",
+      "limitations": "公司科学方法说明；AI辅助地质团队决策，不是无人勘探、取样、设备自维持验证。"
+    },
+    {
+      "source_id": "D05-S02",
+      "title": "Innovation | Global",
+      "url": "https://www.riotinto.com/en/about/innovation",
+      "publisher": "Rio Tinto",
+      "publication_date": "",
+      "retrieved_at": "2026-11-02",
+      "source_type": "company-doc",
+      "supporting_excerpt": "We were at the forefront of automation – trucks, trains and drills – and remote operations",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_04_05/rioinnovation.txt",
+      "limitations": "公司技术概览；自动运输钻孔与远程运营不能推出矿山完全无人维护。"
+    },
+    {
+      "source_id": "D05-S03",
+      "title": "Advanced Process Control - Metso",
+      "url": "https://www.metso.com/portfolio/advanced-process-control/",
+      "publisher": "Metso",
+      "publication_date": "",
+      "retrieved_at": "2026-11-02",
+      "source_type": "company-doc",
+      "supporting_excerpt": "APC manages multiple process variables within operational limits",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_04_05/metso.txt",
+      "limitations": "供应商产品说明；未提供本来源可独立复核的长期无人选矿运营数据。"
+    },
+    {
+      "source_id": "D05-S04",
+      "title": "Metso Digital for Metals refining - Metso",
+      "url": "https://www.metso.com/products-and-services/digitalization/digital-solutions-for-metals-refining/",
+      "publisher": "Metso",
+      "publication_date": "",
+      "retrieved_at": "2026-11-02",
+      "source_type": "company-doc",
+      "supporting_excerpt": "digital services such as training and connected analytics.",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_04_05/metals.txt",
+      "limitations": "冶炼数字化产品与服务范围说明，包含人员培训与运行支持；不是自主修厂供料验证。"
+    },
+    {
+      "source_id": "D05-S05",
+      "title": "WACKER commissions new production line for semiconductor-grade polysilicon at Burghausen site - Wacker Chemie AG",
+      "url": "https://www.wacker.com/cms/en-us/press-and-media/press/press-releases/2025/press-releases-detail-2025-257922.html",
+      "publisher": "Wacker Chemie AG",
+      "publication_date": "2025-07-17",
+      "retrieved_at": "2026-11-02",
+      "source_type": "company-doc",
+      "supporting_excerpt": "Sophisticated automation improves process stability and product purity",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_04_05/wacker3.txt",
+      "limitations": "厂商投产公告，新增约150岗位；高纯硅自动化不等于无人化学品、设备和电力闭环。"
+    },
+    {
+      "source_id": "D05-S06",
+      "title": "Boosting Industrial Autonomy with AI | Yokogawa Electric Corporation",
+      "url": "https://www.yokogawa.com/special/planet/stories/boosting_industrial_autonomy_with_AI/",
+      "publisher": "Yokogawa Electric Corporation",
+      "publication_date": "2026-01-26",
+      "retrieved_at": "2026-11-02",
+      "source_type": "company-doc",
+      "supporting_excerpt": "autonomously and safely control a plant for 35 days",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_04_05/yokochemical.txt",
+      "limitations": "2026回顾文章描述2022开始的化工控制试验及后续采用；35天自主控制不等于所有维护原料无人。"
+    },
+    {
+      "source_id": "D05-S07",
+      "title": "AI-powered autonomous electronic polymer synthesis | Argonne National Laboratory",
+      "url": "https://www.anl.gov/cnm/article/aipowered-autonomous-electronic-polymer-synthesis",
+      "publisher": "Argonne National Laboratory",
+      "publication_date": "2026-01-27",
+      "retrieved_at": "2026-11-02",
+      "source_type": "government",
+      "supporting_excerpt": "Polybot, a polymer design platform, enabled AI-driven decision-making within a modular, closed-loop workflow",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_04_05/polymer.txt",
+      "limitations": "官方研究摘要；局限电致变色聚合物设计合成，不涵盖所有塑料橡胶、吨级生产或设备复制。"
+    },
+    {
+      "source_id": "D05-S08",
+      "title": "Hubgrade digital solutions | Veolia Water Technologies",
+      "url": "https://www.veoliawatertechnologies.com/en/hubgrade-digital-solutions",
+      "publisher": "Veolia Water Technologies",
+      "publication_date": "",
+      "retrieved_at": "2026-11-02",
+      "source_type": "company-doc",
+      "supporting_excerpt": "Hubgrade is the combination of digital tools and the expertise of Veolia employees",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_04_05/hubgrade.txt",
+      "limitations": "产品页明确结合人类专家；数字孪生优化不等于无人供水、膜更换或上游药剂供应。"
+    },
+    {
+      "source_id": "D05-S09",
+      "title": "Automated disassembly line aims to make battery recycling safer, faster – Oak Ridge National Lab",
+      "url": "https://www.ornl.gov/news/automated-disassembly-line-aims-make-battery-recycling-safer-faster/",
+      "publisher": "Oak Ridge National Laboratory",
+      "publication_date": "2021-08-16",
+      "retrieved_at": "2026-11-02",
+      "source_type": "government",
+      "supporting_excerpt": "Researchers at the Department of Energy’s Oak Ridge National Laboratory have developed a robotic disassembly system",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_04_05/recycledemo.txt",
+      "limitations": "历史原型示范，本次重新核验；需先人工拆解建模，不等于商业规模全废物闭环。"
+    },
+    {
+      "source_id": "D05-S10",
+      "title": "An autonomous laboratory for the accelerated synthesis of inorganic materials | Nature",
+      "url": "https://www.nature.com/articles/s41586-023-06734-w",
+      "publisher": "Nature",
+      "publication_date": "2023-11-29",
+      "retrieved_at": "2026-11-02",
+      "source_type": "Paper",
+      "supporting_excerpt": "The XRD sample holders must be cleaned manually",
+      "verification": "full_text",
+      "cache_path": ".research_cache/domains_04_05/alab.txt",
+      "limitations": "公开全文现已修订，显示17天实现36/57目标；需人工装料、清洁及处理硬件异常，非高纯工业供料闭环。"
+    },
+    {
+      "source_id": "D05-S11",
+      "title": "Rio Tinto celebrates opening of $1.4 billion lithium projects in Argentina | Global",
+      "url": "https://www.riotinto.com/en/news/releases/2026/rio-tinto-celebrates-opening-of-1-4-billion-lithium-projects-in-argentina",
+      "publisher": "Rio Tinto",
+      "publication_date": "2026-10-29",
+      "retrieved_at": "2026-11-02",
+      "source_type": "company-doc",
+      "supporting_excerpt": "Both projects achieved first production in the second quarter ahead of plan",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_04_05/riolithium26.txt",
+      "limitations": "人类组织的锂产能扩建与爬坡公告；不是自主建造或复制矿化工生产线。"
+    },
+    {
+      "source_id": "D05-S12",
+      "title": "Update on Oyu Tolgoi seismic event | Global",
+      "url": "https://www.riotinto.com/en/news/releases/2026/update-on-oyu-tolgoi-seismic-event",
+      "publisher": "Rio Tinto",
+      "publication_date": "2026-10-30",
+      "retrieved_at": "2026-11-02",
+      "source_type": "company-doc",
+      "supporting_excerpt": "Underground operations at the Oyu Tolgoi copper mine in Mongolia are being progressively restarted",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_04_05/rioseismic26.txt",
+      "limitations": "安全审查后恢复的具体矿区事件；不反映所有矿山，但不能当作无需人类灾后决策的证据。"
+    },
+    {
+      "source_id": "D05-S13",
+      "title": "Battery Remanufacturing and Automating Circular Economies (BRACE) Lab – Oak Ridge National Lab",
+      "url": "https://www.ornl.gov/brace/",
+      "publisher": "Oak Ridge National Laboratory",
+      "publication_date": "",
+      "retrieved_at": "2026-11-02",
+      "source_type": "government",
+      "supporting_excerpt": "Integrating machine vision systems and industrial automation tools to autonomously defeat joining mechanisms",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_04_05/recycle.txt",
+      "limitations": "实验室能力与研究方向介绍；没有完整循环的材料收率、外部投入和多代无人持续性数据。"
+    }
+  ],
+  "records": [
+    {
+      "dimension_id": "4.1-M1",
+      "required_capability": "无人完成选定能源路线的资源测绘、可采量评估和负荷预测，并按新观测更新计划",
+      "current_capability": "NLR风电预测与WindView可为电网运行提供预测及状态信息；KoBold预测地质属性时给出不确定度，但能源路线完整无人勘探未验证。",
+      "gap": "需要把受限任务自动化扩展为资源传感站、遥感平台与供需预测模型在明确时间、负荷和异常范围内无人连续运行，披露所有人工接管。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D04-S02",
+        "D05-S01"
+      ],
+      "human_dependency": "现场测量设备维护、输入数据和勘探工程的人类保障仍需逐项排除。",
+      "validation_needed": "以无人完成选定能源路线的资源测绘、可采量评估和负荷预测，并按新观测更新计划为成功条件开展跨完整生产/资源周期的HR0运行，记录所有接管和停机。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.1-M2",
+      "required_capability": "自动识别测风辐照传感器漂移、资源模型失配及供需预测异常",
+      "current_capability": "已核验关联资料：NLR提供风电预测与WindView决策支持，KoBold地学模型能表达预测不确定性；两者均不是整套能源勘探无人闭环。 就本项“故障发现”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚需证明对资源传感站、遥感平台与供需预测模型的已知及未知异常有足够覆盖、误报漏报率和安全响应，而非只有传感或监控界面。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S02",
+        "D05-S01"
+      ],
+      "human_dependency": "现场测量设备维护、输入数据和勘探工程的人类保障仍需逐项排除。",
+      "validation_needed": "对资源传感站、遥感平台与供需预测模型注入代表性退化与突发故障，盲测检出延迟、漏报率及误报率。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.1-M3",
+      "required_capability": "区分天气变化、传感器故障和资源枯竭等导致预测失准的根因",
+      "current_capability": "已核验关联资料：NLR提供风电预测与WindView决策支持，KoBold地学模型能表达预测不确定性；两者均不是整套能源勘探无人闭环。 就本项“自主诊断”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚缺资源传感站、遥感平台与供需预测模型在新故障下的根因定位、可执行处置和修复后验证的闭环证据。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S02",
+        "D05-S01"
+      ],
+      "human_dependency": "现场测量设备维护、输入数据和勘探工程的人类保障仍需逐项排除。",
+      "validation_needed": "隐藏故障原因对资源传感站、遥感平台与供需预测模型进行跨型号诊断试验，验证根因和处置方案而非仅文本解释。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.1-M4",
+      "required_capability": "自行校准或更换资源测绘传感器并恢复可信观测",
+      "current_capability": "已核验关联资料：NLR提供风电预测与WindView决策支持，KoBold地学模型能表达预测不确定性；两者均不是整套能源勘探无人闭环。 就本项“自主维修”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "关键差距是资源传感站、遥感平台与供需预测模型从检测到实际机械/电气修复与复验均不需人工，而非遥控维修或建议。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S02",
+        "D05-S01"
+      ],
+      "human_dependency": "现场测量设备维护、输入数据和勘探工程的人类保障仍需逐项排除。",
+      "validation_needed": "使资源传感站、遥感平台与供需预测模型出现真实可控故障，要求机器人自取工具备件、维修、复验和恢复额定任务。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.1-M5",
+      "required_capability": "自行提供遥感载荷、测量仪器、通信设备和勘探平台的关键耗材",
+      "current_capability": "已核验关联资料：NLR提供风电预测与WindView决策支持，KoBold地学模型能表达预测不确定性；两者均不是整套能源勘探无人闭环。 就本项“关键输入自主度”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚需追溯资源传感站、遥感平台与供需预测模型所有不可替代材料、备件和服务的来源，证明机器体系可持续自供且不靠预存库存。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S02",
+        "D05-S01"
+      ],
+      "human_dependency": "现场测量设备维护、输入数据和勘探工程的人类保障仍需逐项排除。",
+      "validation_needed": "对资源传感站、遥感平台与供需预测模型做逐项投入产出与库存审计，在不补人类物资条件下覆盖关键耗材更换周期。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.1-M6",
+      "required_capability": "为离网资源测绘站及勘探平台获取持续电力并恢复失电节点",
+      "current_capability": "已核验关联资料：NLR提供风电预测与WindView决策支持，KoBold地学模型能表达预测不确定性；两者均不是整套能源勘探无人闭环。 就本项“能源自主度”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚未由这些来源建立资源传感站、遥感平台与供需预测模型可持续净能量和失电自启动闭环；节能、购电或电池库存不等于能源独立。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S02",
+        "D05-S01"
+      ],
+      "human_dependency": "现场测量设备维护、输入数据和勘探工程的人类保障仍需逐项排除。",
+      "validation_needed": "切断资源传感站、遥感平台与供需预测模型外部能源和人工补料，计量所有能源流并检验黑启动及长期净供能。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.1-M7",
+      "required_capability": "自主获取、验证地形气象资源数据和预测方法，不依赖未记录的专家判断",
+      "current_capability": "公开资料给出数据驱动资源预测及地质模型更新途径；KoBold明确由地学家、数据科学家和工程师共同使用，未验证移除专家后持续学习。",
+      "gap": "仍需证明资源传感站、遥感平台与供需预测模型的关键隐性知识可自主取得、校验、更新和跨故障使用，而非持续依靠专家。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D05-S01",
+        "D04-S02"
+      ],
+      "human_dependency": "现场测量设备维护、输入数据和勘探工程的人类保障仍需逐项排除。",
+      "validation_needed": "给资源传感站、遥感平台与供需预测模型新原料/设备或未见故障，禁止专家补充操作知识，要求自主获取并实测验证。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.1-M8",
+      "required_capability": "观测网或数据中心毁损后重建最低资源图和供需预测能力",
+      "current_capability": "已核验关联资料：NLR提供风电预测与WindView决策支持，KoBold地学模型能表达预测不确定性；两者均不是整套能源勘探无人闭环。 就本项“灾难恢复韧性”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚缺资源传感站、遥感平台与供需预测模型在损毁、长时停供及关键部件失效后的实体重建与无人复产验证，自动切换不能替代重建。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S02",
+        "D05-S01"
+      ],
+      "human_dependency": "现场测量设备维护、输入数据和勘探工程的人类保障仍需逐项排除。",
+      "validation_needed": "模拟资源传感站、遥感平台与供需预测模型关键节点损毁和通信/能源同时失去，要求无人工恢复最低可用功能并记录时长。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.1-M9",
+      "required_capability": "按新增电源需求部署更多测量点并完成模型和设备接入",
+      "current_capability": "已核验关联资料：NLR提供风电预测与WindView决策支持，KoBold地学模型能表达预测不确定性；两者均不是整套能源勘探无人闭环。 就本项“自主扩容”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚需展示资源传感站、遥感平台与供需预测模型从设计、供料、制造施工到验收的新增净产能由机器独立完成，不能把人工项目扩建算自主扩容。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S02",
+        "D05-S01"
+      ],
+      "human_dependency": "现场测量设备维护、输入数据和勘探工程的人类保障仍需逐项排除。",
+      "validation_needed": "要求机器体系完成一套新增资源传感站、遥感平台与供需预测模型的供料、制造施工、调试和容量验收，核算外部投入。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.1-M10",
+      "required_capability": "在新地点复制具备资源勘探、预测及自维持能力的完整测绘系统",
+      "current_capability": "已核验关联资料：NLR提供风电预测与WindView决策支持，KoBold地学模型能表达预测不确定性；两者均不是整套能源勘探无人闭环。 就本项“复制闭环”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "未建立资源传感站、遥感平台与供需预测模型可复制同等功能后代并持续维持所需材料、能源、设备和维修链的整系统证据。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S02",
+        "D05-S01"
+      ],
+      "human_dependency": "现场测量设备维护、输入数据和勘探工程的人类保障仍需逐项排除。",
+      "validation_needed": "追踪资源传感站、遥感平台与供需预测模型的完整后代系统从原料到运行验收及至少关键更换周期，审计能力等价和外部依赖。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.2-M1",
+      "required_capability": "在无新增人类操作下按负荷需求稳定获取、提纯和输送选定燃料",
+      "current_capability": "Fadhili气体脱酸核心单元已部署多FKDPP智能体直接自主控制；公告称减少人工干预，未涵盖燃料勘探开采运输和全装置维护。",
+      "gap": "需要把受限任务自动化扩展为选定燃料路线的开采、加工和输送装置在明确时间、负荷和异常范围内无人连续运行，披露所有人工接管。",
+      "assessment_status": "demonstrated_limited",
+      "evidence_relation": "direct_metric",
+      "source_ids": [
+        "D04-S07"
+      ],
+      "human_dependency": "既有气田、装置、原料药剂、维修组织和安全系统仍由工业组织提供。",
+      "validation_needed": "以在无新增人类操作下按负荷需求稳定获取、提纯和输送选定燃料为成功条件开展跨完整生产/资源周期的HR0运行，记录所有接管和停机。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "4.2-M2",
+      "required_capability": "自行发现燃料泄漏、组分偏差、腐蚀及输送压降异常",
+      "current_capability": "已核验关联资料：横河与Aramco公告FKDPP多智能体已直接控制Fadhili气体脱酸单元，依托已有控制安全系统；没有宣称开采运输和维护均无人。 就本项“故障发现”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚需证明对选定燃料路线的开采、加工和输送装置的已知及未知异常有足够覆盖、误报漏报率和安全响应，而非只有传感或监控界面。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S07",
+        "D05-S06"
+      ],
+      "human_dependency": "既有气田、装置、原料药剂、维修组织和安全系统仍由工业组织提供。",
+      "validation_needed": "对选定燃料路线的开采、加工和输送装置注入代表性退化与突发故障，盲测检出延迟、漏报率及误报率。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.2-M3",
+      "required_capability": "区分原料变化、仪表漂移和反应设备故障并给出可执行处置",
+      "current_capability": "已核验关联资料：横河与Aramco公告FKDPP多智能体已直接控制Fadhili气体脱酸单元，依托已有控制安全系统；没有宣称开采运输和维护均无人。 就本项“自主诊断”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚缺选定燃料路线的开采、加工和输送装置在新故障下的根因定位、可执行处置和修复后验证的闭环证据。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S07",
+        "D05-S06"
+      ],
+      "human_dependency": "既有气田、装置、原料药剂、维修组织和安全系统仍由工业组织提供。",
+      "validation_needed": "隐藏故障原因对选定燃料路线的开采、加工和输送装置进行跨型号诊断试验，验证根因和处置方案而非仅文本解释。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.2-M4",
+      "required_capability": "无需人员处理堵塞泄漏及泵阀故障，验证合格后重新供料",
+      "current_capability": "已核验关联资料：横河与Aramco公告FKDPP多智能体已直接控制Fadhili气体脱酸单元，依托已有控制安全系统；没有宣称开采运输和维护均无人。 就本项“自主维修”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "关键差距是选定燃料路线的开采、加工和输送装置从检测到实际机械/电气修复与复验均不需人工，而非遥控维修或建议。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S07",
+        "D05-S06"
+      ],
+      "human_dependency": "既有气田、装置、原料药剂、维修组织和安全系统仍由工业组织提供。",
+      "validation_needed": "使选定燃料路线的开采、加工和输送装置出现真实可控故障，要求机器人自取工具备件、维修、复验和恢复额定任务。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.2-M5",
+      "required_capability": "闭环提供催化剂、吸收剂、密封件、管材及所需开采设备",
+      "current_capability": "已核验关联资料：横河与Aramco公告FKDPP多智能体已直接控制Fadhili气体脱酸单元，依托已有控制安全系统；没有宣称开采运输和维护均无人。 就本项“关键输入自主度”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚需追溯选定燃料路线的开采、加工和输送装置所有不可替代材料、备件和服务的来源，证明机器体系可持续自供且不靠预存库存。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S07",
+        "D05-S06"
+      ],
+      "human_dependency": "既有气田、装置、原料药剂、维修组织和安全系统仍由工业组织提供。",
+      "validation_needed": "对选定燃料路线的开采、加工和输送装置做逐项投入产出与库存审计，在不补人类物资条件下覆盖关键耗材更换周期。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.2-M6",
+      "required_capability": "将燃料净能量收益覆盖其勘探开采加工输送能耗并能独立启动",
+      "current_capability": "已核验关联资料：横河与Aramco公告FKDPP多智能体已直接控制Fadhili气体脱酸单元，依托已有控制安全系统；没有宣称开采运输和维护均无人。 就本项“能源自主度”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚未由这些来源建立选定燃料路线的开采、加工和输送装置可持续净能量和失电自启动闭环；节能、购电或电池库存不等于能源独立。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S07",
+        "D05-S06"
+      ],
+      "human_dependency": "既有气田、装置、原料药剂、维修组织和安全系统仍由工业组织提供。",
+      "validation_needed": "切断选定燃料路线的开采、加工和输送装置外部能源和人工补料，计量所有能源流并检验黑启动及长期净供能。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.2-M7",
+      "required_capability": "保存并验证危险工艺、燃料质量和安全停机知识，适应新原料",
+      "current_capability": "横河先构建工厂仿真器训练和检验控制AI，再接入既有CENTUM安全功能；知识来自人类建设的模型和控制平台。",
+      "gap": "仍需证明选定燃料路线的开采、加工和输送装置的关键隐性知识可自主取得、校验、更新和跨故障使用，而非持续依靠专家。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D04-S07"
+      ],
+      "human_dependency": "既有气田、装置、原料药剂、维修组织和安全系统仍由工业组织提供。",
+      "validation_needed": "给选定燃料路线的开采、加工和输送装置新原料/设备或未见故障，禁止专家补充操作知识，要求自主获取并实测验证。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.2-M8",
+      "required_capability": "关键加工站或管道毁损后建立替代燃料供给路线并恢复生产",
+      "current_capability": "已核验关联资料：横河与Aramco公告FKDPP多智能体已直接控制Fadhili气体脱酸单元，依托已有控制安全系统；没有宣称开采运输和维护均无人。 就本项“灾难恢复韧性”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚缺选定燃料路线的开采、加工和输送装置在损毁、长时停供及关键部件失效后的实体重建与无人复产验证，自动切换不能替代重建。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S07",
+        "D05-S06"
+      ],
+      "human_dependency": "既有气田、装置、原料药剂、维修组织和安全系统仍由工业组织提供。",
+      "validation_needed": "模拟选定燃料路线的开采、加工和输送装置关键节点损毁和通信/能源同时失去，要求无人工恢复最低可用功能并记录时长。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.2-M9",
+      "required_capability": "自主增加燃料开采及加工输送能力以支持工业扩容",
+      "current_capability": "已核验关联资料：横河与Aramco公告FKDPP多智能体已直接控制Fadhili气体脱酸单元，依托已有控制安全系统；没有宣称开采运输和维护均无人。 就本项“自主扩容”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚需展示选定燃料路线的开采、加工和输送装置从设计、供料、制造施工到验收的新增净产能由机器独立完成，不能把人工项目扩建算自主扩容。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S07",
+        "D05-S06"
+      ],
+      "human_dependency": "既有气田、装置、原料药剂、维修组织和安全系统仍由工业组织提供。",
+      "validation_needed": "要求机器体系完成一套新增选定燃料路线的开采、加工和输送装置的供料、制造施工、调试和容量验收，核算外部投入。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.2-M10",
+      "required_capability": "复制从当地燃料资源到可用燃料的整条生产链及维护能力",
+      "current_capability": "已核验关联资料：横河与Aramco公告FKDPP多智能体已直接控制Fadhili气体脱酸单元，依托已有控制安全系统；没有宣称开采运输和维护均无人。 就本项“复制闭环”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "未建立选定燃料路线的开采、加工和输送装置可复制同等功能后代并持续维持所需材料、能源、设备和维修链的整系统证据。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S07",
+        "D05-S06"
+      ],
+      "human_dependency": "既有气田、装置、原料药剂、维修组织和安全系统仍由工业组织提供。",
+      "validation_needed": "追踪选定燃料路线的开采、加工和输送装置的完整后代系统从原料到运行验收及至少关键更换周期，审计能力等价和外部依赖。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.3-M1",
+      "required_capability": "无新增人类操作地启动、调功、停机并稳定发出满足系统负荷的电力",
+      "current_capability": "NLR自治能源控制已在微网协调已有发电与储能资产；这支持发电调度局部自主，不证明风机、光伏或燃机全运行维护无人。",
+      "gap": "需要把受限任务自动化扩展为选定发电路线的机组、场站及辅机在明确时间、负荷和异常范围内无人连续运行，披露所有人工接管。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D04-S01"
+      ],
+      "human_dependency": "发电设备、安装、能源介质与重大检修仍需验证能否脱离现有人类工业支持。",
+      "validation_needed": "以无新增人类操作地启动、调功、停机并稳定发出满足系统负荷的电力为成功条件开展跨完整生产/资源周期的HR0运行，记录所有接管和停机。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.3-M2",
+      "required_capability": "识别发电设备温振异常、绝缘退化、燃料或组件输出偏差",
+      "current_capability": "已核验关联资料：NLR已在微网进行分布式能源协调试验及失网恢复示范；2026年横河风电储能项目仍是预计2029投运的订单，不能算当前新增无人发电厂。 就本项“故障发现”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚需证明对选定发电路线的机组、场站及辅机的已知及未知异常有足够覆盖、误报漏报率和安全响应，而非只有传感或监控界面。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S01",
+        "D04-S04",
+        "D04-S11"
+      ],
+      "human_dependency": "发电设备、安装、能源介质与重大检修仍需验证能否脱离现有人类工业支持。",
+      "validation_needed": "对选定发电路线的机组、场站及辅机注入代表性退化与突发故障，盲测检出延迟、漏报率及误报率。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.3-M3",
+      "required_capability": "区分自然资源波动、控制问题与发电硬件故障并制定恢复策略",
+      "current_capability": "已核验关联资料：NLR已在微网进行分布式能源协调试验及失网恢复示范；2026年横河风电储能项目仍是预计2029投运的订单，不能算当前新增无人发电厂。 就本项“自主诊断”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚缺选定发电路线的机组、场站及辅机在新故障下的根因定位、可执行处置和修复后验证的闭环证据。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S01",
+        "D04-S04",
+        "D04-S11"
+      ],
+      "human_dependency": "发电设备、安装、能源介质与重大检修仍需验证能否脱离现有人类工业支持。",
+      "validation_needed": "隐藏故障原因对选定发电路线的机组、场站及辅机进行跨型号诊断试验，验证根因和处置方案而非仅文本解释。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.3-M4",
+      "required_capability": "自行检修机组、叶片、发电机或光伏设备并完成并网投运",
+      "current_capability": "已核验关联资料：NLR已在微网进行分布式能源协调试验及失网恢复示范；2026年横河风电储能项目仍是预计2029投运的订单，不能算当前新增无人发电厂。 就本项“自主维修”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "关键差距是选定发电路线的机组、场站及辅机从检测到实际机械/电气修复与复验均不需人工，而非遥控维修或建议。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S01",
+        "D04-S04",
+        "D04-S11"
+      ],
+      "human_dependency": "发电设备、安装、能源介质与重大检修仍需验证能否脱离现有人类工业支持。",
+      "validation_needed": "使选定发电路线的机组、场站及辅机出现真实可控故障，要求机器人自取工具备件、维修、复验和恢复额定任务。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.3-M5",
+      "required_capability": "闭环获取选定发电路线的备件、燃料或组件和必要冷却介质",
+      "current_capability": "已核验关联资料：NLR已在微网进行分布式能源协调试验及失网恢复示范；2026年横河风电储能项目仍是预计2029投运的订单，不能算当前新增无人发电厂。 就本项“关键输入自主度”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚需追溯选定发电路线的机组、场站及辅机所有不可替代材料、备件和服务的来源，证明机器体系可持续自供且不靠预存库存。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S01",
+        "D04-S04",
+        "D04-S11"
+      ],
+      "human_dependency": "发电设备、安装、能源介质与重大检修仍需验证能否脱离现有人类工业支持。",
+      "validation_needed": "对选定发电路线的机组、场站及辅机做逐项投入产出与库存审计，在不补人类物资条件下覆盖关键耗材更换周期。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.3-M6",
+      "required_capability": "使发电系统净供能覆盖自身辅助负荷并具备无外电启动能力",
+      "current_capability": "NLR说明黑启动可用站内辅助机组和本地电池在无外部电源下启动，亦研究逆变器构网黑启动；这只支持局部启动路径，不证明燃料、设备和全寿命净能量独立。",
+      "gap": "尚未由这些来源建立选定发电路线的机组、场站及辅机可持续净能量和失电自启动闭环；节能、购电或电池库存不等于能源独立。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D04-S03",
+        "D04-S08"
+      ],
+      "human_dependency": "发电设备、安装、能源介质与重大检修仍需验证能否脱离现有人类工业支持。",
+      "validation_needed": "切断选定发电路线的机组、场站及辅机外部能源和人工补料，计量所有能源流并检验黑启动及长期净供能。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.3-M7",
+      "required_capability": "自主维护发电工艺、保护定值和设备操作知识并验证更新",
+      "current_capability": "已核验关联资料：NLR已在微网进行分布式能源协调试验及失网恢复示范；2026年横河风电储能项目仍是预计2029投运的订单，不能算当前新增无人发电厂。 就本项“知识信息自主度”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "仍需证明选定发电路线的机组、场站及辅机的关键隐性知识可自主取得、校验、更新和跨故障使用，而非持续依靠专家。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S01",
+        "D04-S04",
+        "D04-S11"
+      ],
+      "human_dependency": "发电设备、安装、能源介质与重大检修仍需验证能否脱离现有人类工业支持。",
+      "validation_needed": "给选定发电路线的机组、场站及辅机新原料/设备或未见故障，禁止专家补充操作知识，要求自主获取并实测验证。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.3-M8",
+      "required_capability": "场站局部毁损或长期停机后恢复最低可靠发电能力",
+      "current_capability": "REORG现场断网后自动启动已有柴油机并恢复供电；此为现有设备可用时的电气恢复，不包含损毁发电机的自主重建。",
+      "gap": "尚缺选定发电路线的机组、场站及辅机在损毁、长时停供及关键部件失效后的实体重建与无人复产验证，自动切换不能替代重建。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D04-S04"
+      ],
+      "human_dependency": "发电设备、安装、能源介质与重大检修仍需验证能否脱离现有人类工业支持。",
+      "validation_needed": "模拟选定发电路线的机组、场站及辅机关键节点损毁和通信/能源同时失去，要求无人工恢复最低可用功能并记录时长。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.3-M9",
+      "required_capability": "自主增加满足负荷增长的新机组或组件并验收",
+      "current_capability": "已核验关联资料：NLR已在微网进行分布式能源协调试验及失网恢复示范；2026年横河风电储能项目仍是预计2029投运的订单，不能算当前新增无人发电厂。 就本项“自主扩容”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚需展示选定发电路线的机组、场站及辅机从设计、供料、制造施工到验收的新增净产能由机器独立完成，不能把人工项目扩建算自主扩容。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S01",
+        "D04-S04",
+        "D04-S11"
+      ],
+      "human_dependency": "发电设备、安装、能源介质与重大检修仍需验证能否脱离现有人类工业支持。",
+      "validation_needed": "要求机器体系完成一套新增选定发电路线的机组、场站及辅机的供料、制造施工、调试和容量验收，核算外部投入。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.3-M10",
+      "required_capability": "复制可长期供电且具备自维护与投入品闭环的完整发电场站",
+      "current_capability": "已核验关联资料：NLR已在微网进行分布式能源协调试验及失网恢复示范；2026年横河风电储能项目仍是预计2029投运的订单，不能算当前新增无人发电厂。 就本项“复制闭环”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "未建立选定发电路线的机组、场站及辅机可复制同等功能后代并持续维持所需材料、能源、设备和维修链的整系统证据。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S01",
+        "D04-S04",
+        "D04-S11"
+      ],
+      "human_dependency": "发电设备、安装、能源介质与重大检修仍需验证能否脱离现有人类工业支持。",
+      "validation_needed": "追踪选定发电路线的机组、场站及辅机的完整后代系统从原料到运行验收及至少关键更换周期，审计能力等价和外部依赖。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.4-M1",
+      "required_capability": "无人操作地安全输送高压电能并执行必要潮流和开关控制",
+      "current_capability": "已核验关联资料：2026黑启动综述讨论拓扑、保护和开关状态核验；NLR现场试验体现已有开关设备支持的自动重构，未证明杆塔导线自主修复。 就本项“无人运行”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "需要把受限任务自动化扩展为高压线路、杆塔、变电站与保护装置在明确时间、负荷和异常范围内无人连续运行，披露所有人工接管。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S09",
+        "D04-S04"
+      ],
+      "human_dependency": "高压实体施工检修、现场状态核验及备件供应尚未被这些来源证明可无人完成。",
+      "validation_needed": "以无人操作地安全输送高压电能并执行必要潮流和开关控制为成功条件开展跨完整生产/资源周期的HR0运行，记录所有接管和停机。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.4-M2",
+      "required_capability": "发现线路断股覆冰、绝缘劣化和变压器保护异常",
+      "current_capability": "2026黑启动综述归纳保护、故障隔离和状态核验约束，但未提供本轮可核验的高压线路全面自主缺陷检测运行数据。",
+      "gap": "尚需证明对高压线路、杆塔、变电站与保护装置的已知及未知异常有足够覆盖、误报漏报率和安全响应，而非只有传感或监控界面。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D04-S09"
+      ],
+      "human_dependency": "高压实体施工检修、现场状态核验及备件供应尚未被这些来源证明可无人完成。",
+      "validation_needed": "对高压线路、杆塔、变电站与保护装置注入代表性退化与突发故障，盲测检出延迟、漏报率及误报率。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.4-M3",
+      "required_capability": "自主定位高压故障区段并区分保护误动、设备失效和通信问题",
+      "current_capability": "已核验关联资料：2026黑启动综述讨论拓扑、保护和开关状态核验；NLR现场试验体现已有开关设备支持的自动重构，未证明杆塔导线自主修复。 就本项“自主诊断”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚缺高压线路、杆塔、变电站与保护装置在新故障下的根因定位、可执行处置和修复后验证的闭环证据。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S09",
+        "D04-S04"
+      ],
+      "human_dependency": "高压实体施工检修、现场状态核验及备件供应尚未被这些来源证明可无人完成。",
+      "validation_needed": "隐藏故障原因对高压线路、杆塔、变电站与保护装置进行跨型号诊断试验，验证根因和处置方案而非仅文本解释。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.4-M4",
+      "required_capability": "无需人员高空作业或吊装即可修复断线、绝缘子和关键变电设备",
+      "current_capability": "已核验关联资料：2026黑启动综述讨论拓扑、保护和开关状态核验；NLR现场试验体现已有开关设备支持的自动重构，未证明杆塔导线自主修复。 就本项“自主维修”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "关键差距是高压线路、杆塔、变电站与保护装置从检测到实际机械/电气修复与复验均不需人工，而非遥控维修或建议。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S09",
+        "D04-S04"
+      ],
+      "human_dependency": "高压实体施工检修、现场状态核验及备件供应尚未被这些来源证明可无人完成。",
+      "validation_needed": "使高压线路、杆塔、变电站与保护装置出现真实可控故障，要求机器人自取工具备件、维修、复验和恢复额定任务。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.4-M5",
+      "required_capability": "自行提供导线、绝缘子、变压器、断路器和高压检修装备",
+      "current_capability": "已核验关联资料：2026黑启动综述讨论拓扑、保护和开关状态核验；NLR现场试验体现已有开关设备支持的自动重构，未证明杆塔导线自主修复。 就本项“关键输入自主度”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚需追溯高压线路、杆塔、变电站与保护装置所有不可替代材料、备件和服务的来源，证明机器体系可持续自供且不靠预存库存。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S09",
+        "D04-S04"
+      ],
+      "human_dependency": "高压实体施工检修、现场状态核验及备件供应尚未被这些来源证明可无人完成。",
+      "validation_needed": "对高压线路、杆塔、变电站与保护装置做逐项投入产出与库存审计，在不补人类物资条件下覆盖关键耗材更换周期。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.4-M6",
+      "required_capability": "保障站用电和保护通信自供能，失电后仍能安全执行隔离恢复",
+      "current_capability": "已核验关联资料：2026黑启动综述讨论拓扑、保护和开关状态核验；NLR现场试验体现已有开关设备支持的自动重构，未证明杆塔导线自主修复。 就本项“能源自主度”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚未由这些来源建立高压线路、杆塔、变电站与保护装置可持续净能量和失电自启动闭环；节能、购电或电池库存不等于能源独立。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S09",
+        "D04-S04"
+      ],
+      "human_dependency": "高压实体施工检修、现场状态核验及备件供应尚未被这些来源证明可无人完成。",
+      "validation_needed": "切断高压线路、杆塔、变电站与保护装置外部能源和人工补料，计量所有能源流并检验黑启动及长期净供能。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.4-M7",
+      "required_capability": "维护并验证高压安全距离、继保配合与设备检修知识",
+      "current_capability": "已核验关联资料：2026黑启动综述讨论拓扑、保护和开关状态核验；NLR现场试验体现已有开关设备支持的自动重构，未证明杆塔导线自主修复。 就本项“知识信息自主度”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "仍需证明高压线路、杆塔、变电站与保护装置的关键隐性知识可自主取得、校验、更新和跨故障使用，而非持续依靠专家。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S09",
+        "D04-S04"
+      ],
+      "human_dependency": "高压实体施工检修、现场状态核验及备件供应尚未被这些来源证明可无人完成。",
+      "validation_needed": "给高压线路、杆塔、变电站与保护装置新原料/设备或未见故障，禁止专家补充操作知识，要求自主获取并实测验证。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.4-M8",
+      "required_capability": "多处杆塔或变电站受损后重建可用输电通道",
+      "current_capability": "已核验关联资料：2026黑启动综述讨论拓扑、保护和开关状态核验；NLR现场试验体现已有开关设备支持的自动重构，未证明杆塔导线自主修复。 就本项“灾难恢复韧性”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚缺高压线路、杆塔、变电站与保护装置在损毁、长时停供及关键部件失效后的实体重建与无人复产验证，自动切换不能替代重建。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S09",
+        "D04-S04"
+      ],
+      "human_dependency": "高压实体施工检修、现场状态核验及备件供应尚未被这些来源证明可无人完成。",
+      "validation_needed": "模拟高压线路、杆塔、变电站与保护装置关键节点损毁和通信/能源同时失去，要求无人工恢复最低可用功能并记录时长。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.4-M9",
+      "required_capability": "自行勘线、施工和投运新增高压线路与变电能力",
+      "current_capability": "已核验关联资料：2026黑启动综述讨论拓扑、保护和开关状态核验；NLR现场试验体现已有开关设备支持的自动重构，未证明杆塔导线自主修复。 就本项“自主扩容”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚需展示高压线路、杆塔、变电站与保护装置从设计、供料、制造施工到验收的新增净产能由机器独立完成，不能把人工项目扩建算自主扩容。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S09",
+        "D04-S04"
+      ],
+      "human_dependency": "高压实体施工检修、现场状态核验及备件供应尚未被这些来源证明可无人完成。",
+      "validation_needed": "要求机器体系完成一套新增高压线路、杆塔、变电站与保护装置的供料、制造施工、调试和容量验收，核算外部投入。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.4-M10",
+      "required_capability": "完整复制满足工业功率等级的输电网络及自维护装备",
+      "current_capability": "已核验关联资料：2026黑启动综述讨论拓扑、保护和开关状态核验；NLR现场试验体现已有开关设备支持的自动重构，未证明杆塔导线自主修复。 就本项“复制闭环”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "未建立高压线路、杆塔、变电站与保护装置可复制同等功能后代并持续维持所需材料、能源、设备和维修链的整系统证据。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S09",
+        "D04-S04"
+      ],
+      "human_dependency": "高压实体施工检修、现场状态核验及备件供应尚未被这些来源证明可无人完成。",
+      "validation_needed": "追踪高压线路、杆塔、变电站与保护装置的完整后代系统从原料到运行验收及至少关键更换周期，审计能力等价和外部依赖。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.5-M1",
+      "required_capability": "在负荷变化下无人执行馈线调度、电压管理和末端供电",
+      "current_capability": "REORG在Holy Cross Energy现场试验中按本地资源和负荷优先级自动维持部分供电，适用范围是预装可控设备的试验场景。",
+      "gap": "需要把受限任务自动化扩展为中低压馈线、配电变压器、开关和末端供电在明确时间、负荷和异常范围内无人连续运行，披露所有人工接管。",
+      "assessment_status": "demonstrated_limited",
+      "evidence_relation": "direct_metric",
+      "source_ids": [
+        "D04-S04"
+      ],
+      "human_dependency": "试验硬件部署、柴油补给和损坏电缆/变压器的实体维修没有实现闭环证明。",
+      "validation_needed": "以在负荷变化下无人执行馈线调度、电压管理和末端供电为成功条件开展跨完整生产/资源周期的HR0运行，记录所有接管和停机。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "4.5-M2",
+      "required_capability": "识别配电短路、过载、接地和异常失电",
+      "current_capability": "已核验关联资料：NLR的REORG在Holy Cross Energy现场断网试验中自动启用本地柴油机、分配供电优先级并按计划恢复供电，初始开关、UPS和燃料预先存在。 就本项“故障发现”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚需证明对中低压馈线、配电变压器、开关和末端供电的已知及未知异常有足够覆盖、误报漏报率和安全响应，而非只有传感或监控界面。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S04",
+        "D04-S09"
+      ],
+      "human_dependency": "试验硬件部署、柴油补给和损坏电缆/变压器的实体维修没有实现闭环证明。",
+      "validation_needed": "对中低压馈线、配电变压器、开关和末端供电注入代表性退化与突发故障，盲测检出延迟、漏报率及误报率。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.5-M3",
+      "required_capability": "定位馈线故障根因并计算安全隔离、转供或修复方案",
+      "current_capability": "已核验关联资料：NLR的REORG在Holy Cross Energy现场断网试验中自动启用本地柴油机、分配供电优先级并按计划恢复供电，初始开关、UPS和燃料预先存在。 就本项“自主诊断”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚缺中低压馈线、配电变压器、开关和末端供电在新故障下的根因定位、可执行处置和修复后验证的闭环证据。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S04",
+        "D04-S09"
+      ],
+      "human_dependency": "试验硬件部署、柴油补给和损坏电缆/变压器的实体维修没有实现闭环证明。",
+      "validation_needed": "隐藏故障原因对中低压馈线、配电变压器、开关和末端供电进行跨型号诊断试验，验证根因和处置方案而非仅文本解释。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.5-M4",
+      "required_capability": "自行更换配电变压器、熔断器和电缆并确认安全复电",
+      "current_capability": "已核验关联资料：NLR的REORG在Holy Cross Energy现场断网试验中自动启用本地柴油机、分配供电优先级并按计划恢复供电，初始开关、UPS和燃料预先存在。 就本项“自主维修”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "关键差距是中低压馈线、配电变压器、开关和末端供电从检测到实际机械/电气修复与复验均不需人工，而非遥控维修或建议。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S04",
+        "D04-S09"
+      ],
+      "human_dependency": "试验硬件部署、柴油补给和损坏电缆/变压器的实体维修没有实现闭环证明。",
+      "validation_needed": "使中低压馈线、配电变压器、开关和末端供电出现真实可控故障，要求机器人自取工具备件、维修、复验和恢复额定任务。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.5-M5",
+      "required_capability": "闭环供应配电线缆、继电器、开关及可用检修机器人",
+      "current_capability": "已核验关联资料：NLR的REORG在Holy Cross Energy现场断网试验中自动启用本地柴油机、分配供电优先级并按计划恢复供电，初始开关、UPS和燃料预先存在。 就本项“关键输入自主度”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚需追溯中低压馈线、配电变压器、开关和末端供电所有不可替代材料、备件和服务的来源，证明机器体系可持续自供且不靠预存库存。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S04",
+        "D04-S09"
+      ],
+      "human_dependency": "试验硬件部署、柴油补给和损坏电缆/变压器的实体维修没有实现闭环证明。",
+      "validation_needed": "对中低压馈线、配电变压器、开关和末端供电做逐项投入产出与库存审计，在不补人类物资条件下覆盖关键耗材更换周期。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.5-M6",
+      "required_capability": "让保护、通信和控制节点离网自供电并支撑黑启动",
+      "current_capability": "已核验关联资料：NLR的REORG在Holy Cross Energy现场断网试验中自动启用本地柴油机、分配供电优先级并按计划恢复供电，初始开关、UPS和燃料预先存在。 就本项“能源自主度”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚未由这些来源建立中低压馈线、配电变压器、开关和末端供电可持续净能量和失电自启动闭环；节能、购电或电池库存不等于能源独立。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S04",
+        "D04-S09"
+      ],
+      "human_dependency": "试验硬件部署、柴油补给和损坏电缆/变压器的实体维修没有实现闭环证明。",
+      "validation_needed": "切断中低压馈线、配电变压器、开关和末端供电外部能源和人工补料，计量所有能源流并检验黑启动及长期净供能。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.5-M7",
+      "required_capability": "自动更新配网拓扑、保护约束与用户负荷知识，验证控制策略",
+      "current_capability": "已核验关联资料：NLR的REORG在Holy Cross Energy现场断网试验中自动启用本地柴油机、分配供电优先级并按计划恢复供电，初始开关、UPS和燃料预先存在。 就本项“知识信息自主度”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "仍需证明中低压馈线、配电变压器、开关和末端供电的关键隐性知识可自主取得、校验、更新和跨故障使用，而非持续依靠专家。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S04",
+        "D04-S09"
+      ],
+      "human_dependency": "试验硬件部署、柴油补给和损坏电缆/变压器的实体维修没有实现闭环证明。",
+      "validation_needed": "给中低压馈线、配电变压器、开关和末端供电新原料/设备或未见故障，禁止专家补充操作知识，要求自主获取并实测验证。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.5-M8",
+      "required_capability": "主网断开时自主成岛、保供关键负荷并完成安全重联",
+      "current_capability": "NLR报告REORG在实际配电现场完成失去主网后的自动供电恢复；没有报告变压器或电缆毁损后的实体修复。",
+      "gap": "尚缺中低压馈线、配电变压器、开关和末端供电在损毁、长时停供及关键部件失效后的实体重建与无人复产验证，自动切换不能替代重建。",
+      "assessment_status": "demonstrated_limited",
+      "evidence_relation": "direct_metric",
+      "source_ids": [
+        "D04-S04"
+      ],
+      "human_dependency": "试验硬件部署、柴油补给和损坏电缆/变压器的实体维修没有实现闭环证明。",
+      "validation_needed": "模拟中低压馈线、配电变压器、开关和末端供电关键节点损毁和通信/能源同时失去，要求无人工恢复最低可用功能并记录时长。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "4.5-M9",
+      "required_capability": "自主建设新馈线、末端配电点并纳入调度",
+      "current_capability": "已核验关联资料：NLR的REORG在Holy Cross Energy现场断网试验中自动启用本地柴油机、分配供电优先级并按计划恢复供电，初始开关、UPS和燃料预先存在。 就本项“自主扩容”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚需展示中低压馈线、配电变压器、开关和末端供电从设计、供料、制造施工到验收的新增净产能由机器独立完成，不能把人工项目扩建算自主扩容。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S04",
+        "D04-S09"
+      ],
+      "human_dependency": "试验硬件部署、柴油补给和损坏电缆/变压器的实体维修没有实现闭环证明。",
+      "validation_needed": "要求机器体系完成一套新增中低压馈线、配电变压器、开关和末端供电的供料、制造施工、调试和容量验收，核算外部投入。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.5-M10",
+      "required_capability": "复制能够独立运行与维护的中低压供配电网络",
+      "current_capability": "已核验关联资料：NLR的REORG在Holy Cross Energy现场断网试验中自动启用本地柴油机、分配供电优先级并按计划恢复供电，初始开关、UPS和燃料预先存在。 就本项“复制闭环”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "未建立中低压馈线、配电变压器、开关和末端供电可复制同等功能后代并持续维持所需材料、能源、设备和维修链的整系统证据。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S04",
+        "D04-S09"
+      ],
+      "human_dependency": "试验硬件部署、柴油补给和损坏电缆/变压器的实体维修没有实现闭环证明。",
+      "validation_needed": "追踪中低压馈线、配电变压器、开关和末端供电的完整后代系统从原料到运行验收及至少关键更换周期，审计能力等价和外部依赖。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.6-M1",
+      "required_capability": "按电网需求无人充放电并管理温度、荷电状态和安全边界",
+      "current_capability": "NLR自治能源控制可协调现有储能与发电资源；PNNL支持储能现场部署和真实电网条件测试，未验证储能全寿命无人保障。",
+      "gap": "需要把受限任务自动化扩展为电池或其他选定储能介质、变流器与管理系统在明确时间、负荷和异常范围内无人连续运行，披露所有人工接管。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D04-S01",
+        "D04-S05"
+      ],
+      "human_dependency": "储能材料生产、设备制造、检修及真实能源补给仍是需核验的外部依赖。",
+      "validation_needed": "以按电网需求无人充放电并管理温度、荷电状态和安全边界为成功条件开展跨完整生产/资源周期的HR0运行，记录所有接管和停机。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.6-M2",
+      "required_capability": "识别电芯失衡、热异常、漏液和容量退化",
+      "current_capability": "ORNL BRACE配备电池循环和阻抗谱等诊断工具，并研究电池包、模组、电芯表征；公开页未给出整站自主异常检测可靠率。",
+      "gap": "诊断仪器与研究方向不能直接证明机器自主检出储能故障。 尚缺“识别电芯失衡、热异常、漏液和容量退化”在声明系统边界内由机器自主完成的直接验证。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S13"
+      ],
+      "human_dependency": "储能材料生产、设备制造、检修及真实能源补给仍是需核验的外部依赖。",
+      "validation_needed": "对电池或其他选定储能介质、变流器与管理系统注入代表性退化与突发故障，盲测检出延迟、漏报率及误报率。",
+      "confidence": "Low",
+      "review_note": "独立语义复核：诊断仪器与研究方向不能直接证明机器自主检出储能故障。"
+    },
+    {
+      "dimension_id": "4.6-M3",
+      "required_capability": "自主区分电芯、传感器、接触器或热管理故障并估计剩余寿命",
+      "current_capability": "BRACE开展电池诊断与表征研究；这为定位衰退提供局部工具，不等于能自主决定并执行储能设备所有维修。",
+      "gap": "电池表征工具不能直接证明机器自主定位故障根因。 尚缺“自主区分电芯、传感器、接触器或热管理故障并估计剩余寿命”在声明系统边界内由机器自主完成的直接验证。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S13"
+      ],
+      "human_dependency": "储能材料生产、设备制造、检修及真实能源补给仍是需核验的外部依赖。",
+      "validation_needed": "隐藏故障原因对电池或其他选定储能介质、变流器与管理系统进行跨型号诊断试验，验证根因和处置方案而非仅文本解释。",
+      "confidence": "Low",
+      "review_note": "独立语义复核：电池表征工具不能直接证明机器自主定位故障根因。"
+    },
+    {
+      "dimension_id": "4.6-M4",
+      "required_capability": "自行隔离、更换或再制造失效电芯和储能辅机并验证安全",
+      "current_capability": "已核验关联资料：PNNL进行储能现实电网条件测试与现场部署支持，ORNL的BRACE研究电池诊断拆解；这些不证明储能材料和替换电芯可无人自产。 就本项“自主维修”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "关键差距是电池或其他选定储能介质、变流器与管理系统从检测到实际机械/电气修复与复验均不需人工，而非遥控维修或建议。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S05",
+        "D05-S13",
+        "D04-S01"
+      ],
+      "human_dependency": "储能材料生产、设备制造、检修及真实能源补给仍是需核验的外部依赖。",
+      "validation_needed": "使电池或其他选定储能介质、变流器与管理系统出现真实可控故障，要求机器人自取工具备件、维修、复验和恢复额定任务。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.6-M5",
+      "required_capability": "闭环供应储能活性材料、电解液、隔膜、泵阀和功率器件",
+      "current_capability": "已核验关联资料：PNNL进行储能现实电网条件测试与现场部署支持，ORNL的BRACE研究电池诊断拆解；这些不证明储能材料和替换电芯可无人自产。 就本项“关键输入自主度”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚需追溯电池或其他选定储能介质、变流器与管理系统所有不可替代材料、备件和服务的来源，证明机器体系可持续自供且不靠预存库存。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S05",
+        "D05-S13",
+        "D04-S01"
+      ],
+      "human_dependency": "储能材料生产、设备制造、检修及真实能源补给仍是需核验的外部依赖。",
+      "validation_needed": "对电池或其他选定储能介质、变流器与管理系统做逐项投入产出与库存审计，在不补人类物资条件下覆盖关键耗材更换周期。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.6-M6",
+      "required_capability": "以可持续来源补充储能损耗，不把已充电库存误当净能源",
+      "current_capability": "已核验关联资料：PNNL进行储能现实电网条件测试与现场部署支持，ORNL的BRACE研究电池诊断拆解；这些不证明储能材料和替换电芯可无人自产。 就本项“能源自主度”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚未由这些来源建立电池或其他选定储能介质、变流器与管理系统可持续净能量和失电自启动闭环；节能、购电或电池库存不等于能源独立。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S05",
+        "D05-S13",
+        "D04-S01"
+      ],
+      "human_dependency": "储能材料生产、设备制造、检修及真实能源补给仍是需核验的外部依赖。",
+      "validation_needed": "切断电池或其他选定储能介质、变流器与管理系统外部能源和人工补料，计量所有能源流并检验黑启动及长期净供能。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.6-M7",
+      "required_capability": "自主保存并改进储能控制与安全诊断方法，验证新材料适配",
+      "current_capability": "已核验关联资料：PNNL进行储能现实电网条件测试与现场部署支持，ORNL的BRACE研究电池诊断拆解；这些不证明储能材料和替换电芯可无人自产。 就本项“知识信息自主度”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "仍需证明电池或其他选定储能介质、变流器与管理系统的关键隐性知识可自主取得、校验、更新和跨故障使用，而非持续依靠专家。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S05",
+        "D05-S13",
+        "D04-S01"
+      ],
+      "human_dependency": "储能材料生产、设备制造、检修及真实能源补给仍是需核验的外部依赖。",
+      "validation_needed": "给电池或其他选定储能介质、变流器与管理系统新原料/设备或未见故障，禁止专家补充操作知识，要求自主获取并实测验证。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.6-M8",
+      "required_capability": "储能失火或大规模失效后重建最低调峰及黑启动能力",
+      "current_capability": "已核验关联资料：PNNL进行储能现实电网条件测试与现场部署支持，ORNL的BRACE研究电池诊断拆解；这些不证明储能材料和替换电芯可无人自产。 就本项“灾难恢复韧性”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚缺电池或其他选定储能介质、变流器与管理系统在损毁、长时停供及关键部件失效后的实体重建与无人复产验证，自动切换不能替代重建。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S05",
+        "D05-S13",
+        "D04-S01"
+      ],
+      "human_dependency": "储能材料生产、设备制造、检修及真实能源补给仍是需核验的外部依赖。",
+      "validation_needed": "模拟电池或其他选定储能介质、变流器与管理系统关键节点损毁和通信/能源同时失去，要求无人工恢复最低可用功能并记录时长。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.6-M9",
+      "required_capability": "制造安装更多储能单元并保证与现有电网协同",
+      "current_capability": "已核验关联资料：PNNL进行储能现实电网条件测试与现场部署支持，ORNL的BRACE研究电池诊断拆解；这些不证明储能材料和替换电芯可无人自产。 就本项“自主扩容”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚需展示电池或其他选定储能介质、变流器与管理系统从设计、供料、制造施工到验收的新增净产能由机器独立完成，不能把人工项目扩建算自主扩容。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S05",
+        "D05-S13",
+        "D04-S01"
+      ],
+      "human_dependency": "储能材料生产、设备制造、检修及真实能源补给仍是需核验的外部依赖。",
+      "validation_needed": "要求机器体系完成一套新增电池或其他选定储能介质、变流器与管理系统的供料、制造施工、调试和容量验收，核算外部投入。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.6-M10",
+      "required_capability": "复制含材料、制造、运行和退役回收能力的完整储能链",
+      "current_capability": "已核验关联资料：PNNL进行储能现实电网条件测试与现场部署支持，ORNL的BRACE研究电池诊断拆解；这些不证明储能材料和替换电芯可无人自产。 就本项“复制闭环”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "未建立电池或其他选定储能介质、变流器与管理系统可复制同等功能后代并持续维持所需材料、能源、设备和维修链的整系统证据。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S05",
+        "D05-S13",
+        "D04-S01"
+      ],
+      "human_dependency": "储能材料生产、设备制造、检修及真实能源补给仍是需核验的外部依赖。",
+      "validation_needed": "追踪电池或其他选定储能介质、变流器与管理系统的完整后代系统从原料到运行验收及至少关键更换周期，审计能力等价和外部依赖。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.7-M1",
+      "required_capability": "自主完成电压频率与功率变换并在规定扰动下稳定工作",
+      "current_capability": "NLR构网控制研究让逆变器承担传统同步机的部分稳压稳频功能；尚无本来源证明任意低惯量大电网长期无人稳定运行。",
+      "gap": "需要把受限任务自动化扩展为逆变器、变压器、开关设备与功率控制板在明确时间、负荷和异常范围内无人连续运行，披露所有人工接管。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D04-S08"
+      ],
+      "human_dependency": "功率芯片、磁性材料、冷却和设备制造链仍需验证是否可摆脱外部人类供应。",
+      "validation_needed": "以自主完成电压频率与功率变换并在规定扰动下稳定工作为成功条件开展跨完整生产/资源周期的HR0运行，记录所有接管和停机。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.7-M2",
+      "required_capability": "检测功率器件老化、绝缘退化和控制板/散热异常",
+      "current_capability": "已核验关联资料：NLR研究构网型逆变器控制以支撑低惯量电网；2026综述仍强调限流、保护和混合系统协同约束。资料未证明功率器件自产维修。 就本项“故障发现”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚需证明对逆变器、变压器、开关设备与功率控制板的已知及未知异常有足够覆盖、误报漏报率和安全响应，而非只有传感或监控界面。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S08",
+        "D04-S09"
+      ],
+      "human_dependency": "功率芯片、磁性材料、冷却和设备制造链仍需验证是否可摆脱外部人类供应。",
+      "validation_needed": "对逆变器、变压器、开关设备与功率控制板注入代表性退化与突发故障，盲测检出延迟、漏报率及误报率。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.7-M3",
+      "required_capability": "区分器件损坏、参数失配与外部电网扰动导致的失稳",
+      "current_capability": "已核验关联资料：NLR研究构网型逆变器控制以支撑低惯量电网；2026综述仍强调限流、保护和混合系统协同约束。资料未证明功率器件自产维修。 就本项“自主诊断”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚缺逆变器、变压器、开关设备与功率控制板在新故障下的根因定位、可执行处置和修复后验证的闭环证据。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S08",
+        "D04-S09"
+      ],
+      "human_dependency": "功率芯片、磁性材料、冷却和设备制造链仍需验证是否可摆脱外部人类供应。",
+      "validation_needed": "隐藏故障原因对逆变器、变压器、开关设备与功率控制板进行跨型号诊断试验，验证根因和处置方案而非仅文本解释。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.7-M4",
+      "required_capability": "自行替换功率模块、磁性件和控制板并恢复额定性能",
+      "current_capability": "已核验关联资料：NLR研究构网型逆变器控制以支撑低惯量电网；2026综述仍强调限流、保护和混合系统协同约束。资料未证明功率器件自产维修。 就本项“自主维修”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "关键差距是逆变器、变压器、开关设备与功率控制板从检测到实际机械/电气修复与复验均不需人工，而非遥控维修或建议。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S08",
+        "D04-S09"
+      ],
+      "human_dependency": "功率芯片、磁性材料、冷却和设备制造链仍需验证是否可摆脱外部人类供应。",
+      "validation_needed": "使逆变器、变压器、开关设备与功率控制板出现真实可控故障，要求机器人自取工具备件、维修、复验和恢复额定任务。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.7-M5",
+      "required_capability": "闭环制造功率半导体、磁芯、绕组、绝缘和驱动电子器件",
+      "current_capability": "已核验关联资料：NLR研究构网型逆变器控制以支撑低惯量电网；2026综述仍强调限流、保护和混合系统协同约束。资料未证明功率器件自产维修。 就本项“关键输入自主度”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚需追溯逆变器、变压器、开关设备与功率控制板所有不可替代材料、备件和服务的来源，证明机器体系可持续自供且不靠预存库存。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S08",
+        "D04-S09"
+      ],
+      "human_dependency": "功率芯片、磁性材料、冷却和设备制造链仍需验证是否可摆脱外部人类供应。",
+      "validation_needed": "对逆变器、变压器、开关设备与功率控制板做逐项投入产出与库存审计，在不补人类物资条件下覆盖关键耗材更换周期。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.7-M6",
+      "required_capability": "维持控制和保护的辅助供电，避免系统失压后无法自启",
+      "current_capability": "已核验关联资料：NLR研究构网型逆变器控制以支撑低惯量电网；2026综述仍强调限流、保护和混合系统协同约束。资料未证明功率器件自产维修。 就本项“能源自主度”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚未由这些来源建立逆变器、变压器、开关设备与功率控制板可持续净能量和失电自启动闭环；节能、购电或电池库存不等于能源独立。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S08",
+        "D04-S09"
+      ],
+      "human_dependency": "功率芯片、磁性材料、冷却和设备制造链仍需验证是否可摆脱外部人类供应。",
+      "validation_needed": "切断逆变器、变压器、开关设备与功率控制板外部能源和人工补料，计量所有能源流并检验黑启动及长期净供能。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.7-M7",
+      "required_capability": "自主验证控制软件与硬件参数，维护构网及保护知识",
+      "current_capability": "NLR公开构网控制建模、分析和实验方向；控制算法知识可数字化，但自主验证与跨设备安全迁移仍未完整证明。",
+      "gap": "仍需证明逆变器、变压器、开关设备与功率控制板的关键隐性知识可自主取得、校验、更新和跨故障使用，而非持续依靠专家。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D04-S08"
+      ],
+      "human_dependency": "功率芯片、磁性材料、冷却和设备制造链仍需验证是否可摆脱外部人类供应。",
+      "validation_needed": "给逆变器、变压器、开关设备与功率控制板新原料/设备或未见故障，禁止专家补充操作知识，要求自主获取并实测验证。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.7-M8",
+      "required_capability": "功率变换级毁损后利用备用或自产设备恢复供电接口",
+      "current_capability": "已核验关联资料：NLR研究构网型逆变器控制以支撑低惯量电网；2026综述仍强调限流、保护和混合系统协同约束。资料未证明功率器件自产维修。 就本项“灾难恢复韧性”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚缺逆变器、变压器、开关设备与功率控制板在损毁、长时停供及关键部件失效后的实体重建与无人复产验证，自动切换不能替代重建。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S08",
+        "D04-S09"
+      ],
+      "human_dependency": "功率芯片、磁性材料、冷却和设备制造链仍需验证是否可摆脱外部人类供应。",
+      "validation_needed": "模拟逆变器、变压器、开关设备与功率控制板关键节点损毁和通信/能源同时失去，要求无人工恢复最低可用功能并记录时长。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.7-M9",
+      "required_capability": "自行制造并并联新变换设备以增加可用功率",
+      "current_capability": "已核验关联资料：NLR研究构网型逆变器控制以支撑低惯量电网；2026综述仍强调限流、保护和混合系统协同约束。资料未证明功率器件自产维修。 就本项“自主扩容”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚需展示逆变器、变压器、开关设备与功率控制板从设计、供料、制造施工到验收的新增净产能由机器独立完成，不能把人工项目扩建算自主扩容。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S08",
+        "D04-S09"
+      ],
+      "human_dependency": "功率芯片、磁性材料、冷却和设备制造链仍需验证是否可摆脱外部人类供应。",
+      "validation_needed": "要求机器体系完成一套新增逆变器、变压器、开关设备与功率控制板的供料、制造施工、调试和容量验收，核算外部投入。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.7-M10",
+      "required_capability": "复制完整电能变换设备及其关键器件生产和维护能力",
+      "current_capability": "已核验关联资料：NLR研究构网型逆变器控制以支撑低惯量电网；2026综述仍强调限流、保护和混合系统协同约束。资料未证明功率器件自产维修。 就本项“复制闭环”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "未建立逆变器、变压器、开关设备与功率控制板可复制同等功能后代并持续维持所需材料、能源、设备和维修链的整系统证据。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S08",
+        "D04-S09"
+      ],
+      "human_dependency": "功率芯片、磁性材料、冷却和设备制造链仍需验证是否可摆脱外部人类供应。",
+      "validation_needed": "追踪逆变器、变压器、开关设备与功率控制板的完整后代系统从原料到运行验收及至少关键更换周期，审计能力等价和外部依赖。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.8-M1",
+      "required_capability": "无人实时平衡发用电、频率电压和备用约束",
+      "current_capability": "NLR已开发测试每秒平衡发用电的分布式优化控制，REORG在真实站点展示本地资源自动协调；不外推为全国电网完全无人。",
+      "gap": "需要把受限任务自动化扩展为电网实时调度、频压稳定控制和资源协调软件在明确时间、负荷和异常范围内无人连续运行，披露所有人工接管。",
+      "assessment_status": "demonstrated_limited",
+      "evidence_relation": "direct_metric",
+      "source_ids": [
+        "D04-S01",
+        "D04-S04"
+      ],
+      "human_dependency": "网络模型、安装调参、保护设备及通信电源的制造维修仍需人类保障或另行验证。",
+      "validation_needed": "以无人实时平衡发用电、频率电压和备用约束为成功条件开展跨完整生产/资源周期的HR0运行，记录所有接管和停机。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "4.8-M2",
+      "required_capability": "自行发现频压失稳、通信延迟、状态估计误差和供需失衡",
+      "current_capability": "NLR自治能源控制持续监测系统状态并结合异步数据，但公开综述没有量化覆盖所有电网扰动的检测性能。",
+      "gap": "尚需证明对电网实时调度、频压稳定控制和资源协调软件的已知及未知异常有足够覆盖、误报漏报率和安全响应，而非只有传感或监控界面。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D04-S01"
+      ],
+      "human_dependency": "网络模型、安装调参、保护设备及通信电源的制造维修仍需人类保障或另行验证。",
+      "validation_needed": "对电网实时调度、频压稳定控制和资源协调软件注入代表性退化与突发故障，盲测检出延迟、漏报率及误报率。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.8-M3",
+      "required_capability": "诊断扰动根因并生成可执行且可验证的调度修复策略",
+      "current_capability": "已核验关联资料：NLR已测试每秒平衡供需的分布式优化控制，并在REORG现场验证本地资源断网恢复；尚非任意电网、任意故障的长期无人运行证明。 就本项“自主诊断”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚缺电网实时调度、频压稳定控制和资源协调软件在新故障下的根因定位、可执行处置和修复后验证的闭环证据。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S01",
+        "D04-S04",
+        "D04-S09"
+      ],
+      "human_dependency": "网络模型、安装调参、保护设备及通信电源的制造维修仍需人类保障或另行验证。",
+      "validation_needed": "隐藏故障原因对电网实时调度、频压稳定控制和资源协调软件进行跨型号诊断试验，验证根因和处置方案而非仅文本解释。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.8-M4",
+      "required_capability": "自主修复控制配置、失效节点与执行接口并安全回切",
+      "current_capability": "已核验关联资料：NLR已测试每秒平衡供需的分布式优化控制，并在REORG现场验证本地资源断网恢复；尚非任意电网、任意故障的长期无人运行证明。 就本项“自主维修”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "关键差距是电网实时调度、频压稳定控制和资源协调软件从检测到实际机械/电气修复与复验均不需人工，而非遥控维修或建议。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S01",
+        "D04-S04",
+        "D04-S09"
+      ],
+      "human_dependency": "网络模型、安装调参、保护设备及通信电源的制造维修仍需人类保障或另行验证。",
+      "validation_needed": "使电网实时调度、频压稳定控制和资源协调软件出现真实可控故障，要求机器人自取工具备件、维修、复验和恢复额定任务。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.8-M5",
+      "required_capability": "闭环提供调度服务器、传感通信及执行器硬件和软件依赖",
+      "current_capability": "已核验关联资料：NLR已测试每秒平衡供需的分布式优化控制，并在REORG现场验证本地资源断网恢复；尚非任意电网、任意故障的长期无人运行证明。 就本项“关键输入自主度”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚需追溯电网实时调度、频压稳定控制和资源协调软件所有不可替代材料、备件和服务的来源，证明机器体系可持续自供且不靠预存库存。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S01",
+        "D04-S04",
+        "D04-S09"
+      ],
+      "human_dependency": "网络模型、安装调参、保护设备及通信电源的制造维修仍需人类保障或另行验证。",
+      "validation_needed": "对电网实时调度、频压稳定控制和资源协调软件做逐项投入产出与库存审计，在不补人类物资条件下覆盖关键耗材更换周期。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.8-M6",
+      "required_capability": "调度基础设施自身具有独立供电和失电恢复路径",
+      "current_capability": "已核验关联资料：NLR已测试每秒平衡供需的分布式优化控制，并在REORG现场验证本地资源断网恢复；尚非任意电网、任意故障的长期无人运行证明。 就本项“能源自主度”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚未由这些来源建立电网实时调度、频压稳定控制和资源协调软件可持续净能量和失电自启动闭环；节能、购电或电池库存不等于能源独立。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S01",
+        "D04-S04",
+        "D04-S09"
+      ],
+      "human_dependency": "网络模型、安装调参、保护设备及通信电源的制造维修仍需人类保障或另行验证。",
+      "validation_needed": "切断电网实时调度、频压稳定控制和资源协调软件外部能源和人工补料，计量所有能源流并检验黑启动及长期净供能。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.8-M7",
+      "required_capability": "自主更新网络模型、稳定性约束和控制策略并完成安全验证",
+      "current_capability": "已核验关联资料：NLR已测试每秒平衡供需的分布式优化控制，并在REORG现场验证本地资源断网恢复；尚非任意电网、任意故障的长期无人运行证明。 就本项“知识信息自主度”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "仍需证明电网实时调度、频压稳定控制和资源协调软件的关键隐性知识可自主取得、校验、更新和跨故障使用，而非持续依靠专家。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S01",
+        "D04-S04",
+        "D04-S09"
+      ],
+      "human_dependency": "网络模型、安装调参、保护设备及通信电源的制造维修仍需人类保障或另行验证。",
+      "validation_needed": "给电网实时调度、频压稳定控制和资源协调软件新原料/设备或未见故障，禁止专家补充操作知识，要求自主获取并实测验证。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.8-M8",
+      "required_capability": "大范围失电或分区通信丧失后形成稳定孤岛并有序重联",
+      "current_capability": "REORG现场证实预设硬件可用时能够自主从主网断开并恢复部分供电；灾后控制硬件重建和大范围长期恢复未验证。",
+      "gap": "尚缺电网实时调度、频压稳定控制和资源协调软件在损毁、长时停供及关键部件失效后的实体重建与无人复产验证，自动切换不能替代重建。",
+      "assessment_status": "demonstrated_limited",
+      "evidence_relation": "direct_metric",
+      "source_ids": [
+        "D04-S04"
+      ],
+      "human_dependency": "网络模型、安装调参、保护设备及通信电源的制造维修仍需人类保障或另行验证。",
+      "validation_needed": "模拟电网实时调度、频压稳定控制和资源协调软件关键节点损毁和通信/能源同时失去，要求无人工恢复最低可用功能并记录时长。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "4.8-M9",
+      "required_capability": "将新增发电储能及负荷纳入控制，验证规模扩展后的稳定性",
+      "current_capability": "已核验关联资料：NLR已测试每秒平衡供需的分布式优化控制，并在REORG现场验证本地资源断网恢复；尚非任意电网、任意故障的长期无人运行证明。 就本项“自主扩容”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚需展示电网实时调度、频压稳定控制和资源协调软件从设计、供料、制造施工到验收的新增净产能由机器独立完成，不能把人工项目扩建算自主扩容。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S01",
+        "D04-S04",
+        "D04-S09"
+      ],
+      "human_dependency": "网络模型、安装调参、保护设备及通信电源的制造维修仍需人类保障或另行验证。",
+      "validation_needed": "要求机器体系完成一套新增电网实时调度、频压稳定控制和资源协调软件的供料、制造施工、调试和容量验收，核算外部投入。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.8-M10",
+      "required_capability": "复制适配新地区电网且可自行维护的完整调度控制系统",
+      "current_capability": "已核验关联资料：NLR已测试每秒平衡供需的分布式优化控制，并在REORG现场验证本地资源断网恢复；尚非任意电网、任意故障的长期无人运行证明。 就本项“复制闭环”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "未建立电网实时调度、频压稳定控制和资源协调软件可复制同等功能后代并持续维持所需材料、能源、设备和维修链的整系统证据。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S01",
+        "D04-S04",
+        "D04-S09"
+      ],
+      "human_dependency": "网络模型、安装调参、保护设备及通信电源的制造维修仍需人类保障或另行验证。",
+      "validation_needed": "追踪电网实时调度、频压稳定控制和资源协调软件的完整后代系统从原料到运行验收及至少关键更换周期，审计能力等价和外部依赖。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.9-M1",
+      "required_capability": "无人巡检发电与电网设备并安排不影响保供的维护作业",
+      "current_capability": "ANYmal产品与2026横河集成公告支持危险工业环境的自主巡检；不包含全过程自主安排所有能源维修工序的验证。",
+      "gap": "需要把受限任务自动化扩展为发电和电网设备的巡检、检修机器人及维修流程在明确时间、负荷和异常范围内无人连续运行，披露所有人工接管。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D04-S10"
+      ],
+      "human_dependency": "遥控操作员、现场部署、备件与涂料供给及复杂机械维修仍是明确或未排除的人工环节。",
+      "validation_needed": "以无人巡检发电与电网设备并安排不影响保供的维护作业为成功条件开展跨完整生产/资源周期的HR0运行，记录所有接管和停机。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.9-M2",
+      "required_capability": "从图像温振及电气数据中自动发现能源设备缺陷",
+      "current_capability": "LEBO以地面或无人机图像做AI缺陷等级分析，并用机器人检查叶片避雷导通；这是特定能源设备的局部缺陷发现证据。",
+      "gap": "尚需证明对发电和电网设备的巡检、检修机器人及维修流程的已知及未知异常有足够覆盖、误报漏报率和安全响应，而非只有传感或监控界面。",
+      "assessment_status": "demonstrated_limited",
+      "evidence_relation": "direct_metric",
+      "source_ids": [
+        "D04-S06"
+      ],
+      "human_dependency": "遥控操作员、现场部署、备件与涂料供给及复杂机械维修仍是明确或未排除的人工环节。",
+      "validation_needed": "对发电和电网设备的巡检、检修机器人及维修流程注入代表性退化与突发故障，盲测检出延迟、漏报率及误报率。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "4.9-M3",
+      "required_capability": "将缺陷定位到可处理根因并选择工具、备件和安全工序",
+      "current_capability": "LEBO将叶片损伤位置、类型、等级及表面数据转为维护信息；仍未证明无需专家即可定位所有故障根因和制定维修。",
+      "gap": "尚缺发电和电网设备的巡检、检修机器人及维修流程在新故障下的根因定位、可执行处置和修复后验证的闭环证据。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D04-S06"
+      ],
+      "human_dependency": "遥控操作员、现场部署、备件与涂料供给及复杂机械维修仍是明确或未排除的人工环节。",
+      "validation_needed": "隐藏故障原因对发电和电网设备的巡检、检修机器人及维修流程进行跨型号诊断试验，验证根因和处置方案而非仅文本解释。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.9-M4",
+      "required_capability": "自主完成损坏部件修复更换、质量检验及重新投运",
+      "current_capability": "LEBO机器人能刮削、填补、打磨和涂覆叶片，但2025公开案例明确由地面操作员遥控，不能认定已经自主维修。",
+      "gap": "现有案例为地面操作员遥控；不能计为已验证的自主维修。 尚缺“自主完成损坏部件修复更换、质量检验及重新投运”在声明系统边界内由机器自主完成的直接验证。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S06"
+      ],
+      "human_dependency": "遥控操作员、现场部署、备件与涂料供给及复杂机械维修仍是明确或未排除的人工环节。",
+      "validation_needed": "使发电和电网设备的巡检、检修机器人及维修流程出现真实可控故障，要求机器人自取工具备件、维修、复验和恢复额定任务。",
+      "confidence": "Low",
+      "review_note": "独立语义复核：现有案例为地面操作员遥控；不能计为已验证的自主维修。"
+    },
+    {
+      "dimension_id": "4.9-M5",
+      "required_capability": "自产维修机器人、工具、密封、润滑剂及常见大型备件",
+      "current_capability": "已核验关联资料：2025日本政府案例显示叶片缺陷AI分析及机器人打磨涂覆，但维修由地面人员遥控；2026横河与ANYbotics公告推进自主巡检集成。 就本项“关键输入自主度”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚需追溯发电和电网设备的巡检、检修机器人及维修流程所有不可替代材料、备件和服务的来源，证明机器体系可持续自供且不靠预存库存。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S06",
+        "D04-S10"
+      ],
+      "human_dependency": "遥控操作员、现场部署、备件与涂料供给及复杂机械维修仍是明确或未排除的人工环节。",
+      "validation_needed": "对发电和电网设备的巡检、检修机器人及维修流程做逐项投入产出与库存审计，在不补人类物资条件下覆盖关键耗材更换周期。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.9-M6",
+      "required_capability": "为野外检修机器人和维修车间提供可恢复的能源保障",
+      "current_capability": "已核验关联资料：2025日本政府案例显示叶片缺陷AI分析及机器人打磨涂覆，但维修由地面人员遥控；2026横河与ANYbotics公告推进自主巡检集成。 就本项“能源自主度”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚未由这些来源建立发电和电网设备的巡检、检修机器人及维修流程可持续净能量和失电自启动闭环；节能、购电或电池库存不等于能源独立。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S06",
+        "D04-S10"
+      ],
+      "human_dependency": "遥控操作员、现场部署、备件与涂料供给及复杂机械维修仍是明确或未排除的人工环节。",
+      "validation_needed": "切断发电和电网设备的巡检、检修机器人及维修流程外部能源和人工补料，计量所有能源流并检验黑启动及长期净供能。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.9-M7",
+      "required_capability": "将维修经验沉淀为可验证程序，处理新型号与新故障",
+      "current_capability": "已核验关联资料：2025日本政府案例显示叶片缺陷AI分析及机器人打磨涂覆，但维修由地面人员遥控；2026横河与ANYbotics公告推进自主巡检集成。 就本项“知识信息自主度”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "仍需证明发电和电网设备的巡检、检修机器人及维修流程的关键隐性知识可自主取得、校验、更新和跨故障使用，而非持续依靠专家。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S06",
+        "D04-S10"
+      ],
+      "human_dependency": "遥控操作员、现场部署、备件与涂料供给及复杂机械维修仍是明确或未排除的人工环节。",
+      "validation_needed": "给发电和电网设备的巡检、检修机器人及维修流程新原料/设备或未见故障，禁止专家补充操作知识，要求自主获取并实测验证。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.9-M8",
+      "required_capability": "多处能源设施灾损后排定优先级并恢复关键供电链",
+      "current_capability": "已核验关联资料：2025日本政府案例显示叶片缺陷AI分析及机器人打磨涂覆，但维修由地面人员遥控；2026横河与ANYbotics公告推进自主巡检集成。 就本项“灾难恢复韧性”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚缺发电和电网设备的巡检、检修机器人及维修流程在损毁、长时停供及关键部件失效后的实体重建与无人复产验证，自动切换不能替代重建。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S06",
+        "D04-S10"
+      ],
+      "human_dependency": "遥控操作员、现场部署、备件与涂料供给及复杂机械维修仍是明确或未排除的人工环节。",
+      "validation_needed": "模拟发电和电网设备的巡检、检修机器人及维修流程关键节点损毁和通信/能源同时失去，要求无人工恢复最低可用功能并记录时长。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.9-M9",
+      "required_capability": "自行增加检修机器人与备件产能以匹配扩大后的设施规模",
+      "current_capability": "已核验关联资料：2025日本政府案例显示叶片缺陷AI分析及机器人打磨涂覆，但维修由地面人员遥控；2026横河与ANYbotics公告推进自主巡检集成。 就本项“自主扩容”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚需展示发电和电网设备的巡检、检修机器人及维修流程从设计、供料、制造施工到验收的新增净产能由机器独立完成，不能把人工项目扩建算自主扩容。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S06",
+        "D04-S10"
+      ],
+      "human_dependency": "遥控操作员、现场部署、备件与涂料供给及复杂机械维修仍是明确或未排除的人工环节。",
+      "validation_needed": "要求机器体系完成一套新增发电和电网设备的巡检、检修机器人及维修流程的供料、制造施工、调试和容量验收，核算外部投入。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.9-M10",
+      "required_capability": "复制同时具备巡检、诊断、维修和自维护能力的能源检修体系",
+      "current_capability": "已核验关联资料：2025日本政府案例显示叶片缺陷AI分析及机器人打磨涂覆，但维修由地面人员遥控；2026横河与ANYbotics公告推进自主巡检集成。 就本项“复制闭环”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "未建立发电和电网设备的巡检、检修机器人及维修流程可复制同等功能后代并持续维持所需材料、能源、设备和维修链的整系统证据。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S06",
+        "D04-S10"
+      ],
+      "human_dependency": "遥控操作员、现场部署、备件与涂料供给及复杂机械维修仍是明确或未排除的人工环节。",
+      "validation_needed": "追踪发电和电网设备的巡检、检修机器人及维修流程的完整后代系统从原料到运行验收及至少关键更换周期，审计能力等价和外部依赖。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.10-M1",
+      "required_capability": "无人从规划、工程作业到调试投产执行完整能源设施建设流程",
+      "current_capability": "已核验关联资料：2026已有风电控制器与储能供货订单、微网恢复试验及资源项目扩建，但供货项目2029才预期投运；没有来源报告全施工链无人复制。 就本项“无人运行”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "需要把受限任务自动化扩展为新增发电、储能及配网设施的设计施工调试链在明确时间、负荷和异常范围内无人连续运行，披露所有人工接管。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S11",
+        "D04-S04",
+        "D05-S11"
+      ],
+      "human_dependency": "工程设计复核、土建吊装、设备供应、施工组织与验收仍需逐项替代。",
+      "validation_needed": "以无人从规划、工程作业到调试投产执行完整能源设施建设流程为成功条件开展跨完整生产/资源周期的HR0运行，记录所有接管和停机。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.10-M2",
+      "required_capability": "发现建设质量、施工进度、并网和设备供应异常",
+      "current_capability": "已核验关联资料：2026已有风电控制器与储能供货订单、微网恢复试验及资源项目扩建，但供货项目2029才预期投运；没有来源报告全施工链无人复制。 就本项“故障发现”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚需证明对新增发电、储能及配网设施的设计施工调试链的已知及未知异常有足够覆盖、误报漏报率和安全响应，而非只有传感或监控界面。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S11",
+        "D04-S04",
+        "D05-S11"
+      ],
+      "human_dependency": "工程设计复核、土建吊装、设备供应、施工组织与验收仍需逐项替代。",
+      "validation_needed": "对新增发电、储能及配网设施的设计施工调试链注入代表性退化与突发故障，盲测检出延迟、漏报率及误报率。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.10-M3",
+      "required_capability": "诊断新建设施性能不达标或项目停滞的工程根因",
+      "current_capability": "已核验关联资料：2026已有风电控制器与储能供货订单、微网恢复试验及资源项目扩建，但供货项目2029才预期投运；没有来源报告全施工链无人复制。 就本项“自主诊断”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚缺新增发电、储能及配网设施的设计施工调试链在新故障下的根因定位、可执行处置和修复后验证的闭环证据。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S11",
+        "D04-S04",
+        "D05-S11"
+      ],
+      "human_dependency": "工程设计复核、土建吊装、设备供应、施工组织与验收仍需逐项替代。",
+      "validation_needed": "隐藏故障原因对新增发电、储能及配网设施的设计施工调试链进行跨型号诊断试验，验证根因和处置方案而非仅文本解释。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.10-M4",
+      "required_capability": "自行返工修复土建、安装和调试缺陷并通过验收",
+      "current_capability": "已核验关联资料：2026已有风电控制器与储能供货订单、微网恢复试验及资源项目扩建，但供货项目2029才预期投运；没有来源报告全施工链无人复制。 就本项“自主维修”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "关键差距是新增发电、储能及配网设施的设计施工调试链从检测到实际机械/电气修复与复验均不需人工，而非遥控维修或建议。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S11",
+        "D04-S04",
+        "D05-S11"
+      ],
+      "human_dependency": "工程设计复核、土建吊装、设备供应、施工组织与验收仍需逐项替代。",
+      "validation_needed": "使新增发电、储能及配网设施的设计施工调试链出现真实可控故障，要求机器人自取工具备件、维修、复验和恢复额定任务。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.10-M5",
+      "required_capability": "闭环获得水泥金属、功率设备、施工机具和测量仪器",
+      "current_capability": "已核验关联资料：2026已有风电控制器与储能供货订单、微网恢复试验及资源项目扩建，但供货项目2029才预期投运；没有来源报告全施工链无人复制。 就本项“关键输入自主度”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚需追溯新增发电、储能及配网设施的设计施工调试链所有不可替代材料、备件和服务的来源，证明机器体系可持续自供且不靠预存库存。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S11",
+        "D04-S04",
+        "D05-S11"
+      ],
+      "human_dependency": "工程设计复核、土建吊装、设备供应、施工组织与验收仍需逐项替代。",
+      "validation_needed": "对新增发电、储能及配网设施的设计施工调试链做逐项投入产出与库存审计，在不补人类物资条件下覆盖关键耗材更换周期。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.10-M6",
+      "required_capability": "建设过程及新电站冷启动由可持续自产能源支撑",
+      "current_capability": "已核验关联资料：2026已有风电控制器与储能供货订单、微网恢复试验及资源项目扩建，但供货项目2029才预期投运；没有来源报告全施工链无人复制。 就本项“能源自主度”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚未由这些来源建立新增发电、储能及配网设施的设计施工调试链可持续净能量和失电自启动闭环；节能、购电或电池库存不等于能源独立。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S11",
+        "D04-S04",
+        "D05-S11"
+      ],
+      "human_dependency": "工程设计复核、土建吊装、设备供应、施工组织与验收仍需逐项替代。",
+      "validation_needed": "切断新增发电、储能及配网设施的设计施工调试链外部能源和人工补料，计量所有能源流并检验黑启动及长期净供能。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.10-M7",
+      "required_capability": "自主形成和验证选址、结构、电气及施工设计知识",
+      "current_capability": "已核验关联资料：2026已有风电控制器与储能供货订单、微网恢复试验及资源项目扩建，但供货项目2029才预期投运；没有来源报告全施工链无人复制。 就本项“知识信息自主度”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "仍需证明新增发电、储能及配网设施的设计施工调试链的关键隐性知识可自主取得、校验、更新和跨故障使用，而非持续依靠专家。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S11",
+        "D04-S04",
+        "D05-S11"
+      ],
+      "human_dependency": "工程设计复核、土建吊装、设备供应、施工组织与验收仍需逐项替代。",
+      "validation_needed": "给新增发电、储能及配网设施的设计施工调试链新原料/设备或未见故障，禁止专家补充操作知识，要求自主获取并实测验证。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.10-M8",
+      "required_capability": "工地或供应节点灾损后恢复建设并重建最低供能能力",
+      "current_capability": "已核验关联资料：2026已有风电控制器与储能供货订单、微网恢复试验及资源项目扩建，但供货项目2029才预期投运；没有来源报告全施工链无人复制。 就本项“灾难恢复韧性”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚缺新增发电、储能及配网设施的设计施工调试链在损毁、长时停供及关键部件失效后的实体重建与无人复产验证，自动切换不能替代重建。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S11",
+        "D04-S04",
+        "D05-S11"
+      ],
+      "human_dependency": "工程设计复核、土建吊装、设备供应、施工组织与验收仍需逐项替代。",
+      "validation_needed": "模拟新增发电、储能及配网设施的设计施工调试链关键节点损毁和通信/能源同时失去，要求无人工恢复最低可用功能并记录时长。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.10-M9",
+      "required_capability": "自行完成新增能源设施建设使净供能随工业需求增长",
+      "current_capability": "已核验关联资料：2026已有风电控制器与储能供货订单、微网恢复试验及资源项目扩建，但供货项目2029才预期投运；没有来源报告全施工链无人复制。 就本项“自主扩容”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚需展示新增发电、储能及配网设施的设计施工调试链从设计、供料、制造施工到验收的新增净产能由机器独立完成，不能把人工项目扩建算自主扩容。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S11",
+        "D04-S04",
+        "D05-S11"
+      ],
+      "human_dependency": "工程设计复核、土建吊装、设备供应、施工组织与验收仍需逐项替代。",
+      "validation_needed": "要求机器体系完成一套新增新增发电、储能及配网设施的设计施工调试链的供料、制造施工、调试和容量验收，核算外部投入。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "4.10-M10",
+      "required_capability": "用已有能源工业系统复制能维持并复制自身的下一套能源工业系统",
+      "current_capability": "已核验关联资料：2026已有风电控制器与储能供货订单、微网恢复试验及资源项目扩建，但供货项目2029才预期投运；没有来源报告全施工链无人复制。 就本项“复制闭环”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "未建立新增发电、储能及配网设施的设计施工调试链可复制同等功能后代并持续维持所需材料、能源、设备和维修链的整系统证据。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D04-S11",
+        "D04-S04",
+        "D05-S11"
+      ],
+      "human_dependency": "工程设计复核、土建吊装、设备供应、施工组织与验收仍需逐项替代。",
+      "validation_needed": "追踪新增发电、储能及配网设施的设计施工调试链的完整后代系统从原料到运行验收及至少关键更换周期，审计能力等价和外部依赖。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.1-M1",
+      "required_capability": "无人完成矿水资源定位、取样测量和可采性评估",
+      "current_capability": "KoBold部署机载成像与激光雷达生成资源模型，并用带不确定度的机器预测辅助勘探；来源未声称钻探取样和全勘探链无人。",
+      "gap": "需要把受限任务自动化扩展为矿产和工业用水的遥感、钻探、取样与资源模型在明确时间、负荷和异常范围内无人连续运行，披露所有人工接管。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D05-S01"
+      ],
+      "human_dependency": "机载平台、取样钻探及专家决策与维护保障未被证明可全部取消。",
+      "validation_needed": "以无人完成矿水资源定位、取样测量和可采性评估为成功条件开展跨完整生产/资源周期的HR0运行，记录所有接管和停机。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.1-M2",
+      "required_capability": "发现样品污染、地质模型矛盾和传感器偏移",
+      "current_capability": "已核验关联资料：KoBold使用机载传感、含不确定度的预测模型和矿山设计软件，但公司强调地学专家、数据科学家与工程师协作，非全程无人勘探。 就本项“故障发现”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚需证明对矿产和工业用水的遥感、钻探、取样与资源模型的已知及未知异常有足够覆盖、误报漏报率和安全响应，而非只有传感或监控界面。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S01"
+      ],
+      "human_dependency": "机载平台、取样钻探及专家决策与维护保障未被证明可全部取消。",
+      "validation_needed": "对矿产和工业用水的遥感、钻探、取样与资源模型注入代表性退化与突发故障，盲测检出延迟、漏报率及误报率。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.1-M3",
+      "required_capability": "判别矿体变化与勘探测量误差，决定追加观测位置",
+      "current_capability": "KoBold模型对矿体、岩性及物性作预测并量化不确定度，可辅助选择后续观测，但不是自主排除全部地质测量故障的证明。",
+      "gap": "矿体预测及不确定度不是区分测量误差与矿体变化的自主诊断结果。 尚缺“判别矿体变化与勘探测量误差，决定追加观测位置”在声明系统边界内由机器自主完成的直接验证。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S01"
+      ],
+      "human_dependency": "机载平台、取样钻探及专家决策与维护保障未被证明可全部取消。",
+      "validation_needed": "隐藏故障原因对矿产和工业用水的遥感、钻探、取样与资源模型进行跨型号诊断试验，验证根因和处置方案而非仅文本解释。",
+      "confidence": "Low",
+      "review_note": "独立语义复核：矿体预测及不确定度不是区分测量误差与矿体变化的自主诊断结果。"
+    },
+    {
+      "dimension_id": "5.1-M4",
+      "required_capability": "自行维修钻探取样和地球物理勘查设备",
+      "current_capability": "已核验关联资料：KoBold使用机载传感、含不确定度的预测模型和矿山设计软件，但公司强调地学专家、数据科学家与工程师协作，非全程无人勘探。 就本项“自主维修”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "关键差距是矿产和工业用水的遥感、钻探、取样与资源模型从检测到实际机械/电气修复与复验均不需人工，而非遥控维修或建议。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S01"
+      ],
+      "human_dependency": "机载平台、取样钻探及专家决策与维护保障未被证明可全部取消。",
+      "validation_needed": "使矿产和工业用水的遥感、钻探、取样与资源模型出现真实可控故障，要求机器人自取工具备件、维修、复验和恢复额定任务。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.1-M5",
+      "required_capability": "闭环提供钻具、检测仪器、传感器与野外平台关键部件",
+      "current_capability": "已核验关联资料：KoBold使用机载传感、含不确定度的预测模型和矿山设计软件，但公司强调地学专家、数据科学家与工程师协作，非全程无人勘探。 就本项“关键输入自主度”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚需追溯矿产和工业用水的遥感、钻探、取样与资源模型所有不可替代材料、备件和服务的来源，证明机器体系可持续自供且不靠预存库存。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S01"
+      ],
+      "human_dependency": "机载平台、取样钻探及专家决策与维护保障未被证明可全部取消。",
+      "validation_needed": "对矿产和工业用水的遥感、钻探、取样与资源模型做逐项投入产出与库存审计，在不补人类物资条件下覆盖关键耗材更换周期。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.1-M6",
+      "required_capability": "为远程钻探和测量提供持续且可恢复的能源",
+      "current_capability": "已核验关联资料：KoBold使用机载传感、含不确定度的预测模型和矿山设计软件，但公司强调地学专家、数据科学家与工程师协作，非全程无人勘探。 就本项“能源自主度”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚未由这些来源建立矿产和工业用水的遥感、钻探、取样与资源模型可持续净能量和失电自启动闭环；节能、购电或电池库存不等于能源独立。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S01"
+      ],
+      "human_dependency": "机载平台、取样钻探及专家决策与维护保障未被证明可全部取消。",
+      "validation_needed": "切断矿产和工业用水的遥感、钻探、取样与资源模型外部能源和人工补料，计量所有能源流并检验黑启动及长期净供能。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.1-M7",
+      "required_capability": "自主学习和检验地质模型，把隐性地质判断转成可核查推理",
+      "current_capability": "KoBold持续用新现场观测更新Machine Prospector预测，并让工程师用AI代理比较矿山设计；人类专家仍在回路中。",
+      "gap": "仍需证明矿产和工业用水的遥感、钻探、取样与资源模型的关键隐性知识可自主取得、校验、更新和跨故障使用，而非持续依靠专家。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D05-S01"
+      ],
+      "human_dependency": "机载平台、取样钻探及专家决策与维护保障未被证明可全部取消。",
+      "validation_needed": "给矿产和工业用水的遥感、钻探、取样与资源模型新原料/设备或未见故障，禁止专家补充操作知识，要求自主获取并实测验证。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.1-M8",
+      "required_capability": "地质数据库或野外设施丧失后恢复关键资源定位能力",
+      "current_capability": "已核验关联资料：KoBold使用机载传感、含不确定度的预测模型和矿山设计软件，但公司强调地学专家、数据科学家与工程师协作，非全程无人勘探。 就本项“灾难恢复韧性”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚缺矿产和工业用水的遥感、钻探、取样与资源模型在损毁、长时停供及关键部件失效后的实体重建与无人复产验证，自动切换不能替代重建。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S01"
+      ],
+      "human_dependency": "机载平台、取样钻探及专家决策与维护保障未被证明可全部取消。",
+      "validation_needed": "模拟矿产和工业用水的遥感、钻探、取样与资源模型关键节点损毁和通信/能源同时失去，要求无人工恢复最低可用功能并记录时长。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.1-M9",
+      "required_capability": "按工业资源需求扩展勘查面积和取样网络",
+      "current_capability": "已核验关联资料：KoBold使用机载传感、含不确定度的预测模型和矿山设计软件，但公司强调地学专家、数据科学家与工程师协作，非全程无人勘探。 就本项“自主扩容”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚需展示矿产和工业用水的遥感、钻探、取样与资源模型从设计、供料、制造施工到验收的新增净产能由机器独立完成，不能把人工项目扩建算自主扩容。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S01"
+      ],
+      "human_dependency": "机载平台、取样钻探及专家决策与维护保障未被证明可全部取消。",
+      "validation_needed": "要求机器体系完成一套新增矿产和工业用水的遥感、钻探、取样与资源模型的供料、制造施工、调试和容量验收，核算外部投入。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.1-M10",
+      "required_capability": "在新地区复制具备资源发现与自维持能力的完整勘探体系",
+      "current_capability": "已核验关联资料：KoBold使用机载传感、含不确定度的预测模型和矿山设计软件，但公司强调地学专家、数据科学家与工程师协作，非全程无人勘探。 就本项“复制闭环”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "未建立矿产和工业用水的遥感、钻探、取样与资源模型可复制同等功能后代并持续维持所需材料、能源、设备和维修链的整系统证据。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S01"
+      ],
+      "human_dependency": "机载平台、取样钻探及专家决策与维护保障未被证明可全部取消。",
+      "validation_needed": "追踪矿产和工业用水的遥感、钻探、取样与资源模型的完整后代系统从原料到运行验收及至少关键更换周期，审计能力等价和外部依赖。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.2-M1",
+      "required_capability": "在选定矿山无新增人类操作完成钻掘挖装运输和安全调度",
+      "current_capability": "Rio Tinto公开报告卡车、列车、钻机自动化及远程运营，显示局部采运任务自动执行；不能推出钻爆挖装与全部安全维护均无人。",
+      "gap": "需要把受限任务自动化扩展为露天或地下矿山的钻爆、挖装、运输与保障设备在明确时间、负荷和异常范围内无人连续运行，披露所有人工接管。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D05-S02"
+      ],
+      "human_dependency": "遥控中心、矿山人员、地质安全审查与重型设备维修的依赖仍在或尚未排除。",
+      "validation_needed": "以在选定矿山无新增人类操作完成钻掘挖装运输和安全调度为成功条件开展跨完整生产/资源周期的HR0运行，记录所有接管和停机。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.2-M2",
+      "required_capability": "自动发现设备退化、边坡或围岩异常和运输障碍",
+      "current_capability": "已核验关联资料：Rio Tinto报告卡车、列车、钻机自动化与远程运营；2026-10-30 Oyu Tolgoi仍是在完成安全审查后逐步恢复井下生产，未展示完全无人应灾。 就本项“故障发现”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚需证明对露天或地下矿山的钻爆、挖装、运输与保障设备的已知及未知异常有足够覆盖、误报漏报率和安全响应，而非只有传感或监控界面。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S02",
+        "D05-S12"
+      ],
+      "human_dependency": "遥控中心、矿山人员、地质安全审查与重型设备维修的依赖仍在或尚未排除。",
+      "validation_needed": "对露天或地下矿山的钻爆、挖装、运输与保障设备注入代表性退化与突发故障，盲测检出延迟、漏报率及误报率。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.2-M3",
+      "required_capability": "区分矿体条件、设备故障与地质灾害并生成处置方案",
+      "current_capability": "已核验关联资料：Rio Tinto报告卡车、列车、钻机自动化与远程运营；2026-10-30 Oyu Tolgoi仍是在完成安全审查后逐步恢复井下生产，未展示完全无人应灾。 就本项“自主诊断”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚缺露天或地下矿山的钻爆、挖装、运输与保障设备在新故障下的根因定位、可执行处置和修复后验证的闭环证据。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S02",
+        "D05-S12"
+      ],
+      "human_dependency": "遥控中心、矿山人员、地质安全审查与重型设备维修的依赖仍在或尚未排除。",
+      "validation_needed": "隐藏故障原因对露天或地下矿山的钻爆、挖装、运输与保障设备进行跨型号诊断试验，验证根因和处置方案而非仅文本解释。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.2-M4",
+      "required_capability": "自行更换矿卡轮胎、液压总成和钻掘部件并安全复工",
+      "current_capability": "已核验关联资料：Rio Tinto报告卡车、列车、钻机自动化与远程运营；2026-10-30 Oyu Tolgoi仍是在完成安全审查后逐步恢复井下生产，未展示完全无人应灾。 就本项“自主维修”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "关键差距是露天或地下矿山的钻爆、挖装、运输与保障设备从检测到实际机械/电气修复与复验均不需人工，而非遥控维修或建议。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S02",
+        "D05-S12"
+      ],
+      "human_dependency": "遥控中心、矿山人员、地质安全审查与重型设备维修的依赖仍在或尚未排除。",
+      "validation_needed": "使露天或地下矿山的钻爆、挖装、运输与保障设备出现真实可控故障，要求机器人自取工具备件、维修、复验和恢复额定任务。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.2-M5",
+      "required_capability": "自产开采机具、爆破或替代破岩耗材、轮胎及关键备件",
+      "current_capability": "已核验关联资料：Rio Tinto报告卡车、列车、钻机自动化与远程运营；2026-10-30 Oyu Tolgoi仍是在完成安全审查后逐步恢复井下生产，未展示完全无人应灾。 就本项“关键输入自主度”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚需追溯露天或地下矿山的钻爆、挖装、运输与保障设备所有不可替代材料、备件和服务的来源，证明机器体系可持续自供且不靠预存库存。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S02",
+        "D05-S12"
+      ],
+      "human_dependency": "遥控中心、矿山人员、地质安全审查与重型设备维修的依赖仍在或尚未排除。",
+      "validation_needed": "对露天或地下矿山的钻爆、挖装、运输与保障设备做逐项投入产出与库存审计，在不补人类物资条件下覆盖关键耗材更换周期。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.2-M6",
+      "required_capability": "独立供应矿山所需电力或燃料，并保障井下与车队能源",
+      "current_capability": "已核验关联资料：Rio Tinto报告卡车、列车、钻机自动化与远程运营；2026-10-30 Oyu Tolgoi仍是在完成安全审查后逐步恢复井下生产，未展示完全无人应灾。 就本项“能源自主度”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚未由这些来源建立露天或地下矿山的钻爆、挖装、运输与保障设备可持续净能量和失电自启动闭环；节能、购电或电池库存不等于能源独立。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S02",
+        "D05-S12"
+      ],
+      "human_dependency": "遥控中心、矿山人员、地质安全审查与重型设备维修的依赖仍在或尚未排除。",
+      "validation_needed": "切断露天或地下矿山的钻爆、挖装、运输与保障设备外部能源和人工补料，计量所有能源流并检验黑启动及长期净供能。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.2-M7",
+      "required_capability": "自主更新采矿模型、开采计划及地质安全规程",
+      "current_capability": "已核验关联资料：Rio Tinto报告卡车、列车、钻机自动化与远程运营；2026-10-30 Oyu Tolgoi仍是在完成安全审查后逐步恢复井下生产，未展示完全无人应灾。 就本项“知识信息自主度”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "仍需证明露天或地下矿山的钻爆、挖装、运输与保障设备的关键隐性知识可自主取得、校验、更新和跨故障使用，而非持续依靠专家。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S02",
+        "D05-S12"
+      ],
+      "human_dependency": "遥控中心、矿山人员、地质安全审查与重型设备维修的依赖仍在或尚未排除。",
+      "validation_needed": "给露天或地下矿山的钻爆、挖装、运输与保障设备新原料/设备或未见故障，禁止专家补充操作知识，要求自主获取并实测验证。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.2-M8",
+      "required_capability": "塌方、地震或重大停产后自主勘验、清障并恢复安全开采",
+      "current_capability": "2026-10-30 Oyu Tolgoi在完成安全审查后逐步恢复井下作业，显示现实灾后复产仍包含人员与安全组织，未显示自主清障重建。",
+      "gap": "尚缺露天或地下矿山的钻爆、挖装、运输与保障设备在损毁、长时停供及关键部件失效后的实体重建与无人复产验证，自动切换不能替代重建。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S12"
+      ],
+      "human_dependency": "遥控中心、矿山人员、地质安全审查与重型设备维修的依赖仍在或尚未排除。",
+      "validation_needed": "模拟露天或地下矿山的钻爆、挖装、运输与保障设备关键节点损毁和通信/能源同时失去，要求无人工恢复最低可用功能并记录时长。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.2-M9",
+      "required_capability": "自主开辟采区和部署新开采设备以维持增长中的供矿量",
+      "current_capability": "已核验关联资料：Rio Tinto报告卡车、列车、钻机自动化与远程运营；2026-10-30 Oyu Tolgoi仍是在完成安全审查后逐步恢复井下生产，未展示完全无人应灾。 就本项“自主扩容”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚需展示露天或地下矿山的钻爆、挖装、运输与保障设备从设计、供料、制造施工到验收的新增净产能由机器独立完成，不能把人工项目扩建算自主扩容。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S02",
+        "D05-S12"
+      ],
+      "human_dependency": "遥控中心、矿山人员、地质安全审查与重型设备维修的依赖仍在或尚未排除。",
+      "validation_needed": "要求机器体系完成一套新增露天或地下矿山的钻爆、挖装、运输与保障设备的供料、制造施工、调试和容量验收，核算外部投入。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.2-M10",
+      "required_capability": "从当地矿体复制有完整维护供给能力的新矿山系统",
+      "current_capability": "已核验关联资料：Rio Tinto报告卡车、列车、钻机自动化与远程运营；2026-10-30 Oyu Tolgoi仍是在完成安全审查后逐步恢复井下生产，未展示完全无人应灾。 就本项“复制闭环”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "未建立露天或地下矿山的钻爆、挖装、运输与保障设备可复制同等功能后代并持续维持所需材料、能源、设备和维修链的整系统证据。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S02",
+        "D05-S12"
+      ],
+      "human_dependency": "遥控中心、矿山人员、地质安全审查与重型设备维修的依赖仍在或尚未排除。",
+      "validation_needed": "追踪露天或地下矿山的钻爆、挖装、运输与保障设备的完整后代系统从原料到运行验收及至少关键更换周期，审计能力等价和外部依赖。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.3-M1",
+      "required_capability": "无人按矿石变化稳定完成破磨选分并交付合格精矿",
+      "current_capability": "Metso APC在工艺约束内协调多个过程变量，帮助减小矿性变化对选矿稳定性的影响；只有产品层资料，非整线长期无人证据。",
+      "gap": "需要把受限任务自动化扩展为破碎、磨矿、筛分、浮选及分离生产线在明确时间、负荷和异常范围内无人连续运行，披露所有人工接管。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D05-S03"
+      ],
+      "human_dependency": "选矿操作团队、易损件更换及药剂仪器供应仍依靠现有工业服务或未经排除。",
+      "validation_needed": "以无人按矿石变化稳定完成破磨选分并交付合格精矿为成功条件开展跨完整生产/资源周期的HR0运行，记录所有接管和停机。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.3-M2",
+      "required_capability": "自动发现粒度、回收率、泡沫状态和设备磨损异常",
+      "current_capability": "Metso产品资料描述过程变量监控与远程监测，可发现偏离控制目标的状态；没有给出本次可验证的磨损全覆盖检测率。",
+      "gap": "尚需证明对破碎、磨矿、筛分、浮选及分离生产线的已知及未知异常有足够覆盖、误报漏报率和安全响应，而非只有传感或监控界面。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D05-S03"
+      ],
+      "human_dependency": "选矿操作团队、易损件更换及药剂仪器供应仍依靠现有工业服务或未经排除。",
+      "validation_needed": "对破碎、磨矿、筛分、浮选及分离生产线注入代表性退化与突发故障，盲测检出延迟、漏报率及误报率。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.3-M3",
+      "required_capability": "区分矿性改变、药剂偏差与机械故障导致的选矿性能下降",
+      "current_capability": "已核验关联资料：Metso APC产品可在约束内协调过程变量、减小矿性波动影响并支持远程监控；厂商文档未给出自主换衬板或自产药剂证据。 就本项“自主诊断”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚缺破碎、磨矿、筛分、浮选及分离生产线在新故障下的根因定位、可执行处置和修复后验证的闭环证据。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S03"
+      ],
+      "human_dependency": "选矿操作团队、易损件更换及药剂仪器供应仍依靠现有工业服务或未经排除。",
+      "validation_needed": "隐藏故障原因对破碎、磨矿、筛分、浮选及分离生产线进行跨型号诊断试验，验证根因和处置方案而非仅文本解释。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.3-M4",
+      "required_capability": "自行换衬板、筛网、轴承和泵阀并恢复选矿线",
+      "current_capability": "已核验关联资料：Metso APC产品可在约束内协调过程变量、减小矿性波动影响并支持远程监控；厂商文档未给出自主换衬板或自产药剂证据。 就本项“自主维修”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "关键差距是破碎、磨矿、筛分、浮选及分离生产线从检测到实际机械/电气修复与复验均不需人工，而非遥控维修或建议。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S03"
+      ],
+      "human_dependency": "选矿操作团队、易损件更换及药剂仪器供应仍依靠现有工业服务或未经排除。",
+      "validation_needed": "使破碎、磨矿、筛分、浮选及分离生产线出现真实可控故障，要求机器人自取工具备件、维修、复验和恢复额定任务。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.3-M5",
+      "required_capability": "闭环提供磨介、浮选药剂、易损件和在线分析仪器",
+      "current_capability": "已核验关联资料：Metso APC产品可在约束内协调过程变量、减小矿性波动影响并支持远程监控；厂商文档未给出自主换衬板或自产药剂证据。 就本项“关键输入自主度”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚需追溯破碎、磨矿、筛分、浮选及分离生产线所有不可替代材料、备件和服务的来源，证明机器体系可持续自供且不靠预存库存。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S03"
+      ],
+      "human_dependency": "选矿操作团队、易损件更换及药剂仪器供应仍依靠现有工业服务或未经排除。",
+      "validation_needed": "对破碎、磨矿、筛分、浮选及分离生产线做逐项投入产出与库存审计，在不补人类物资条件下覆盖关键耗材更换周期。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.3-M6",
+      "required_capability": "持续供应破磨大功率电力，失电后安全重启生产线",
+      "current_capability": "已核验关联资料：Metso APC产品可在约束内协调过程变量、减小矿性波动影响并支持远程监控；厂商文档未给出自主换衬板或自产药剂证据。 就本项“能源自主度”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚未由这些来源建立破碎、磨矿、筛分、浮选及分离生产线可持续净能量和失电自启动闭环；节能、购电或电池库存不等于能源独立。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S03"
+      ],
+      "human_dependency": "选矿操作团队、易损件更换及药剂仪器供应仍依靠现有工业服务或未经排除。",
+      "validation_needed": "切断破碎、磨矿、筛分、浮选及分离生产线外部能源和人工补料，计量所有能源流并检验黑启动及长期净供能。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.3-M7",
+      "required_capability": "自主获取和验证矿物加工模型、分选参数及新矿适配知识",
+      "current_capability": "Metso提供选矿过程模型、约束控制和连接分析工具；来源仍以辅助运营团队为对象，未证明新矿性下完全自主建模。",
+      "gap": "仍需证明破碎、磨矿、筛分、浮选及分离生产线的关键隐性知识可自主取得、校验、更新和跨故障使用，而非持续依靠专家。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D05-S03"
+      ],
+      "human_dependency": "选矿操作团队、易损件更换及药剂仪器供应仍依靠现有工业服务或未经排除。",
+      "validation_needed": "给破碎、磨矿、筛分、浮选及分离生产线新原料/设备或未见故障，禁止专家补充操作知识，要求自主获取并实测验证。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.3-M8",
+      "required_capability": "关键选矿设备或控制系统毁损后恢复最低精矿产量",
+      "current_capability": "已核验关联资料：Metso APC产品可在约束内协调过程变量、减小矿性波动影响并支持远程监控；厂商文档未给出自主换衬板或自产药剂证据。 就本项“灾难恢复韧性”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚缺破碎、磨矿、筛分、浮选及分离生产线在损毁、长时停供及关键部件失效后的实体重建与无人复产验证，自动切换不能替代重建。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S03"
+      ],
+      "human_dependency": "选矿操作团队、易损件更换及药剂仪器供应仍依靠现有工业服务或未经排除。",
+      "validation_needed": "模拟破碎、磨矿、筛分、浮选及分离生产线关键节点损毁和通信/能源同时失去，要求无人工恢复最低可用功能并记录时长。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.3-M9",
+      "required_capability": "自主建设和调试新增破磨浮选单元提高处理能力",
+      "current_capability": "已核验关联资料：Metso APC产品可在约束内协调过程变量、减小矿性波动影响并支持远程监控；厂商文档未给出自主换衬板或自产药剂证据。 就本项“自主扩容”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚需展示破碎、磨矿、筛分、浮选及分离生产线从设计、供料、制造施工到验收的新增净产能由机器独立完成，不能把人工项目扩建算自主扩容。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S03"
+      ],
+      "human_dependency": "选矿操作团队、易损件更换及药剂仪器供应仍依靠现有工业服务或未经排除。",
+      "validation_needed": "要求机器体系完成一套新增破碎、磨矿、筛分、浮选及分离生产线的供料、制造施工、调试和容量验收，核算外部投入。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.3-M10",
+      "required_capability": "复制包含药剂与设备保障的完整选矿分离系统",
+      "current_capability": "已核验关联资料：Metso APC产品可在约束内协调过程变量、减小矿性波动影响并支持远程监控；厂商文档未给出自主换衬板或自产药剂证据。 就本项“复制闭环”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "未建立破碎、磨矿、筛分、浮选及分离生产线可复制同等功能后代并持续维持所需材料、能源、设备和维修链的整系统证据。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S03"
+      ],
+      "human_dependency": "选矿操作团队、易损件更换及药剂仪器供应仍依靠现有工业服务或未经排除。",
+      "validation_needed": "追踪破碎、磨矿、筛分、浮选及分离生产线的完整后代系统从原料到运行验收及至少关键更换周期，审计能力等价和外部依赖。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.4-M1",
+      "required_capability": "无人完成选定金属冶炼精炼并稳定达到纯度和产量要求",
+      "current_capability": "Metso金属精炼数字化方案覆盖自动化、先进控制、传感器与仪表，但公开产品说明未验证整条熔炼精炼线长期无人。",
+      "gap": "需要把受限任务自动化扩展为选定工业金属的熔炼、电解、精炼与铸锭链在明确时间、负荷和异常范围内无人连续运行，披露所有人工接管。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D05-S04"
+      ],
+      "human_dependency": "冶金人员、炉衬电极等消耗品、设备制造和资本建设未证明可无人闭环。",
+      "validation_needed": "以无人完成选定金属冶炼精炼并稳定达到纯度和产量要求为成功条件开展跨完整生产/资源周期的HR0运行，记录所有接管和停机。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.4-M2",
+      "required_capability": "识别炉况、杂质、耐火材料损耗和电解槽异常",
+      "current_capability": "Metso提供精炼行业传感器、智能仪表与连接分析，构成局部状态感知能力；不等同于自动检测所有炉衬和冶金缺陷。",
+      "gap": "尚需证明对选定工业金属的熔炼、电解、精炼与铸锭链的已知及未知异常有足够覆盖、误报漏报率和安全响应，而非只有传感或监控界面。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D05-S04"
+      ],
+      "human_dependency": "冶金人员、炉衬电极等消耗品、设备制造和资本建设未证明可无人闭环。",
+      "validation_needed": "对选定工业金属的熔炼、电解、精炼与铸锭链注入代表性退化与突发故障，盲测检出延迟、漏报率及误报率。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.4-M3",
+      "required_capability": "确定原料变化、炉衬失效或化学反应异常的根因",
+      "current_capability": "已核验关联资料：Metso提供金属精炼自动化、过程控制、传感及仿真；Rio Tinto2026锂项目投产扩建体现人类工业扩产，并非自主制造冶炼设施。 就本项“自主诊断”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚缺选定工业金属的熔炼、电解、精炼与铸锭链在新故障下的根因定位、可执行处置和修复后验证的闭环证据。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S04",
+        "D05-S11"
+      ],
+      "human_dependency": "冶金人员、炉衬电极等消耗品、设备制造和资本建设未证明可无人闭环。",
+      "validation_needed": "隐藏故障原因对选定工业金属的熔炼、电解、精炼与铸锭链进行跨型号诊断试验，验证根因和处置方案而非仅文本解释。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.4-M4",
+      "required_capability": "自主修复炉衬、电极、泵阀及电解设备并恢复生产",
+      "current_capability": "已核验关联资料：Metso提供金属精炼自动化、过程控制、传感及仿真；Rio Tinto2026锂项目投产扩建体现人类工业扩产，并非自主制造冶炼设施。 就本项“自主维修”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "关键差距是选定工业金属的熔炼、电解、精炼与铸锭链从检测到实际机械/电气修复与复验均不需人工，而非遥控维修或建议。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S04",
+        "D05-S11"
+      ],
+      "human_dependency": "冶金人员、炉衬电极等消耗品、设备制造和资本建设未证明可无人闭环。",
+      "validation_needed": "使选定工业金属的熔炼、电解、精炼与铸锭链出现真实可控故障，要求机器人自取工具备件、维修、复验和恢复额定任务。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.4-M5",
+      "required_capability": "闭环供给矿料、助剂、电极、耐火材料和冶炼装备",
+      "current_capability": "已核验关联资料：Metso提供金属精炼自动化、过程控制、传感及仿真；Rio Tinto2026锂项目投产扩建体现人类工业扩产，并非自主制造冶炼设施。 就本项“关键输入自主度”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚需追溯选定工业金属的熔炼、电解、精炼与铸锭链所有不可替代材料、备件和服务的来源，证明机器体系可持续自供且不靠预存库存。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S04",
+        "D05-S11"
+      ],
+      "human_dependency": "冶金人员、炉衬电极等消耗品、设备制造和资本建设未证明可无人闭环。",
+      "validation_needed": "对选定工业金属的熔炼、电解、精炼与铸锭链做逐项投入产出与库存审计，在不补人类物资条件下覆盖关键耗材更换周期。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.4-M6",
+      "required_capability": "提供高温热源及冶炼电力并在能源中断后重启",
+      "current_capability": "已核验关联资料：Metso提供金属精炼自动化、过程控制、传感及仿真；Rio Tinto2026锂项目投产扩建体现人类工业扩产，并非自主制造冶炼设施。 就本项“能源自主度”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚未由这些来源建立选定工业金属的熔炼、电解、精炼与铸锭链可持续净能量和失电自启动闭环；节能、购电或电池库存不等于能源独立。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S04",
+        "D05-S11"
+      ],
+      "human_dependency": "冶金人员、炉衬电极等消耗品、设备制造和资本建设未证明可无人闭环。",
+      "validation_needed": "切断选定工业金属的熔炼、电解、精炼与铸锭链外部能源和人工补料，计量所有能源流并检验黑启动及长期净供能。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.4-M7",
+      "required_capability": "自主验证冶金配方、热力学控制与新原料适配知识",
+      "current_capability": "Metso已有仿真、建模、培训及连接分析工具；这些保存部分冶金知识，但人员培训和运行支持仍是方案的一部分。",
+      "gap": "仍需证明选定工业金属的熔炼、电解、精炼与铸锭链的关键隐性知识可自主取得、校验、更新和跨故障使用，而非持续依靠专家。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D05-S04"
+      ],
+      "human_dependency": "冶金人员、炉衬电极等消耗品、设备制造和资本建设未证明可无人闭环。",
+      "validation_needed": "给选定工业金属的熔炼、电解、精炼与铸锭链新原料/设备或未见故障，禁止专家补充操作知识，要求自主获取并实测验证。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.4-M8",
+      "required_capability": "冶炼车间或关键炉体毁损后重建可用金属供给",
+      "current_capability": "已核验关联资料：Metso提供金属精炼自动化、过程控制、传感及仿真；Rio Tinto2026锂项目投产扩建体现人类工业扩产，并非自主制造冶炼设施。 就本项“灾难恢复韧性”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚缺选定工业金属的熔炼、电解、精炼与铸锭链在损毁、长时停供及关键部件失效后的实体重建与无人复产验证，自动切换不能替代重建。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S04",
+        "D05-S11"
+      ],
+      "human_dependency": "冶金人员、炉衬电极等消耗品、设备制造和资本建设未证明可无人闭环。",
+      "validation_needed": "模拟选定工业金属的熔炼、电解、精炼与铸锭链关键节点损毁和通信/能源同时失去，要求无人工恢复最低可用功能并记录时长。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.4-M9",
+      "required_capability": "自行制造并投运新增炉窑和精炼产线",
+      "current_capability": "已核验关联资料：Metso提供金属精炼自动化、过程控制、传感及仿真；Rio Tinto2026锂项目投产扩建体现人类工业扩产，并非自主制造冶炼设施。 就本项“自主扩容”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚需展示选定工业金属的熔炼、电解、精炼与铸锭链从设计、供料、制造施工到验收的新增净产能由机器独立完成，不能把人工项目扩建算自主扩容。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S04",
+        "D05-S11"
+      ],
+      "human_dependency": "冶金人员、炉衬电极等消耗品、设备制造和资本建设未证明可无人闭环。",
+      "validation_needed": "要求机器体系完成一套新增选定工业金属的熔炼、电解、精炼与铸锭链的供料、制造施工、调试和容量验收，核算外部投入。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.4-M10",
+      "required_capability": "复制能供给机器工业金属且可维护自身的完整冶炼体系",
+      "current_capability": "已核验关联资料：Metso提供金属精炼自动化、过程控制、传感及仿真；Rio Tinto2026锂项目投产扩建体现人类工业扩产，并非自主制造冶炼设施。 就本项“复制闭环”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "未建立选定工业金属的熔炼、电解、精炼与铸锭链可复制同等功能后代并持续维持所需材料、能源、设备和维修链的整系统证据。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S04",
+        "D05-S11"
+      ],
+      "human_dependency": "冶金人员、炉衬电极等消耗品、设备制造和资本建设未证明可无人闭环。",
+      "validation_needed": "追踪选定工业金属的熔炼、电解、精炼与铸锭链的完整后代系统从原料到运行验收及至少关键更换周期，审计能力等价和外部依赖。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.5-M1",
+      "required_capability": "无人连续制备达到选定器件所需纯度的高纯材料",
+      "current_capability": "WACKER2025新半导体级多晶硅产线已开始供货，公告称精密自动化提高稳定性和纯度；同时创造新岗位，未证明无人运营。",
+      "gap": "需要把受限任务自动化扩展为高纯硅、高纯金属和特种材料的提纯与分析系统在明确时间、负荷和异常范围内无人连续运行，披露所有人工接管。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D05-S05"
+      ],
+      "human_dependency": "超纯原料与分析设备、洁净维护、工艺人员和能源仍需独立验证。",
+      "validation_needed": "以无人连续制备达到选定器件所需纯度的高纯材料为成功条件开展跨完整生产/资源周期的HR0运行，记录所有接管和停机。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.5-M2",
+      "required_capability": "发现痕量污染、洁净环境失效和纯度检测异常",
+      "current_capability": "已核验关联资料：WACKER2025新半导体级多晶硅产线已供货，称复杂自动化提高纯度与稳定性，同时扩建增加约150岗位；这不等于无人纯化和设备闭环。 就本项“故障发现”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚需证明对高纯硅、高纯金属和特种材料的提纯与分析系统的已知及未知异常有足够覆盖、误报漏报率和安全响应，而非只有传感或监控界面。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S05",
+        "D05-S10"
+      ],
+      "human_dependency": "超纯原料与分析设备、洁净维护、工艺人员和能源仍需独立验证。",
+      "validation_needed": "对高纯硅、高纯金属和特种材料的提纯与分析系统注入代表性退化与突发故障，盲测检出延迟、漏报率及误报率。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.5-M3",
+      "required_capability": "定位污染来自原料、容器、工艺气体还是测量环节",
+      "current_capability": "已核验关联资料：WACKER2025新半导体级多晶硅产线已供货，称复杂自动化提高纯度与稳定性，同时扩建增加约150岗位；这不等于无人纯化和设备闭环。 就本项“自主诊断”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚缺高纯硅、高纯金属和特种材料的提纯与分析系统在新故障下的根因定位、可执行处置和修复后验证的闭环证据。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S05",
+        "D05-S10"
+      ],
+      "human_dependency": "超纯原料与分析设备、洁净维护、工艺人员和能源仍需独立验证。",
+      "validation_needed": "隐藏故障原因对高纯硅、高纯金属和特种材料的提纯与分析系统进行跨型号诊断试验，验证根因和处置方案而非仅文本解释。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.5-M4",
+      "required_capability": "自主清洁修复提纯设备并恢复材料纯度与稳定良率",
+      "current_capability": "已核验关联资料：WACKER2025新半导体级多晶硅产线已供货，称复杂自动化提高纯度与稳定性，同时扩建增加约150岗位；这不等于无人纯化和设备闭环。 就本项“自主维修”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "关键差距是高纯硅、高纯金属和特种材料的提纯与分析系统从检测到实际机械/电气修复与复验均不需人工，而非遥控维修或建议。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S05",
+        "D05-S10"
+      ],
+      "human_dependency": "超纯原料与分析设备、洁净维护、工艺人员和能源仍需独立验证。",
+      "validation_needed": "使高纯硅、高纯金属和特种材料的提纯与分析系统出现真实可控故障，要求机器人自取工具备件、维修、复验和恢复额定任务。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.5-M5",
+      "required_capability": "闭环供给高纯前驱体、反应器、过滤件及纯度分析设备",
+      "current_capability": "已核验关联资料：WACKER2025新半导体级多晶硅产线已供货，称复杂自动化提高纯度与稳定性，同时扩建增加约150岗位；这不等于无人纯化和设备闭环。 就本项“关键输入自主度”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚需追溯高纯硅、高纯金属和特种材料的提纯与分析系统所有不可替代材料、备件和服务的来源，证明机器体系可持续自供且不靠预存库存。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S05",
+        "D05-S10"
+      ],
+      "human_dependency": "超纯原料与分析设备、洁净维护、工艺人员和能源仍需独立验证。",
+      "validation_needed": "对高纯硅、高纯金属和特种材料的提纯与分析系统做逐项投入产出与库存审计，在不补人类物资条件下覆盖关键耗材更换周期。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.5-M6",
+      "required_capability": "自主保障高耗能提纯工艺及洁净室稳定供能",
+      "current_capability": "已核验关联资料：WACKER2025新半导体级多晶硅产线已供货，称复杂自动化提高纯度与稳定性，同时扩建增加约150岗位；这不等于无人纯化和设备闭环。 就本项“能源自主度”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚未由这些来源建立高纯硅、高纯金属和特种材料的提纯与分析系统可持续净能量和失电自启动闭环；节能、购电或电池库存不等于能源独立。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S05",
+        "D05-S10"
+      ],
+      "human_dependency": "超纯原料与分析设备、洁净维护、工艺人员和能源仍需独立验证。",
+      "validation_needed": "切断高纯硅、高纯金属和特种材料的提纯与分析系统外部能源和人工补料，计量所有能源流并检验黑启动及长期净供能。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.5-M7",
+      "required_capability": "把痕量污染控制和材料工艺知识数字化并自主验证",
+      "current_capability": "A-Lab能以文献、计算和实验反馈优化无机粉体合成，提供材料工艺数字化的局部例子；并非半导体级纯度工艺隐性知识全部被替代。",
+      "gap": "仍需证明高纯硅、高纯金属和特种材料的提纯与分析系统的关键隐性知识可自主取得、校验、更新和跨故障使用，而非持续依靠专家。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D05-S10"
+      ],
+      "human_dependency": "超纯原料与分析设备、洁净维护、工艺人员和能源仍需独立验证。",
+      "validation_needed": "给高纯硅、高纯金属和特种材料的提纯与分析系统新原料/设备或未见故障，禁止专家补充操作知识，要求自主获取并实测验证。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.5-M8",
+      "required_capability": "洁净或提纯设施严重污染毁损后恢复合格材料供应",
+      "current_capability": "已核验关联资料：WACKER2025新半导体级多晶硅产线已供货，称复杂自动化提高纯度与稳定性，同时扩建增加约150岗位；这不等于无人纯化和设备闭环。 就本项“灾难恢复韧性”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚缺高纯硅、高纯金属和特种材料的提纯与分析系统在损毁、长时停供及关键部件失效后的实体重建与无人复产验证，自动切换不能替代重建。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S05",
+        "D05-S10"
+      ],
+      "human_dependency": "超纯原料与分析设备、洁净维护、工艺人员和能源仍需独立验证。",
+      "validation_needed": "模拟高纯硅、高纯金属和特种材料的提纯与分析系统关键节点损毁和通信/能源同时失去，要求无人工恢复最低可用功能并记录时长。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.5-M9",
+      "required_capability": "自主建造调试新的高纯材料生产线并通过纯度认证",
+      "current_capability": "已核验关联资料：WACKER2025新半导体级多晶硅产线已供货，称复杂自动化提高纯度与稳定性，同时扩建增加约150岗位；这不等于无人纯化和设备闭环。 就本项“自主扩容”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚需展示高纯硅、高纯金属和特种材料的提纯与分析系统从设计、供料、制造施工到验收的新增净产能由机器独立完成，不能把人工项目扩建算自主扩容。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S05",
+        "D05-S10"
+      ],
+      "human_dependency": "超纯原料与分析设备、洁净维护、工艺人员和能源仍需独立验证。",
+      "validation_needed": "要求机器体系完成一套新增高纯硅、高纯金属和特种材料的提纯与分析系统的供料、制造施工、调试和容量验收，核算外部投入。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.5-M10",
+      "required_capability": "复制含上游原料、提纯、检测和设备保障的高纯材料闭环",
+      "current_capability": "已核验关联资料：WACKER2025新半导体级多晶硅产线已供货，称复杂自动化提高纯度与稳定性，同时扩建增加约150岗位；这不等于无人纯化和设备闭环。 就本项“复制闭环”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "未建立高纯硅、高纯金属和特种材料的提纯与分析系统可复制同等功能后代并持续维持所需材料、能源、设备和维修链的整系统证据。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S05",
+        "D05-S10"
+      ],
+      "human_dependency": "超纯原料与分析设备、洁净维护、工艺人员和能源仍需独立验证。",
+      "validation_needed": "追踪高纯硅、高纯金属和特种材料的提纯与分析系统的完整后代系统从原料到运行验收及至少关键更换周期，审计能力等价和外部依赖。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.6-M1",
+      "required_capability": "无人按机器工业需求稳定制备合格酸碱溶剂和工业气体",
+      "current_capability": "横河2026文章记述特定合成橡胶原料装置35天自主控制及后续采用，Fadhili气体脱酸也由AI直接控制；不涵盖全部基础化工。",
+      "gap": "需要把受限任务自动化扩展为酸碱、溶剂、工业气体等基础化学品生产系统在明确时间、负荷和异常范围内无人连续运行，披露所有人工接管。",
+      "assessment_status": "demonstrated_limited",
+      "evidence_relation": "direct_metric",
+      "source_ids": [
+        "D05-S06",
+        "D04-S07"
+      ],
+      "human_dependency": "工艺设计、安全系统、维修人员与外部原料催化剂仍是未闭环的支撑。",
+      "validation_needed": "以无人按机器工业需求稳定制备合格酸碱溶剂和工业气体为成功条件开展跨完整生产/资源周期的HR0运行，记录所有接管和停机。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "5.6-M2",
+      "required_capability": "检测反应偏离、泄漏、组分异常和分离单元退化",
+      "current_capability": "已核验关联资料：横河2026回顾披露特定合成橡胶原料装置曾连续35天自主控制且后续正式采用；气体脱酸亦有多智能体控制，均是受限工艺控制。 就本项“故障发现”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚需证明对酸碱、溶剂、工业气体等基础化学品生产系统的已知及未知异常有足够覆盖、误报漏报率和安全响应，而非只有传感或监控界面。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S06",
+        "D04-S07"
+      ],
+      "human_dependency": "工艺设计、安全系统、维修人员与外部原料催化剂仍是未闭环的支撑。",
+      "validation_needed": "对酸碱、溶剂、工业气体等基础化学品生产系统注入代表性退化与突发故障，盲测检出延迟、漏报率及误报率。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.6-M3",
+      "required_capability": "诊断催化剂失活、原料波动和仪表偏差等工艺根因",
+      "current_capability": "已核验关联资料：横河2026回顾披露特定合成橡胶原料装置曾连续35天自主控制且后续正式采用；气体脱酸亦有多智能体控制，均是受限工艺控制。 就本项“自主诊断”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚缺酸碱、溶剂、工业气体等基础化学品生产系统在新故障下的根因定位、可执行处置和修复后验证的闭环证据。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S06",
+        "D04-S07"
+      ],
+      "human_dependency": "工艺设计、安全系统、维修人员与外部原料催化剂仍是未闭环的支撑。",
+      "validation_needed": "隐藏故障原因对酸碱、溶剂、工业气体等基础化学品生产系统进行跨型号诊断试验，验证根因和处置方案而非仅文本解释。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.6-M4",
+      "required_capability": "自主清洗更换反应器、管路、催化剂和关键泵阀",
+      "current_capability": "已核验关联资料：横河2026回顾披露特定合成橡胶原料装置曾连续35天自主控制且后续正式采用；气体脱酸亦有多智能体控制，均是受限工艺控制。 就本项“自主维修”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "关键差距是酸碱、溶剂、工业气体等基础化学品生产系统从检测到实际机械/电气修复与复验均不需人工，而非遥控维修或建议。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S06",
+        "D04-S07"
+      ],
+      "human_dependency": "工艺设计、安全系统、维修人员与外部原料催化剂仍是未闭环的支撑。",
+      "validation_needed": "使酸碱、溶剂、工业气体等基础化学品生产系统出现真实可控故障，要求机器人自取工具备件、维修、复验和恢复额定任务。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.6-M5",
+      "required_capability": "闭环供给元素原料、催化剂、耐腐蚀材料和化工设备",
+      "current_capability": "已核验关联资料：横河2026回顾披露特定合成橡胶原料装置曾连续35天自主控制且后续正式采用；气体脱酸亦有多智能体控制，均是受限工艺控制。 就本项“关键输入自主度”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚需追溯酸碱、溶剂、工业气体等基础化学品生产系统所有不可替代材料、备件和服务的来源，证明机器体系可持续自供且不靠预存库存。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S06",
+        "D04-S07"
+      ],
+      "human_dependency": "工艺设计、安全系统、维修人员与外部原料催化剂仍是未闭环的支撑。",
+      "validation_needed": "对酸碱、溶剂、工业气体等基础化学品生产系统做逐项投入产出与库存审计，在不补人类物资条件下覆盖关键耗材更换周期。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.6-M6",
+      "required_capability": "持续获得反应热、电解电力和公用工程能源并能重启",
+      "current_capability": "已核验关联资料：横河2026回顾披露特定合成橡胶原料装置曾连续35天自主控制且后续正式采用；气体脱酸亦有多智能体控制，均是受限工艺控制。 就本项“能源自主度”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚未由这些来源建立酸碱、溶剂、工业气体等基础化学品生产系统可持续净能量和失电自启动闭环；节能、购电或电池库存不等于能源独立。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S06",
+        "D04-S07"
+      ],
+      "human_dependency": "工艺设计、安全系统、维修人员与外部原料催化剂仍是未闭环的支撑。",
+      "validation_needed": "切断酸碱、溶剂、工业气体等基础化学品生产系统外部能源和人工补料，计量所有能源流并检验黑启动及长期净供能。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.6-M7",
+      "required_capability": "自主形成验证反应配方、危险边界及过程优化知识",
+      "current_capability": "横河以人类建立的工厂模型、历史数据与强化学习训练控制策略；可减少阀门操作，但未验证无专家维护的新反应路线知识闭环。",
+      "gap": "仍需证明酸碱、溶剂、工业气体等基础化学品生产系统的关键隐性知识可自主取得、校验、更新和跨故障使用，而非持续依靠专家。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D05-S06"
+      ],
+      "human_dependency": "工艺设计、安全系统、维修人员与外部原料催化剂仍是未闭环的支撑。",
+      "validation_needed": "给酸碱、溶剂、工业气体等基础化学品生产系统新原料/设备或未见故障，禁止专家补充操作知识，要求自主获取并实测验证。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.6-M8",
+      "required_capability": "装置事故停机后隔离污染并恢复最低关键化学品供给",
+      "current_capability": "已核验关联资料：横河2026回顾披露特定合成橡胶原料装置曾连续35天自主控制且后续正式采用；气体脱酸亦有多智能体控制，均是受限工艺控制。 就本项“灾难恢复韧性”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚缺酸碱、溶剂、工业气体等基础化学品生产系统在损毁、长时停供及关键部件失效后的实体重建与无人复产验证，自动切换不能替代重建。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S06",
+        "D04-S07"
+      ],
+      "human_dependency": "工艺设计、安全系统、维修人员与外部原料催化剂仍是未闭环的支撑。",
+      "validation_needed": "模拟酸碱、溶剂、工业气体等基础化学品生产系统关键节点损毁和通信/能源同时失去，要求无人工恢复最低可用功能并记录时长。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.6-M9",
+      "required_capability": "自主设计建设调试新增基础化工产能",
+      "current_capability": "已核验关联资料：横河2026回顾披露特定合成橡胶原料装置曾连续35天自主控制且后续正式采用；气体脱酸亦有多智能体控制，均是受限工艺控制。 就本项“自主扩容”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚需展示酸碱、溶剂、工业气体等基础化学品生产系统从设计、供料、制造施工到验收的新增净产能由机器独立完成，不能把人工项目扩建算自主扩容。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S06",
+        "D04-S07"
+      ],
+      "human_dependency": "工艺设计、安全系统、维修人员与外部原料催化剂仍是未闭环的支撑。",
+      "validation_needed": "要求机器体系完成一套新增酸碱、溶剂、工业气体等基础化学品生产系统的供料、制造施工、调试和容量验收，核算外部投入。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.6-M10",
+      "required_capability": "复制能供应并维护自身的基础化工原料—设备完整链",
+      "current_capability": "已核验关联资料：横河2026回顾披露特定合成橡胶原料装置曾连续35天自主控制且后续正式采用；气体脱酸亦有多智能体控制，均是受限工艺控制。 就本项“复制闭环”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "未建立酸碱、溶剂、工业气体等基础化学品生产系统可复制同等功能后代并持续维持所需材料、能源、设备和维修链的整系统证据。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S06",
+        "D04-S07"
+      ],
+      "human_dependency": "工艺设计、安全系统、维修人员与外部原料催化剂仍是未闭环的支撑。",
+      "validation_needed": "追踪酸碱、溶剂、工业气体等基础化学品生产系统的完整后代系统从原料到运行验收及至少关键更换周期，审计能力等价和外部依赖。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.7-M1",
+      "required_capability": "无人生产选定芯片工艺所需电子化学品并达到批间一致性",
+      "current_capability": "已核验关联资料：已核验材料表明高纯硅制造自动化与特定无机粉体/聚合物实验闭环存在；本轮未取得光刻胶、电子特气整链无人生产的直接验证。 就本项“无人运行”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "需要把受限任务自动化扩展为光刻胶、特种气体和超纯电子试剂的制造纯化包装在明确时间、负荷和异常范围内无人连续运行，披露所有人工接管。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S05",
+        "D05-S10",
+        "D05-S07"
+      ],
+      "human_dependency": "关键精细配方、超净材料、纯化仪器及下游验收仍需验证其人类依赖。",
+      "validation_needed": "以无人生产选定芯片工艺所需电子化学品并达到批间一致性为成功条件开展跨完整生产/资源周期的HR0运行，记录所有接管和停机。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.7-M2",
+      "required_capability": "自动发现配方漂移、金属离子污染和包装密封失效",
+      "current_capability": "已核验关联资料：已核验材料表明高纯硅制造自动化与特定无机粉体/聚合物实验闭环存在；本轮未取得光刻胶、电子特气整链无人生产的直接验证。 就本项“故障发现”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚需证明对光刻胶、特种气体和超纯电子试剂的制造纯化包装的已知及未知异常有足够覆盖、误报漏报率和安全响应，而非只有传感或监控界面。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S05",
+        "D05-S10",
+        "D05-S07"
+      ],
+      "human_dependency": "关键精细配方、超净材料、纯化仪器及下游验收仍需验证其人类依赖。",
+      "validation_needed": "对光刻胶、特种气体和超纯电子试剂的制造纯化包装注入代表性退化与突发故障，盲测检出延迟、漏报率及误报率。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.7-M3",
+      "required_capability": "区分合成副反应、纯化不足和容器污染导致的产品失效",
+      "current_capability": "已核验关联资料：已核验材料表明高纯硅制造自动化与特定无机粉体/聚合物实验闭环存在；本轮未取得光刻胶、电子特气整链无人生产的直接验证。 就本项“自主诊断”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚缺光刻胶、特种气体和超纯电子试剂的制造纯化包装在新故障下的根因定位、可执行处置和修复后验证的闭环证据。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S05",
+        "D05-S10",
+        "D05-S07"
+      ],
+      "human_dependency": "关键精细配方、超净材料、纯化仪器及下游验收仍需验证其人类依赖。",
+      "validation_needed": "隐藏故障原因对光刻胶、特种气体和超纯电子试剂的制造纯化包装进行跨型号诊断试验，验证根因和处置方案而非仅文本解释。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.7-M4",
+      "required_capability": "自主修复超纯输送、过滤和精细反应设备并验证洁净度",
+      "current_capability": "已核验关联资料：已核验材料表明高纯硅制造自动化与特定无机粉体/聚合物实验闭环存在；本轮未取得光刻胶、电子特气整链无人生产的直接验证。 就本项“自主维修”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "关键差距是光刻胶、特种气体和超纯电子试剂的制造纯化包装从检测到实际机械/电气修复与复验均不需人工，而非遥控维修或建议。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S05",
+        "D05-S10",
+        "D05-S07"
+      ],
+      "human_dependency": "关键精细配方、超净材料、纯化仪器及下游验收仍需验证其人类依赖。",
+      "validation_needed": "使光刻胶、特种气体和超纯电子试剂的制造纯化包装出现真实可控故障，要求机器人自取工具备件、维修、复验和恢复额定任务。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.7-M5",
+      "required_capability": "闭环供给电子级前驱体、催化剂、超净容器和精密分析耗材",
+      "current_capability": "已核验关联资料：已核验材料表明高纯硅制造自动化与特定无机粉体/聚合物实验闭环存在；本轮未取得光刻胶、电子特气整链无人生产的直接验证。 就本项“关键输入自主度”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚需追溯光刻胶、特种气体和超纯电子试剂的制造纯化包装所有不可替代材料、备件和服务的来源，证明机器体系可持续自供且不靠预存库存。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S05",
+        "D05-S10",
+        "D05-S07"
+      ],
+      "human_dependency": "关键精细配方、超净材料、纯化仪器及下游验收仍需验证其人类依赖。",
+      "validation_needed": "对光刻胶、特种气体和超纯电子试剂的制造纯化包装做逐项投入产出与库存审计，在不补人类物资条件下覆盖关键耗材更换周期。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.7-M6",
+      "required_capability": "独立保障精细化学合成、纯化与恒温洁净环境能源",
+      "current_capability": "已核验关联资料：已核验材料表明高纯硅制造自动化与特定无机粉体/聚合物实验闭环存在；本轮未取得光刻胶、电子特气整链无人生产的直接验证。 就本项“能源自主度”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚未由这些来源建立光刻胶、特种气体和超纯电子试剂的制造纯化包装可持续净能量和失电自启动闭环；节能、购电或电池库存不等于能源独立。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S05",
+        "D05-S10",
+        "D05-S07"
+      ],
+      "human_dependency": "关键精细配方、超净材料、纯化仪器及下游验收仍需验证其人类依赖。",
+      "validation_needed": "切断光刻胶、特种气体和超纯电子试剂的制造纯化包装外部能源和人工补料，计量所有能源流并检验黑启动及长期净供能。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.7-M7",
+      "required_capability": "自主掌握并验证配方、杂质控制及与下游工艺的兼容知识",
+      "current_capability": "已核验关联资料：已核验材料表明高纯硅制造自动化与特定无机粉体/聚合物实验闭环存在；本轮未取得光刻胶、电子特气整链无人生产的直接验证。 就本项“知识信息自主度”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "仍需证明光刻胶、特种气体和超纯电子试剂的制造纯化包装的关键隐性知识可自主取得、校验、更新和跨故障使用，而非持续依靠专家。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S05",
+        "D05-S10",
+        "D05-S07"
+      ],
+      "human_dependency": "关键精细配方、超净材料、纯化仪器及下游验收仍需验证其人类依赖。",
+      "validation_needed": "给光刻胶、特种气体和超纯电子试剂的制造纯化包装新原料/设备或未见故障，禁止专家补充操作知识，要求自主获取并实测验证。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.7-M8",
+      "required_capability": "污染批次或生产设施故障后恢复关键电子化学品供应",
+      "current_capability": "已核验关联资料：已核验材料表明高纯硅制造自动化与特定无机粉体/聚合物实验闭环存在；本轮未取得光刻胶、电子特气整链无人生产的直接验证。 就本项“灾难恢复韧性”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚缺光刻胶、特种气体和超纯电子试剂的制造纯化包装在损毁、长时停供及关键部件失效后的实体重建与无人复产验证，自动切换不能替代重建。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S05",
+        "D05-S10",
+        "D05-S07"
+      ],
+      "human_dependency": "关键精细配方、超净材料、纯化仪器及下游验收仍需验证其人类依赖。",
+      "validation_needed": "模拟光刻胶、特种气体和超纯电子试剂的制造纯化包装关键节点损毁和通信/能源同时失去，要求无人工恢复最低可用功能并记录时长。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.7-M9",
+      "required_capability": "自主扩建并验证达到电子级规格的合成纯化和灌装产线",
+      "current_capability": "已核验关联资料：已核验材料表明高纯硅制造自动化与特定无机粉体/聚合物实验闭环存在；本轮未取得光刻胶、电子特气整链无人生产的直接验证。 就本项“自主扩容”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚需展示光刻胶、特种气体和超纯电子试剂的制造纯化包装从设计、供料、制造施工到验收的新增净产能由机器独立完成，不能把人工项目扩建算自主扩容。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S05",
+        "D05-S10",
+        "D05-S07"
+      ],
+      "human_dependency": "关键精细配方、超净材料、纯化仪器及下游验收仍需验证其人类依赖。",
+      "validation_needed": "要求机器体系完成一套新增光刻胶、特种气体和超纯电子试剂的制造纯化包装的供料、制造施工、调试和容量验收，核算外部投入。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.7-M10",
+      "required_capability": "复制含化学前驱体、洁净设备及质量验证的电子化学品体系",
+      "current_capability": "已核验关联资料：已核验材料表明高纯硅制造自动化与特定无机粉体/聚合物实验闭环存在；本轮未取得光刻胶、电子特气整链无人生产的直接验证。 就本项“复制闭环”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "未建立光刻胶、特种气体和超纯电子试剂的制造纯化包装可复制同等功能后代并持续维持所需材料、能源、设备和维修链的整系统证据。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S05",
+        "D05-S10",
+        "D05-S07"
+      ],
+      "human_dependency": "关键精细配方、超净材料、纯化仪器及下游验收仍需验证其人类依赖。",
+      "validation_needed": "追踪光刻胶、特种气体和超纯电子试剂的制造纯化包装的完整后代系统从原料到运行验收及至少关键更换周期，审计能力等价和外部依赖。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.8-M1",
+      "required_capability": "无人设计并执行所需聚合物或复合材料制备以满足工程性能",
+      "current_capability": "Argonne2026介绍Polybot完成电致变色聚合物AI决策与模块化闭环合成；仅证明特定实验室材料流程，不是所有工程塑料和复材量产。",
+      "gap": "需要把受限任务自动化扩展为塑料、橡胶、树脂及复合材料的合成成形系统在明确时间、负荷和异常范围内无人连续运行，披露所有人工接管。",
+      "assessment_status": "demonstrated_limited",
+      "evidence_relation": "direct_metric",
+      "source_ids": [
+        "D05-S07"
+      ],
+      "human_dependency": "实验试剂、硬件及工业级原料设备供应和维护尚未显示可完全无人。",
+      "validation_needed": "以无人设计并执行所需聚合物或复合材料制备以满足工程性能为成功条件开展跨完整生产/资源周期的HR0运行，记录所有接管和停机。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "5.8-M2",
+      "required_capability": "检测聚合反应异常、分子量偏差和复合材料缺陷",
+      "current_capability": "已核验关联资料：Argonne2026介绍Polybot以AI和机器人形成电致变色聚合物设计合成闭环；横河报道合成橡胶原料装置工艺控制，未覆盖所有工程聚合物和复材。 就本项“故障发现”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚需证明对塑料、橡胶、树脂及复合材料的合成成形系统的已知及未知异常有足够覆盖、误报漏报率和安全响应，而非只有传感或监控界面。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S07",
+        "D05-S06"
+      ],
+      "human_dependency": "实验试剂、硬件及工业级原料设备供应和维护尚未显示可完全无人。",
+      "validation_needed": "对塑料、橡胶、树脂及复合材料的合成成形系统注入代表性退化与突发故障，盲测检出延迟、漏报率及误报率。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.8-M3",
+      "required_capability": "诊断催化体系、温度历史或配比造成的性能不达标",
+      "current_capability": "已核验关联资料：Argonne2026介绍Polybot以AI和机器人形成电致变色聚合物设计合成闭环；横河报道合成橡胶原料装置工艺控制，未覆盖所有工程聚合物和复材。 就本项“自主诊断”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚缺塑料、橡胶、树脂及复合材料的合成成形系统在新故障下的根因定位、可执行处置和修复后验证的闭环证据。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S07",
+        "D05-S06"
+      ],
+      "human_dependency": "实验试剂、硬件及工业级原料设备供应和维护尚未显示可完全无人。",
+      "validation_needed": "隐藏故障原因对塑料、橡胶、树脂及复合材料的合成成形系统进行跨型号诊断试验，验证根因和处置方案而非仅文本解释。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.8-M4",
+      "required_capability": "自主处理反应釜结垢、模具和混合设备故障并恢复生产",
+      "current_capability": "已核验关联资料：Argonne2026介绍Polybot以AI和机器人形成电致变色聚合物设计合成闭环；横河报道合成橡胶原料装置工艺控制，未覆盖所有工程聚合物和复材。 就本项“自主维修”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "关键差距是塑料、橡胶、树脂及复合材料的合成成形系统从检测到实际机械/电气修复与复验均不需人工，而非遥控维修或建议。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S07",
+        "D05-S06"
+      ],
+      "human_dependency": "实验试剂、硬件及工业级原料设备供应和维护尚未显示可完全无人。",
+      "validation_needed": "使塑料、橡胶、树脂及复合材料的合成成形系统出现真实可控故障，要求机器人自取工具备件、维修、复验和恢复额定任务。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.8-M5",
+      "required_capability": "闭环供给单体、催化剂、纤维、助剂和耐化学设备",
+      "current_capability": "已核验关联资料：Argonne2026介绍Polybot以AI和机器人形成电致变色聚合物设计合成闭环；横河报道合成橡胶原料装置工艺控制，未覆盖所有工程聚合物和复材。 就本项“关键输入自主度”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚需追溯塑料、橡胶、树脂及复合材料的合成成形系统所有不可替代材料、备件和服务的来源，证明机器体系可持续自供且不靠预存库存。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S07",
+        "D05-S06"
+      ],
+      "human_dependency": "实验试剂、硬件及工业级原料设备供应和维护尚未显示可完全无人。",
+      "validation_needed": "对塑料、橡胶、树脂及复合材料的合成成形系统做逐项投入产出与库存审计，在不补人类物资条件下覆盖关键耗材更换周期。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.8-M6",
+      "required_capability": "保障反应热、温控及成形用能的持续供给和重启",
+      "current_capability": "已核验关联资料：Argonne2026介绍Polybot以AI和机器人形成电致变色聚合物设计合成闭环；横河报道合成橡胶原料装置工艺控制，未覆盖所有工程聚合物和复材。 就本项“能源自主度”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚未由这些来源建立塑料、橡胶、树脂及复合材料的合成成形系统可持续净能量和失电自启动闭环；节能、购电或电池库存不等于能源独立。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S07",
+        "D05-S06"
+      ],
+      "human_dependency": "实验试剂、硬件及工业级原料设备供应和维护尚未显示可完全无人。",
+      "validation_needed": "切断塑料、橡胶、树脂及复合材料的合成成形系统外部能源和人工补料，计量所有能源流并检验黑启动及长期净供能。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.8-M7",
+      "required_capability": "自主寻找并验证新配方与加工窗口，保留可追溯材料知识",
+      "current_capability": "Polybot把文献物理模型和自主实验反馈结合用于聚合物逆向设计，具备局部知识更新；试剂制备、设备维护及所有工艺知识独立未验证。",
+      "gap": "仍需证明塑料、橡胶、树脂及复合材料的合成成形系统的关键隐性知识可自主取得、校验、更新和跨故障使用，而非持续依靠专家。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D05-S07"
+      ],
+      "human_dependency": "实验试剂、硬件及工业级原料设备供应和维护尚未显示可完全无人。",
+      "validation_needed": "给塑料、橡胶、树脂及复合材料的合成成形系统新原料/设备或未见故障，禁止专家补充操作知识，要求自主获取并实测验证。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.8-M8",
+      "required_capability": "聚合或复材设施毁损后恢复关键密封绝缘结构材料供应",
+      "current_capability": "已核验关联资料：Argonne2026介绍Polybot以AI和机器人形成电致变色聚合物设计合成闭环；横河报道合成橡胶原料装置工艺控制，未覆盖所有工程聚合物和复材。 就本项“灾难恢复韧性”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚缺塑料、橡胶、树脂及复合材料的合成成形系统在损毁、长时停供及关键部件失效后的实体重建与无人复产验证，自动切换不能替代重建。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S07",
+        "D05-S06"
+      ],
+      "human_dependency": "实验试剂、硬件及工业级原料设备供应和维护尚未显示可完全无人。",
+      "validation_needed": "模拟塑料、橡胶、树脂及复合材料的合成成形系统关键节点损毁和通信/能源同时失去，要求无人工恢复最低可用功能并记录时长。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.8-M9",
+      "required_capability": "自主扩大合成与成形产能并维持性能一致性",
+      "current_capability": "已核验关联资料：Argonne2026介绍Polybot以AI和机器人形成电致变色聚合物设计合成闭环；横河报道合成橡胶原料装置工艺控制，未覆盖所有工程聚合物和复材。 就本项“自主扩容”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚需展示塑料、橡胶、树脂及复合材料的合成成形系统从设计、供料、制造施工到验收的新增净产能由机器独立完成，不能把人工项目扩建算自主扩容。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S07",
+        "D05-S06"
+      ],
+      "human_dependency": "实验试剂、硬件及工业级原料设备供应和维护尚未显示可完全无人。",
+      "validation_needed": "要求机器体系完成一套新增塑料、橡胶、树脂及复合材料的合成成形系统的供料、制造施工、调试和容量验收，核算外部投入。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.8-M10",
+      "required_capability": "复制含单体到成品与设备保障的聚合物复材完整生产体系",
+      "current_capability": "已核验关联资料：Argonne2026介绍Polybot以AI和机器人形成电致变色聚合物设计合成闭环；横河报道合成橡胶原料装置工艺控制，未覆盖所有工程聚合物和复材。 就本项“复制闭环”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "未建立塑料、橡胶、树脂及复合材料的合成成形系统可复制同等功能后代并持续维持所需材料、能源、设备和维修链的整系统证据。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S07",
+        "D05-S06"
+      ],
+      "human_dependency": "实验试剂、硬件及工业级原料设备供应和维护尚未显示可完全无人。",
+      "validation_needed": "追踪塑料、橡胶、树脂及复合材料的合成成形系统的完整后代系统从原料到运行验收及至少关键更换周期，审计能力等价和外部依赖。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.9-M1",
+      "required_capability": "无人按工业水质与流量需求完成取水净化及冷却润滑供给",
+      "current_capability": "Hubgrade数字孪生用实时数据和算法向PLC提供优化设定值，可辅助连续水处理；其整体服务明确结合Veolia员工和专家。",
+      "gap": "需要把受限任务自动化扩展为取水、净化、循环冷却、工业流体与润滑供应系统在明确时间、负荷和异常范围内无人连续运行，披露所有人工接管。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D05-S08"
+      ],
+      "human_dependency": "远程专家、运行团队、耗材与泵膜维修仍是明确或需排除的人工支撑。",
+      "validation_needed": "以无人按工业水质与流量需求完成取水净化及冷却润滑供给为成功条件开展跨完整生产/资源周期的HR0运行，记录所有接管和停机。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.9-M2",
+      "required_capability": "检测膜污染、泄漏、腐蚀、水质和流体性能退化",
+      "current_capability": "Hubgrade Smart Membranes用于预判膜污染和非计划停机，属于水处理状态预测；本来源没有证明全部水质与泄漏自主检测。",
+      "gap": "尚需证明对取水、净化、循环冷却、工业流体与润滑供应系统的已知及未知异常有足够覆盖、误报漏报率和安全响应，而非只有传感或监控界面。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D05-S08"
+      ],
+      "human_dependency": "远程专家、运行团队、耗材与泵膜维修仍是明确或需排除的人工支撑。",
+      "validation_needed": "对取水、净化、循环冷却、工业流体与润滑供应系统注入代表性退化与突发故障，盲测检出延迟、漏报率及误报率。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.9-M3",
+      "required_capability": "确定生物污染、结垢、泵故障或原水变化导致的异常",
+      "current_capability": "Hubgrade提供实时监测、告警及漂移问题处理，但服务由专家支持；不能把人机联合诊断记为全自主根因定位。",
+      "gap": "尚缺取水、净化、循环冷却、工业流体与润滑供应系统在新故障下的根因定位、可执行处置和修复后验证的闭环证据。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D05-S08"
+      ],
+      "human_dependency": "远程专家、运行团队、耗材与泵膜维修仍是明确或需排除的人工支撑。",
+      "validation_needed": "隐藏故障原因对取水、净化、循环冷却、工业流体与润滑供应系统进行跨型号诊断试验，验证根因和处置方案而非仅文本解释。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.9-M4",
+      "required_capability": "自主更换膜滤芯、修复泵管并重新达到流体质量要求",
+      "current_capability": "已核验关联资料：Veolia Hubgrade通过数字孪生、预测和设定值优化帮助水处理运行，页面明确结合员工与专家服务；不证明膜和药剂无人自产。 就本项“自主维修”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "关键差距是取水、净化、循环冷却、工业流体与润滑供应系统从检测到实际机械/电气修复与复验均不需人工，而非遥控维修或建议。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S08"
+      ],
+      "human_dependency": "远程专家、运行团队、耗材与泵膜维修仍是明确或需排除的人工支撑。",
+      "validation_needed": "使取水、净化、循环冷却、工业流体与润滑供应系统出现真实可控故障，要求机器人自取工具备件、维修、复验和恢复额定任务。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.9-M5",
+      "required_capability": "闭环提供膜、药剂、润滑基础油、添加剂及泵阀设备",
+      "current_capability": "已核验关联资料：Veolia Hubgrade通过数字孪生、预测和设定值优化帮助水处理运行，页面明确结合员工与专家服务；不证明膜和药剂无人自产。 就本项“关键输入自主度”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚需追溯取水、净化、循环冷却、工业流体与润滑供应系统所有不可替代材料、备件和服务的来源，证明机器体系可持续自供且不靠预存库存。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S08"
+      ],
+      "human_dependency": "远程专家、运行团队、耗材与泵膜维修仍是明确或需排除的人工支撑。",
+      "validation_needed": "对取水、净化、循环冷却、工业流体与润滑供应系统做逐项投入产出与库存审计，在不补人类物资条件下覆盖关键耗材更换周期。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.9-M6",
+      "required_capability": "独立保障取水、制水和冷却循环的能源及停电恢复",
+      "current_capability": "已核验关联资料：Veolia Hubgrade通过数字孪生、预测和设定值优化帮助水处理运行，页面明确结合员工与专家服务；不证明膜和药剂无人自产。 就本项“能源自主度”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚未由这些来源建立取水、净化、循环冷却、工业流体与润滑供应系统可持续净能量和失电自启动闭环；节能、购电或电池库存不等于能源独立。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S08"
+      ],
+      "human_dependency": "远程专家、运行团队、耗材与泵膜维修仍是明确或需排除的人工支撑。",
+      "validation_needed": "切断取水、净化、循环冷却、工业流体与润滑供应系统外部能源和人工补料，计量所有能源流并检验黑启动及长期净供能。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.9-M7",
+      "required_capability": "自主维护水处理模型与流体配方并验证适应新水源",
+      "current_capability": "Hubgrade的数字孪生和过程算法保存一部分水处理知识，官方定义仍以员工专业能力与数字工具结合为核心。",
+      "gap": "仍需证明取水、净化、循环冷却、工业流体与润滑供应系统的关键隐性知识可自主取得、校验、更新和跨故障使用，而非持续依靠专家。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D05-S08"
+      ],
+      "human_dependency": "远程专家、运行团队、耗材与泵膜维修仍是明确或需排除的人工支撑。",
+      "validation_needed": "给取水、净化、循环冷却、工业流体与润滑供应系统新原料/设备或未见故障，禁止专家补充操作知识，要求自主获取并实测验证。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.9-M8",
+      "required_capability": "水源污染或处理站毁损后恢复最低工业流体供应",
+      "current_capability": "已核验关联资料：Veolia Hubgrade通过数字孪生、预测和设定值优化帮助水处理运行，页面明确结合员工与专家服务；不证明膜和药剂无人自产。 就本项“灾难恢复韧性”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚缺取水、净化、循环冷却、工业流体与润滑供应系统在损毁、长时停供及关键部件失效后的实体重建与无人复产验证，自动切换不能替代重建。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S08"
+      ],
+      "human_dependency": "远程专家、运行团队、耗材与泵膜维修仍是明确或需排除的人工支撑。",
+      "validation_needed": "模拟取水、净化、循环冷却、工业流体与润滑供应系统关键节点损毁和通信/能源同时失去，要求无人工恢复最低可用功能并记录时长。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.9-M9",
+      "required_capability": "自主新增水处理与循环冷却能力支持工业规模增长",
+      "current_capability": "已核验关联资料：Veolia Hubgrade通过数字孪生、预测和设定值优化帮助水处理运行，页面明确结合员工与专家服务；不证明膜和药剂无人自产。 就本项“自主扩容”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚需展示取水、净化、循环冷却、工业流体与润滑供应系统从设计、供料、制造施工到验收的新增净产能由机器独立完成，不能把人工项目扩建算自主扩容。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S08"
+      ],
+      "human_dependency": "远程专家、运行团队、耗材与泵膜维修仍是明确或需排除的人工支撑。",
+      "validation_needed": "要求机器体系完成一套新增取水、净化、循环冷却、工业流体与润滑供应系统的供料、制造施工、调试和容量验收，核算外部投入。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.9-M10",
+      "required_capability": "复制含水源、流体制备、维护与耗材供应的完整系统",
+      "current_capability": "已核验关联资料：Veolia Hubgrade通过数字孪生、预测和设定值优化帮助水处理运行，页面明确结合员工与专家服务；不证明膜和药剂无人自产。 就本项“复制闭环”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "未建立取水、净化、循环冷却、工业流体与润滑供应系统可复制同等功能后代并持续维持所需材料、能源、设备和维修链的整系统证据。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S08"
+      ],
+      "human_dependency": "远程专家、运行团队、耗材与泵膜维修仍是明确或需排除的人工支撑。",
+      "validation_needed": "追踪取水、净化、循环冷却、工业流体与润滑供应系统的完整后代系统从原料到运行验收及至少关键更换周期，审计能力等价和外部依赖。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.10-M1",
+      "required_capability": "无人识别分类拆解并回收机器工业废物中的可用材料",
+      "current_capability": "ORNL演示机器人从电池包移除螺栓和外壳并拆成部件；该工序自动化不等于废物收集、所有材料分离及再制造无人闭环。",
+      "gap": "需要把受限任务自动化扩展为金属、电子废物、废化学品和电池的回收再利用链在明确时间、负荷和异常范围内无人连续运行，披露所有人工接管。",
+      "assessment_status": "demonstrated_limited",
+      "evidence_relation": "direct_metric",
+      "source_ids": [
+        "D05-S09"
+      ],
+      "human_dependency": "人工工艺开发、设备维护、回收药剂和纯化环节仍有外部依赖或缺少直接验证。",
+      "validation_needed": "以无人识别分类拆解并回收机器工业废物中的可用材料为成功条件开展跨完整生产/资源周期的HR0运行，记录所有接管和停机。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "5.10-M2",
+      "required_capability": "识别残余电荷、有害组分、污染和回收设备异常",
+      "current_capability": "BRACE研究电池多层级诊断与机器视觉，为安全拆解识别状态提供工具；缺少多种废物流全部危险组分的长期检测验证。",
+      "gap": "实验室装备和研究方向未提供本条要求的自主危险识别与故障检出结果。 尚缺“识别残余电荷、有害组分、污染和回收设备异常”在声明系统边界内由机器自主完成的直接验证。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S13"
+      ],
+      "human_dependency": "人工工艺开发、设备维护、回收药剂和纯化环节仍有外部依赖或缺少直接验证。",
+      "validation_needed": "对金属、电子废物、废化学品和电池的回收再利用链注入代表性退化与突发故障，盲测检出延迟、漏报率及误报率。",
+      "confidence": "Low",
+      "review_note": "独立语义复核：实验室装备和研究方向未提供本条要求的自主危险识别与故障检出结果。"
+    },
+    {
+      "dimension_id": "5.10-M3",
+      "required_capability": "诊断拆解受阻、材料品质下降与回收率损失的根因",
+      "current_capability": "已核验关联资料：ORNL演示EV电池机器人拆解，并持续研究诊断、机器视觉与连接件拆除；历史方法先人工拆解采数，尚非所有材料再精炼和再制造的全闭环。 就本项“自主诊断”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚缺金属、电子废物、废化学品和电池的回收再利用链在新故障下的根因定位、可执行处置和修复后验证的闭环证据。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S09",
+        "D05-S13"
+      ],
+      "human_dependency": "人工工艺开发、设备维护、回收药剂和纯化环节仍有外部依赖或缺少直接验证。",
+      "validation_needed": "隐藏故障原因对金属、电子废物、废化学品和电池的回收再利用链进行跨型号诊断试验，验证根因和处置方案而非仅文本解释。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.10-M4",
+      "required_capability": "自行维护拆解机器人、分选设备和回收反应装置",
+      "current_capability": "已核验关联资料：ORNL演示EV电池机器人拆解，并持续研究诊断、机器视觉与连接件拆除；历史方法先人工拆解采数，尚非所有材料再精炼和再制造的全闭环。 就本项“自主维修”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "关键差距是金属、电子废物、废化学品和电池的回收再利用链从检测到实际机械/电气修复与复验均不需人工，而非遥控维修或建议。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S09",
+        "D05-S13"
+      ],
+      "human_dependency": "人工工艺开发、设备维护、回收药剂和纯化环节仍有外部依赖或缺少直接验证。",
+      "validation_needed": "使金属、电子废物、废化学品和电池的回收再利用链出现真实可控故障，要求机器人自取工具备件、维修、复验和恢复额定任务。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.10-M5",
+      "required_capability": "回收材料满足再生产所需规格，并闭环提供回收自身耗材",
+      "current_capability": "已核验关联资料：ORNL演示EV电池机器人拆解，并持续研究诊断、机器视觉与连接件拆除；历史方法先人工拆解采数，尚非所有材料再精炼和再制造的全闭环。 就本项“关键输入自主度”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚需追溯金属、电子废物、废化学品和电池的回收再利用链所有不可替代材料、备件和服务的来源，证明机器体系可持续自供且不靠预存库存。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S09",
+        "D05-S13"
+      ],
+      "human_dependency": "人工工艺开发、设备维护、回收药剂和纯化环节仍有外部依赖或缺少直接验证。",
+      "validation_needed": "对金属、电子废物、废化学品和电池的回收再利用链做逐项投入产出与库存审计，在不补人类物资条件下覆盖关键耗材更换周期。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.10-M6",
+      "required_capability": "持续提供拆解分离和再精炼用能，核算全流程能耗",
+      "current_capability": "已核验关联资料：ORNL演示EV电池机器人拆解，并持续研究诊断、机器视觉与连接件拆除；历史方法先人工拆解采数，尚非所有材料再精炼和再制造的全闭环。 就本项“能源自主度”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚未由这些来源建立金属、电子废物、废化学品和电池的回收再利用链可持续净能量和失电自启动闭环；节能、购电或电池库存不等于能源独立。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S09",
+        "D05-S13"
+      ],
+      "human_dependency": "人工工艺开发、设备维护、回收药剂和纯化环节仍有外部依赖或缺少直接验证。",
+      "validation_needed": "切断金属、电子废物、废化学品和电池的回收再利用链外部能源和人工补料，计量所有能源流并检验黑启动及长期净供能。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.10-M7",
+      "required_capability": "自主识别新产品结构和化学组分并验证安全回收工艺",
+      "current_capability": "ORNL2021方法先由人手拆解、采集过程数据，再开发机器人工具控制；当前BRACE扩展视觉和自动拆接，但未证明无需人类工艺开发。",
+      "gap": "仍需证明金属、电子废物、废化学品和电池的回收再利用链的关键隐性知识可自主取得、校验、更新和跨故障使用，而非持续依靠专家。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D05-S09",
+        "D05-S13"
+      ],
+      "human_dependency": "人工工艺开发、设备维护、回收药剂和纯化环节仍有外部依赖或缺少直接验证。",
+      "validation_needed": "给金属、电子废物、废化学品和电池的回收再利用链新原料/设备或未见故障，禁止专家补充操作知识，要求自主获取并实测验证。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.10-M8",
+      "required_capability": "废物流突变或回收设施受损后恢复关键材料回收路径",
+      "current_capability": "已核验关联资料：ORNL演示EV电池机器人拆解，并持续研究诊断、机器视觉与连接件拆除；历史方法先人工拆解采数，尚非所有材料再精炼和再制造的全闭环。 就本项“灾难恢复韧性”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚缺金属、电子废物、废化学品和电池的回收再利用链在损毁、长时停供及关键部件失效后的实体重建与无人复产验证，自动切换不能替代重建。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S09",
+        "D05-S13"
+      ],
+      "human_dependency": "人工工艺开发、设备维护、回收药剂和纯化环节仍有外部依赖或缺少直接验证。",
+      "validation_needed": "模拟金属、电子废物、废化学品和电池的回收再利用链关键节点损毁和通信/能源同时失去，要求无人工恢复最低可用功能并记录时长。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.10-M9",
+      "required_capability": "自主扩建兼容多类废物的回收能力并维持材料质量",
+      "current_capability": "已核验关联资料：ORNL演示EV电池机器人拆解，并持续研究诊断、机器视觉与连接件拆除；历史方法先人工拆解采数，尚非所有材料再精炼和再制造的全闭环。 就本项“自主扩容”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "尚需展示金属、电子废物、废化学品和电池的回收再利用链从设计、供料、制造施工到验收的新增净产能由机器独立完成，不能把人工项目扩建算自主扩容。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S09",
+        "D05-S13"
+      ],
+      "human_dependency": "人工工艺开发、设备维护、回收药剂和纯化环节仍有外部依赖或缺少直接验证。",
+      "validation_needed": "要求机器体系完成一套新增金属、电子废物、废化学品和电池的回收再利用链的供料、制造施工、调试和容量验收，核算外部投入。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "5.10-M10",
+      "required_capability": "证明多代回收—再制造循环可维持关键元素与设备，不靠耗尽外部库存",
+      "current_capability": "已核验关联资料：ORNL演示EV电池机器人拆解，并持续研究诊断、机器视觉与连接件拆除；历史方法先人工拆解采数，尚非所有材料再精炼和再制造的全闭环。 就本项“复制闭环”而言，未取得直接达到该目标的公开验证；不能据此断言该能力在全球不存在。",
+      "gap": "未建立金属、电子废物、废化学品和电池的回收再利用链可复制同等功能后代并持续维持所需材料、能源、设备和维修链的整系统证据。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D05-S09",
+        "D05-S13"
+      ],
+      "human_dependency": "人工工艺开发、设备维护、回收药剂和纯化环节仍有外部依赖或缺少直接验证。",
+      "validation_needed": "追踪金属、电子废物、废化学品和电池的回收再利用链的完整后代系统从原料到运行验收及至少关键更换周期，审计能力等价和外部依赖。",
+      "confidence": "Low"
+    }
+  ],
+  "search_log": [
+    {
+      "query": "NREL autonomous energy grid black start 2025 2026",
+      "retrieved_at": "2026-11-02",
+      "note": "Bing RSS结果主要停留在首词或机构主页、与完整检索式不符；未作为能力证据，随后改用Brave和机构原文导航。"
+    },
+    {
+      "query": "DOE autonomous robotics power line maintenance 2025 2026",
+      "retrieved_at": "2026-11-02",
+      "note": "Bing RSS结果主要停留在首词或机构主页、与完整检索式不符；未作为能力证据，随后改用Brave和机构原文导航。"
+    },
+    {
+      "query": "NREL solar resource forecasting artificial intelligence 2025",
+      "retrieved_at": "2026-11-02",
+      "note": "Bing RSS结果主要停留在首词或机构主页、与完整检索式不符；未作为能力证据，随后改用Brave和机构原文导航。"
+    },
+    {
+      "query": "Rio Tinto autonomous haulage 2025 2026 mining",
+      "retrieved_at": "2026-11-02",
+      "note": "Bing RSS结果主要停留在首词或机构主页、与完整检索式不符；未作为能力证据，随后改用Brave和机构原文导航。"
+    },
+    {
+      "query": "Komatsu autonomous haulage 2025 2026",
+      "retrieved_at": "2026-11-02",
+      "note": "Bing RSS结果主要停留在首词或机构主页、与完整检索式不符；未作为能力证据，随后改用Brave和机构原文导航。"
+    },
+    {
+      "query": "Metso autonomous mineral processing flotation control",
+      "retrieved_at": "2026-11-02",
+      "note": "Bing RSS结果主要停留在首词或机构主页、与完整检索式不符；未作为能力证据，随后改用Brave和机构原文导航。"
+    },
+    {
+      "query": "BASF autonomous chemical plant 2025 2026",
+      "retrieved_at": "2026-11-02",
+      "note": "Bing RSS结果主要停留在首词或机构主页、与完整检索式不符；未作为能力证据，随后改用Brave和机构原文导航。"
+    },
+    {
+      "query": "Wacker polysilicon electronic grade production semiconductor",
+      "retrieved_at": "2026-11-02",
+      "note": "Bing RSS结果主要停留在首词或机构主页、与完整检索式不符；未作为能力证据，随后改用Brave和机构原文导航。"
+    },
+    {
+      "query": "Nature autonomous laboratory materials 2025 2026",
+      "retrieved_at": "2026-11-02",
+      "note": "Bing RSS结果主要停留在首词或机构主页、与完整检索式不符；未作为能力证据，随后改用Brave和机构原文导航。"
+    },
+    {
+      "query": "Veolia autonomous water treatment artificial intelligence 2025",
+      "retrieved_at": "2026-11-02",
+      "note": "Bing RSS结果主要停留在首词或机构主页、与完整检索式不符；未作为能力证据，随后改用Brave和机构原文导航。"
+    },
+    {
+      "query": "DOE robotic battery recycling 2025",
+      "retrieved_at": "2026-11-02",
+      "note": "Bing RSS结果主要停留在首词或机构主页、与完整检索式不符；未作为能力证据，随后改用Brave和机构原文导航。"
+    },
+    {
+      "query": "NREL autonomous inverter grid stability 2025 2026",
+      "retrieved_at": "2026-11-02",
+      "note": "Bing RSS结果主要停留在首词或机构主页、与完整检索式不符；未作为能力证据，随后改用Brave和机构原文导航。"
+    },
+    {
+      "query": "autonomous energy grid control black start NLR 2026",
+      "retrieved_at": "2026-11-02",
+      "note": "Brave检索后访问原始发布机构页面核验；保留有限检索范围，不声称穷尽全部最新研究。检索缓存位于.research_cache/domains_04_05/brave_search.json。"
+    },
+    {
+      "query": "robot power line wind turbine repair autonomous 2025 2026 official",
+      "retrieved_at": "2026-11-02",
+      "note": "Brave检索后访问原始发布机构页面核验；保留有限检索范围，不声称穷尽全部最新研究。检索缓存位于.research_cache/domains_04_05/brave_search.json。"
+    },
+    {
+      "query": "autonomous drilling fuel processing refinery Yokogawa 2025 2026",
+      "retrieved_at": "2026-11-02",
+      "note": "Brave检索后访问原始发布机构页面核验；保留有限检索范围，不声称穷尽全部最新研究。检索缓存位于.research_cache/domains_04_05/brave_search.json。"
+    },
+    {
+      "query": "Rio Tinto Komatsu autonomous mining 2026 2025",
+      "retrieved_at": "2026-11-02",
+      "note": "Brave检索后访问原始发布机构页面核验；保留有限检索范围，不声称穷尽全部最新研究。检索缓存位于.research_cache/domains_04_05/brave_search.json。"
+    },
+    {
+      "query": "autonomous mineral exploration AI 2026 2025 KoBold",
+      "retrieved_at": "2026-11-02",
+      "note": "Brave检索后访问原始发布机构页面核验；保留有限检索范围，不声称穷尽全部最新研究。检索缓存位于.research_cache/domains_04_05/brave_search.json。"
+    },
+    {
+      "query": "Wacker electronic grade polysilicon production 2025 2026",
+      "retrieved_at": "2026-11-02",
+      "note": "Brave检索后访问原始发布机构页面核验；保留有限检索范围，不声称穷尽全部最新研究。检索缓存位于.research_cache/domains_04_05/brave_search.json。"
+    },
+    {
+      "query": "Yokogawa autonomous chemical plant 2025 2026",
+      "retrieved_at": "2026-11-02",
+      "note": "Brave检索后访问原始发布机构页面核验；保留有限检索范围，不声称穷尽全部最新研究。检索缓存位于.research_cache/domains_04_05/brave_search.json。"
+    },
+    {
+      "query": "autonomous polymer synthesis laboratory 2025 2026",
+      "retrieved_at": "2026-11-02",
+      "note": "Brave检索后访问原始发布机构页面核验；保留有限检索范围，不声称穷尽全部最新研究。检索缓存位于.research_cache/domains_04_05/brave_search.json。"
+    },
+    {
+      "query": "robot battery recycling ORNL 2025 2026",
+      "retrieved_at": "2026-11-02",
+      "note": "Brave检索后访问原始发布机构页面核验；保留有限检索范围，不声称穷尽全部最新研究。检索缓存位于.research_cache/domains_04_05/brave_search.json。"
+    },
+    {
+      "query": "Veolia Hubgrade artificial intelligence water treatment 2026 2025",
+      "retrieved_at": "2026-11-02",
+      "note": "Brave检索后访问原始发布机构页面核验；保留有限检索范围，不声称穷尽全部最新研究。检索缓存位于.research_cache/domains_04_05/brave_search.json。"
+    },
+    {
+      "query": "NLR grid; Rio Tinto news; Yokogawa 2026 press releases; PNNL energy storage 官方目录逐级导航",
+      "retrieved_at": "2026-11-02",
+      "note": "核验2026-09-30 REORG现场报告、2026-08-17黑启动综述、2026-01-27 Polybot及2026-10-29/30矿业公告；剔除只返回404内容的HTTP200页面。"
+    }
+  ],
+  "domain_summaries": [
+    {
+      "domain_id": "4",
+      "summary": "能源领域已能在特定场景自动优化、控制和恢复配电供给。2026 REORG现场验证及黑启动综述表明控制层和局部韧性取得进展，但功率设备制造、线路实体修复、燃料与备件供给、工程建设尚无本轮可核验的整链HR0证明。",
+      "strongest_progress": "预装分布式资源的供需协调、配电成岛和失网恢复；特定工业气体单元自主控制。",
+      "principal_gap": "从算法控制跨到发电—输配电—维修—新设施施工及关键材料/器件自供，尤其不能把遥控机器人维修或2029投运计划记成当前自主复制。"
+    },
+    {
+      "domain_id": "5",
+      "summary": "采运、选冶过程控制、高纯硅生产及特定材料合成存在自动化或局部自治。2026 Polybot和横河文章提供新的公开记录，2026锂项目与矿区事故公告同时显示现实产业仍由人员、供应商及安全审查组织支撑。",
+      "strongest_progress": "特定化工控制回路、实验室聚合物逆向设计合成、矿山部分运输钻孔及机器人电池拆解。",
+      "principal_gap": "原矿到高纯电子材料与全品类化学品的可持续供料、设备自主维修、污染控制、灾后复产和多代回收—再制造链；尤其光刻胶/电子特气无人闭环本轮仍缺直接证据。"
+    }
+  ]
+}

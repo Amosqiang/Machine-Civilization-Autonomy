@@ -1,0 +1,1 @@
+﻿record_id,year,as_of_date,domain_id,subsystem_id,metric_id,human_removal_scenario,score_0_5,evidence_level,confidence,observed_capability,remaining_human_role,failure_mode,upstream_dependencies,substitutes,recovery_time,stockpile_duration,single_point_of_failure,source_title,source_url,source_type,source_date,notes
