@@ -1,0 +1,2 @@
+# Python's CSV dialect uses CRLF; keep existing bytes and allow CR at line end.
+*.csv whitespace=cr-at-eol

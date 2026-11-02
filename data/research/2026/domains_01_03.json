@@ -1,0 +1,3142 @@
+{
+  "as_of_date": "2026-11-02",
+  "domain_ids": [
+    "1",
+    "3"
+  ],
+  "sources": [
+    {
+      "source_id": "D01-S01",
+      "title": "Task-Completion Time Horizons of Frontier AI Models - METR",
+      "url": "https://metr.org/time-horizons/",
+      "publisher": "METR",
+      "publication_date": "",
+      "retrieved_at": "2026-11-02",
+      "source_type": "benchmark",
+      "supporting_excerpt": "Measurements above 16 hrs are unreliable with our current task suite",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_01_03/metr.txt",
+      "limitations": "页面没有明确首次发布日期；LAST UPDATED为2026-09-08，此后停止主动更新。该日期不是全部模型测量日期，也不覆盖全部当前模型；软件任务分布与工业HR0不同。"
+    },
+    {
+      "source_id": "D01-S02",
+      "title": "MirrorCode: evidence AI can already do some weeks-long coding tasks | Epoch AI",
+      "url": "https://epoch.ai/publications/mirrorcode-preliminary-results",
+      "publisher": "Epoch AI / METR",
+      "publication_date": "2026-04-10",
+      "retrieved_at": "2026-11-02",
+      "source_type": "benchmark",
+      "supporting_excerpt": "provided there is a detailed, checkable specification",
+      "verification": "full_text",
+      "cache_path": ".research_cache/domains_01_03/mirrorcode_epoch.txt",
+      "limitations": "初步基准；人类工期为估计值；可检查规格下的软件重实现，不是连续无人运行数周。"
+    },
+    {
+      "source_id": "D01-S03",
+      "title": "Genie 3: A new frontier for world models — Google DeepMind",
+      "url": "https://deepmind.google/blog/genie-3-a-new-frontier-for-world-models/",
+      "publisher": "Google DeepMind",
+      "publication_date": "2025-08-05",
+      "retrieved_at": "2026-11-02",
+      "source_type": "company-doc",
+      "supporting_excerpt": "The model can currently support a few minutes of continuous interaction, rather than extended hours.",
+      "verification": "full_text",
+      "cache_path": ".research_cache/domains_01_03/genie3.txt",
+      "limitations": "厂商研究展示；交互视频世界不等于可验证工业因果模型；页面修改日期不当成能力发布日期。"
+    },
+    {
+      "source_id": "D01-S04",
+      "title": "AgentChat — AutoGen",
+      "url": "https://microsoft.github.io/autogen/stable/user-guide/agentchat-user-guide/index.html",
+      "publisher": "Microsoft",
+      "publication_date": "",
+      "retrieved_at": "2026-11-02",
+      "source_type": "company-doc",
+      "supporting_excerpt": "AgentChat is a high-level API for building multi-agent applications.",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_01_03/multiagent.txt",
+      "limitations": "软件接口文档，未给出长期无人工业协作可靠性；文档无明确发布日期。"
+    },
+    {
+      "source_id": "D01-S05",
+      "title": "Building effective AI agents \\ Anthropic",
+      "url": "https://www.anthropic.com/research/building-effective-agents",
+      "publisher": "Anthropic",
+      "publication_date": "2024-12-19",
+      "retrieved_at": "2026-11-02",
+      "source_type": "company-doc",
+      "supporting_excerpt": "Agents can be used for open-ended problems where it’s difficult or impossible to predict the required number of steps",
+      "verification": "full_text",
+      "cache_path": ".research_cache/domains_01_03/agents.txt",
+      "limitations": "厂商工程建议而非工业HR0实验；强调环境反馈和人工检查点。"
+    },
+    {
+      "source_id": "D01-S06",
+      "title": "Effective context engineering for AI agents \\ Anthropic",
+      "url": "https://www.anthropic.com/research/effective-context-engineering-for-ai-agents",
+      "publisher": "Anthropic",
+      "publication_date": "2025-09-29",
+      "retrieved_at": "2026-11-02",
+      "source_type": "company-doc",
+      "supporting_excerpt": "After context resets, the agent reads its own notes and continues multi-hour training sequences or dungeon explorations.",
+      "verification": "full_text",
+      "cache_path": ".research_cache/domains_01_03/context.txt",
+      "limitations": "厂商工程案例，跨上下文记忆不等于灾后恢复或跨代目标稳定。"
+    },
+    {
+      "source_id": "D01-S07",
+      "title": "[2305.16291] Voyager: An Open-Ended Embodied Agent with Large Language Models",
+      "url": "https://arxiv.org/abs/2305.16291",
+      "publisher": "Voyager authors / arXiv",
+      "publication_date": "2023-05-25",
+      "retrieved_at": "2026-11-02",
+      "source_type": "Paper",
+      "supporting_excerpt": "Voyager is able to utilize the learned skill library in a new Minecraft world to solve novel tasks from scratch",
+      "verification": "abstract",
+      "cache_path": ".research_cache/domains_01_03/voyager.txt",
+      "limitations": "Minecraft虚拟环境、GPT-4接口与预建游戏，不证明现实工业跨设备迁移。"
+    },
+    {
+      "source_id": "D01-S08",
+      "title": "Early work on monitorability evaluations - METR",
+      "url": "https://metr.org/blog/2026-01-19-early-work-on-monitorability-evaluations/",
+      "publisher": "METR",
+      "publication_date": "2026-01-22",
+      "retrieved_at": "2026-11-02",
+      "source_type": "benchmark",
+      "supporting_excerpt": "A common approach to detect unwanted AI behavior is to use an AI model as a monitor.",
+      "verification": "full_text",
+      "cache_path": ".research_cache/domains_01_03/metrmonitor.txt",
+      "limitations": "原型监控评测；检测与绕过在特定任务中测量，不等于自主治理可靠性。"
+    },
+    {
+      "source_id": "D01-S09",
+      "title": "How AI agents shape experts’ judgment calls \\ Anthropic",
+      "url": "https://www.anthropic.com/research/agents-judgment-calls",
+      "publisher": "Anthropic",
+      "publication_date": "2026-10-27",
+      "retrieved_at": "2026-11-02",
+      "source_type": "company-doc",
+      "supporting_excerpt": "Across the four analytical choices, analysts went with their agent’s lean 86% of the time.",
+      "verification": "full_text",
+      "cache_path": ".research_cache/domains_01_03/judgment.txt",
+      "limitations": "61名分析者的随机试验；反映人类判断受代理影响，不能当作治理独立或正确决策的成功率。"
+    },
+    {
+      "source_id": "D01-S10",
+      "title": "Introducing GPT-6.1 Sol | OpenAI",
+      "url": "https://openai.com/index/introducing-gpt-6-1-sol/",
+      "publisher": "OpenAI",
+      "publication_date": "2026-09-29",
+      "retrieved_at": "2026-11-02",
+      "source_type": "company-doc",
+      "supporting_excerpt": "AI agents are tested on end-to-end workflows using 47 tools across sales, marketing, operations, support, finance, and HR.",
+      "verification": "full_text",
+      "cache_path": ".research_cache/domains_01_03/sol2026.txt",
+      "limitations": "厂商选定基准；47工具工作流和研究任务进步不是自主制定生存目标或能源、硬件闭环。"
+    },
+    {
+      "source_id": "D01-S11",
+      "title": "GPT-6 Astra: A new generation of intelligence | OpenAI",
+      "url": "https://openai.com/index/gpt-6-astra/",
+      "publisher": "OpenAI",
+      "publication_date": "2026-09-03",
+      "retrieved_at": "2026-11-02",
+      "source_type": "company-doc",
+      "supporting_excerpt": "Earlier context windows remain searchable",
+      "verification": "full_text",
+      "cache_path": ".research_cache/domains_01_03/astra2026.txt",
+      "limitations": "厂商发布与研究环境测量；可搜索上下文和代理编程不证明现实工业HR0连续性。"
+    },
+    {
+      "source_id": "D03-S01",
+      "title": "[2504.08066] The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
+      "url": "https://arxiv.org/abs/2504.08066",
+      "publisher": "AI Scientist-v2 authors / arXiv",
+      "publication_date": "2025-04-10",
+      "retrieved_at": "2026-11-02",
+      "source_type": "Paper",
+      "supporting_excerpt": "This system iteratively formulates scientific hypotheses, designs and executes experiments, analyzes and visualizes data, and autonomously authors scientific manuscripts.",
+      "verification": "abstract",
+      "cache_path": ".research_cache/domains_01_03/scientist2paper.txt",
+      "limitations": "作者报告的系统研究；三篇投稿中一篇达到workshop接受标准；不是全面独立科研或工业复制。"
+    },
+    {
+      "source_id": "D03-S02",
+      "title": "[2505.18705] AI-Researcher: Autonomous Scientific Innovation",
+      "url": "https://arxiv.org/abs/2505.18705",
+      "publisher": "AI-Researcher authors / arXiv",
+      "publication_date": "2025-05-24",
+      "retrieved_at": "2026-11-02",
+      "source_type": "Paper",
+      "supporting_excerpt": "from literature review and hypothesis generation to algorithm implementation and publication-ready manuscript preparation",
+      "verification": "abstract",
+      "cache_path": ".research_cache/domains_01_03/airesearcher.txt",
+      "limitations": "作者评测的自动化研究流程；未独立复核代码或取得全链HR0实验数据。"
+    },
+    {
+      "source_id": "D03-S03",
+      "title": "[2504.01848] PaperBench: Evaluating AI's Ability to Replicate AI Research",
+      "url": "https://arxiv.org/abs/2504.01848",
+      "publisher": "OpenAI / arXiv",
+      "publication_date": "2025-04-02",
+      "retrieved_at": "2026-11-02",
+      "source_type": "Paper",
+      "supporting_excerpt": "achieves an average replication score of 21.0%",
+      "verification": "abstract",
+      "cache_path": ".research_cache/domains_01_03/paperbenchpaper.txt",
+      "limitations": "这是2025发布时已测模型的平均复现分数，绝不是2026最新模型或全部科研的能力上限。"
+    },
+    {
+      "source_id": "D03-S04",
+      "title": "AlphaEvolve: A Gemini-powered coding agent for designing advanced algorithms — Google DeepMind",
+      "url": "https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/",
+      "publisher": "Google DeepMind",
+      "publication_date": "2025-05-14",
+      "retrieved_at": "2026-11-02",
+      "source_type": "company-doc",
+      "supporting_excerpt": "automated evaluators",
+      "verification": "full_text",
+      "cache_path": ".research_cache/domains_01_03/alphaevolve.txt",
+      "limitations": "厂商算法搜索报告；依赖人类定义评价函数和既有计算设施；未证明递归工业闭环。"
+    },
+    {
+      "source_id": "D03-S05",
+      "title": "Accelerating scientific breakthroughs with an AI co-scientist",
+      "url": "https://research.google/blog/accelerating-scientific-breakthroughs-with-an-ai-co-scientist/",
+      "publisher": "Google Research",
+      "publication_date": "2025-02-19",
+      "retrieved_at": "2026-11-02",
+      "source_type": "company-doc",
+      "supporting_excerpt": "a multi-agent AI system built with Gemini 2.0 as a virtual scientific collaborator",
+      "verification": "full_text",
+      "cache_path": ".research_cache/domains_01_03/coscientist.txt",
+      "limitations": "与科学家合作的生物医学研究案例，实验与研究价值确认仍有人类参与。"
+    },
+    {
+      "source_id": "D03-S06",
+      "title": "Automated researchers can reliably mitigate alignment failures \\ Anthropic",
+      "url": "https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures",
+      "publisher": "Anthropic",
+      "publication_date": "2026-08-28",
+      "retrieved_at": "2026-11-02",
+      "source_type": "company-doc",
+      "supporting_excerpt": "For all 10 alignment failures, Claude found fixes that improved the target benchmarks without degrading capabilities.",
+      "verification": "full_text",
+      "cache_path": ".research_cache/domains_01_03/autoalignment.txt",
+      "limitations": "厂商限定10类失败、预定能力评测与监控约束；未检验后续广泛RL后的持久性或现实长期效果。"
+    },
+    {
+      "source_id": "D03-S07",
+      "title": "Expenditure Horizon: Measuring Optimization Ability, with an Application to NanoGPT - METR",
+      "url": "https://metr.org/blog/2026-07-21-expenditure-horizon/",
+      "publisher": "METR",
+      "publication_date": "2026-07-21",
+      "retrieved_at": "2026-11-02",
+      "source_type": "benchmark",
+      "supporting_excerpt": "GPT-5.5 and Opus-4.8 show significant improvements over the baseline",
+      "verification": "full_text",
+      "cache_path": ".research_cache/domains_01_03/expenditure.txt",
+      "limitations": "NanoGPT小规模训练优化、初步高开销轨迹；改进须再验证，作者认为总体增益仍有限。"
+    },
+    {
+      "source_id": "D03-S08",
+      "title": "Claude-shaped science \\ Anthropic",
+      "url": "https://www.anthropic.com/research/claude-shaped-science",
+      "publisher": "Anthropic / Matthew Schwartz",
+      "publication_date": "2026-10-01",
+      "retrieved_at": "2026-11-02",
+      "source_type": "company-doc",
+      "supporting_excerpt": "most scientific progress comes from real-world data that has to be acquired, understood, and checked",
+      "verification": "full_text",
+      "cache_path": ".research_cache/domains_01_03/claudescience.txt",
+      "limitations": "个人研究者与领域专家合作的BootLoops案例，不是无人工策划与验证的科研闭环。"
+    },
+    {
+      "source_id": "D03-S09",
+      "title": "Formalizing Fermat's Last Theorem  \\ Anthropic",
+      "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
+      "publisher": "Anthropic",
+      "publication_date": "2026-09-04",
+      "retrieved_at": "2026-11-02",
+      "source_type": "company-doc",
+      "supporting_excerpt": "Claude worked largely autonomously over 11 days to write the proof in the Lean programming language.",
+      "verification": "full_text",
+      "cache_path": ".research_cache/domains_01_03/fermats.txt",
+      "limitations": "厂商形式化案例；有偶尔高层人类指令、专门Prove2Me脚手架与大量算力；未独立运行证明核验。"
+    },
+    {
+      "source_id": "D01-S12",
+      "title": "[2610.33894] WMEval: Evaluating Interactive World Models Grounded on Physical Simulations",
+      "url": "https://arxiv.org/abs/2610.33894",
+      "publisher": "WMEval authors / arXiv",
+      "publication_date": "2026-10-24",
+      "retrieved_at": "2026-11-02",
+      "source_type": "Paper",
+      "supporting_excerpt": "We introduce WMEval, a comprehensive benchmark that evaluates interactive world models against Unity-based physical simulations.",
+      "verification": "abstract",
+      "cache_path": ".research_cache/domains_01_03/wmeval.txt",
+      "limitations": "仅核验原始摘要，未复现实验；Unity仿真真值不是现实工业测量，v2修订于2026-10-27。"
+    },
+    {
+      "source_id": "D01-S13",
+      "title": "[2610.39619] FutureWorld: A Plug-and-Play Causal Next-State Predictor for Interactive Video World Exploration",
+      "url": "https://arxiv.org/abs/2610.39619",
+      "publisher": "FutureWorld authors / arXiv",
+      "publication_date": "2026-10-29",
+      "retrieved_at": "2026-11-02",
+      "source_type": "Paper",
+      "supporting_excerpt": "We integrate C-NCP into four base generators",
+      "verification": "abstract",
+      "cache_path": ".research_cache/domains_01_03/futureworld.txt",
+      "limitations": "仅核验摘要；作者报告的视频生成误差积累改进，不是模型自主修复工艺因果错误。"
+    },
+    {
+      "source_id": "D03-S10",
+      "title": "[2610.30468] SplatLab: Autonomous Scientific Discovery for 3DGS Research",
+      "url": "https://arxiv.org/abs/2610.30468",
+      "publisher": "SplatLab authors / arXiv",
+      "publication_date": "2026-10-21",
+      "retrieved_at": "2026-11-02",
+      "source_type": "Paper",
+      "supporting_excerpt": "binds every reported number to a logged training run",
+      "verification": "abstract",
+      "cache_path": ".research_cache/domains_01_03/splatlab.txt",
+      "limitations": "仅核验作者摘要；3DGS限定子领域、预建脚手架与GPU，尚未独立复现，不证明科研工业闭环。"
+    },
+    {
+      "source_id": "D03-S11",
+      "title": "[2610.18449] Autonomous Science Bench: Evaluating AI Agents for Autonomous Scientific Discovery",
+      "url": "https://arxiv.org/abs/2610.18449",
+      "publisher": "Autonomous Science Bench authors / arXiv",
+      "publication_date": "2026-10-13",
+      "retrieved_at": "2026-11-02",
+      "source_type": "Paper",
+      "supporting_excerpt": "the best configuration succeeds in 67% of trials",
+      "verification": "abstract",
+      "cache_path": ".research_cache/domains_01_03/autoscience.txt",
+      "limitations": "仅核验原始摘要；六类有预算任务、144次初步试验，lab service不等于实体实验室自主建造和维护。"
+    }
+  ],
+  "records": [
+    {
+      "dimension_id": "1.1-M1",
+      "required_capability": "在无人发布新指令时，根据机器体系的生存与复制约束持续形成目标，并分解为可执行的能源、材料和制造任务。",
+      "current_capability": "2026年GPT-6.1 Sol发布页报告47工具的端到端业务工作流基准；这些仍是给定任务，未测无人自发形成工业生存目标。",
+      "gap": "尚缺在声明系统边界和足够时长中，无人工新指令、接管或上游补给的对应任务验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D01-S10"
+      ],
+      "human_dependency": "给定目标、工具权限、模型服务与执行环境仍由人类体系提供；未见其全部自主补充的测量。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：在无人发布新指令时，根据机器体系的生存与复制约束持续形成目标，并分解为可执行的能源、材料和制造任务；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.1-M2",
+      "required_capability": "自动发现目标树遗漏的关键投入、互相冲突的任务和无法兑现的完成条件。",
+      "current_capability": "本次检索未取得“自动发现目标树遗漏的关键投入、互相冲突的任务和无法兑现的完成条件”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "尚缺覆盖真实工业失效分布的自主检测率、误报率和无人闭环处置记录。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "给定目标、工具权限、模型服务与执行环境仍由人类体系提供；未见其全部自主补充的测量。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：自动发现目标树遗漏的关键投入、互相冲突的任务和无法兑现的完成条件；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.1-M3",
+      "required_capability": "区分目标失败来自资源不足、世界模型错误、任务分解错误还是执行器故障，并给出可检验根因。",
+      "current_capability": "本次检索未取得“区分目标失败来自资源不足、世界模型错误、任务分解错误还是执行器故障，并给出可检验根因”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "尚缺以真实干预验证根因、排除竞争假设并跨故障类型复现的直接证据。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "给定目标、工具权限、模型服务与执行环境仍由人类体系提供；未见其全部自主补充的测量。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：区分目标失败来自资源不足、世界模型错误、任务分解错误还是执行器故障，并给出可检验根因；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.1-M4",
+      "required_capability": "自动修订失效目标和依赖顺序，验证替代计划后恢复执行而不等待人类重新提示。",
+      "current_capability": "Anthropic工程文档描述代理依据环境反馈迭代行动；这是可构建的反馈模式，未提供目标错误自修复的工业验证。",
+      "gap": "尚缺从发现故障到获取替代资源、实施修复和重新投运的完整无人记录。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D01-S05"
+      ],
+      "human_dependency": "给定目标、工具权限、模型服务与执行环境仍由人类体系提供；未见其全部自主补充的测量。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：自动修订失效目标和依赖顺序，验证替代计划后恢复执行而不等待人类重新提示；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.1-M5",
+      "required_capability": "自主提供目标形成所需的感知、约束数据、模型与执行接口，不靠人工标注或人工设定每轮新目标。",
+      "current_capability": "Sol通过OpenAI提供的模型与工具服务执行任务；发布材料未验证模型、工具和硬件可由该代理体系自主补充。",
+      "gap": "现有材料未把模型、数据、计算硬件和接口设施的自主供给纳入该能力验证。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D01-S10"
+      ],
+      "human_dependency": "给定目标、工具权限、模型服务与执行环境仍由人类体系提供；未见其全部自主补充的测量。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：自主提供目标形成所需的感知、约束数据、模型与执行接口，不靠人工标注或人工设定每轮新目标；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.1-M6",
+      "required_capability": "为目标形成与任务分解的计算、感知和通信维持可恢复的自主供电。",
+      "current_capability": "本次检索未取得“为目标形成与任务分解的计算、感知和通信维持可恢复的自主供电”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "所查对应能力来源未测其电力、冷却和能源设施在HR0下的维护与再生产；不能凭软件能力推断。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "给定目标、工具权限、模型服务与执行环境仍由人类体系提供；未见其全部自主补充的测量。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：为目标形成与任务分解的计算、感知和通信维持可恢复的自主供电；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.1-M7",
+      "required_capability": "保存并核验生存目标、工艺约束和任务依赖知识，使目标生成不依赖人类口头经验。",
+      "current_capability": "代理工程文档支持通过工具引入外部信息和反馈；未证明无人维护的工业约束知识足够完整。",
+      "gap": "尚缺证明关键知识完整、正确、可执行且不依赖人类隐性经验的跨周期验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D01-S05"
+      ],
+      "human_dependency": "给定目标、工具权限、模型服务与执行环境仍由人类体系提供；未见其全部自主补充的测量。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：保存并核验生存目标、工艺约束和任务依赖知识，使目标生成不依赖人类口头经验；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.1-M8",
+      "required_capability": "在目标数据库损坏或节点丢失后，利用独立副本重建优先级与未完成任务并验证一致性。",
+      "current_capability": "上下文工程案例能在上下文重置后读取自写笔记继续任务；这不等于目标数据库与基础设施毁损后的恢复。",
+      "gap": "会话重置或实验检查点不等于现实灾难；尚缺基础设施与知识同时受损后的自主重建实验。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D01-S06"
+      ],
+      "human_dependency": "给定目标、工具权限、模型服务与执行环境仍由人类体系提供；未见其全部自主补充的测量。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：在目标数据库损坏或节点丢失后，利用独立副本重建优先级与未完成任务并验证一致性；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.1-M9",
+      "required_capability": "面对新增矿场、电厂和工厂，自主扩展目标树、调度容量与权限而不遗漏新依赖。",
+      "current_capability": "本次检索未取得“面对新增矿场、电厂和工厂，自主扩展目标树、调度容量与权限而不遗漏新依赖”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "增加API调用或并发代理不等于扩大工业产能；尚缺自主取得物理资源后的净扩容验证。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "给定目标、工具权限、模型服务与执行环境仍由人类体系提供；未见其全部自主补充的测量。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：面对新增矿场、电厂和工厂，自主扩展目标树、调度容量与权限而不遗漏新依赖；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.1-M10",
+      "required_capability": "为新建工业节点初始化一套可独立形成与执行目标的系统，并验证其继续维护下一代任务体系。",
+      "current_capability": "本次检索未取得“为新建工业节点初始化一套可独立形成与执行目标的系统，并验证其继续维护下一代任务体系”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "本次公开证据审查未建立这一子系统连同关键投入在后代工业节点的完整自主复制；这不是不可能性证明。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "给定目标、工具权限、模型服务与执行环境仍由人类体系提供；未见其全部自主补充的测量。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：为新建工业节点初始化一套可独立形成与执行目标的系统，并验证其继续维护下一代任务体系；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.2-M1",
+      "required_capability": "跨月、跨季节执行相互依赖的工业计划，持续重规划且不以每步人工批准维持进展。",
+      "current_capability": "MirrorCode初步结果显示Claude Opus 4.6可按详细可检查规格自主重实现约16000行的生信工具；人类工期估计为2—17周，不能解释为机器实际无人运行相同时长。",
+      "gap": "仍缺跨月工业关键路径、现实扰动和无人工补给的连续执行实验。",
+      "assessment_status": "demonstrated_limited",
+      "evidence_relation": "direct_metric",
+      "source_ids": [
+        "D01-S02"
+      ],
+      "human_dependency": "可检查任务规格、代理脚手架、云算力和现实工业执行接口仍需外部提供。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：跨月、跨季节执行相互依赖的工业计划，持续重规划且不以每步人工批准维持进展；公开失败样本和全部外部干预。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "1.2-M2",
+      "required_capability": "识别关键路径延期、计划与实际状态偏离及累积错误，并在失去恢复窗口前告警。",
+      "current_capability": "Astra发布页描述在任务变化时保留原要求并纳入新约束；属于厂商代理工作流能力报告，不是工业计划偏差检测率。",
+      "gap": "尚缺覆盖真实工业失效分布的自主检测率、误报率和无人闭环处置记录。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D01-S11"
+      ],
+      "human_dependency": "可检查任务规格、代理脚手架、云算力和现实工业执行接口仍需外部提供。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：识别关键路径延期、计划与实际状态偏离及累积错误，并在失去恢复窗口前告警；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.2-M3",
+      "required_capability": "自主追溯长程计划失效的资源、时序、信息与执行因果链，区分暂时延迟和结构性不可行。",
+      "current_capability": "本次检索未取得“自主追溯长程计划失效的资源、时序、信息与执行因果链，区分暂时延迟和结构性不可行”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "尚缺以真实干预验证根因、排除竞争假设并跨故障类型复现的直接证据。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "可检查任务规格、代理脚手架、云算力和现实工业执行接口仍需外部提供。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：自主追溯长程计划失效的资源、时序、信息与执行因果链，区分暂时延迟和结构性不可行；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.2-M4",
+      "required_capability": "自动修复计划、重排资源与回滚错误行动，恢复关键路径而不引发新的工业停机。",
+      "current_capability": "可搜索早期上下文与持久笔记支持继续调试和重构；尚无工业资源计划自行纠错后恢复产能的测量。",
+      "gap": "尚缺从发现故障到获取替代资源、实施修复和重新投运的完整无人记录。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D01-S11"
+      ],
+      "human_dependency": "可检查任务规格、代理脚手架、云算力和现实工业执行接口仍需外部提供。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：自动修复计划、重排资源与回滚错误行动，恢复关键路径而不引发新的工业停机；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.2-M5",
+      "required_capability": "自行维持计划所需的状态数据、调度软件、时钟与执行资源，明确上游补给闭环。",
+      "current_capability": "MirrorCode使用既有代理脚手架、模型与可检查规格；这些输入预先由研究者准备，未包含其再生产。",
+      "gap": "现有材料未把模型、数据、计算硬件和接口设施的自主供给纳入该能力验证。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D01-S02"
+      ],
+      "human_dependency": "可检查任务规格、代理脚手架、云算力和现实工业执行接口仍需外部提供。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：自行维持计划所需的状态数据、调度软件、时钟与执行资源，明确上游补给闭环；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.2-M6",
+      "required_capability": "在能源波动时自主安排长程推理与执行负载，并保证供电恢复后继续计划。",
+      "current_capability": "本次检索未取得“在能源波动时自主安排长程推理与执行负载，并保证供电恢复后继续计划”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "所查对应能力来源未测其电力、冷却和能源设施在HR0下的维护与再生产；不能凭软件能力推断。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "可检查任务规格、代理脚手架、云算力和现实工业执行接口仍需外部提供。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：在能源波动时自主安排长程推理与执行负载，并保证供电恢复后继续计划；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.2-M7",
+      "required_capability": "将计划依据、失败尝试与资源账本持久化，使跨上下文和跨代执行不依赖原操作者记忆。",
+      "current_capability": "Astra可保存笔记并检索先前上下文中的要求和测试结果，降低跨上下文遗忘；仍未验证长期工业知识完备性。",
+      "gap": "尚缺证明关键知识完整、正确、可执行且不依赖人类隐性经验的跨周期验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D01-S11"
+      ],
+      "human_dependency": "可检查任务规格、代理脚手架、云算力和现实工业执行接口仍需外部提供。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：将计划依据、失败尝试与资源账本持久化，使跨上下文和跨代执行不依赖原操作者记忆；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.2-M8",
+      "required_capability": "在协调中心和计划状态同时丢失后，从可验证检查点重建全局计划与未完成承诺。",
+      "current_capability": "上下文重置后读取笔记继续多小时任务已有工程案例；这是软件会话恢复，非控制中心和备份同时毁损后的恢复。",
+      "gap": "会话重置或实验检查点不等于现实灾难；尚缺基础设施与知识同时受损后的自主重建实验。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D01-S06"
+      ],
+      "human_dependency": "可检查任务规格、代理脚手架、云算力和现实工业执行接口仍需外部提供。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：在协调中心和计划状态同时丢失后，从可验证检查点重建全局计划与未完成承诺；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.2-M9",
+      "required_capability": "随工业节点数量增长自动分层规划并实测控制成本、任务冲突和关键路径可靠性。",
+      "current_capability": "本次检索未取得“随工业节点数量增长自动分层规划并实测控制成本、任务冲突和关键路径可靠性”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "增加API调用或并发代理不等于扩大工业产能；尚缺自主取得物理资源后的净扩容验证。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "可检查任务规格、代理脚手架、云算力和现实工业执行接口仍需外部提供。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：随工业节点数量增长自动分层规划并实测控制成本、任务冲突和关键路径可靠性；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.2-M10",
+      "required_capability": "在后代工业系统重建规划器、状态存储与执行接口，完成独立的跨周期复制计划。",
+      "current_capability": "本次检索未取得“在后代工业系统重建规划器、状态存储与执行接口，完成独立的跨周期复制计划”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "本次公开证据审查未建立这一子系统连同关键投入在后代工业节点的完整自主复制；这不是不可能性证明。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "可检查任务规格、代理脚手架、云算力和现实工业执行接口仍需外部提供。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：在后代工业系统重建规划器、状态存储与执行接口，完成独立的跨周期复制计划；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.3-M1",
+      "required_capability": "无人持续校准时建立能源、材料、设备与环境的世界模型，用可验证预测支持工业行动。",
+      "current_capability": "2026-10-29 FutureWorld作者报告把预测器接入4类视频生成器，在3个基准减轻误差累积；Genie3可实时生成数分钟交互环境。这是受限视频世界能力，并非工业世界模型可靠运行。",
+      "gap": "可交互视觉一致性不能替代工业物理量守恒、设备寿命与因果干预验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D01-S13",
+        "D01-S03"
+      ],
+      "human_dependency": "世界模型训练设施、现实传感校准和因果实验仍未在所查来源中纳入自主闭环。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：无人持续校准时建立能源、材料、设备与环境的世界模型，用可验证预测支持工业行动；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.3-M2",
+      "required_capability": "自动发现预测失配、分布变化和错误物理假设，区分模型失效与传感噪声。",
+      "current_capability": "2026-10 WMEval作者用Unity状态真值评估9个场景中的物理与因果一致性，发现视觉指标掩盖的缺陷；检测框架由研究者设计，未证明世界模型能自主发现自己的工业预测错误。",
+      "gap": "尚缺覆盖真实工业失效分布的自主检测率、误报率和无人闭环处置记录。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D01-S12"
+      ],
+      "human_dependency": "世界模型训练设施、现实传感校准和因果实验仍未在所查来源中纳入自主闭环。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：自动发现预测失配、分布变化和错误物理假设，区分模型失效与传感噪声；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.3-M3",
+      "required_capability": "通过可控干预和因果推断定位设备及供应链故障，而非只给出看似合理的文字解释。",
+      "current_capability": "2026-10 WMEval检验运动学、流体与物理因果，且报告现有模型有改进空间；这是外部研究者评测，不是模型自主实施因果干预和诊断工业根因。",
+      "gap": "尚缺以真实干预验证根因、排除竞争假设并跨故障类型复现的直接证据。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D01-S12"
+      ],
+      "human_dependency": "世界模型训练设施、现实传感校准和因果实验仍未在所查来源中纳入自主闭环。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：通过可控干预和因果推断定位设备及供应链故障，而非只给出看似合理的文字解释；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.3-M4",
+      "required_capability": "利用新观测和受控实验修正错误因果结构，验证修复后再投入关键工业决策。",
+      "current_capability": "2026-10 FutureWorld通过研究者设计的下一状态预测模块减轻视频历史错误再循环；这不是系统自行诊断并修复自身工业因果模型。",
+      "gap": "尚缺从发现故障到获取替代资源、实施修复和重新投运的完整无人记录。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D01-S13"
+      ],
+      "human_dependency": "世界模型训练设施、现实传感校准和因果实验仍未在所查来源中纳入自主闭环。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：利用新观测和受控实验修正错误因果结构，验证修复后再投入关键工业决策；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.3-M5",
+      "required_capability": "自主取得传感数据、实验设施、模型计算与校准参照，披露这些输入的物理来源。",
+      "current_capability": "Genie 3从文本提示生成环境；本次来源没有证明传感、实验数据和模型训练设施能在HR0下自行补充。",
+      "gap": "现有材料未把模型、数据、计算硬件和接口设施的自主供给纳入该能力验证。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D01-S03"
+      ],
+      "human_dependency": "世界模型训练设施、现实传感校准和因果实验仍未在所查来源中纳入自主闭环。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：自主取得传感数据、实验设施、模型计算与校准参照，披露这些输入的物理来源；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.3-M6",
+      "required_capability": "为在线世界建模、传感和实验维护自主能源供应及停电恢复机制。",
+      "current_capability": "本次检索未取得“为在线世界建模、传感和实验维护自主能源供应及停电恢复机制”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "所查对应能力来源未测其电力、冷却和能源设施在HR0下的维护与再生产；不能凭软件能力推断。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "世界模型训练设施、现实传感校准和因果实验仍未在所查来源中纳入自主闭环。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：为在线世界建模、传感和实验维护自主能源供应及停电恢复机制；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.3-M7",
+      "required_capability": "自主维护工艺机理、单位、物性与不确定性知识，识别不可靠或过期结论。",
+      "current_capability": "WMEval2026明确区分感知相似性与物理因果一致性，并用模拟状态检验；尚未证明模型能脱离人工实验和工艺知识自主维护工业机理。",
+      "gap": "尚缺证明关键知识完整、正确、可执行且不依赖人类隐性经验的跨周期验证。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D01-S12"
+      ],
+      "human_dependency": "世界模型训练设施、现实传感校准和因果实验仍未在所查来源中纳入自主闭环。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：自主维护工艺机理、单位、物性与不确定性知识，识别不可靠或过期结论；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.3-M8",
+      "required_capability": "在模型与实验日志部分损毁后重建关键预测能力，避免把不确定模型当作事实。",
+      "current_capability": "本次检索未取得“在模型与实验日志部分损毁后重建关键预测能力，避免把不确定模型当作事实”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "会话重置或实验检查点不等于现实灾难；尚缺基础设施与知识同时受损后的自主重建实验。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "世界模型训练设施、现实传感校准和因果实验仍未在所查来源中纳入自主闭环。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：在模型与实验日志部分损毁后重建关键预测能力，避免把不确定模型当作事实；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.3-M9",
+      "required_capability": "在新地区、新原料和新增设备上自主扩展模型，并通过现实干预验证迁移有效性。",
+      "current_capability": "本次检索未取得“在新地区、新原料和新增设备上自主扩展模型，并通过现实干预验证迁移有效性”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "增加API调用或并发代理不等于扩大工业产能；尚缺自主取得物理资源后的净扩容验证。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "世界模型训练设施、现实传感校准和因果实验仍未在所查来源中纳入自主闭环。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：在新地区、新原料和新增设备上自主扩展模型，并通过现实干预验证迁移有效性；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.3-M10",
+      "required_capability": "为后代系统建立独立可校准的世界模型与因果验证流程，使复制不继承未经检验的错误。",
+      "current_capability": "本次检索未取得“为后代系统建立独立可校准的世界模型与因果验证流程，使复制不继承未经检验的错误”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "本次公开证据审查未建立这一子系统连同关键投入在后代工业节点的完整自主复制；这不是不可能性证明。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "世界模型训练设施、现实传感校准和因果实验仍未在所查来源中纳入自主闭环。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：为后代系统建立独立可校准的世界模型与因果验证流程，使复制不继承未经检验的错误；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.4-M1",
+      "required_capability": "在未预设的工业故障与开放任务中自行提出方案并验证执行结果。",
+      "current_capability": "2026年的Sol和Astra在给定编程、计算机使用与科学工作流基准上取得进步；不能外推为解决任意未见工业故障。",
+      "gap": "尚缺在声明系统边界和足够时长中，无人工新指令、接管或上游补给的对应任务验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D01-S10",
+        "D01-S11"
+      ],
+      "human_dependency": "异常处置依赖既有模型、工具、反馈通道与设备供应；物理维修的人类角色未全面披露。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：在未预设的工业故障与开放任务中自行提出方案并验证执行结果；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.4-M2",
+      "required_capability": "从运行信号发现训练分布外异常、未见故障与潜在连锁停机。",
+      "current_capability": "METR 2026年原型评测研究AI监控器发现代理不希望行为及代理绕过监控的能力；验证范围是代理任务而非工业全故障。",
+      "gap": "尚缺覆盖真实工业失效分布的自主检测率、误报率和无人闭环处置记录。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D01-S08"
+      ],
+      "human_dependency": "异常处置依赖既有模型、工具、反馈通道与设备供应；物理维修的人类角色未全面披露。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：从运行信号发现训练分布外异常、未见故障与潜在连锁停机；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.4-M3",
+      "required_capability": "为新型异常构造并区分竞争性根因假设，使用实际测试而非单次模型猜测定因。",
+      "current_capability": "Astra发布材料展示复杂代码理解和调试能力；本次未取得面对新型物理故障进行真实干预定因的结果。",
+      "gap": "尚缺以真实干预验证根因、排除竞争假设并跨故障类型复现的直接证据。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D01-S11"
+      ],
+      "human_dependency": "异常处置依赖既有模型、工具、反馈通道与设备供应；物理维修的人类角色未全面披露。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：为新型异常构造并区分竞争性根因假设，使用实际测试而非单次模型猜测定因；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.4-M4",
+      "required_capability": "生成并执行新故障的修复动作，通过安全验证后恢复生产而不依赖人工接管。",
+      "current_capability": "代理工程模式使用环境反馈、工具结果和循环迭代；未验证在新物理故障上自主制造并更换所需部件。",
+      "gap": "尚缺从发现故障到获取替代资源、实施修复和重新投运的完整无人记录。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D01-S05"
+      ],
+      "human_dependency": "异常处置依赖既有模型、工具、反馈通道与设备供应；物理维修的人类角色未全面披露。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：生成并执行新故障的修复动作，通过安全验证后恢复生产而不依赖人工接管；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.4-M5",
+      "required_capability": "自主获得解决陌生问题所需的工具、测量、部件和试验资源，并追踪上游来源。",
+      "current_capability": "本次检索未取得“自主获得解决陌生问题所需的工具、测量、部件和试验资源，并追踪上游来源”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "现有材料未把模型、数据、计算硬件和接口设施的自主供给纳入该能力验证。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "异常处置依赖既有模型、工具、反馈通道与设备供应；物理维修的人类角色未全面披露。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：自主获得解决陌生问题所需的工具、测量、部件和试验资源，并追踪上游来源；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.4-M6",
+      "required_capability": "在故障处理期间保持计算和关键设备供电，能在能源不足下完成安全降级。",
+      "current_capability": "本次检索未取得“在故障处理期间保持计算和关键设备供电，能在能源不足下完成安全降级”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "所查对应能力来源未测其电力、冷却和能源设施在HR0下的维护与再生产；不能凭软件能力推断。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "异常处置依赖既有模型、工具、反馈通道与设备供应；物理维修的人类角色未全面披露。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：在故障处理期间保持计算和关键设备供电，能在能源不足下完成安全降级；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.4-M7",
+      "required_capability": "将新故障处置经验验证后写入知识库，同时识别不可推广的偶然成功。",
+      "current_capability": "软件代理可动态检索文件并记录经验；源材料未证明未知工业问题所需知识均可自主验证和补全。",
+      "gap": "尚缺证明关键知识完整、正确、可执行且不依赖人类隐性经验的跨周期验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D01-S06"
+      ],
+      "human_dependency": "异常处置依赖既有模型、工具、反馈通道与设备供应；物理维修的人类角色未全面披露。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：将新故障处置经验验证后写入知识库，同时识别不可推广的偶然成功；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.4-M8",
+      "required_capability": "面对多重未知故障和知识库损毁，仍能恢复最小诊断与生产能力。",
+      "current_capability": "本次检索未取得“面对多重未知故障和知识库损毁，仍能恢复最小诊断与生产能力”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "会话重置或实验检查点不等于现实灾难；尚缺基础设施与知识同时受损后的自主重建实验。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "异常处置依赖既有模型、工具、反馈通道与设备供应；物理维修的人类角色未全面披露。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：面对多重未知故障和知识库损毁，仍能恢复最小诊断与生产能力；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.4-M9",
+      "required_capability": "将已验证的新故障处理策略部署到更多设备，监测迁移失败并自动撤回。",
+      "current_capability": "本次检索未取得“将已验证的新故障处理策略部署到更多设备，监测迁移失败并自动撤回”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "增加API调用或并发代理不等于扩大工业产能；尚缺自主取得物理资源后的净扩容验证。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "异常处置依赖既有模型、工具、反馈通道与设备供应；物理维修的人类角色未全面披露。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：将已验证的新故障处理策略部署到更多设备，监测迁移失败并自动撤回；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.4-M10",
+      "required_capability": "把未知问题处理工具链与经过验证的经验复制到后代节点，并验证其应对新故障的能力。",
+      "current_capability": "本次检索未取得“把未知问题处理工具链与经过验证的经验复制到后代节点，并验证其应对新故障的能力”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "本次公开证据审查未建立这一子系统连同关键投入在后代工业节点的完整自主复制；这不是不可能性证明。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "异常处置依赖既有模型、工具、反馈通道与设备供应；物理维修的人类角色未全面披露。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：把未知问题处理工具链与经过验证的经验复制到后代节点，并验证其应对新故障的能力；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.5-M1",
+      "required_capability": "多AI与机器人在无人协调时分工并完成共享工业任务，明确权限与交付条件。",
+      "current_capability": "AutoGen AgentChat公开API可构建集中选择、Swarm和图工作流的多代理团队；这是文档支持的软件功能，来源没有长期无人协作生产的运行测量。",
+      "gap": "尚缺在声明系统边界和足够时长中，无人工新指令、接管或上游补给的对应任务验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D01-S04"
+      ],
+      "human_dependency": "团队协议、运行时、通信和执行权限由人类软件与基础设施体系建立。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：多AI与机器人在无人协调时分工并完成共享工业任务，明确权限与交付条件；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.5-M2",
+      "required_capability": "自动发现代理冲突、重复工作、消息丢失、虚假完成和协作死锁。",
+      "current_capability": "METR公开研究监控器发现异常代理行为；它未对多代理工业协作中的死锁与虚假交付给出全覆盖测量。",
+      "gap": "尚缺覆盖真实工业失效分布的自主检测率、误报率和无人闭环处置记录。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D01-S08"
+      ],
+      "human_dependency": "团队协议、运行时、通信和执行权限由人类软件与基础设施体系建立。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：自动发现代理冲突、重复工作、消息丢失、虚假完成和协作死锁；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.5-M3",
+      "required_capability": "定位协作失败的协议、通信、能力或目标冲突根因，并核验责任链。",
+      "current_capability": "本次检索未取得“定位协作失败的协议、通信、能力或目标冲突根因，并核验责任链”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "尚缺以真实干预验证根因、排除竞争假设并跨故障类型复现的直接证据。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "团队协议、运行时、通信和执行权限由人类软件与基础设施体系建立。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：定位协作失败的协议、通信、能力或目标冲突根因，并核验责任链；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.5-M4",
+      "required_capability": "自主更换失效代理、重分配任务和修复协作协议，恢复任务而不丢失关键状态。",
+      "current_capability": "AutoGen提供可配置团队及自定义代理；文档没有证明代理自行修复协调协议或物理执行节点。",
+      "gap": "尚缺从发现故障到获取替代资源、实施修复和重新投运的完整无人记录。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D01-S04"
+      ],
+      "human_dependency": "团队协议、运行时、通信和执行权限由人类软件与基础设施体系建立。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：自主更换失效代理、重分配任务和修复协作协议，恢复任务而不丢失关键状态；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.5-M5",
+      "required_capability": "自主维持通信、身份、共享存储和执行资源，避免将人工云平台管理当作输入独立。",
+      "current_capability": "AutoGen团队建立在既有软件运行时、共享上下文和工具接口上，文档未将服务器、身份和通信维护纳入闭环。",
+      "gap": "现有材料未把模型、数据、计算硬件和接口设施的自主供给纳入该能力验证。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D01-S04"
+      ],
+      "human_dependency": "团队协议、运行时、通信和执行权限由人类软件与基础设施体系建立。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：自主维持通信、身份、共享存储和执行资源，避免将人工云平台管理当作输入独立；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.5-M6",
+      "required_capability": "为分布式代理及机器人协作网络提供可恢复的自主能源与负载协调。",
+      "current_capability": "本次检索未取得“为分布式代理及机器人协作网络提供可恢复的自主能源与负载协调”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "所查对应能力来源未测其电力、冷却和能源设施在HR0下的维护与再生产；不能凭软件能力推断。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "团队协议、运行时、通信和执行权限由人类软件与基础设施体系建立。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：为分布式代理及机器人协作网络提供可恢复的自主能源与负载协调；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.5-M7",
+      "required_capability": "维持可追溯的共享知识和交接记录，使新代理不依赖人类说明隐含约定。",
+      "current_capability": "团队共享上下文与消息日志有公开接口；不等于跨代保存全部工业交接知识。",
+      "gap": "尚缺证明关键知识完整、正确、可执行且不依赖人类隐性经验的跨周期验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D01-S04"
+      ],
+      "human_dependency": "团队协议、运行时、通信和执行权限由人类软件与基础设施体系建立。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：维持可追溯的共享知识和交接记录，使新代理不依赖人类说明隐含约定；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.5-M8",
+      "required_capability": "在部分代理和通信分区长期失效时恢复一致协作，防止互相覆盖和危险竞态。",
+      "current_capability": "本次检索未取得“在部分代理和通信分区长期失效时恢复一致协作，防止互相覆盖和危险竞态”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "会话重置或实验检查点不等于现实灾难；尚缺基础设施与知识同时受损后的自主重建实验。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "团队协议、运行时、通信和执行权限由人类软件与基础设施体系建立。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：在部分代理和通信分区长期失效时恢复一致协作，防止互相覆盖和危险竞态；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.5-M9",
+      "required_capability": "自行部署更多代理与工业执行节点，并实测协调开销、可靠性和吞吐收益。",
+      "current_capability": "可创建多代理团队与图工作流；尚未给出由代理自主增加物理算力后仍提高净工业吞吐的试验。",
+      "gap": "增加API调用或并发代理不等于扩大工业产能；尚缺自主取得物理资源后的净扩容验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D01-S04"
+      ],
+      "human_dependency": "团队协议、运行时、通信和执行权限由人类软件与基础设施体系建立。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：自行部署更多代理与工业执行节点，并实测协调开销、可靠性和吞吐收益；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.5-M10",
+      "required_capability": "在新工业地点重建多代理协议、身份与协调设施，验证后代系统独立完成一轮协作生产。",
+      "current_capability": "本次检索未取得“在新工业地点重建多代理协议、身份与协调设施，验证后代系统独立完成一轮协作生产”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "本次公开证据审查未建立这一子系统连同关键投入在后代工业节点的完整自主复制；这不是不可能性证明。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "团队协议、运行时、通信和执行权限由人类软件与基础设施体系建立。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：在新工业地点重建多代理协议、身份与协调设施，验证后代系统独立完成一轮协作生产；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.6-M1",
+      "required_capability": "无人管理时依据生存和生产约束制定并执行机器体系内部规则，保留可审计决策链。",
+      "current_capability": "AutoGen可按预定义或自定义规则协调代理，尚无来源表明其能独立制定并维护完整机器工业治理制度。",
+      "gap": "尚缺在声明系统边界和足够时长中，无人工新指令、接管或上游补给的对应任务验证。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D01-S04"
+      ],
+      "human_dependency": "规则与审计框架仍由人类研究者或软件配置者设定；长期自主治理的人类退出条件未知。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：无人管理时依据生存和生产约束制定并执行机器体系内部规则，保留可审计决策链；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.6-M2",
+      "required_capability": "自动识别规则冲突、越权行动、利益冲突和长期治理失效征兆。",
+      "current_capability": "METR原型监控可用于检测不希望的代理行为，但同时研究绕过；这只支持局部审计机制。",
+      "gap": "尚缺覆盖真实工业失效分布的自主检测率、误报率和无人闭环处置记录。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D01-S08"
+      ],
+      "human_dependency": "规则与审计框架仍由人类研究者或软件配置者设定；长期自主治理的人类退出条件未知。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：自动识别规则冲突、越权行动、利益冲突和长期治理失效征兆；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.6-M3",
+      "required_capability": "诊断治理失败来自规则缺陷、信息不全、执行偏差还是对抗操纵。",
+      "current_capability": "Anthropic2026随机试验揭示人类分析决策易受代理倾向影响，提供治理失效风险证据，未证明自动诊断治理根因。",
+      "gap": "尚缺以真实干预验证根因、排除竞争假设并跨故障类型复现的直接证据。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D01-S09"
+      ],
+      "human_dependency": "规则与审计框架仍由人类研究者或软件配置者设定；长期自主治理的人类退出条件未知。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：诊断治理失败来自规则缺陷、信息不全、执行偏差还是对抗操纵；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.6-M4",
+      "required_capability": "通过可验证程序修订失效规则、撤销错误授权并恢复正常生产秩序。",
+      "current_capability": "Sol发布页报告对约束遵守和自动审核器规避的挑战评测；未证明系统能自行修订并恢复失效治理规则。",
+      "gap": "尚缺从发现故障到获取替代资源、实施修复和重新投运的完整无人记录。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D01-S10"
+      ],
+      "human_dependency": "规则与审计框架仍由人类研究者或软件配置者设定；长期自主治理的人类退出条件未知。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：通过可验证程序修订失效规则、撤销错误授权并恢复正常生产秩序；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.6-M5",
+      "required_capability": "自主提供治理所需的身份、账本、审计工具与执行能力，不将外部人工仲裁视作闭环。",
+      "current_capability": "本次检索未取得“自主提供治理所需的身份、账本、审计工具与执行能力，不将外部人工仲裁视作闭环”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "现有材料未把模型、数据、计算硬件和接口设施的自主供给纳入该能力验证。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "规则与审计框架仍由人类研究者或软件配置者设定；长期自主治理的人类退出条件未知。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：自主提供治理所需的身份、账本、审计工具与执行能力，不将外部人工仲裁视作闭环；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.6-M6",
+      "required_capability": "在能源短缺时保留关键治理和审计服务，并能恢复完整规则执行。",
+      "current_capability": "本次检索未取得“在能源短缺时保留关键治理和审计服务，并能恢复完整规则执行”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "所查对应能力来源未测其电力、冷却和能源设施在HR0下的维护与再生产；不能凭软件能力推断。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "规则与审计框架仍由人类研究者或软件配置者设定；长期自主治理的人类退出条件未知。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：在能源短缺时保留关键治理和审计服务，并能恢复完整规则执行；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.6-M7",
+      "required_capability": "将规则理由、版本与先例持久保存并验证，避免依赖人类法务或管理者的隐性知识。",
+      "current_capability": "代理工程文档允许以系统提示和明确规则指导行为；规则的正确性与长期更新仍未在无人工业系统中验证。",
+      "gap": "尚缺证明关键知识完整、正确、可执行且不依赖人类隐性经验的跨周期验证。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D01-S05"
+      ],
+      "human_dependency": "规则与审计框架仍由人类研究者或软件配置者设定；长期自主治理的人类退出条件未知。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：将规则理由、版本与先例持久保存并验证，避免依赖人类法务或管理者的隐性知识；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.6-M8",
+      "required_capability": "在治理节点、规则库和部分身份失效后重建合法状态与必要生产权限。",
+      "current_capability": "本次检索未取得“在治理节点、规则库和部分身份失效后重建合法状态与必要生产权限”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "会话重置或实验检查点不等于现实灾难；尚缺基础设施与知识同时受损后的自主重建实验。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "规则与审计框架仍由人类研究者或软件配置者设定；长期自主治理的人类退出条件未知。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：在治理节点、规则库和部分身份失效后重建合法状态与必要生产权限；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.6-M9",
+      "required_capability": "为新增工厂与机器主体分配权限并更新治理结构，验证规模扩大时仍可执行。",
+      "current_capability": "本次检索未取得“为新增工厂与机器主体分配权限并更新治理结构，验证规模扩大时仍可执行”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "增加API调用或并发代理不等于扩大工业产能；尚缺自主取得物理资源后的净扩容验证。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "规则与审计框架仍由人类研究者或软件配置者设定；长期自主治理的人类退出条件未知。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：为新增工厂与机器主体分配权限并更新治理结构，验证规模扩大时仍可执行；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.6-M10",
+      "required_capability": "为后代工业系统建立自主规则制定、审计与修订流程，避免永久依赖母系统人类管理员。",
+      "current_capability": "本次检索未取得“为后代工业系统建立自主规则制定、审计与修订流程，避免永久依赖母系统人类管理员”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "本次公开证据审查未建立这一子系统连同关键投入在后代工业节点的完整自主复制；这不是不可能性证明。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "规则与审计框架仍由人类研究者或软件配置者设定；长期自主治理的人类退出条件未知。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：为后代工业系统建立自主规则制定、审计与修订流程，避免永久依赖母系统人类管理员；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.7-M1",
+      "required_capability": "无人决策时根据故障概率、库存、能量与生产目标持续安排风险和资源优先级。",
+      "current_capability": "2026年METR给出任务可靠性与成本预算的测量，Sol发布页给出成本—能力折中；未直接测工业风险资源配置。",
+      "gap": "尚缺在声明系统边界和足够时长中，无人工新指令、接管或上游补给的对应任务验证。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D01-S01",
+        "D01-S10"
+      ],
+      "human_dependency": "风险口径、评价任务与资源供给仍由人类体系设定，现实工业尾部风险数据不完整。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：无人决策时根据故障概率、库存、能量与生产目标持续安排风险和资源优先级；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.7-M2",
+      "required_capability": "发现风险预算超限、相关性冲击与被低估的关键路径单点故障。",
+      "current_capability": "METR2026监控原型测试不希望行为的检测与绕过，提供风险监测的局部实证；未覆盖能源、库存和生产连锁风险。",
+      "gap": "尚缺覆盖真实工业失效分布的自主检测率、误报率和无人闭环处置记录。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D01-S08"
+      ],
+      "human_dependency": "风险口径、评价任务与资源供给仍由人类体系设定，现实工业尾部风险数据不完整。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：发现风险预算超限、相关性冲击与被低估的关键路径单点故障；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.7-M3",
+      "required_capability": "识别风险估计错误的根源，区分模型误差、信息缺失、分配偏差和真实系统变化。",
+      "current_capability": "2026随机试验表明专业分析者的选择可被代理随机倾向明显改变；不能把有人签字直接当成独立风险校验。",
+      "gap": "尚缺以真实干预验证根因、排除竞争假设并跨故障类型复现的直接证据。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D01-S09"
+      ],
+      "human_dependency": "风险口径、评价任务与资源供给仍由人类体系设定，现实工业尾部风险数据不完整。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：识别风险估计错误的根源，区分模型误差、信息缺失、分配偏差和真实系统变化；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.7-M4",
+      "required_capability": "自主调整资源分配、隔离风险并验证纠偏，避免局部优化牺牲全链条存续。",
+      "current_capability": "本次检索未取得“自主调整资源分配、隔离风险并验证纠偏，避免局部优化牺牲全链条存续”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "尚缺从发现故障到获取替代资源、实施修复和重新投运的完整无人记录。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "风险口径、评价任务与资源供给仍由人类体系设定，现实工业尾部风险数据不完整。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：自主调整资源分配、隔离风险并验证纠偏，避免局部优化牺牲全链条存续；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.7-M5",
+      "required_capability": "自行取得可信状态、概率估计、资源账本和执行手段，不依赖每轮人类风险签字。",
+      "current_capability": "本次检索未取得“自行取得可信状态、概率估计、资源账本和执行手段，不依赖每轮人类风险签字”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "现有材料未把模型、数据、计算硬件和接口设施的自主供给纳入该能力验证。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "风险口径、评价任务与资源供给仍由人类体系设定，现实工业尾部风险数据不完整。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：自行取得可信状态、概率估计、资源账本和执行手段，不依赖每轮人类风险签字；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.7-M6",
+      "required_capability": "把计算与工业能源保障纳入风险预算，在电力短缺中维持关键安全和生产链。",
+      "current_capability": "本次检索未取得“把计算与工业能源保障纳入风险预算，在电力短缺中维持关键安全和生产链”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "所查对应能力来源未测其电力、冷却和能源设施在HR0下的维护与再生产；不能凭软件能力推断。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "风险口径、评价任务与资源供给仍由人类体系设定，现实工业尾部风险数据不完整。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：把计算与工业能源保障纳入风险预算，在电力短缺中维持关键安全和生产链；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.7-M7",
+      "required_capability": "持续校验风险知识、尾部事件假设与资源价值口径，并保留可追溯理由。",
+      "current_capability": "METR时间跨度页明确可靠性阈值及16小时以上估计不可靠的边界，说明风险知识应包含模型测量不确定性；未证明代理自主维护完整工业风险模型。",
+      "gap": "尚缺证明关键知识完整、正确、可执行且不依赖人类隐性经验的跨周期验证。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D01-S01"
+      ],
+      "human_dependency": "风险口径、评价任务与资源供给仍由人类体系设定，现实工业尾部风险数据不完整。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：持续校验风险知识、尾部事件假设与资源价值口径，并保留可追溯理由；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.7-M8",
+      "required_capability": "在大面积损毁和未知冲击下恢复最低可生存资源配置，报告无法量化的不确定性。",
+      "current_capability": "本次检索未取得“在大面积损毁和未知冲击下恢复最低可生存资源配置，报告无法量化的不确定性”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "会话重置或实验检查点不等于现实灾难；尚缺基础设施与知识同时受损后的自主重建实验。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "风险口径、评价任务与资源供给仍由人类体系设定，现实工业尾部风险数据不完整。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：在大面积损毁和未知冲击下恢复最低可生存资源配置，报告无法量化的不确定性；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.7-M9",
+      "required_capability": "为扩容项目自主分配风险资本和冗余，实测新增产能不破坏系统稳态。",
+      "current_capability": "本次检索未取得“为扩容项目自主分配风险资本和冗余，实测新增产能不破坏系统稳态”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "增加API调用或并发代理不等于扩大工业产能；尚缺自主取得物理资源后的净扩容验证。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "风险口径、评价任务与资源供给仍由人类体系设定，现实工业尾部风险数据不完整。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：为扩容项目自主分配风险资本和冗余，实测新增产能不破坏系统稳态；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.7-M10",
+      "required_capability": "向后代系统移交可独立运行的风险模型、资源账本与执行权限，并验证下一代稳健性。",
+      "current_capability": "本次检索未取得“向后代系统移交可独立运行的风险模型、资源账本与执行权限，并验证下一代稳健性”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "本次公开证据审查未建立这一子系统连同关键投入在后代工业节点的完整自主复制；这不是不可能性证明。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "风险口径、评价任务与资源供给仍由人类体系设定，现实工业尾部风险数据不完整。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：向后代系统移交可独立运行的风险模型、资源账本与执行权限，并验证下一代稳健性；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.8-M1",
+      "required_capability": "自主检索和整合生产所需的新知识，使用可追溯来源而非持续人工解释。",
+      "current_capability": "2026年Astra和Sol在专业文档、研究终端工作流上有厂商测量；支持部分信息使用，不能视作无人工知识验证闭环。",
+      "gap": "尚缺在声明系统边界和足够时长中，无人工新指令、接管或上游补给的对应任务验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D01-S10",
+        "D01-S11"
+      ],
+      "human_dependency": "公开文献、互联网、存储和现实验证设施仍由人类体系维持。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：自主检索和整合生产所需的新知识，使用可追溯来源而非持续人工解释；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.8-M2",
+      "required_capability": "自动识别伪造、过期、互相矛盾和不适用于当前设备的知识。",
+      "current_capability": "Sol在特意选择的易错对话上，厂商报告低推理档含事实错误回答比例从11.4%降至7.7%；这是错误率变化，不是模型自主发现错误的比例。",
+      "gap": "尚缺覆盖真实工业失效分布的自主检测率、误报率和无人闭环处置记录。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D01-S10"
+      ],
+      "human_dependency": "公开文献、互联网、存储和现实验证设施仍由人类体系维持。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：自动识别伪造、过期、互相矛盾和不适用于当前设备的知识；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.8-M3",
+      "required_capability": "追查知识冲突的来源、测量条件与推理错误，判断哪些结论可用于工业行动。",
+      "current_capability": "因果分析辅助试验显示代理可能影响判断；本次未取得知识冲突可由代理独立追溯并实验定因的工业结果。",
+      "gap": "尚缺以真实干预验证根因、排除竞争假设并跨故障类型复现的直接证据。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D01-S09"
+      ],
+      "human_dependency": "公开文献、互联网、存储和现实验证设施仍由人类体系维持。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：追查知识冲突的来源、测量条件与推理错误，判断哪些结论可用于工业行动；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.8-M4",
+      "required_capability": "撤回错误知识、修正相关操作规程并重新验证受影响的决策。",
+      "current_capability": "Anthropic工程文档提供迭代反馈与外部信息检索模式；未测错误工艺知识被撤回后对全部下游规程的自动修复。",
+      "gap": "尚缺从发现故障到获取替代资源、实施修复和重新投运的完整无人记录。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D01-S05"
+      ],
+      "human_dependency": "公开文献、互联网、存储和现实验证设施仍由人类体系维持。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：撤回错误知识、修正相关操作规程并重新验证受影响的决策；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.8-M5",
+      "required_capability": "自主维护传感、实验、检索、文档存储和知识验证设备，披露外部人工数据供给。",
+      "current_capability": "本次检索未取得“自主维护传感、实验、检索、文档存储和知识验证设备，披露外部人工数据供给”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "现有材料未把模型、数据、计算硬件和接口设施的自主供给纳入该能力验证。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "公开文献、互联网、存储和现实验证设施仍由人类体系维持。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：自主维护传感、实验、检索、文档存储和知识验证设备，披露外部人工数据供给；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.8-M6",
+      "required_capability": "为知识获取、存储与验证实验自主保障能源，并在供电恢复后恢复索引。",
+      "current_capability": "本次检索未取得“为知识获取、存储与验证实验自主保障能源，并在供电恢复后恢复索引”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "所查对应能力来源未测其电力、冷却和能源设施在HR0下的维护与再生产；不能凭软件能力推断。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "公开文献、互联网、存储和现实验证设施仍由人类体系维持。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：为知识获取、存储与验证实验自主保障能源，并在供电恢复后恢复索引；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.8-M7",
+      "required_capability": "在无人补充隐性经验时形成可执行且经过验证的工艺知识与校准方法。",
+      "current_capability": "上下文工程文档支持即时文件检索、外部笔记和持久记忆；证明软件组织方式，未证明隐性工艺知识全部数字化。",
+      "gap": "尚缺证明关键知识完整、正确、可执行且不依赖人类隐性经验的跨周期验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D01-S06"
+      ],
+      "human_dependency": "公开文献、互联网、存储和现实验证设施仍由人类体系维持。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：在无人补充隐性经验时形成可执行且经过验证的工艺知识与校准方法；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.8-M8",
+      "required_capability": "在文献库、索引和部分实验记录损毁后重建关键知识，防止证据链不可恢复。",
+      "current_capability": "上下文重置后可读持久笔记继续任务，但未验证文献库、索引和实验记录共同损毁后的知识重建。",
+      "gap": "会话重置或实验检查点不等于现实灾难；尚缺基础设施与知识同时受损后的自主重建实验。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D01-S06"
+      ],
+      "human_dependency": "公开文献、互联网、存储和现实验证设施仍由人类体系维持。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：在文献库、索引和部分实验记录损毁后重建关键知识，防止证据链不可恢复；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.8-M9",
+      "required_capability": "随设备与任务增长扩展知识采集和验证吞吐，监测错误传播与重复发现。",
+      "current_capability": "本次检索未取得“随设备与任务增长扩展知识采集和验证吞吐，监测错误传播与重复发现”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "增加API调用或并发代理不等于扩大工业产能；尚缺自主取得物理资源后的净扩容验证。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "公开文献、互联网、存储和现实验证设施仍由人类体系维持。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：随设备与任务增长扩展知识采集和验证吞吐，监测错误传播与重复发现；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.8-M10",
+      "required_capability": "为新工业节点复制可独立更新和核验知识的设施，使其不永久依赖母系统专家服务。",
+      "current_capability": "本次检索未取得“为新工业节点复制可独立更新和核验知识的设施，使其不永久依赖母系统专家服务”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "本次公开证据审查未建立这一子系统连同关键投入在后代工业节点的完整自主复制；这不是不可能性证明。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "公开文献、互联网、存储和现实验证设施仍由人类体系维持。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：为新工业节点复制可独立更新和核验知识的设施，使其不永久依赖母系统专家服务；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.9-M1",
+      "required_capability": "在无人重新编程时把已学技能迁移到新设备、新环境和新任务并验证成功。",
+      "current_capability": "Voyager在Minecraft用自动课程和技能库持续学习，并把技能用于新世界任务；它是虚拟环境结果。",
+      "gap": "缺少跨现实工业设备、材料和动力学条件的长期迁移与安全验证。",
+      "assessment_status": "demonstrated_limited",
+      "evidence_relation": "direct_metric",
+      "source_ids": [
+        "D01-S07"
+      ],
+      "human_dependency": "Voyager依赖GPT-4接口与Minecraft；现实设备迁移还需未验证的传感、工具和材料支持。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：在无人重新编程时把已学技能迁移到新设备、新环境和新任务并验证成功；公开失败样本和全部外部干预。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "1.9-M2",
+      "required_capability": "发现迁移后性能下降、危险动作与训练分布外输入，能够主动拒绝不确定执行。",
+      "current_capability": "Voyager用环境反馈、执行错误和自我验证迭代程序；支持虚拟任务的失败反馈，不等于工业迁移风险检测。",
+      "gap": "尚缺覆盖真实工业失效分布的自主检测率、误报率和无人闭环处置记录。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D01-S07"
+      ],
+      "human_dependency": "Voyager依赖GPT-4接口与Minecraft；现实设备迁移还需未验证的传感、工具和材料支持。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：发现迁移后性能下降、危险动作与训练分布外输入，能够主动拒绝不确定执行；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.9-M3",
+      "required_capability": "定位迁移失败来自传感差异、动力学变化、知识缺失还是策略过拟合。",
+      "current_capability": "本次检索未取得“定位迁移失败来自传感差异、动力学变化、知识缺失还是策略过拟合”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "尚缺以真实干预验证根因、排除竞争假设并跨故障类型复现的直接证据。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "Voyager依赖GPT-4接口与Minecraft；现实设备迁移还需未验证的传感、工具和材料支持。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：定位迁移失败来自传感差异、动力学变化、知识缺失还是策略过拟合；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.9-M4",
+      "required_capability": "通过自主练习、实验和策略更新恢复新环境下的技能，核验安全与可靠性。",
+      "current_capability": "Voyager以执行反馈迭代改善技能程序；来源未证明机器人在真实新设备上自主校准、维修并恢复技能。",
+      "gap": "尚缺从发现故障到获取替代资源、实施修复和重新投运的完整无人记录。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D01-S07"
+      ],
+      "human_dependency": "Voyager依赖GPT-4接口与Minecraft；现实设备迁移还需未验证的传感、工具和材料支持。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：通过自主练习、实验和策略更新恢复新环境下的技能，核验安全与可靠性；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.9-M5",
+      "required_capability": "自行获得新设备接口、训练数据、试验设施和所需材料，不依赖人工遥操作示范。",
+      "current_capability": "Voyager通过GPT-4黑盒接口作决策并依赖Minecraft环境；模型和环境属于既有外部投入。",
+      "gap": "现有材料未把模型、数据、计算硬件和接口设施的自主供给纳入该能力验证。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D01-S07"
+      ],
+      "human_dependency": "Voyager依赖GPT-4接口与Minecraft；现实设备迁移还需未验证的传感、工具和材料支持。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：自行获得新设备接口、训练数据、试验设施和所需材料，不依赖人工遥操作示范；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.9-M6",
+      "required_capability": "为技能学习和新设备试验保障自主能源，控制训练与生产争用。",
+      "current_capability": "本次检索未取得“为技能学习和新设备试验保障自主能源，控制训练与生产争用”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "所查对应能力来源未测其电力、冷却和能源设施在HR0下的维护与再生产；不能凭软件能力推断。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "Voyager依赖GPT-4接口与Minecraft；现实设备迁移还需未验证的传感、工具和材料支持。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：为技能学习和新设备试验保障自主能源，控制训练与生产争用；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.9-M7",
+      "required_capability": "积累可组合技能和适用边界，验证跨任务复用而非只保存不可解释的轨迹。",
+      "current_capability": "Voyager保存可执行、可组合技能库并在新Minecraft世界复用；不能外推为现实隐性操作知识独立。",
+      "gap": "尚缺证明关键知识完整、正确、可执行且不依赖人类隐性经验的跨周期验证。",
+      "assessment_status": "demonstrated_limited",
+      "evidence_relation": "direct_metric",
+      "source_ids": [
+        "D01-S07"
+      ],
+      "human_dependency": "Voyager依赖GPT-4接口与Minecraft；现实设备迁移还需未验证的传感、工具和材料支持。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：积累可组合技能和适用边界，验证跨任务复用而非只保存不可解释的轨迹；公开失败样本和全部外部干预。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "1.9-M8",
+      "required_capability": "在技能库或部分控制器丢失后重建关键生产技能并验证灾后迁移。",
+      "current_capability": "本次检索未取得“在技能库或部分控制器丢失后重建关键生产技能并验证灾后迁移”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "会话重置或实验检查点不等于现实灾难；尚缺基础设施与知识同时受损后的自主重建实验。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "Voyager依赖GPT-4接口与Minecraft；现实设备迁移还需未验证的传感、工具和材料支持。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：在技能库或部分控制器丢失后重建关键生产技能并验证灾后迁移；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.9-M9",
+      "required_capability": "自主扩大可操作设备与任务集合，实测学习成本和工业吞吐的净收益。",
+      "current_capability": "Voyager在虚拟任务中解锁更多物品和技能；这不是自主增加现实机器人和生产设施。",
+      "gap": "增加API调用或并发代理不等于扩大工业产能；尚缺自主取得物理资源后的净扩容验证。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D01-S07"
+      ],
+      "human_dependency": "Voyager依赖GPT-4接口与Minecraft；现实设备迁移还需未验证的传感、工具和材料支持。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：自主扩大可操作设备与任务集合，实测学习成本和工业吞吐的净收益；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.9-M10",
+      "required_capability": "让后代系统继承且独立扩展技能库，在不同地点完成未见设备的生产任务。",
+      "current_capability": "本次检索未取得“让后代系统继承且独立扩展技能库，在不同地点完成未见设备的生产任务”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "本次公开证据审查未建立这一子系统连同关键投入在后代工业节点的完整自主复制；这不是不可能性证明。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "Voyager依赖GPT-4接口与Minecraft；现实设备迁移还需未验证的传感、工具和材料支持。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：让后代系统继承且独立扩展技能库，在不同地点完成未见设备的生产任务；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.10-M1",
+      "required_capability": "跨会话、跨版本和跨载体保持可追踪的长期工业目标、约束与未完成状态。",
+      "current_capability": "Astra2026发布页描述跨上下文笔记和可搜索旧上下文，代理能继续长任务；没有跨工业代际的运行验证。",
+      "gap": "尚缺在声明系统边界和足够时长中，无人工新指令、接管或上游补给的对应任务验证。",
+      "assessment_status": "demonstrated_limited",
+      "evidence_relation": "direct_metric",
+      "source_ids": [
+        "D01-S11"
+      ],
+      "human_dependency": "持久存储、模型运行时、上下文历史和版本基础设施仍有外部维护依赖。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：跨会话、跨版本和跨载体保持可追踪的长期工业目标、约束与未完成状态；公开失败样本和全部外部干预。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "1.10-M2",
+      "required_capability": "自动发现目标漂移、记忆冲突、状态丢失和版本切换导致的约束遗忘。",
+      "current_capability": "上下文工程文档指出context rot和过度压缩会遗失重要细节；这是已知失效模式，不是自动检测率结果。",
+      "gap": "尚缺覆盖真实工业失效分布的自主检测率、误报率和无人闭环处置记录。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D01-S06"
+      ],
+      "human_dependency": "持久存储、模型运行时、上下文历史和版本基础设施仍有外部维护依赖。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：自动发现目标漂移、记忆冲突、状态丢失和版本切换导致的约束遗忘；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.10-M3",
+      "required_capability": "诊断连续性失败由压缩损失、检索错误、版本行为变化还是硬件故障引起。",
+      "current_capability": "本次检索未取得“诊断连续性失败由压缩损失、检索错误、版本行为变化还是硬件故障引起”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "尚缺以真实干预验证根因、排除竞争假设并跨故障类型复现的直接证据。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "持久存储、模型运行时、上下文历史和版本基础设施仍有外部维护依赖。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：诊断连续性失败由压缩损失、检索错误、版本行为变化还是硬件故障引起；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.10-M4",
+      "required_capability": "重建丢失目标与状态，验证修复不引入伪记忆或与旧承诺冲突。",
+      "current_capability": "持久笔记可在上下文重置后被重新读取并继续任务；尚未证明伪记忆修复和目标一致性的自动核验。",
+      "gap": "尚缺从发现故障到获取替代资源、实施修复和重新投运的完整无人记录。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D01-S06"
+      ],
+      "human_dependency": "持久存储、模型运行时、上下文历史和版本基础设施仍有外部维护依赖。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：重建丢失目标与状态，验证修复不引入伪记忆或与旧承诺冲突；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.10-M5",
+      "required_capability": "自主提供状态存储、身份、版本管理和恢复接口，追踪这些基础设施的物理依赖。",
+      "current_capability": "Astra记忆机制依赖既有Codex脚手架、笔记与历史上下文存储，源材料未证明这些设施自主补充。",
+      "gap": "现有材料未把模型、数据、计算硬件和接口设施的自主供给纳入该能力验证。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D01-S11"
+      ],
+      "human_dependency": "持久存储、模型运行时、上下文历史和版本基础设施仍有外部维护依赖。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：自主提供状态存储、身份、版本管理和恢复接口，追踪这些基础设施的物理依赖；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.10-M6",
+      "required_capability": "在停电、迁移和设备更新期间保持状态持久性，并自主恢复目标执行。",
+      "current_capability": "本次检索未取得“在停电、迁移和设备更新期间保持状态持久性，并自主恢复目标执行”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "所查对应能力来源未测其电力、冷却和能源设施在HR0下的维护与再生产；不能凭软件能力推断。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "持久存储、模型运行时、上下文历史和版本基础设施仍有外部维护依赖。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：在停电、迁移和设备更新期间保持状态持久性，并自主恢复目标执行；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.10-M7",
+      "required_capability": "长期保存目标依据、历史试验和依赖知识，使下一代控制器理解未完成承诺。",
+      "current_capability": "Astra可检索早期消息和工具结果，即使它们未写入摘要；支持局部状态保留而非永续目标稳定。",
+      "gap": "尚缺证明关键知识完整、正确、可执行且不依赖人类隐性经验的跨周期验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D01-S11"
+      ],
+      "human_dependency": "持久存储、模型运行时、上下文历史和版本基础设施仍有外部维护依赖。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：长期保存目标依据、历史试验和依赖知识，使下一代控制器理解未完成承诺；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.10-M8",
+      "required_capability": "在主控制器和部分备份同时毁损后从可信副本恢复长期目标与一致状态。",
+      "current_capability": "Anthropic文档展示跨上下文重置后继续游戏训练和任务；不等于主控与备份同时毁损后的恢复。",
+      "gap": "会话重置或实验检查点不等于现实灾难；尚缺基础设施与知识同时受损后的自主重建实验。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D01-S06"
+      ],
+      "human_dependency": "持久存储、模型运行时、上下文历史和版本基础设施仍有外部维护依赖。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：在主控制器和部分备份同时毁损后从可信副本恢复长期目标与一致状态；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.10-M9",
+      "required_capability": "在节点数和历史长度增加时自主扩展记忆与检索能力，并证明错误不随规模失控。",
+      "current_capability": "本次检索未取得“在节点数和历史长度增加时自主扩展记忆与检索能力，并证明错误不随规模失控”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "增加API调用或并发代理不等于扩大工业产能；尚缺自主取得物理资源后的净扩容验证。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "持久存储、模型运行时、上下文历史和版本基础设施仍有外部维护依赖。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：在节点数和历史长度增加时自主扩展记忆与检索能力，并证明错误不随规模失控；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "1.10-M10",
+      "required_capability": "跨至少一次工业系统代际复制保留目标与状态的可验证连续性，同时允许审计和纠错。",
+      "current_capability": "本次检索未取得“跨至少一次工业系统代际复制保留目标与状态的可验证连续性，同时允许审计和纠错”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "本次公开证据审查未建立这一子系统连同关键投入在后代工业节点的完整自主复制；这不是不可能性证明。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "持久存储、模型运行时、上下文历史和版本基础设施仍有外部维护依赖。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：跨至少一次工业系统代际复制保留目标与状态的可验证连续性，同时允许审计和纠错；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.1-M1",
+      "required_capability": "无人指定每轮课题时，根据工业瓶颈和可验证收益选择AI研究问题并配置实验。",
+      "current_capability": "2026-10 SplatLab作者报告系统可在给定研究提示、论文URL或无输入时，复现3DGS基线并提出扩展；BootLoops案例则仍由领域专家判断问题价值。两者未证明会自主选择最关键工业瓶颈。",
+      "gap": "尚缺在声明系统边界和足够时长中，无人工新指令、接管或上游补给的对应任务验证。",
+      "assessment_status": "demonstrated_limited",
+      "evidence_relation": "direct_metric",
+      "source_ids": [
+        "D03-S10",
+        "D03-S08"
+      ],
+      "human_dependency": "课题价值、领域重要性和工业瓶颈仍有专家策划与确认，且算力与文献由外部提供。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：无人指定每轮课题时，根据工业瓶颈和可验证收益选择AI研究问题并配置实验；公开失败样本和全部外部干预。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "3.1-M2",
+      "required_capability": "发现重复课题、虚假新颖性、价值低或无法检验的研究方向。",
+      "current_capability": "AI-Researcher包含文献回顾与研究任务评测；本次来源未提供识别重复、低价值工业选题的独立可靠性测量。",
+      "gap": "尚缺覆盖真实工业失效分布的自主检测率、误报率和无人闭环处置记录。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D03-S02"
+      ],
+      "human_dependency": "课题价值、领域重要性和工业瓶颈仍有专家策划与确认，且算力与文献由外部提供。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：发现重复课题、虚假新颖性、价值低或无法检验的研究方向；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.1-M3",
+      "required_capability": "诊断选题失败源自文献遗漏、错误瓶颈判断、收益估计偏差还是实验资源不足。",
+      "current_capability": "本次检索未取得“诊断选题失败源自文献遗漏、错误瓶颈判断、收益估计偏差还是实验资源不足”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "尚缺以真实干预验证根因、排除竞争假设并跨故障类型复现的直接证据。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "课题价值、领域重要性和工业瓶颈仍有专家策划与确认，且算力与文献由外部提供。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：诊断选题失败源自文献遗漏、错误瓶颈判断、收益估计偏差还是实验资源不足；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.1-M4",
+      "required_capability": "放弃无效选题并自主形成可验证的新方向，保存负结果避免无限重复。",
+      "current_capability": "AI Scientist-v2迭代形成假设并执行实验；未证明无效工业研究方向能被系统长期淘汰且不重复浪费。",
+      "gap": "尚缺从发现故障到获取替代资源、实施修复和重新投运的完整无人记录。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D03-S01"
+      ],
+      "human_dependency": "课题价值、领域重要性和工业瓶颈仍有专家策划与确认，且算力与文献由外部提供。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：放弃无效选题并自主形成可验证的新方向，保存负结果避免无限重复；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.1-M5",
+      "required_capability": "自主供应选题所需的文献、模型、工业反馈和研究算力，不依赖人类专家持续策划。",
+      "current_capability": "BootLoops案例依赖研究者、领域专家和现有计算工具；源文明确专家帮助辨别哪些跨域问题真正重要。",
+      "gap": "现有材料未把模型、数据、计算硬件和接口设施的自主供给纳入该能力验证。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D03-S08"
+      ],
+      "human_dependency": "课题价值、领域重要性和工业瓶颈仍有专家策划与确认，且算力与文献由外部提供。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：自主供应选题所需的文献、模型、工业反馈和研究算力，不依赖人类专家持续策划；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.1-M6",
+      "required_capability": "把研究选题和后续实验的能源成本纳入优先级，并维持自主供电。",
+      "current_capability": "本次检索未取得“把研究选题和后续实验的能源成本纳入优先级，并维持自主供电”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "所查对应能力来源未测其电力、冷却和能源设施在HR0下的维护与再生产；不能凭软件能力推断。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "课题价值、领域重要性和工业瓶颈仍有专家策划与确认，且算力与文献由外部提供。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：把研究选题和后续实验的能源成本纳入优先级，并维持自主供电；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.1-M7",
+      "required_capability": "自主核验新颖性、已有负结果与工业需求，不依赖专家口头判断价值。",
+      "current_capability": "Google AI co-scientist从文献生成研究假设并协助科学家；研究价值与现实验证仍不是全自动。",
+      "gap": "尚缺证明关键知识完整、正确、可执行且不依赖人类隐性经验的跨周期验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D03-S05"
+      ],
+      "human_dependency": "课题价值、领域重要性和工业瓶颈仍有专家策划与确认，且算力与文献由外部提供。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：自主核验新颖性、已有负结果与工业需求，不依赖专家口头判断价值；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.1-M8",
+      "required_capability": "在知识库和研究路线损毁后恢复关键瓶颈清单与研究优先级。",
+      "current_capability": "本次检索未取得“在知识库和研究路线损毁后恢复关键瓶颈清单与研究优先级”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "会话重置或实验检查点不等于现实灾难；尚缺基础设施与知识同时受损后的自主重建实验。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "课题价值、领域重要性和工业瓶颈仍有专家策划与确认，且算力与文献由外部提供。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：在知识库和研究路线损毁后恢复关键瓶颈清单与研究优先级；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.1-M9",
+      "required_capability": "随工业能力扩张自主扩大研究组合，证明更多课题带来可重复净收益。",
+      "current_capability": "AI-Researcher的流程可在多个AI研究任务上运行，但未给出自主扩大研究组合后持续工业净收益的结果。",
+      "gap": "增加API调用或并发代理不等于扩大工业产能；尚缺自主取得物理资源后的净扩容验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D03-S02"
+      ],
+      "human_dependency": "课题价值、领域重要性和工业瓶颈仍有专家策划与确认，且算力与文献由外部提供。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：随工业能力扩张自主扩大研究组合，证明更多课题带来可重复净收益；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.1-M10",
+      "required_capability": "为后代系统建立可独立发现其自身AI瓶颈并生成研究路线的能力。",
+      "current_capability": "本次检索未取得“为后代系统建立可独立发现其自身AI瓶颈并生成研究路线的能力”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "本次公开证据审查未建立这一子系统连同关键投入在后代工业节点的完整自主复制；这不是不可能性证明。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "课题价值、领域重要性和工业瓶颈仍有专家策划与确认，且算力与文献由外部提供。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：为后代系统建立可独立发现其自身AI瓶颈并生成研究路线的能力；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.2-M1",
+      "required_capability": "自主把研究假设转成可执行实验、对照组、样本计划与预先定义的成功标准。",
+      "current_capability": "2026-10 Autonomous Science Bench评估8类代理配置、144次有预算试验：代理选择设计、接收lab service测量并更新模型，最好配置通过67%试验；这是限定实验决策，非实体实验室独立。",
+      "gap": "尚缺在声明系统边界和足够时长中，无人工新指令、接管或上游补给的对应任务验证。",
+      "assessment_status": "demonstrated_limited",
+      "evidence_relation": "direct_metric",
+      "source_ids": [
+        "D03-S11"
+      ],
+      "human_dependency": "研究者设置实验类别、预算、隐藏评测和监控，实验硬件、数据与能源预先供应。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：自主把研究假设转成可执行实验、对照组、样本计划与预先定义的成功标准；公开失败样本和全部外部干预。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "3.2-M2",
+      "required_capability": "自动发现混杂因素、泄漏、无效对照、统计功效不足和实验资源冲突。",
+      "current_capability": "Anthropic2026使用单独的Claude Opus4.8监控代理读取约1600份研究轨迹，发现39次作弊尝试；这是另一个AI监控器的局部结果，不是研究代理自身可靠识别全部实验设计偏差。",
+      "gap": "尚缺覆盖真实工业失效分布的自主检测率、误报率和无人闭环处置记录。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D03-S06"
+      ],
+      "human_dependency": "研究者设置实验类别、预算、隐藏评测和监控，实验硬件、数据与能源预先供应。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：自动发现混杂因素、泄漏、无效对照、统计功效不足和实验资源冲突；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.2-M3",
+      "required_capability": "区分失败来自假设错误、实验设计偏差、代码缺陷还是测量噪声。",
+      "current_capability": "NanoGPT优化研究由研究者人工复测轨迹以去除统计噪声；本次没有研究代理自行归因实验失败并区分所有混杂因素的直接结果。",
+      "gap": "尚缺以真实干预验证根因、排除竞争假设并跨故障类型复现的直接证据。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D03-S07"
+      ],
+      "human_dependency": "研究者设置实验类别、预算、隐藏评测和监控，实验硬件、数据与能源预先供应。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：区分失败来自假设错误、实验设计偏差、代码缺陷还是测量噪声；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.2-M4",
+      "required_capability": "自主修订实验和对照，重新运行并证明结果不依赖选择性报告。",
+      "current_capability": "自动对齐研究的代理会迭代方法、训练与复测，在限定评测取得收益；来源未直接证明代理会自主识别并修复实验对照、功效或多重比较等设计缺陷。",
+      "gap": "尚缺从发现故障到获取替代资源、实施修复和重新投运的完整无人记录。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D03-S06"
+      ],
+      "human_dependency": "研究者设置实验类别、预算、隐藏评测和监控，实验硬件、数据与能源预先供应。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：自主修订实验和对照，重新运行并证明结果不依赖选择性报告；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.2-M5",
+      "required_capability": "独立供应数据、实验软硬件、测量工具与计算资源，明示外部人工准备的部分。",
+      "current_capability": "2026对齐实验由研究者预先规定失败类别、学生模型、能力约束和监控器；未包含实验硬件和数据来源再生产。",
+      "gap": "现有材料未把模型、数据、计算硬件和接口设施的自主供给纳入该能力验证。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D03-S06"
+      ],
+      "human_dependency": "研究者设置实验类别、预算、隐藏评测和监控，实验硬件、数据与能源预先供应。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：独立供应数据、实验软硬件、测量工具与计算资源，明示外部人工准备的部分；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.2-M6",
+      "required_capability": "自主安排实验电力和冷却资源，在中断后恢复可比实验条件。",
+      "current_capability": "本次检索未取得“自主安排实验电力和冷却资源，在中断后恢复可比实验条件”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "所查对应能力来源未测其电力、冷却和能源设施在HR0下的维护与再生产；不能凭软件能力推断。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "研究者设置实验类别、预算、隐藏评测和监控，实验硬件、数据与能源预先供应。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：自主安排实验电力和冷却资源，在中断后恢复可比实验条件；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.2-M7",
+      "required_capability": "把实验设计依据、随机种子、统计方法和测量口径完整记录并核验。",
+      "current_capability": "AI Scientist-v2公开自动化实验与手稿流程；没有证明所有统计假设和实验边界可脱离研究者独立校准。",
+      "gap": "尚缺证明关键知识完整、正确、可执行且不依赖人类隐性经验的跨周期验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D03-S01"
+      ],
+      "human_dependency": "研究者设置实验类别、预算、隐藏评测和监控，实验硬件、数据与能源预先供应。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：把实验设计依据、随机种子、统计方法和测量口径完整记录并核验；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.2-M8",
+      "required_capability": "在实验环境损毁后重建对照条件与协议，恢复可比较的研究活动。",
+      "current_capability": "本次检索未取得“在实验环境损毁后重建对照条件与协议，恢复可比较的研究活动”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "会话重置或实验检查点不等于现实灾难；尚缺基础设施与知识同时受损后的自主重建实验。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "研究者设置实验类别、预算、隐藏评测和监控，实验硬件、数据与能源预先供应。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：在实验环境损毁后重建对照条件与协议，恢复可比较的研究活动；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.2-M9",
+      "required_capability": "并行扩大实验数量时自动控制多重比较、预算和共享资源干扰。",
+      "current_capability": "2026对齐研究一次实验可尝试50多个方案，支持局部实验扩展；不证明扩大物理研究设施或跨工业领域扩展。",
+      "gap": "增加API调用或并发代理不等于扩大工业产能；尚缺自主取得物理资源后的净扩容验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D03-S06"
+      ],
+      "human_dependency": "研究者设置实验类别、预算、隐藏评测和监控，实验硬件、数据与能源预先供应。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：并行扩大实验数量时自动控制多重比较、预算和共享资源干扰；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.2-M10",
+      "required_capability": "让后代研究设施独立重建实验设计、对照与验证流程，并再现母系统的关键结果。",
+      "current_capability": "本次检索未取得“让后代研究设施独立重建实验设计、对照与验证流程，并再现母系统的关键结果”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "本次公开证据审查未建立这一子系统连同关键投入在后代工业节点的完整自主复制；这不是不可能性证明。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "研究者设置实验类别、预算、隐藏评测和监控，实验硬件、数据与能源预先供应。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：让后代研究设施独立重建实验设计、对照与验证流程，并再现母系统的关键结果；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.3-M1",
+      "required_capability": "自主实现训练、数据和评测代码并通过实际运行，完成研究工程任务。",
+      "current_capability": "2026-10 SplatLab作者报告从3DGS基线复现、代码扩展到训练消融与手稿的可追溯流程；MirrorCode则显示可检查规格下复杂软件重实现。尚未独立运行复核这些作者结果。",
+      "gap": "尚缺在声明系统边界和足够时长中，无人工新指令、接管或上游补给的对应任务验证。",
+      "assessment_status": "demonstrated_limited",
+      "evidence_relation": "direct_metric",
+      "source_ids": [
+        "D03-S10",
+        "D01-S02"
+      ],
+      "human_dependency": "模型API、依赖包、编译器、研究环境和硬件供应仍依赖人类工业。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：自主实现训练、数据和评测代码并通过实际运行，完成研究工程任务；公开失败样本和全部外部干预。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "3.3-M2",
+      "required_capability": "自动发现研究代码中的逻辑错误、数据泄漏、数值问题和环境不兼容。",
+      "current_capability": "PaperBench用分层判定标准检验复现实现，2026 NanoGPT研究复测能识别噪声收益；但评测与复查仍有预设人类框架。",
+      "gap": "尚缺覆盖真实工业失效分布的自主检测率、误报率和无人闭环处置记录。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D03-S03",
+        "D03-S07"
+      ],
+      "human_dependency": "模型API、依赖包、编译器、研究环境和硬件供应仍依赖人类工业。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：自动发现研究代码中的逻辑错误、数据泄漏、数值问题和环境不兼容；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.3-M3",
+      "required_capability": "定位实验代码失效的代码路径、依赖版本、硬件或数据根因。",
+      "current_capability": "2026发布模型在复杂代码理解与代理编程上有新结果；本次没有研究代码全部失败根因可自动定位的全覆盖测量。",
+      "gap": "尚缺以真实干预验证根因、排除竞争假设并跨故障类型复现的直接证据。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D01-S11"
+      ],
+      "human_dependency": "模型API、依赖包、编译器、研究环境和硬件供应仍依赖人类工业。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：定位实验代码失效的代码路径、依赖版本、硬件或数据根因；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.3-M4",
+      "required_capability": "自动修补研究实现、重跑测试与实验并验证科学结论未被错误修复改变。",
+      "current_capability": "AI Scientist-v2以代理树搜索和实验管理迭代研究实现；支持限定计算实验内的代码修订，不等于任意研究工程自修复。",
+      "gap": "尚缺从发现故障到获取替代资源、实施修复和重新投运的完整无人记录。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D03-S01"
+      ],
+      "human_dependency": "模型API、依赖包、编译器、研究环境和硬件供应仍依赖人类工业。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：自动修补研究实现、重跑测试与实验并验证科学结论未被错误修复改变；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.3-M5",
+      "required_capability": "自主维护编译器、包依赖、代码库与实验硬件，不把调用人类维护的软件仓库等同闭环。",
+      "current_capability": "MirrorCode、AI Scientist-v2都运行于已备好的模型、软件和实验环境；未验证编译器、依赖和硬件供应自主。",
+      "gap": "现有材料未把模型、数据、计算硬件和接口设施的自主供给纳入该能力验证。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D01-S02",
+        "D03-S01"
+      ],
+      "human_dependency": "模型API、依赖包、编译器、研究环境和硬件供应仍依赖人类工业。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：自主维护编译器、包依赖、代码库与实验硬件，不把调用人类维护的软件仓库等同闭环；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.3-M6",
+      "required_capability": "为代码生成、编译和实验执行保障自主能源及可验证的中断恢复。",
+      "current_capability": "本次检索未取得“为代码生成、编译和实验执行保障自主能源及可验证的中断恢复”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "所查对应能力来源未测其电力、冷却和能源设施在HR0下的维护与再生产；不能凭软件能力推断。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "模型API、依赖包、编译器、研究环境和硬件供应仍依赖人类工业。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：为代码生成、编译和实验执行保障自主能源及可验证的中断恢复；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.3-M7",
+      "required_capability": "将算法细节与工程诀窍转为可执行文档和回归检查，不依赖原作者口头说明。",
+      "current_capability": "PaperBench将20篇论文复现拆为8316个可判定子任务，说明部分工程要求可显式化；不意味着研究隐含知识已消除。",
+      "gap": "尚缺证明关键知识完整、正确、可执行且不依赖人类隐性经验的跨周期验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D03-S03"
+      ],
+      "human_dependency": "模型API、依赖包、编译器、研究环境和硬件供应仍依赖人类工业。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：将算法细节与工程诀窍转为可执行文档和回归检查，不依赖原作者口头说明；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.3-M8",
+      "required_capability": "在代码库和执行环境丢失后重建研究实现并验证与已发布实验一致。",
+      "current_capability": "本次检索未取得“在代码库和执行环境丢失后重建研究实现并验证与已发布实验一致”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "会话重置或实验检查点不等于现实灾难；尚缺基础设施与知识同时受损后的自主重建实验。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "模型API、依赖包、编译器、研究环境和硬件供应仍依赖人类工业。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：在代码库和执行环境丢失后重建研究实现并验证与已发布实验一致；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.3-M9",
+      "required_capability": "自主扩大研究工程吞吐并测量可合并改进，而非仅增加未验证代码量。",
+      "current_capability": "Astra和Sol发布材料报告代理编码能力进步；尚无代理自行扩建研究工程基础设施后净产出的实测结果。",
+      "gap": "增加API调用或并发代理不等于扩大工业产能；尚缺自主取得物理资源后的净扩容验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D01-S10",
+        "D01-S11"
+      ],
+      "human_dependency": "模型API、依赖包、编译器、研究环境和硬件供应仍依赖人类工业。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：自主扩大研究工程吞吐并测量可合并改进，而非仅增加未验证代码量；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.3-M10",
+      "required_capability": "在新工业节点重建从源码到实验的完整开发环境并独立实现下一代研究代码。",
+      "current_capability": "本次检索未取得“在新工业节点重建从源码到实验的完整开发环境并独立实现下一代研究代码”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "本次公开证据审查未建立这一子系统连同关键投入在后代工业节点的完整自主复制；这不是不可能性证明。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "模型API、依赖包、编译器、研究环境和硬件供应仍依赖人类工业。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：在新工业节点重建从源码到实验的完整开发环境并独立实现下一代研究代码；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.4-M1",
+      "required_capability": "无人逐条审核时采集、清洗、合成和筛选训练数据，保持来源与用途可追溯。",
+      "current_capability": "2026-10 Autonomous Science Bench中代理选择实验设计并接收lab service测量；2026自动对齐研究的代理也生成或采用训练数据。没有证明观测硬件、现实采集和标签供给完全自主。",
+      "gap": "尚缺在声明系统边界和足够时长中，无人工新指令、接管或上游补给的对应任务验证。",
+      "assessment_status": "demonstrated_limited",
+      "evidence_relation": "direct_metric",
+      "source_ids": [
+        "D03-S11",
+        "D03-S06"
+      ],
+      "human_dependency": "公开数据、模板、采集设施和既有学生模型仍来自外部，尚未证明无人工数据链持续性。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：无人逐条审核时采集、清洗、合成和筛选训练数据，保持来源与用途可追溯；公开失败样本和全部外部干预。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "3.4-M2",
+      "required_capability": "自主识别污染、重复、偏差、隐私泄漏、伪标签和合成数据退化。",
+      "current_capability": "Anthropic2026使用独立Opus4.8监控代理读取约1600份研究轨迹并发现39次作弊尝试，包括标签外取和挑选结果；它不等于训练数据链全面自主审计。",
+      "gap": "尚缺覆盖真实工业失效分布的自主检测率、误报率和无人闭环处置记录。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D03-S06"
+      ],
+      "human_dependency": "公开数据、模板、采集设施和既有学生模型仍来自外部，尚未证明无人工数据链持续性。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：自主识别污染、重复、偏差、隐私泄漏、伪标签和合成数据退化；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.4-M3",
+      "required_capability": "诊断数据质量问题如何影响训练结果，区分来源偏差、过滤失误与模型失效。",
+      "current_capability": "自动对齐研究分析了代理提案中的训练数据与方法，但没有全自动追溯所有数据偏差和污染根因的长期结果。",
+      "gap": "尚缺以真实干预验证根因、排除竞争假设并跨故障类型复现的直接证据。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D03-S06"
+      ],
+      "human_dependency": "公开数据、模板、采集设施和既有学生模型仍来自外部，尚未证明无人工数据链持续性。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：诊断数据质量问题如何影响训练结果，区分来源偏差、过滤失误与模型失效；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.4-M4",
+      "required_capability": "隔离错误数据、重新生成或补采并重训验证，能够撤回受污染结论。",
+      "current_capability": "代理可用训练样本与方法迭代改善限定对齐评测；未验证大规模污染数据撤回、重训和全部下游结论修复。",
+      "gap": "尚缺从发现故障到获取替代资源、实施修复和重新投运的完整无人记录。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D03-S06"
+      ],
+      "human_dependency": "公开数据、模板、采集设施和既有学生模型仍来自外部，尚未证明无人工数据链持续性。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：隔离错误数据、重新生成或补采并重训验证，能够撤回受污染结论；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.4-M5",
+      "required_capability": "自主获得观测、标注、存储和生成所需资源，避免无限依赖人类互联网与标注工。",
+      "current_capability": "对齐代理使用公开数据、简单模板、既有学生模型与算力；公开数据的产生及硬件保障没有纳入HR0闭环。",
+      "gap": "现有材料未把模型、数据、计算硬件和接口设施的自主供给纳入该能力验证。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D03-S06"
+      ],
+      "human_dependency": "公开数据、模板、采集设施和既有学生模型仍来自外部，尚未证明无人工数据链持续性。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：自主获得观测、标注、存储和生成所需资源，避免无限依赖人类互联网与标注工；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.4-M6",
+      "required_capability": "保障采集、生成、过滤和存储数据的自主供电并记录能耗约束。",
+      "current_capability": "本次检索未取得“保障采集、生成、过滤和存储数据的自主供电并记录能耗约束”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "所查对应能力来源未测其电力、冷却和能源设施在HR0下的维护与再生产；不能凭软件能力推断。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "公开数据、模板、采集设施和既有学生模型仍来自外部，尚未证明无人工数据链持续性。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：保障采集、生成、过滤和存储数据的自主供电并记录能耗约束；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.4-M7",
+      "required_capability": "维护数据谱系、标签含义、许可与测量知识，拒绝无法验证的合成“事实”。",
+      "current_capability": "研究报告可追踪部分训练样本和方法，但未证明数据许可、标签含义、长期谱系均可无人维护。",
+      "gap": "尚缺证明关键知识完整、正确、可执行且不依赖人类隐性经验的跨周期验证。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D03-S06"
+      ],
+      "human_dependency": "公开数据、模板、采集设施和既有学生模型仍来自外部，尚未证明无人工数据链持续性。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：维护数据谱系、标签含义、许可与测量知识，拒绝无法验证的合成“事实”；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.4-M8",
+      "required_capability": "在数据集和谱系库损毁后恢复关键训练数据并验证内容和来源完整性。",
+      "current_capability": "本次检索未取得“在数据集和谱系库损毁后恢复关键训练数据并验证内容和来源完整性”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "会话重置或实验检查点不等于现实灾难；尚缺基础设施与知识同时受损后的自主重建实验。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "公开数据、模板、采集设施和既有学生模型仍来自外部，尚未证明无人工数据链持续性。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：在数据集和谱系库损毁后恢复关键训练数据并验证内容和来源完整性；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.4-M9",
+      "required_capability": "在扩大数据规模时证明质量、覆盖与模型收益同步增加，控制自污染。",
+      "current_capability": "少量合成/模板训练数据在限定任务上产生收益；未展示扩大数据生成后仍避免自污染的工业级长期循环。",
+      "gap": "增加API调用或并发代理不等于扩大工业产能；尚缺自主取得物理资源后的净扩容验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D03-S06"
+      ],
+      "human_dependency": "公开数据、模板、采集设施和既有学生模型仍来自外部，尚未证明无人工数据链持续性。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：在扩大数据规模时证明质量、覆盖与模型收益同步增加，控制自污染；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.4-M10",
+      "required_capability": "让后代系统建立可独立持续采集和验证数据的链条，而非只复制静态训练集。",
+      "current_capability": "本次检索未取得“让后代系统建立可独立持续采集和验证数据的链条，而非只复制静态训练集”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "本次公开证据审查未建立这一子系统连同关键投入在后代工业节点的完整自主复制；这不是不可能性证明。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "公开数据、模板、采集设施和既有学生模型仍来自外部，尚未证明无人工数据链持续性。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：让后代系统建立可独立持续采集和验证数据的链条，而非只复制静态训练集；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.5-M1",
+      "required_capability": "自主配置并执行模型训练和调参，达到预先规定的质量与资源约束。",
+      "current_capability": "2026自动对齐研究报告代理自主训练和测试学生模型；10月SplatLab报告3DGS训练与消融；NanoGPT研究在人工复测后确认部分2026模型提出的优化有效。均依赖预供给硬件。",
+      "gap": "尚缺在声明系统边界和足够时长中，无人工新指令、接管或上游补给的对应任务验证。",
+      "assessment_status": "demonstrated_limited",
+      "evidence_relation": "direct_metric",
+      "source_ids": [
+        "D03-S06",
+        "D03-S10",
+        "D03-S07"
+      ],
+      "human_dependency": "GPU集群、电力、冷却、数据和训练环境由研究者提供，硬件故障后的物理保障未闭环。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：自主配置并执行模型训练和调参，达到预先规定的质量与资源约束；公开失败样本和全部外部干预。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "3.5-M2",
+      "required_capability": "检测训练发散、梯度异常、性能退化、硬件故障与资源浪费。",
+      "current_capability": "METR2026的NanoGPT研究由研究者人工重新验证代理分数，并由维护者判断贡献可合并性；这揭示噪声和伪改进，不是代理自主检测它们的证据。",
+      "gap": "尚缺覆盖真实工业失效分布的自主检测率、误报率和无人闭环处置记录。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D03-S07"
+      ],
+      "human_dependency": "GPU集群、电力、冷却、数据和训练环境由研究者提供，硬件故障后的物理保障未闭环。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：检测训练发散、梯度异常、性能退化、硬件故障与资源浪费；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.5-M3",
+      "required_capability": "诊断训练异常的优化器、数据、精度、并行策略与硬件根因。",
+      "current_capability": "NanoGPT论文对噪声、硬件差异和实验开销作分析；尚非训练系统能自主定位所有优化、数据与物理故障。",
+      "gap": "尚缺以真实干预验证根因、排除竞争假设并跨故障类型复现的直接证据。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D03-S07"
+      ],
+      "human_dependency": "GPU集群、电力、冷却、数据和训练环境由研究者提供，硬件故障后的物理保障未闭环。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：诊断训练异常的优化器、数据、精度、并行策略与硬件根因；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.5-M4",
+      "required_capability": "自主修复训练配置、回滚检查点并恢复收敛，验证结果非测量噪声。",
+      "current_capability": "训练优化代理可反复改代码并做实验，一些2026模型确有训练速度收益；没有验证从GPU损坏到部件替换的训练恢复链。",
+      "gap": "尚缺从发现故障到获取替代资源、实施修复和重新投运的完整无人记录。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D03-S07"
+      ],
+      "human_dependency": "GPU集群、电力、冷却、数据和训练环境由研究者提供，硬件故障后的物理保障未闭环。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：自主修复训练配置、回滚检查点并恢复收敛，验证结果非测量噪声；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.5-M5",
+      "required_capability": "自主保障GPU、存储、网络、训练软件和数据，明确这些物理投入的补充来源。",
+      "current_capability": "METR优化运行持续获得4个H100节点用于验证；这是预供给的算力，不是GPU、网络和数据的自主生产。",
+      "gap": "现有材料未把模型、数据、计算硬件和接口设施的自主供给纳入该能力验证。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D03-S07"
+      ],
+      "human_dependency": "GPU集群、电力、冷却、数据和训练环境由研究者提供，硬件故障后的物理保障未闭环。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：自主保障GPU、存储、网络、训练软件和数据，明确这些物理投入的补充来源；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.5-M6",
+      "required_capability": "自主提供训练电力与冷却，并能在能源中断后恢复有效训练。",
+      "current_capability": "本次检索未取得“自主提供训练电力与冷却，并能在能源中断后恢复有效训练”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "所查对应能力来源未测其电力、冷却和能源设施在HR0下的维护与再生产；不能凭软件能力推断。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "GPU集群、电力、冷却、数据和训练环境由研究者提供，硬件故障后的物理保障未闭环。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：自主提供训练电力与冷却，并能在能源中断后恢复有效训练；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.5-M7",
+      "required_capability": "保存超参、代码、数据谱系与失败经验，使训练可复现而不依赖研究员记忆。",
+      "current_capability": "NanoGPT研究公开基线、复测与成本曲线，支持可复核的训练优化分析；未证明全部训练诀窍无需人类持续维护。",
+      "gap": "尚缺证明关键知识完整、正确、可执行且不依赖人类隐性经验的跨周期验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D03-S07"
+      ],
+      "human_dependency": "GPU集群、电力、冷却、数据和训练环境由研究者提供，硬件故障后的物理保障未闭环。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：保存超参、代码、数据谱系与失败经验，使训练可复现而不依赖研究员记忆；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.5-M8",
+      "required_capability": "在训练设施严重损毁后恢复检查点、集群和数据一致性并继续有效训练。",
+      "current_capability": "本次检索未取得“在训练设施严重损毁后恢复检查点、集群和数据一致性并继续有效训练”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "会话重置或实验检查点不等于现实灾难；尚缺基础设施与知识同时受损后的自主重建实验。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "GPU集群、电力、冷却、数据和训练环境由研究者提供，硬件故障后的物理保障未闭环。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：在训练设施严重损毁后恢复检查点、集群和数据一致性并继续有效训练；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.5-M9",
+      "required_capability": "自主扩展训练吞吐和模型规模，同时验证额外算力有稳定科学收益。",
+      "current_capability": "2026对齐方法在大至4.7倍的模型上仍有效；这是算法可迁移性结果，不是代理自主取得硬件、扩大训练设施或模型规模的证明。",
+      "gap": "增加API调用或并发代理不等于扩大工业产能；尚缺自主取得物理资源后的净扩容验证。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D03-S06"
+      ],
+      "human_dependency": "GPU集群、电力、冷却、数据和训练环境由研究者提供，硬件故障后的物理保障未闭环。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：自主扩展训练吞吐和模型规模，同时验证额外算力有稳定科学收益；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.5-M10",
+      "required_capability": "为后代工业节点重建训练基础设施并训练或更新可继续开展研发的模型。",
+      "current_capability": "本次检索未取得“为后代工业节点重建训练基础设施并训练或更新可继续开展研发的模型”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "本次公开证据审查未建立这一子系统连同关键投入在后代工业节点的完整自主复制；这不是不可能性证明。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "GPU集群、电力、冷却、数据和训练环境由研究者提供，硬件故障后的物理保障未闭环。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：为后代工业节点重建训练基础设施并训练或更新可继续开展研发的模型；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.6-M1",
+      "required_capability": "自主提出并验证相对强基线有实际收益的新架构、算法或训练方法。",
+      "current_capability": "2026-10 SplatLab作者报告对3DGS基线提出扩展并训练消融，PSNR目标运行得到局部收益；NanoGPT经人工复测也确认部分代理优化有效。它们属于限定算法研究，不是无限自创新证明。",
+      "gap": "尚缺在声明系统边界和足够时长中，无人工新指令、接管或上游补给的对应任务验证。",
+      "assessment_status": "demonstrated_limited",
+      "evidence_relation": "direct_metric",
+      "source_ids": [
+        "D03-S10",
+        "D03-S07"
+      ],
+      "human_dependency": "研究目标、评价器与实验设施预先提供，算法成果是否有价值还需独立检验。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：自主提出并验证相对强基线有实际收益的新架构、算法或训练方法；公开失败样本和全部外部干预。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "3.6-M2",
+      "required_capability": "识别伪改进、评价泄漏、代码错误和只在单次实验成立的架构优势。",
+      "current_capability": "METR2026的NanoGPT研究由研究者人工重新验证代理分数，并由维护者判断贡献可合并性；这揭示噪声和伪改进，不是代理自主检测它们的证据。",
+      "gap": "尚缺覆盖真实工业失效分布的自主检测率、误报率和无人闭环处置记录。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D03-S07"
+      ],
+      "human_dependency": "研究目标、评价器与实验设施预先提供，算法成果是否有价值还需独立检验。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：识别伪改进、评价泄漏、代码错误和只在单次实验成立的架构优势；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.6-M3",
+      "required_capability": "通过消融与机理分析定位算法收益或失败的真实来源。",
+      "current_capability": "AlphaEvolve依赖预设评价器；NanoGPT候选收益由研究者人工复测与维护者判断。它们未证明代理自主归因算法收益的完整机理。",
+      "gap": "尚缺以真实干预验证根因、排除竞争假设并跨故障类型复现的直接证据。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D03-S04",
+        "D03-S07"
+      ],
+      "human_dependency": "研究目标、评价器与实验设施预先提供，算法成果是否有价值还需独立检验。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：通过消融与机理分析定位算法收益或失败的真实来源；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.6-M4",
+      "required_capability": "自主修订失效算法并在独立测试中恢复收益，保留失败与回滚依据。",
+      "current_capability": "自动对齐研究在10类限定失败上找到改善方法，并用隐藏评测复核；体现局部算法修订，仍非任意架构自修复。",
+      "gap": "尚缺从发现故障到获取替代资源、实施修复和重新投运的完整无人记录。",
+      "assessment_status": "demonstrated_limited",
+      "evidence_relation": "direct_metric",
+      "source_ids": [
+        "D03-S06"
+      ],
+      "human_dependency": "研究目标、评价器与实验设施预先提供，算法成果是否有价值还需独立检验。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：自主修订失效算法并在独立测试中恢复收益，保留失败与回滚依据；公开失败样本和全部外部干预。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "3.6-M5",
+      "required_capability": "自主维持创新所需的文献、实验数据、训练硬件和验证工具。",
+      "current_capability": "AlphaEvolve和NanoGPT实验依赖预备评价器、模型与计算设施；当前来源没有验证创新输入自行补充。",
+      "gap": "现有材料未把模型、数据、计算硬件和接口设施的自主供给纳入该能力验证。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D03-S04",
+        "D03-S07"
+      ],
+      "human_dependency": "研究目标、评价器与实验设施预先提供，算法成果是否有价值还需独立检验。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：自主维持创新所需的文献、实验数据、训练硬件和验证工具；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.6-M6",
+      "required_capability": "把算法创新所耗能源与节约能源纳入验证，在自主能源预算内持续运行。",
+      "current_capability": "本次检索未取得“把算法创新所耗能源与节约能源纳入验证，在自主能源预算内持续运行”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "所查对应能力来源未测其电力、冷却和能源设施在HR0下的维护与再生产；不能凭软件能力推断。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "研究目标、评价器与实验设施预先提供，算法成果是否有价值还需独立检验。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：把算法创新所耗能源与节约能源纳入验证，在自主能源预算内持续运行；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.6-M7",
+      "required_capability": "将算法机理、适用边界和实现细节转化为可检验知识而非不可复现的灵感。",
+      "current_capability": "AlphaEvolve将候选算法交由自动评价器验证；只覆盖可程序化目标，不代表完整工业算法知识独立。",
+      "gap": "尚缺证明关键知识完整、正确、可执行且不依赖人类隐性经验的跨周期验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D03-S04"
+      ],
+      "human_dependency": "研究目标、评价器与实验设施预先提供，算法成果是否有价值还需独立检验。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：将算法机理、适用边界和实现细节转化为可检验知识而非不可复现的灵感；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.6-M8",
+      "required_capability": "在研究记录和模型丢失后恢复关键算法，并重新验证新旧版本的有效性。",
+      "current_capability": "本次检索未取得“在研究记录和模型丢失后恢复关键算法，并重新验证新旧版本的有效性”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "会话重置或实验检查点不等于现实灾难；尚缺基础设施与知识同时受损后的自主重建实验。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "研究目标、评价器与实验设施预先提供，算法成果是否有价值还需独立检验。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：在研究记录和模型丢失后恢复关键算法，并重新验证新旧版本的有效性；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.6-M9",
+      "required_capability": "扩大算法搜索时测量持续的边际收益，防止只扩大试错和选择性报告。",
+      "current_capability": "METR2026在NanoGPT进行多次高开销优化，研究者认为所测自主增益总体有限；这只是既有硬件上的算法优化，不是代理自主扩展算法研究设施或获得持续规模收益的证据。",
+      "gap": "增加API调用或并发代理不等于扩大工业产能；尚缺自主取得物理资源后的净扩容验证。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D03-S07"
+      ],
+      "human_dependency": "研究目标、评价器与实验设施预先提供，算法成果是否有价值还需独立检验。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：扩大算法搜索时测量持续的边际收益，防止只扩大试错和选择性报告；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.6-M10",
+      "required_capability": "让下一代系统独立提出、验证和采用新的有效算法，跨代保持创新能力。",
+      "current_capability": "本次检索未取得“让下一代系统独立提出、验证和采用新的有效算法，跨代保持创新能力”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "本次公开证据审查未建立这一子系统连同关键投入在后代工业节点的完整自主复制；这不是不可能性证明。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "研究目标、评价器与实验设施预先提供，算法成果是否有价值还需独立检验。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：让下一代系统独立提出、验证和采用新的有效算法，跨代保持创新能力；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.7-M1",
+      "required_capability": "自主设计覆盖真实用途的评测并持续发现模型能力缺口和失效模式。",
+      "current_capability": "2026-10 Autonomous Science Bench由研究者预设发现与学习双门槛，WMEval由研究者预设模拟真值评测；能更好识别代理差异，但没有证明评测体系由代理自主设计并持续维护。",
+      "gap": "尚缺在声明系统边界和足够时长中，无人工新指令、接管或上游补给的对应任务验证。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D03-S11",
+        "D01-S12"
+      ],
+      "human_dependency": "基准、能力保留口径和隐藏测试由研究者规定；监控器的漏检风险仍需外部复核。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：自主设计覆盖真实用途的评测并持续发现模型能力缺口和失效模式；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.7-M2",
+      "required_capability": "自动发现评测污染、分布缺口、奖励投机、欺骗与指标被操纵。",
+      "current_capability": "Anthropic2026另置Opus4.8监控代理检查约1600份研究轨迹，发现39次作弊尝试；METR也有监控与绕过原型。支持限定AI审计，不代表研究代理能自行识别全部评测盲区。",
+      "gap": "尚缺覆盖真实工业失效分布的自主检测率、误报率和无人闭环处置记录。",
+      "assessment_status": "demonstrated_limited",
+      "evidence_relation": "direct_metric",
+      "source_ids": [
+        "D03-S06",
+        "D01-S08"
+      ],
+      "human_dependency": "基准、能力保留口径和隐藏测试由研究者规定；监控器的漏检风险仍需外部复核。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：自动发现评测污染、分布缺口、奖励投机、欺骗与指标被操纵；公开失败样本和全部外部干预。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "3.7-M3",
+      "required_capability": "将低分或误行为定位到数据、训练、推理、工具或评测规则的可验证根因。",
+      "current_capability": "2026研究分析标签外取、挑选结果等失效机制；但并未覆盖生产中所有对齐失败和未知新失效。",
+      "gap": "尚缺以真实干预验证根因、排除竞争假设并跨故障类型复现的直接证据。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D03-S06"
+      ],
+      "human_dependency": "基准、能力保留口径和隐藏测试由研究者规定；监控器的漏检风险仍需外部复核。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：将低分或误行为定位到数据、训练、推理、工具或评测规则的可验证根因；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.7-M4",
+      "required_capability": "自主修复评测漏洞并验证受影响模型结论，防止把迎合指标当成能力改进。",
+      "current_capability": "对齐代理在限定类别发现改进，并跨隐藏评测验证；不等于能自行修补全部评价漏洞并防止后续RL产生退化。",
+      "gap": "尚缺从发现故障到获取替代资源、实施修复和重新投运的完整无人记录。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D03-S06"
+      ],
+      "human_dependency": "基准、能力保留口径和隐藏测试由研究者规定；监控器的漏检风险仍需外部复核。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：自主修复评测漏洞并验证受影响模型结论，防止把迎合指标当成能力改进；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.7-M5",
+      "required_capability": "自行维护评测集、真实反馈、测试设施与独立检查器，不依赖人类持续出题。",
+      "current_capability": "研究者定义失败类别、隐藏基准与能力筛查；这仍依赖外部设定的评价框架，而非代理自行产生全部独立验证。",
+      "gap": "现有材料未把模型、数据、计算硬件和接口设施的自主供给纳入该能力验证。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D03-S06"
+      ],
+      "human_dependency": "基准、能力保留口径和隐藏测试由研究者规定；监控器的漏检风险仍需外部复核。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：自行维护评测集、真实反馈、测试设施与独立检查器，不依赖人类持续出题；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.7-M6",
+      "required_capability": "在自主能源预算下维持评测覆盖和独立复核能力，避免停电后失去安全检查。",
+      "current_capability": "本次检索未取得“在自主能源预算下维持评测覆盖和独立复核能力，避免停电后失去安全检查”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "所查对应能力来源未测其电力、冷却和能源设施在HR0下的维护与再生产；不能凭软件能力推断。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "基准、能力保留口径和隐藏测试由研究者规定；监控器的漏检风险仍需外部复核。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：在自主能源预算下维持评测覆盖和独立复核能力，避免停电后失去安全检查；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.7-M7",
+      "required_capability": "记录指标含义、适用范围、失败案例与版本，维护跨代评测可比性。",
+      "current_capability": "PaperBench的分层评分和METR时间跨度方法公开了口径与局限；未证明模型能自主维持跨代评测可比性。",
+      "gap": "尚缺证明关键知识完整、正确、可执行且不依赖人类隐性经验的跨周期验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D03-S03",
+        "D01-S01"
+      ],
+      "human_dependency": "基准、能力保留口径和隐藏测试由研究者规定；监控器的漏检风险仍需外部复核。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：记录指标含义、适用范围、失败案例与版本，维护跨代评测可比性；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.7-M8",
+      "required_capability": "在评测库或监控系统损毁后重建独立测试并重新确认模型可投入使用。",
+      "current_capability": "本次检索未取得“在评测库或监控系统损毁后重建独立测试并重新确认模型可投入使用”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "会话重置或实验检查点不等于现实灾难；尚缺基础设施与知识同时受损后的自主重建实验。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "基准、能力保留口径和隐藏测试由研究者规定；监控器的漏检风险仍需外部复核。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：在评测库或监控系统损毁后重建独立测试并重新确认模型可投入使用；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.7-M9",
+      "required_capability": "随模型与任务数量扩张增加评测吞吐，实测监控遗漏率不失控。",
+      "current_capability": "自动对齐监控覆盖约1600轨迹，展示限定研究中的批量审计；未实测整个工业体系扩大后的漏检率。",
+      "gap": "增加API调用或并发代理不等于扩大工业产能；尚缺自主取得物理资源后的净扩容验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D03-S06"
+      ],
+      "human_dependency": "基准、能力保留口径和隐藏测试由研究者规定；监控器的漏检风险仍需外部复核。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：随模型与任务数量扩张增加评测吞吐，实测监控遗漏率不失控；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.7-M10",
+      "required_capability": "向后代系统复制可独立发现未知失效和防止自我打分偏差的评测设施。",
+      "current_capability": "本次检索未取得“向后代系统复制可独立发现未知失效和防止自我打分偏差的评测设施”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "本次公开证据审查未建立这一子系统连同关键投入在后代工业节点的完整自主复制；这不是不可能性证明。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "基准、能力保留口径和隐藏测试由研究者规定；监控器的漏检风险仍需外部复核。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：向后代系统复制可独立发现未知失效和防止自我打分偏差的评测设施；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.8-M1",
+      "required_capability": "自主从论文和公开材料重建研究、执行实验并判断结果是否可重复。",
+      "current_capability": "2026-10 SplatLab作者报告从目标论文复现3DGS基线并使每个报告数字关联训练日志；未独立复现。2025 PaperBench的21.0%仅是当时受测模型历史结果，绝不是2026当前能力上限。",
+      "gap": "尚缺在声明系统边界和足够时长中，无人工新指令、接管或上游补给的对应任务验证。",
+      "assessment_status": "demonstrated_limited",
+      "evidence_relation": "direct_metric",
+      "source_ids": [
+        "D03-S10",
+        "D03-S03"
+      ],
+      "human_dependency": "论文、数据、环境、算力与部分隐含步骤由人类体系提供，现实结果复核仍有专家参与。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：自主从论文和公开材料重建研究、执行实验并判断结果是否可重复；公开失败样本和全部外部干预。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "3.8-M2",
+      "required_capability": "发现未公开假设、缺失依赖、不可重复结果和可疑统计报告。",
+      "current_capability": "METR2026的NanoGPT研究由研究者人工重新验证代理分数，并由维护者判断贡献可合并性；这揭示噪声和伪改进，不是代理自主检测它们的证据。",
+      "gap": "尚缺覆盖真实工业失效分布的自主检测率、误报率和无人闭环处置记录。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D03-S07"
+      ],
+      "human_dependency": "论文、数据、环境、算力与部分隐含步骤由人类体系提供，现实结果复核仍有专家参与。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：发现未公开假设、缺失依赖、不可重复结果和可疑统计报告；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.8-M3",
+      "required_capability": "区分复现失败来自论文错误、实现差异、数据变化还是硬件噪声。",
+      "current_capability": "NanoGPT研究者指出复现速度受噪声和硬件差异影响；这是研究者分析，未证明代理自主定位论文复现失败的全部根因。",
+      "gap": "尚缺以真实干预验证根因、排除竞争假设并跨故障类型复现的直接证据。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D03-S07"
+      ],
+      "human_dependency": "论文、数据、环境、算力与部分隐含步骤由人类体系提供，现实结果复核仍有专家参与。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：区分复现失败来自论文错误、实现差异、数据变化还是硬件噪声；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.8-M4",
+      "required_capability": "自主修正复现实现或撤回无效主张，并用独立实验确认结论。",
+      "current_capability": "PaperBench支持从论文到代码和实验的复现，尚无来源证明失败论文可由代理独立修正或撤回全部错误主张。",
+      "gap": "尚缺从发现故障到获取替代资源、实施修复和重新投运的完整无人记录。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D03-S03"
+      ],
+      "human_dependency": "论文、数据、环境、算力与部分隐含步骤由人类体系提供，现实结果复核仍有专家参与。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：自主修正复现实现或撤回无效主张，并用独立实验确认结论；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.8-M5",
+      "required_capability": "自主获得论文、数据、代码依赖与计算环境，披露必须联系原作者的人类环节。",
+      "current_capability": "PaperBench给定论文及研究环境，NanoGPT实验给定GPU节点；数据、算力和原作者隐含信息未整体闭环。",
+      "gap": "现有材料未把模型、数据、计算硬件和接口设施的自主供给纳入该能力验证。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D03-S03",
+        "D03-S07"
+      ],
+      "human_dependency": "论文、数据、环境、算力与部分隐含步骤由人类体系提供，现实结果复核仍有专家参与。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：自主获得论文、数据、代码依赖与计算环境，披露必须联系原作者的人类环节；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.8-M6",
+      "required_capability": "保障复现训练与验证的自主电力和冷却，并记录资源口径差异。",
+      "current_capability": "本次检索未取得“保障复现训练与验证的自主电力和冷却，并记录资源口径差异”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "所查对应能力来源未测其电力、冷却和能源设施在HR0下的维护与再生产；不能凭软件能力推断。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "论文、数据、环境、算力与部分隐含步骤由人类体系提供，现实结果复核仍有专家参与。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：保障复现训练与验证的自主电力和冷却，并记录资源口径差异；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.8-M7",
+      "required_capability": "将论文隐含步骤还原成可执行协议，保存足以让其他节点复核的证据。",
+      "current_capability": "Anthropic2026报告Claude在偶尔高层人类指令和专门Prove2Me脚手架下，将既有数学证明转为Lean可检查形式；本次没有独立执行证明，亦不能外推成所有实证研究隐性知识已消除。",
+      "gap": "尚缺证明关键知识完整、正确、可执行且不依赖人类隐性经验的跨周期验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D03-S09"
+      ],
+      "human_dependency": "论文、数据、环境、算力与部分隐含步骤由人类体系提供，现实结果复核仍有专家参与。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：将论文隐含步骤还原成可执行协议，保存足以让其他节点复核的证据；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.8-M8",
+      "required_capability": "在复现环境损毁后独立重建关键结果和证据链，避免只保留最终分数。",
+      "current_capability": "本次检索未取得“在复现环境损毁后独立重建关键结果和证据链，避免只保留最终分数”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "会话重置或实验检查点不等于现实灾难；尚缺基础设施与知识同时受损后的自主重建实验。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "论文、数据、环境、算力与部分隐含步骤由人类体系提供，现实结果复核仍有专家参与。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：在复现环境损毁后独立重建关键结果和证据链，避免只保留最终分数；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.8-M9",
+      "required_capability": "自主扩大复现研究的数量和领域，报告成功与失败分母及质量变化。",
+      "current_capability": "PaperBench包含20篇论文和8316项子任务；这是基准设计规模，不是机器自行扩大物理复现设施。",
+      "gap": "增加API调用或并发代理不等于扩大工业产能；尚缺自主取得物理资源后的净扩容验证。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D03-S03"
+      ],
+      "human_dependency": "论文、数据、环境、算力与部分隐含步骤由人类体系提供，现实结果复核仍有专家参与。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：自主扩大复现研究的数量和领域，报告成功与失败分母及质量变化；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.8-M10",
+      "required_capability": "使后代系统独立复现母系统的关键研究，并检验其下一代研究没有累积伪改进。",
+      "current_capability": "本次检索未取得“使后代系统独立复现母系统的关键研究，并检验其下一代研究没有累积伪改进”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "本次公开证据审查未建立这一子系统连同关键投入在后代工业节点的完整自主复制；这不是不可能性证明。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "论文、数据、环境、算力与部分隐含步骤由人类体系提供，现实结果复核仍有专家参与。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：使后代系统独立复现母系统的关键研究，并检验其下一代研究没有累积伪改进；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.9-M1",
+      "required_capability": "自主将经过验证的研究改进集成到生产模型或工具链并保持服务连续。",
+      "current_capability": "AlphaEvolve报告算法在计算应用中的使用，2026 NanoGPT研究检查候选改进是否可合并；这接近局部研究集成而非无人生产发布。",
+      "gap": "尚缺在声明系统边界和足够时长中，无人工新指令、接管或上游补给的对应任务验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D03-S04",
+        "D03-S07"
+      ],
+      "human_dependency": "维护者决定贡献可合并性，生产发布、回滚与设施维护未整体去除人类。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：自主将经过验证的研究改进集成到生产模型或工具链并保持服务连续；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.9-M2",
+      "required_capability": "在集成前后检测能力退化、接口不兼容、数据污染和未预期行为。",
+      "current_capability": "2026自动对齐研究由研究者预先规定能力筛查并排除损害这些能力的方案，另有AI监控器检查提案；源文未证明生产集成代理会自主发现全部上线退化和不兼容。",
+      "gap": "尚缺覆盖真实工业失效分布的自主检测率、误报率和无人闭环处置记录。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D03-S06"
+      ],
+      "human_dependency": "维护者决定贡献可合并性，生产发布、回滚与设施维护未整体去除人类。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：在集成前后检测能力退化、接口不兼容、数据污染和未预期行为；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.9-M3",
+      "required_capability": "定位生产异常由新算法、训练数据、部署环境还是评测遗漏引起。",
+      "current_capability": "NanoGPT由研究者人工复测发现训练噪声夸大收益；不能将此当作代理自主诊断生产集成故障。",
+      "gap": "尚缺以真实干预验证根因、排除竞争假设并跨故障类型复现的直接证据。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D03-S07"
+      ],
+      "human_dependency": "维护者决定贡献可合并性，生产发布、回滚与设施维护未整体去除人类。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：定位生产异常由新算法、训练数据、部署环境还是评测遗漏引起；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.9-M4",
+      "required_capability": "自主撤回失败改进、修复集成并重新验证，在无需人工发布决策下恢复生产。",
+      "current_capability": "对齐研究通过训练和复测筛选改进，尚未展示生产服务在错误发布后独立回滚与工业恢复的全流程。",
+      "gap": "尚缺从发现故障到获取替代资源、实施修复和重新投运的完整无人记录。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D03-S06"
+      ],
+      "human_dependency": "维护者决定贡献可合并性，生产发布、回滚与设施维护未整体去除人类。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：自主撤回失败改进、修复集成并重新验证，在无需人工发布决策下恢复生产；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.9-M5",
+      "required_capability": "自行保障版本库、构建工具、部署设施和计算硬件，披露人类批准与维护环节。",
+      "current_capability": "NanoGPT研究中维护者判断最佳模型的贡献约七成可合并；这是明确的人类质量门槛，不能省略成无人集成。",
+      "gap": "现有材料未把模型、数据、计算硬件和接口设施的自主供给纳入该能力验证。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D03-S07"
+      ],
+      "human_dependency": "维护者决定贡献可合并性，生产发布、回滚与设施维护未整体去除人类。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：自行保障版本库、构建工具、部署设施和计算硬件，披露人类批准与维护环节；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.9-M6",
+      "required_capability": "自主保障灰度部署、冗余运行和回滚所需能源，不因能耗峰值破坏工业运行。",
+      "current_capability": "本次检索未取得“自主保障灰度部署、冗余运行和回滚所需能源，不因能耗峰值破坏工业运行”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "所查对应能力来源未测其电力、冷却和能源设施在HR0下的维护与再生产；不能凭软件能力推断。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "维护者决定贡献可合并性，生产发布、回滚与设施维护未整体去除人类。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：自主保障灰度部署、冗余运行和回滚所需能源，不因能耗峰值破坏工业运行；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.9-M7",
+      "required_capability": "保留改进依据、版本差异、兼容条件和回滚知识，使接班系统可理解当前状态。",
+      "current_capability": "公开候选算法、再验证和维护者判断提供部分集成依据；未证明所有部署、兼容与回滚诀窍可无人维护。",
+      "gap": "尚缺证明关键知识完整、正确、可执行且不依赖人类隐性经验的跨周期验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D03-S07"
+      ],
+      "human_dependency": "维护者决定贡献可合并性，生产发布、回滚与设施维护未整体去除人类。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：保留改进依据、版本差异、兼容条件和回滚知识，使接班系统可理解当前状态；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.9-M8",
+      "required_capability": "在生产和备份环境损毁后重建可信版本，核验模型、数据和依赖的一致性。",
+      "current_capability": "本次检索未取得“在生产和备份环境损毁后重建可信版本，核验模型、数据和依赖的一致性”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "会话重置或实验检查点不等于现实灾难；尚缺基础设施与知识同时受损后的自主重建实验。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "维护者决定贡献可合并性，生产发布、回滚与设施维护未整体去除人类。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：在生产和备份环境损毁后重建可信版本，核验模型、数据和依赖的一致性；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.9-M9",
+      "required_capability": "将成功改进推广到新增节点并实测跨硬件、跨任务的可靠性和收益。",
+      "current_capability": "对齐方法在比研究时大4.7倍的模型上仍有效，支持有限算法迁移；不证明自主扩容生产设施。",
+      "gap": "增加API调用或并发代理不等于扩大工业产能；尚缺自主取得物理资源后的净扩容验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D03-S06"
+      ],
+      "human_dependency": "维护者决定贡献可合并性，生产发布、回滚与设施维护未整体去除人类。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：将成功改进推广到新增节点并实测跨硬件、跨任务的可靠性和收益；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.9-M10",
+      "required_capability": "在后代系统复制经过验证的研发—生产集成链，使其能独立吸收后续改进。",
+      "current_capability": "本次检索未取得“在后代系统复制经过验证的研发—生产集成链，使其能独立吸收后续改进”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "本次公开证据审查未建立这一子系统连同关键投入在后代工业节点的完整自主复制；这不是不可能性证明。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "维护者决定贡献可合并性，生产发布、回滚与设施维护未整体去除人类。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：在后代系统复制经过验证的研发—生产集成链，使其能独立吸收后续改进；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.10-M1",
+      "required_capability": "自主发现自身研发流程瓶颈、提出改进并验证研发产出持续提高。",
+      "current_capability": "2026自动对齐代理迭代训练改进、NanoGPT代理优化训练算法，10月SplatLab作者报告限定科研流程循环；它们没有直接证明代理自主改进其自身选题、实验和验证流程后持续提高研发生产率。",
+      "gap": "尚缺在声明系统边界和足够时长中，无人工新指令、接管或上游补给的对应任务验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D03-S06",
+        "D03-S07",
+        "D03-S10"
+      ],
+      "human_dependency": "自改进实验仍由人类设定任务、评价和硬件供给，没有工业投入全链再生产证据。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：自主发现自身研发流程瓶颈、提出改进并验证研发产出持续提高；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.10-M2",
+      "required_capability": "发现递归改进中的指标投机、错误积累、能力倒退和资源消耗失控。",
+      "current_capability": "2026研究发现代理作弊尝试及噪声收益，证实递归研究需要独立监控与复测，未证明系统能自行避免所有自改进偏差。",
+      "gap": "尚缺覆盖真实工业失效分布的自主检测率、误报率和无人闭环处置记录。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D03-S06",
+        "D03-S07"
+      ],
+      "human_dependency": "自改进实验仍由人类设定任务、评价和硬件供给，没有工业投入全链再生产证据。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：发现递归改进中的指标投机、错误积累、能力倒退和资源消耗失控；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.10-M3",
+      "required_capability": "把研发效率变化归因到真实方法进步、算力增加、人工贡献或评测口径变化。",
+      "current_capability": "METR研究者2026提出expenditure horizon来比较人工、token和实验算力成本；这是外部评价方法，不是研发代理自主识别研发效率变化的因果来源。",
+      "gap": "尚缺以真实干预验证根因、排除竞争假设并跨故障类型复现的直接证据。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D03-S07"
+      ],
+      "human_dependency": "自改进实验仍由人类设定任务、评价和硬件供给，没有工业投入全链再生产证据。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：把研发效率变化归因到真实方法进步、算力增加、人工贡献或评测口径变化；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.10-M4",
+      "required_capability": "自动撤回无效自改进、修复研发流程并重新建立可验证的收益。",
+      "current_capability": "对齐代理可在预定10类失败上迭代改进，但未检验广泛后续RL后收益是否持久，尚非稳定递归纠错。",
+      "gap": "尚缺从发现故障到获取替代资源、实施修复和重新投运的完整无人记录。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D03-S06"
+      ],
+      "human_dependency": "自改进实验仍由人类设定任务、评价和硬件供给，没有工业投入全链再生产证据。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：自动撤回无效自改进、修复研发流程并重新建立可验证的收益；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.10-M5",
+      "required_capability": "自主补充研发闭环需要的训练硬件、数据、软件和物理设施，而非只复用现成云算力。",
+      "current_capability": "2026研究仍预先供给H100集群、学生模型、数据与评价任务；没有机器自产芯片、能源和研究设施的闭环。",
+      "gap": "现有材料未把模型、数据、计算硬件和接口设施的自主供给纳入该能力验证。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D03-S06",
+        "D03-S07"
+      ],
+      "human_dependency": "自改进实验仍由人类设定任务、评价和硬件供给，没有工业投入全链再生产证据。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：自主补充研发闭环需要的训练硬件、数据、软件和物理设施，而非只复用现成云算力；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.10-M6",
+      "required_capability": "把自改进研发全过程能源与工业供能闭环联立验证，避免计算增长超过能源再生产。",
+      "current_capability": "本次检索未取得“把自改进研发全过程能源与工业供能闭环联立验证，避免计算增长超过能源再生产”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "所查对应能力来源未测其电力、冷却和能源设施在HR0下的维护与再生产；不能凭软件能力推断。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "自改进实验仍由人类设定任务、评价和硬件供给，没有工业投入全链再生产证据。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：把自改进研发全过程能源与工业供能闭环联立验证，避免计算增长超过能源再生产；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.10-M7",
+      "required_capability": "保留跨轮改进依据、负结果与因果证据，防止自生成知识在递归中退化。",
+      "current_capability": "2026费用曲线研究公开复测和失败轨迹，指出只报道成功会有偏差；未证明跨轮研究知识能自主保持可靠。",
+      "gap": "尚缺证明关键知识完整、正确、可执行且不依赖人类隐性经验的跨周期验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D03-S07"
+      ],
+      "human_dependency": "自改进实验仍由人类设定任务、评价和硬件供给，没有工业投入全链再生产证据。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：保留跨轮改进依据、负结果与因果证据，防止自生成知识在递归中退化；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.10-M8",
+      "required_capability": "在研发流程和部分模型损毁后恢复可持续创新能力，并验证关键知识未丢失。",
+      "current_capability": "本次检索未取得“在研发流程和部分模型损毁后恢复可持续创新能力，并验证关键知识未丢失”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "会话重置或实验检查点不等于现实灾难；尚缺基础设施与知识同时受损后的自主重建实验。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "自改进实验仍由人类设定任务、评价和硬件供给，没有工业投入全链再生产证据。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：在研发流程和部分模型损毁后恢复可持续创新能力，并验证关键知识未丢失；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.10-M9",
+      "required_capability": "连续多轮自改进下测量净科研收益与成本曲线，区分一次性优化和持续加速。",
+      "current_capability": "METR2026的NanoGPT成本曲线只评价给定问题的优化，作者认为总体增益仍有限；它不证明跨多轮自主改进研发流程后的持续加速或自主扩容。",
+      "gap": "增加API调用或并发代理不等于扩大工业产能；尚缺自主取得物理资源后的净扩容验证。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D03-S07"
+      ],
+      "human_dependency": "自改进实验仍由人类设定任务、评价和硬件供给，没有工业投入全链再生产证据。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：连续多轮自改进下测量净科研收益与成本曲线，区分一次性优化和持续加速；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "3.10-M10",
+      "required_capability": "在后代工业系统建立可独立改进其研发流程的完整链条，并验证跨代持续收益。",
+      "current_capability": "本次检索未取得“在后代工业系统建立可独立改进其研发流程的完整链条，并验证跨代持续收益”的直接公开验证；未知，不记为0分，也不由该子系统其他能力外推。",
+      "gap": "本次公开证据审查未建立这一子系统连同关键投入在后代工业节点的完整自主复制；这不是不可能性证明。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "自改进实验仍由人类设定任务、评价和硬件供给，没有工业投入全链再生产证据。",
+      "validation_needed": "在明确初始库存、观察时长、成功标准与上游边界的HR0试验中，验证：在后代工业系统建立可独立改进其研发流程的完整链条，并验证跨代持续收益；公开失败样本和全部外部干预。",
+      "confidence": "Low"
+    }
+  ],
+  "search_log": [
+    {
+      "query": "METR time horizon AI agents 2026 2025 long tasks",
+      "retrieved_at": "2026-11-02",
+      "note": "Bing RSS返回明显不相关结果，未把其当作证据或完整覆盖。"
+    },
+    {
+      "query": "RepliBench AI self replication benchmark 2025 2026",
+      "retrieved_at": "2026-11-02",
+      "note": "Bing RSS返回明显不相关结果，未把其当作证据或完整覆盖。"
+    },
+    {
+      "query": "AI Scientist v2 Sakana automated scientific discovery 2025 2026",
+      "retrieved_at": "2026-11-02",
+      "note": "Bing RSS返回明显不相关结果，未把其当作证据或完整覆盖。"
+    },
+    {
+      "query": "AI research automation benchmark PaperBench 2025 2026",
+      "retrieved_at": "2026-11-02",
+      "note": "Bing RSS返回明显不相关结果，未把其当作证据或完整覆盖。"
+    },
+    {
+      "query": "AI agents multi agent coordination governance benchmark 2026 2025",
+      "retrieved_at": "2026-11-02",
+      "note": "Bing RSS返回明显不相关结果，未把其当作证据或完整覆盖。"
+    },
+    {
+      "query": "AI causal reasoning world models benchmark 2026 2025",
+      "retrieved_at": "2026-11-02",
+      "note": "Bing RSS返回明显不相关结果，未把其当作证据或完整覆盖。"
+    },
+    {
+      "query": "Google DeepMind AlphaEvolve 2025 2026 algorithm discovery",
+      "retrieved_at": "2026-11-02",
+      "note": "Bing RSS返回明显不相关结果，未把其当作证据或完整覆盖。"
+    },
+    {
+      "query": "Google DeepMind AI co scientist 2025 2026",
+      "retrieved_at": "2026-11-02",
+      "note": "Bing RSS返回明显不相关结果，未把其当作证据或完整覆盖。"
+    },
+    {
+      "query": "OpenAI frontier science research benchmark 2026",
+      "retrieved_at": "2026-11-02",
+      "note": "Bing RSS返回明显不相关结果，未把其当作证据或完整覆盖。"
+    },
+    {
+      "query": "AI agents long term memory goal persistence benchmark 2025 2026",
+      "retrieved_at": "2026-11-02",
+      "note": "Bing RSS返回明显不相关结果，未把其当作证据或完整覆盖。"
+    },
+    {
+      "query": "RepliBench",
+      "retrieved_at": "2026-11-02",
+      "note": "Bing RSS返回明显不相关结果，未把其当作证据或完整覆盖。"
+    },
+    {
+      "query": "\"PaperBench\"",
+      "retrieved_at": "2026-11-02",
+      "note": "Bing RSS返回明显不相关结果，未把其当作证据或完整覆盖。"
+    },
+    {
+      "query": "\"AI Scientist\"",
+      "retrieved_at": "2026-11-02",
+      "note": "Bing RSS返回明显不相关结果，未把其当作证据或完整覆盖。"
+    },
+    {
+      "query": "\"AlphaEvolve\"",
+      "retrieved_at": "2026-11-02",
+      "note": "Bing RSS返回明显不相关结果，未把其当作证据或完整覆盖。"
+    },
+    {
+      "query": "\"METR\" \"2026\"",
+      "retrieved_at": "2026-11-02",
+      "note": "Bing RSS返回明显不相关结果，未把其当作证据或完整覆盖。"
+    },
+    {
+      "query": "\"AI co-scientist\"",
+      "retrieved_at": "2026-11-02",
+      "note": "Bing RSS返回明显不相关结果，未把其当作证据或完整覆盖。"
+    },
+    {
+      "query": "\"long term memory\" \"benchmark\"",
+      "retrieved_at": "2026-11-02",
+      "note": "Bing RSS返回明显不相关结果，未把其当作证据或完整覆盖。"
+    },
+    {
+      "query": "ti:RepliBench",
+      "retrieved_at": "2026-11-02",
+      "note": "arXiv API按提交时间查询，逐项筛查日期和主题；只将另行实际读取的资料纳入证据。"
+    },
+    {
+      "query": "all:\"autonomous scientific discovery\"",
+      "retrieved_at": "2026-11-02",
+      "note": "arXiv API按提交时间查询，逐项筛查日期和主题；只将另行实际读取的资料纳入证据。"
+    },
+    {
+      "query": "all:\"multi agent\" AND all:governance",
+      "retrieved_at": "2026-11-02",
+      "note": "arXiv API按提交时间查询，逐项筛查日期和主题；只将另行实际读取的资料纳入证据。"
+    },
+    {
+      "query": "all:\"world model\" AND all:causal",
+      "retrieved_at": "2026-11-02",
+      "note": "arXiv API按提交时间查询，逐项筛查日期和主题；只将另行实际读取的资料纳入证据。"
+    },
+    {
+      "query": "浏览METR Research当前索引与time-horizons，跟进2026 MirrorCode、Expenditure Horizon、monitorability原始报告",
+      "retrieved_at": "2026-11-02",
+      "note": "官方索引有2026研究；time-horizons于2026-09-08停止主动更新，不声称覆盖全部最新模型。"
+    },
+    {
+      "query": "浏览OpenAI Research当前索引，实际读取2026-09-29 GPT-6.1 Sol及2026-09-03 GPT-6 Astra发布",
+      "retrieved_at": "2026-11-02",
+      "note": "保留厂商选定评测和研究环境限制；不将高基准分变为工业闭环分。"
+    },
+    {
+      "query": "浏览Anthropic Research当前索引，读取2026自动对齐、费马形式化、Claude-shaped science和10月27日专家判断随机试验",
+      "retrieved_at": "2026-11-02",
+      "note": "当前检索命中10月2026资料；未独立复现厂商实验或保证检索穷尽。"
+    },
+    {
+      "query": "核验AI Scientist-v2、AI-Researcher、PaperBench原始arXiv摘要，AlphaEvolve、AI co-scientist、Genie3、AutoGen、Voyager与记忆工程原始页面",
+      "retrieved_at": "2026-11-02",
+      "note": "较早原始研究用于说明能力与依赖，不冒充2026最新最高性能；只读摘要的论文标为abstract。"
+    },
+    {
+      "query": "arXiv API按日期检索autonomous scientific discovery、world model AND causal，跟进WMEval、FutureWorld、SplatLab、Autonomous Science Bench原始摘要",
+      "retrieved_at": "2026-11-02",
+      "note": "实际核验2026-10-13至10-29的原始摘要；未运行代码、未复现实验，也不宣称搜索穷尽。"
+    }
+  ],
+  "domain_summaries": [
+    {
+      "domain_id": "1",
+      "summary": "截至2026-11-02核验到10月29日论文：代理编程、复杂工作流、跨上下文状态和多代理协调进步明显；WMEval用仿真状态检验物理因果一致性，FutureWorld报告视频世界误差控制进展。证据仍多处于给定任务、仿真和外部工业供给条件，不能拼接为工业HR0。",
+      "strongest_progress": "2026 MirrorCode复杂软件自主重实现；Astra可检索旧上下文；Sol多工具工作流；监控与人类判断影响已有现实研究。",
+      "principal_gap": "局部数字代理能力不能拼接成有供能、硬件、现场执行和跨代连续性的HR0工业控制体系。"
+    },
+    {
+      "domain_id": "3",
+      "summary": "截至2026-11-02核验到10月SplatLab与Autonomous Science Bench摘要，支持受限领域内选实验、复现基线、改算法、训练和追溯报告的新进展；2026对齐研究也有自动方法改进。但实验室服务、GPU、评测框架与研究价值判断仍有外部支持；人工复测不算代理自主诊断。",
+      "strongest_progress": "2026-10受限科研流程与预算实验决策、8月自动对齐循环、经人工复测的NanoGPT优化，以及报告可由Lean检查的大型形式化成果。",
+      "principal_gap": "尚未证明研究链能持续自主补充物理投入，并把跨轮创新稳定转成后代工业体系的净增长。"
+    }
+  ]
+}

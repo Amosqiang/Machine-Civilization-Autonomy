@@ -1,0 +1,3334 @@
+{
+  "as_of_date": "2026-11-02",
+  "domain_ids": [
+    "2",
+    "9"
+  ],
+  "sources": [
+    {
+      "source_id": "D02-S01",
+      "title": "Kubernetes Self-Healing | Kubernetes",
+      "url": "https://kubernetes.io/docs/concepts/architecture/self-healing/",
+      "publisher": "Kubernetes Authors",
+      "publication_date": "2025-11-20",
+      "retrieved_at": "2026-11-02",
+      "source_type": "other",
+      "supporting_excerpt": "Kubernetes is designed with self-healing capabilities that help maintain the health and availability of workloads.",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_02_09/D02-S01.txt",
+      "limitations": "官方滚动文档；日期为页面最后修改日。仅证明声明式工作负载恢复机制，不证明操作系统或硬件物理维修。"
+    },
+    {
+      "source_id": "D02-S02",
+      "title": "Services, Load Balancing, and Networking | Kubernetes",
+      "url": "https://kubernetes.io/docs/concepts/services-networking/",
+      "publisher": "Kubernetes Authors",
+      "publication_date": "",
+      "retrieved_at": "2026-11-02",
+      "source_type": "other",
+      "supporting_excerpt": "The Kubernetes network model is built out of several pieces:",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_02_09/D02-S02.txt",
+      "limitations": "网络模型文档，不是无人铺设链路或修理交换机的运行证据。"
+    },
+    {
+      "source_id": "D02-S03",
+      "title": "Health Checks — Ceph Documentation",
+      "url": "https://docs.ceph.com/en/latest/rados/operations/health-checks/",
+      "publisher": "Ceph Authors",
+      "publication_date": "",
+      "retrieved_at": "2026-11-02",
+      "source_type": "other",
+      "supporting_excerpt": "Each health check has a unique identifier.",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_02_09/D02-S03.txt",
+      "limitations": "latest文档可能对应开发版本；说明存储健康检查与处置条件，不证明磁盘自主制造或更换。"
+    },
+    {
+      "source_id": "D02-S04",
+      "title": "Kubernetes Scheduler | Kubernetes",
+      "url": "https://kubernetes.io/docs/concepts/scheduling-eviction/kube-scheduler/",
+      "publisher": "Kubernetes Authors",
+      "publication_date": "",
+      "retrieved_at": "2026-11-02",
+      "source_type": "other",
+      "supporting_excerpt": "A scheduler watches for newly created Pods that have no Node assigned.",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_02_09/D02-S04.txt",
+      "limitations": "说明已供给节点上的逻辑调度，不证明物理算力来源独立。"
+    },
+    {
+      "source_id": "D02-S05",
+      "title": "Welcome to KServe | KServe",
+      "url": "https://kserve.github.io/website/docs/intro",
+      "publisher": "KServe Authors",
+      "publication_date": "",
+      "retrieved_at": "2026-11-02",
+      "source_type": "other",
+      "supporting_excerpt": "Scale to zero when idle, handle traffic spikes automatically, and manage hundreds of models efficiently.",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_02_09/D02-S05.txt",
+      "limitations": "项目功能文档；扩缩容指已存在云或集群资源，不等于制造新增GPU。"
+    },
+    {
+      "source_id": "D02-S06",
+      "title": "torchrun (Elastic Launch) — PyTorch 2.15 documentation",
+      "url": "https://docs.pytorch.org/docs/2.15/elastic/run.html",
+      "publisher": "PyTorch Contributors",
+      "publication_date": "",
+      "retrieved_at": "2026-11-02",
+      "source_type": "other",
+      "supporting_excerpt": "On failures or membership changes ALL surviving workers are killed immediately.",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_02_09/D02-S06.txt",
+      "limitations": "当前stable链接跳转到2.15文档；明确需要应用检查点，不代表训练硬件维修自治。"
+    },
+    {
+      "source_id": "D02-S07",
+      "title": "SLSA • Security levels",
+      "url": "https://slsa.dev/spec/v1.1/levels",
+      "publisher": "SLSA Authors",
+      "publication_date": "",
+      "retrieved_at": "2026-11-02",
+      "source_type": "other",
+      "supporting_excerpt": "Provenance describes what entity built the artifact, what process they used, and what the inputs were.",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_02_09/D02-S07.txt",
+      "limitations": "安全规范的分级和构件溯源定义，不是自动修补漏洞或完全自治的实测结果。"
+    },
+    {
+      "source_id": "D02-S08",
+      "title": "Certificate resource - cert-manager Documentation",
+      "url": "https://cert-manager.io/docs/usage/certificate/",
+      "publisher": "cert-manager Authors",
+      "publication_date": "",
+      "retrieved_at": "2026-11-02",
+      "source_type": "other",
+      "supporting_excerpt": "that the certificate is auto-renewed before it expires",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_02_09/D02-S08.txt",
+      "limitations": "证书自动续期仍依赖已配置发行者、身份与基础设施；不等于全面自主网络防御。"
+    },
+    {
+      "source_id": "D02-S09",
+      "title": "AIOpsLab official repository README",
+      "url": "https://raw.githubusercontent.com/microsoft/AIOpsLab/main/README.md",
+      "publisher": "Microsoft / AIOpsLab Contributors",
+      "publication_date": "",
+      "retrieved_at": "2026-11-02",
+      "source_type": "company-doc",
+      "supporting_excerpt": "AIOpsLab supports any remote kubernetes cluster that your",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_02_09/D02-S09.txt",
+      "limitations": "项目README描述部署与检测、定位、分析、缓解任务；框架存在不表示代理全部通过。"
+    },
+    {
+      "source_id": "D02-S10",
+      "title": "Concepts - The Cluster API Book",
+      "url": "https://cluster-api.sigs.k8s.io/user/concepts.html",
+      "publisher": "Kubernetes Cluster API Authors",
+      "publication_date": "",
+      "retrieved_at": "2026-11-02",
+      "source_type": "other",
+      "supporting_excerpt": "A MachineHealthCheck defines the conditions when a Node should be considered missing or unhealthy.",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_02_09/D02-S10.txt",
+      "limitations": "Machine是基础设施提供者管理的资源；API重建虚机或主机不等于机器人生产设备。"
+    },
+    {
+      "source_id": "D02-S12",
+      "title": "What is Talos Linux? - Sidero Documentation",
+      "url": "https://docs.siderolabs.com/talos/v1.14/overview/what-is-talos",
+      "publisher": "Sidero Labs",
+      "publication_date": "",
+      "retrieved_at": "2026-11-02",
+      "source_type": "company-doc",
+      "supporting_excerpt": "Talos is managed by a single, declarative gRPC API.",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_02_09/D02-S12.txt",
+      "limitations": "旧入口跳转到v1.14；说明操作系统API管理，不是端到端无人运维长期验证。"
+    },
+    {
+      "source_id": "D02-S13",
+      "title": "[2501.06706] AIOpsLab: A Holistic Framework to Evaluate AI Agents for Enabling Autonomous Clouds",
+      "url": "https://arxiv.org/abs/2501.06706",
+      "publisher": "AIOpsLab Research Authors / arXiv",
+      "publication_date": "2025-01-12",
+      "retrieved_at": "2026-11-02",
+      "source_type": "Paper",
+      "supporting_excerpt": "we provide insights into their capabilities and limitations in handling complex operational tasks in cloud environments.",
+      "verification": "abstract",
+      "cache_path": ".research_cache/domains_02_09/D02-S13.txt",
+      "limitations": "仅核验论文摘要和项目文档；未从摘要推断特定成功率或真实工业HR0表现。"
+    },
+    {
+      "source_id": "D09-S01",
+      "title": "Chronos: Pretrained Models for Time Series Forecasting",
+      "url": "https://raw.githubusercontent.com/amazon-science/chronos-forecasting/main/README.md",
+      "publisher": "Amazon Science / Chronos Contributors",
+      "publication_date": "",
+      "retrieved_at": "2026-11-02",
+      "source_type": "company-doc",
+      "supporting_excerpt": "zero-shot support for univariate, multivariate, and covariate-informed forecasting tasks.",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_02_09/D09-S01.txt",
+      "limitations": "README含2026-06-05云部署更新；发布日期采用单独论文来源，不将云端可用性视为物理自治。"
+    },
+    {
+      "source_id": "D09-S02",
+      "title": "linprog(method=’highs’) — SciPy v1.18.0 Manual",
+      "url": "https://docs.scipy.org/doc/scipy/reference/optimize.linprog-highs.html",
+      "publisher": "SciPy Developers",
+      "publication_date": "",
+      "retrieved_at": "2026-11-02",
+      "source_type": "other",
+      "supporting_excerpt": "Linear programming: minimize a linear objective function subject to linear equality and inequality constraints using one of the HiGHS solvers.",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_02_09/D09-S02.txt",
+      "limitations": "v1.18.0文档构建日2026-06-19；构建日不等于算法首次发布或自治工业部署。"
+    },
+    {
+      "source_id": "D09-S03",
+      "title": "Welcome to x402 - x402",
+      "url": "https://docs.x402.org/introduction",
+      "publisher": "x402 Foundation / Contributors",
+      "publication_date": "",
+      "retrieved_at": "2026-11-02",
+      "source_type": "other",
+      "supporting_excerpt": "Native support for machine-to-machine payments",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_02_09/D09-S03.txt",
+      "limitations": "开放协议及程序化支付流程说明；交易依赖链、资金、服务提供者和计算基础设施。"
+    },
+    {
+      "source_id": "D09-S04",
+      "title": "How to set up on-chain governance | OpenZeppelin Docs OpenZeppelin Logo Ethereum Icon GitHub Icon OpenZeppelin Logo GitHub Icon Anthropic",
+      "url": "https://docs.openzeppelin.com/contracts/5.x/governance",
+      "publisher": "OpenZeppelin",
+      "publication_date": "",
+      "retrieved_at": "2026-11-02",
+      "source_type": "company-doc",
+      "supporting_excerpt": "create proposals, vote for them, and execute them",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_02_09/D09-S04.txt",
+      "limitations": "Governor合约执行既定治理流程；提案形成、投票参与与物理执法是否无人均未获证明。"
+    },
+    {
+      "source_id": "D09-S05",
+      "title": "The Job Shop Problem  |  OR-Tools  |  Google for Developers Google Google",
+      "url": "https://developers.google.com/optimization/scheduling/job_shop",
+      "publisher": "Google OR-Tools",
+      "publication_date": "",
+      "retrieved_at": "2026-11-02",
+      "source_type": "company-doc",
+      "supporting_excerpt": "The job shop scheduling problem involves optimizing the allocation of machines to tasks within multiple jobs",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_02_09/D09-S05.txt",
+      "limitations": "约束求解教学实例；证明计算排程方法，不证明自主工厂的完整生产控制。"
+    },
+    {
+      "source_id": "D09-S06",
+      "title": "Project Agorá | Bank for International Settlements",
+      "url": "https://www.bis.org/project/agora",
+      "publisher": "Bank for International Settlements",
+      "publication_date": "2026-05-27",
+      "retrieved_at": "2026-11-02",
+      "source_type": "government",
+      "supporting_excerpt": "Project Agorá conducted RVT in July 2026.",
+      "verification": "full_text",
+      "cache_path": ".research_cache/domains_02_09/D09-S06.txt",
+      "limitations": "项目页显示Last updated2026-05-27但已包含July2026实值测试和2026-10-29相关更新；正文仍明确人为合规、外汇确认与操作窗口。"
+    },
+    {
+      "source_id": "D09-S07",
+      "title": "Purchase — Odoo 19.0 documentation",
+      "url": "https://www.odoo.com/documentation/19.0/applications/inventory_and_mrp/purchase.html",
+      "publisher": "Odoo",
+      "publication_date": "",
+      "retrieved_at": "2026-11-02",
+      "source_type": "company-doc",
+      "supporting_excerpt": "helps keep track of purchase agreements, quotations, and purchase orders.",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_02_09/D09-S07.txt",
+      "limitations": "Odoo19功能文档，采购软件不等于供应商、制造、交付和合同执行实现HR0。"
+    },
+    {
+      "source_id": "D09-S08",
+      "title": "Reordering rules — Odoo 19.0 documentation",
+      "url": "https://www.odoo.com/documentation/19.0/applications/inventory_and_mrp/inventory/warehouses_storage/replenishment/reordering_rules.html",
+      "publisher": "Odoo",
+      "publication_date": "",
+      "retrieved_at": "2026-11-02",
+      "source_type": "company-doc",
+      "supporting_excerpt": "request for quotation (RFQ) is created when the reordering rule is triggered.",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_02_09/D09-S08.txt",
+      "limitations": "最低/最高库存触发补货单的机制，不证明实际库存、供应链或仓储物理自治。"
+    },
+    {
+      "source_id": "D09-S09",
+      "title": "Getting Started | Nexus Mutual Documentation",
+      "url": "https://docs.nexusmutual.io/",
+      "publisher": "Nexus Mutual",
+      "publication_date": "",
+      "retrieved_at": "2026-11-02",
+      "source_type": "company-doc",
+      "supporting_excerpt": "Members pool capital, buy cover against on-chain and real world risks",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_02_09/D09-S09.txt",
+      "limitations": "相互保险协议为成员治理和裁量理赔；不是无人核赔或无人重建工厂的证据。"
+    },
+    {
+      "source_id": "D09-S10",
+      "title": "III. The next-generation monetary and financial system",
+      "url": "https://www.bis.org/publications/aer-2025/next-generation-monetary-financial-system",
+      "publisher": "Bank for International Settlements",
+      "publication_date": "2025-06-29",
+      "retrieved_at": "2026-11-02",
+      "source_type": "government",
+      "supporting_excerpt": "Stablecoins also fare poorly on singleness and elasticity.",
+      "verification": "full_text",
+      "cache_path": ".research_cache/domains_02_09/D09-S10.txt",
+      "limitations": "央行年度经济报告的制度分析；不提供机器经济宏观自治实测。"
+    },
+    {
+      "source_id": "D09-S12",
+      "title": "[2510.15821] Chronos-2: From Univariate to Universal Forecasting",
+      "url": "https://arxiv.org/abs/2510.15821",
+      "publisher": "Chronos-2 Research Authors / arXiv",
+      "publication_date": "2025-10-17",
+      "retrieved_at": "2026-11-02",
+      "source_type": "Paper",
+      "supporting_excerpt": "a pretrained model capable of handling univariate, multivariate, and covariate-informed forecasting tasks in a zero-shot manner.",
+      "verification": "abstract",
+      "cache_path": ".research_cache/domains_02_09/D09-S12.txt",
+      "limitations": "论文摘要提供预测任务与基准范围；不将预测性能外推为生产执行或工业闭环。"
+    },
+    {
+      "source_id": "D09-S14",
+      "title": "Payments in the age of AI agents | Bank for International Settlements",
+      "url": "https://www.bis.org/speeches/20261005-payments-age-ai-agents",
+      "publisher": "Christopher J Waller / Federal Reserve, hosted by BIS",
+      "publication_date": "2026-10-05",
+      "retrieved_at": "2026-11-02",
+      "source_type": "government",
+      "supporting_excerpt": "Market participants broadly agree that agentic commerce is in an early phase",
+      "verification": "full_text",
+      "cache_path": ".research_cache/domains_02_09/D09-S14.txt",
+      "limitations": "2026-10-05官方演讲；区分agent-assisted和agent-delegated，仍依赖授权、责任和欺诈控制。"
+    },
+    {
+      "source_id": "D09-S15",
+      "title": "Agents of change − speech by Sarah Breeden | Bank of England – the UK's central bank",
+      "url": "https://www.bankofengland.co.uk/speech/2026/june/sarah-breeden-panel-at-the-european-central-bank-forum-on-central-banking-2026",
+      "publisher": "Bank of England / Sarah Breeden",
+      "publication_date": "2026-06-30",
+      "retrieved_at": "2026-11-02",
+      "source_type": "government",
+      "supporting_excerpt": "The financial system looks likely therefore to evolve quickly into one that operates more autonomously",
+      "verification": "full_text",
+      "cache_path": ".research_cache/domains_02_09/D09-S15.txt",
+      "limitations": "官方演讲中的趋势、风险和政策讨论，不是已建立自治机器经济的实证结果。"
+    },
+    {
+      "source_id": "D09-S17",
+      "title": "Mastercard launches Agent Pay for Machines to unlock super-fast, always-on payments | Mastercard Global",
+      "url": "https://www.mastercard.com/global/en/news-and-trends/press/2026/june/mastercard-launches-agent-pay-for-machines.html",
+      "publisher": "Mastercard",
+      "publication_date": "2026-06-10",
+      "retrieved_at": "2026-11-02",
+      "source_type": "company-doc",
+      "supporting_excerpt": "these transactions are programmatic, always-on and executed between systems",
+      "verification": "full_text",
+      "cache_path": ".research_cache/domains_02_09/D09-S17.txt",
+      "limitations": "服务提供者发布公告；多处使用will/envisions未来表述，不能当作已完成独立机器经济的证据。"
+    },
+    {
+      "source_id": "D09-S18",
+      "title": "Inside x402: 100M Agentic Payments on Base - Chainalysis Chainalysis",
+      "url": "https://www.chainalysis.com/blog/x402-agentic-payments-adoption/",
+      "publisher": "Chainalysis",
+      "publication_date": "2026-06-03",
+      "retrieved_at": "2026-11-02",
+      "source_type": "company-doc",
+      "supporting_excerpt": "Much of the growth was driven by meme coin farming activity.",
+      "verification": "full_text",
+      "cache_path": ".research_cache/domains_02_09/D09-S18.txt",
+      "limitations": "按链上x402交互识别交易的商业分析；交易量不等于独立机器主体数量或实物经济活动。"
+    },
+    {
+      "source_id": "D09-S19",
+      "title": "x402 and Agentic Commerce: Redefining Autonomous Payments in Financial Services | AWS for Industries",
+      "url": "https://aws.amazon.com/blogs/industries/x402-and-agentic-commerce-redefining-autonomous-payments-in-financial-services/",
+      "publisher": "Amazon Web Services",
+      "publication_date": "2026-03-15",
+      "retrieved_at": "2026-11-02",
+      "source_type": "company-doc",
+      "supporting_excerpt": "x402 and Agentic Commerce: Redefining Autonomous Payments in Financial Services",
+      "verification": "full_text",
+      "cache_path": ".research_cache/domains_02_09/D09-S19.txt",
+      "limitations": "供应商架构文章，更新于2026-05-11；不视为无人在场的端到端工业运行验证。"
+    }
+  ],
+  "records": [
+    {
+      "dimension_id": "2.1-M1",
+      "required_capability": "在无人登录和现场操作条件下持续部署、运行与更新工业控制主机的操作系统",
+      "human_dependency": "操作系统发行、驱动更新、物理服务器与启动盘供给仍依赖人类维护的工业和开发体系。",
+      "validation_needed": "以在无人登录和现场操作条件下持续部署、运行与更新工业控制主机的操作系统为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "Talos文档说明可通过声明式gRPC API管理精简操作系统；Kubernetes可重启失败容器。文档未给出整个操作系统长期HR0运行时长。",
+      "source_ids": [
+        "D02-S12",
+        "D02-S01"
+      ],
+      "evidence_relation": "partial_metric",
+      "assessment_status": "partial_related_evidence",
+      "gap": "现有证据仅覆盖无人运行的局部或软件层能力；仍缺少“在无人登录和现场操作条件下持续部署、运行与更新工业控制主机的操作系统”在完整物理依赖链和长期HR0条件下成立的验证。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "2.1-M2",
+      "required_capability": "自动发现内核崩溃、系统盘损坏、驱动异常及配置漂移",
+      "human_dependency": "操作系统发行、驱动更新、物理服务器与启动盘供给仍依赖人类维护的工业和开发体系。",
+      "validation_needed": "以自动发现内核崩溃、系统盘损坏、驱动异常及配置漂移为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "Kubernetes有节点与工作负载健康状态及失败处理机制；这只覆盖可观测的集群信号，不是完整内核、固件和硬件故障检测验证。",
+      "source_ids": [
+        "D02-S01",
+        "D02-S10"
+      ],
+      "evidence_relation": "partial_metric",
+      "assessment_status": "partial_related_evidence",
+      "gap": "现有证据仅覆盖故障发现的局部或软件层能力；仍缺少“自动发现内核崩溃、系统盘损坏、驱动异常及配置漂移”在完整物理依赖链和长期HR0条件下成立的验证。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "2.1-M3",
+      "required_capability": "自主区分操作系统、驱动、固件与物理硬件故障的根因",
+      "human_dependency": "操作系统发行、驱动更新、物理服务器与启动盘供给仍依赖人类维护的工业和开发体系。",
+      "validation_needed": "以自主区分操作系统、驱动、固件与物理硬件故障的根因为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的操作系统声明式管理与容器自愈资料未提供“自主区分操作系统、驱动、固件与物理硬件故障的根因”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自主区分操作系统、驱动、固件与物理硬件故障的根因。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D02-S12",
+        "D02-S01"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "2.1-M4",
+      "required_capability": "自主回滚坏更新、重装系统并完成失效启动盘与硬件的更换",
+      "human_dependency": "操作系统发行、驱动更新、物理服务器与启动盘供给仍依赖人类维护的工业和开发体系。",
+      "validation_needed": "以自主回滚坏更新、重装系统并完成失效启动盘与硬件的更换为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "Kubernetes可重启容器或重建Pod；源文档明确底层应用问题仍需另外解决，不能等同重装系统或更换启动盘。",
+      "source_ids": [
+        "D02-S01"
+      ],
+      "evidence_relation": "partial_metric",
+      "assessment_status": "partial_related_evidence",
+      "gap": "现有证据仅覆盖自主维修的局部或软件层能力；仍缺少“自主回滚坏更新、重装系统并完成失效启动盘与硬件的更换”在完整物理依赖链和长期HR0条件下成立的验证。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "2.1-M5",
+      "required_capability": "自行提供内核、固件、编译工具链、存储介质和所需计算硬件",
+      "human_dependency": "操作系统发行、驱动更新、物理服务器与启动盘供给仍依赖人类维护的工业和开发体系。",
+      "validation_needed": "以自行提供内核、固件、编译工具链、存储介质和所需计算硬件为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的操作系统声明式管理与容器自愈资料未提供“自行提供内核、固件、编译工具链、存储介质和所需计算硬件”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自行提供内核、固件、编译工具链、存储介质和所需计算硬件。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D02-S12",
+        "D02-S01"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "2.1-M6",
+      "required_capability": "自主维持操作系统主机的供电与断电后启动条件",
+      "human_dependency": "操作系统发行、驱动更新、物理服务器与启动盘供给仍依赖人类维护的工业和开发体系。",
+      "validation_needed": "以自主维持操作系统主机的供电与断电后启动条件为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的操作系统声明式管理与容器自愈资料未提供“自主维持操作系统主机的供电与断电后启动条件”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自主维持操作系统主机的供电与断电后启动条件。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D02-S12",
+        "D02-S01"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "2.1-M7",
+      "required_capability": "保存并验证系统构建、设备驱动与故障处置知识，不依赖运维人员经验",
+      "human_dependency": "操作系统发行、驱动更新、物理服务器与启动盘供给仍依赖人类维护的工业和开发体系。",
+      "validation_needed": "以保存并验证系统构建、设备驱动与故障处置知识，不依赖运维人员经验为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "Talos将配置和排障接口文档化；这是可编码运维知识的一部分，未验证机器可独立获得并核验全部系统维护知识。",
+      "source_ids": [
+        "D02-S12"
+      ],
+      "evidence_relation": "partial_metric",
+      "assessment_status": "partial_related_evidence",
+      "gap": "现有证据仅覆盖知识信息自主度的局部或软件层能力；仍缺少“保存并验证系统构建、设备驱动与故障处置知识，不依赖运维人员经验”在完整物理依赖链和长期HR0条件下成立的验证。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "2.1-M8",
+      "required_capability": "在启动盘、配置服务与部分机房同时损失后重建可启动的系统环境",
+      "human_dependency": "操作系统发行、驱动更新、物理服务器与启动盘供给仍依赖人类维护的工业和开发体系。",
+      "validation_needed": "以在启动盘、配置服务与部分机房同时损失后重建可启动的系统环境为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的操作系统声明式管理与容器自愈资料未提供“在启动盘、配置服务与部分机房同时损失后重建可启动的系统环境”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：在启动盘、配置服务与部分机房同时损失后重建可启动的系统环境。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D02-S12",
+        "D02-S01"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "2.1-M9",
+      "required_capability": "自行安装、配置并接入新增物理主机的操作系统",
+      "human_dependency": "操作系统发行、驱动更新、物理服务器与启动盘供给仍依赖人类维护的工业和开发体系。",
+      "validation_needed": "以自行安装、配置并接入新增物理主机的操作系统为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的操作系统声明式管理与容器自愈资料未提供“自行安装、配置并接入新增物理主机的操作系统”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自行安装、配置并接入新增物理主机的操作系统。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D02-S12",
+        "D02-S01"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "2.1-M10",
+      "required_capability": "由自有工业链制造主机和启动介质，并建立可独立维护的新操作系统节点",
+      "human_dependency": "操作系统发行、驱动更新、物理服务器与启动盘供给仍依赖人类维护的工业和开发体系。",
+      "validation_needed": "以由自有工业链制造主机和启动介质，并建立可独立维护的新操作系统节点为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的操作系统声明式管理与容器自愈资料未提供“由自有工业链制造主机和启动介质，并建立可独立维护的新操作系统节点”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：由自有工业链制造主机和启动介质，并建立可独立维护的新操作系统节点。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D02-S12",
+        "D02-S01"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "2.2-M1",
+      "required_capability": "无需人类配置变更即可持续提供局域网、广域网与服务发现",
+      "human_dependency": "交换机、光模块、光纤敷设、网络供电与现场故障修理未见机器自给闭环证据。",
+      "validation_needed": "以无需人类配置变更即可持续提供局域网、广域网与服务发现为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "Kubernetes已文档化Pod独立IP、Service稳定入口和网络策略等逻辑网络机制；物理链路运行与现场维护不在该证据范围。",
+      "source_ids": [
+        "D02-S02"
+      ],
+      "evidence_relation": "direct_metric",
+      "assessment_status": "partial_related_evidence",
+      "gap": "现有证据仅覆盖无人运行的局部或软件层能力；仍缺少“无需人类配置变更即可持续提供局域网、广域网与服务发现”在完整物理依赖链和长期HR0条件下成立的验证。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "2.2-M2",
+      "required_capability": "自动发现断链、路由环路、拥塞、光模块退化和错误网络策略",
+      "human_dependency": "交换机、光模块、光纤敷设、网络供电与现场故障修理未见机器自给闭环证据。",
+      "validation_needed": "以自动发现断链、路由环路、拥塞、光模块退化和错误网络策略为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的Kubernetes网络模型资料未提供“自动发现断链、路由环路、拥塞、光模块退化和错误网络策略”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自动发现断链、路由环路、拥塞、光模块退化和错误网络策略。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D02-S02"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "2.2-M3",
+      "required_capability": "自主定位网络故障至配置、协议、线缆、收发器或交换设备",
+      "human_dependency": "交换机、光模块、光纤敷设、网络供电与现场故障修理未见机器自给闭环证据。",
+      "validation_needed": "以自主定位网络故障至配置、协议、线缆、收发器或交换设备为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的Kubernetes网络模型资料未提供“自主定位网络故障至配置、协议、线缆、收发器或交换设备”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自主定位网络故障至配置、协议、线缆、收发器或交换设备。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D02-S02"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "2.2-M4",
+      "required_capability": "自主修复网络配置并实际更换失效线缆、光模块和交换设备",
+      "human_dependency": "交换机、光模块、光纤敷设、网络供电与现场故障修理未见机器自给闭环证据。",
+      "validation_needed": "以自主修复网络配置并实际更换失效线缆、光模块和交换设备为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的Kubernetes网络模型资料未提供“自主修复网络配置并实际更换失效线缆、光模块和交换设备”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自主修复网络配置并实际更换失效线缆、光模块和交换设备。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D02-S02"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "2.2-M5",
+      "required_capability": "自行提供路由软件、交换芯片、光纤、连接器与网络设备",
+      "human_dependency": "交换机、光模块、光纤敷设、网络供电与现场故障修理未见机器自给闭环证据。",
+      "validation_needed": "以自行提供路由软件、交换芯片、光纤、连接器与网络设备为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的Kubernetes网络模型资料未提供“自行提供路由软件、交换芯片、光纤、连接器与网络设备”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自行提供路由软件、交换芯片、光纤、连接器与网络设备。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D02-S02"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "2.2-M6",
+      "required_capability": "自主维持网络机房、路由节点和远程站点的供电",
+      "human_dependency": "交换机、光模块、光纤敷设、网络供电与现场故障修理未见机器自给闭环证据。",
+      "validation_needed": "以自主维持网络机房、路由节点和远程站点的供电为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的Kubernetes网络模型资料未提供“自主维持网络机房、路由节点和远程站点的供电”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自主维持网络机房、路由节点和远程站点的供电。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D02-S02"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "2.2-M7",
+      "required_capability": "自主维护拓扑、协议与配置知识并验证新网络策略",
+      "human_dependency": "交换机、光模块、光纤敷设、网络供电与现场故障修理未见机器自给闭环证据。",
+      "validation_needed": "以自主维护拓扑、协议与配置知识并验证新网络策略为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "Kubernetes网络模型、服务发现与策略规则有公开技术文档；未提供自主学习新网络设备或判断未知拓扑故障的结果。",
+      "source_ids": [
+        "D02-S02"
+      ],
+      "evidence_relation": "partial_metric",
+      "assessment_status": "partial_related_evidence",
+      "gap": "现有证据仅覆盖知识信息自主度的局部或软件层能力；仍缺少“自主维护拓扑、协议与配置知识并验证新网络策略”在完整物理依赖链和长期HR0条件下成立的验证。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "2.2-M8",
+      "required_capability": "在控制平面和多条骨干链路损失后自主恢复连通",
+      "human_dependency": "交换机、光模块、光纤敷设、网络供电与现场故障修理未见机器自给闭环证据。",
+      "validation_needed": "以在控制平面和多条骨干链路损失后自主恢复连通为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的Kubernetes网络模型资料未提供“在控制平面和多条骨干链路损失后自主恢复连通”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：在控制平面和多条骨干链路损失后自主恢复连通。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D02-S02"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "2.2-M9",
+      "required_capability": "自主建设布线、交换与路由节点以扩大真实网络容量",
+      "human_dependency": "交换机、光模块、光纤敷设、网络供电与现场故障修理未见机器自给闭环证据。",
+      "validation_needed": "以自主建设布线、交换与路由节点以扩大真实网络容量为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "Cluster API的基础设施提供者可配置虚拟网络等资源；这是提供者API下的资源供给，不是自主布线与制造交换机。",
+      "source_ids": [
+        "D02-S10"
+      ],
+      "evidence_relation": "partial_metric",
+      "assessment_status": "partial_related_evidence",
+      "gap": "现有证据仅覆盖自主扩容的局部或软件层能力；仍缺少“自主建设布线、交换与路由节点以扩大真实网络容量”在完整物理依赖链和长期HR0条件下成立的验证。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "2.2-M10",
+      "required_capability": "制造并部署一套拥有物理链路和独立运维能力的新网络",
+      "human_dependency": "交换机、光模块、光纤敷设、网络供电与现场故障修理未见机器自给闭环证据。",
+      "validation_needed": "以制造并部署一套拥有物理链路和独立运维能力的新网络为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的Kubernetes网络模型资料未提供“制造并部署一套拥有物理链路和独立运维能力的新网络”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：制造并部署一套拥有物理链路和独立运维能力的新网络。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D02-S02"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "2.3-M1",
+      "required_capability": "无人值守地持续存储、备份、校验和恢复生产数据",
+      "human_dependency": "失效磁盘及控制器替换、备份策略配置、密钥保存和物理存储制造仍有外部依赖。",
+      "validation_needed": "以无人值守地持续存储、备份、校验和恢复生产数据为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "Ceph文档列出副本、恢复和健康检查机制，支持已有存储集群的数据管理；未提供完全无人补给的生命周期运行证据。",
+      "source_ids": [
+        "D02-S03"
+      ],
+      "evidence_relation": "partial_metric",
+      "assessment_status": "partial_related_evidence",
+      "gap": "现有证据仅覆盖无人运行的局部或软件层能力；仍缺少“无人值守地持续存储、备份、校验和恢复生产数据”在完整物理依赖链和长期HR0条件下成立的验证。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "2.3-M2",
+      "required_capability": "自动发现静默数据损坏、磁盘寿命退化、备份失败与副本不足",
+      "human_dependency": "失效磁盘及控制器替换、备份策略配置、密钥保存和物理存储制造仍有外部依赖。",
+      "validation_needed": "以自动发现静默数据损坏、磁盘寿命退化、备份失败与副本不足为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "Ceph的monitor和manager会报告有唯一标识的健康检查，覆盖OSD、容量和数据健康等条件。",
+      "source_ids": [
+        "D02-S03"
+      ],
+      "evidence_relation": "direct_metric",
+      "assessment_status": "partial_related_evidence",
+      "gap": "现有证据仅覆盖故障发现的局部或软件层能力；仍缺少“自动发现静默数据损坏、磁盘寿命退化、备份失败与副本不足”在完整物理依赖链和长期HR0条件下成立的验证。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "2.3-M3",
+      "required_capability": "自主区分软件故障、介质退化、网络分区与一致性异常",
+      "human_dependency": "失效磁盘及控制器替换、备份策略配置、密钥保存和物理存储制造仍有外部依赖。",
+      "validation_needed": "以自主区分软件故障、介质退化、网络分区与一致性异常为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "Ceph按具体健康条件给出原因线索和处置说明；文档仍包含需要运维人员执行和判断的流程，不能视为通用自主根因诊断。",
+      "source_ids": [
+        "D02-S03"
+      ],
+      "evidence_relation": "partial_metric",
+      "assessment_status": "partial_related_evidence",
+      "gap": "现有证据仅覆盖自主诊断的局部或软件层能力；仍缺少“自主区分软件故障、介质退化、网络分区与一致性异常”在完整物理依赖链和长期HR0条件下成立的验证。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "2.3-M4",
+      "required_capability": "自主修复损坏数据并更换失效磁盘、控制器和存储设备",
+      "human_dependency": "失效磁盘及控制器替换、备份策略配置、密钥保存和物理存储制造仍有外部依赖。",
+      "validation_needed": "以自主修复损坏数据并更换失效磁盘、控制器和存储设备为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "Ceph支持数据恢复、回填与部分数据修复；失效介质仍有评估、移除和替换的运维步骤，物理磁盘更换未获自治证据。",
+      "source_ids": [
+        "D02-S03"
+      ],
+      "evidence_relation": "partial_metric",
+      "assessment_status": "partial_related_evidence",
+      "gap": "现有证据仅覆盖自主维修的局部或软件层能力；仍缺少“自主修复损坏数据并更换失效磁盘、控制器和存储设备”在完整物理依赖链和长期HR0条件下成立的验证。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "2.3-M5",
+      "required_capability": "自行生产或可持续回收存储介质、控制器、线缆与相关软件",
+      "human_dependency": "失效磁盘及控制器替换、备份策略配置、密钥保存和物理存储制造仍有外部依赖。",
+      "validation_needed": "以自行生产或可持续回收存储介质、控制器、线缆与相关软件为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的Ceph健康与恢复机制资料未提供“自行生产或可持续回收存储介质、控制器、线缆与相关软件”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自行生产或可持续回收存储介质、控制器、线缆与相关软件。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D02-S03"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "2.3-M6",
+      "required_capability": "自主供应存储与备份设施的连续电力及冷却",
+      "human_dependency": "失效磁盘及控制器替换、备份策略配置、密钥保存和物理存储制造仍有外部依赖。",
+      "validation_needed": "以自主供应存储与备份设施的连续电力及冷却为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的Ceph健康与恢复机制资料未提供“自主供应存储与备份设施的连续电力及冷却”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自主供应存储与备份设施的连续电力及冷却。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D02-S03"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "2.3-M7",
+      "required_capability": "自主保存和验证数据格式、恢复顺序、密钥与备份策略知识",
+      "human_dependency": "失效磁盘及控制器替换、备份策略配置、密钥保存和物理存储制造仍有外部依赖。",
+      "validation_needed": "以自主保存和验证数据格式、恢复顺序、密钥与备份策略知识为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的Ceph健康与恢复机制资料未提供“自主保存和验证数据格式、恢复顺序、密钥与备份策略知识”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自主保存和验证数据格式、恢复顺序、密钥与备份策略知识。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D02-S03"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "2.3-M8",
+      "required_capability": "在多副本或主站点损毁后由保留材料自主恢复关键数据服务",
+      "human_dependency": "失效磁盘及控制器替换、备份策略配置、密钥保存和物理存储制造仍有外部依赖。",
+      "validation_needed": "以在多副本或主站点损毁后由保留材料自主恢复关键数据服务为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "Ceph恢复机制使用仍可用的副本和OSD容量；这提供有限冗余恢复路径，没有证明丧失所有可用副本后可重建数据。",
+      "source_ids": [
+        "D02-S03"
+      ],
+      "evidence_relation": "partial_metric",
+      "assessment_status": "partial_related_evidence",
+      "gap": "现有证据仅覆盖灾难恢复韧性的局部或软件层能力；仍缺少“在多副本或主站点损毁后由保留材料自主恢复关键数据服务”在完整物理依赖链和长期HR0条件下成立的验证。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "2.3-M9",
+      "required_capability": "自主增加物理存储介质与站点并完成数据迁移",
+      "human_dependency": "失效磁盘及控制器替换、备份策略配置、密钥保存和物理存储制造仍有外部依赖。",
+      "validation_needed": "以自主增加物理存储介质与站点并完成数据迁移为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的Ceph健康与恢复机制资料未提供“自主增加物理存储介质与站点并完成数据迁移”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自主增加物理存储介质与站点并完成数据迁移。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D02-S03"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "2.3-M10",
+      "required_capability": "制造和部署一套可独立备份、恢复及维护的新存储系统",
+      "human_dependency": "失效磁盘及控制器替换、备份策略配置、密钥保存和物理存储制造仍有外部依赖。",
+      "validation_needed": "以制造和部署一套可独立备份、恢复及维护的新存储系统为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的Ceph健康与恢复机制资料未提供“制造和部署一套可独立备份、恢复及维护的新存储系统”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：制造和部署一套可独立备份、恢复及维护的新存储系统。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D02-S03"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "2.4-M1",
+      "required_capability": "无需人工调度持续分配异构算力并满足工业任务优先级",
+      "human_dependency": "物理节点、基础设施provider、资源策略、集群控制面及能源由既有工业与运维体系供给。",
+      "validation_needed": "以无需人工调度持续分配异构算力并满足工业任务优先级为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "kube-scheduler会监视尚未分配Node的Pod，并按约束与优先级寻找运行节点。",
+      "source_ids": [
+        "D02-S04"
+      ],
+      "evidence_relation": "direct_metric",
+      "assessment_status": "partial_related_evidence",
+      "gap": "现有证据仅覆盖无人运行的局部或软件层能力；仍缺少“无需人工调度持续分配异构算力并满足工业任务优先级”在完整物理依赖链和长期HR0条件下成立的验证。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "2.4-M2",
+      "required_capability": "发现节点、调度器、资源声明和任务队列的异常或资源不足",
+      "human_dependency": "物理节点、基础设施provider、资源策略、集群控制面及能源由既有工业与运维体系供给。",
+      "validation_needed": "以发现节点、调度器、资源声明和任务队列的异常或资源不足为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "Cluster API可按用户配置的缺失或不健康节点条件触发MachineHealthCheck。",
+      "source_ids": [
+        "D02-S10"
+      ],
+      "evidence_relation": "direct_metric",
+      "assessment_status": "partial_related_evidence",
+      "gap": "现有证据仅覆盖故障发现的局部或软件层能力；仍缺少“发现节点、调度器、资源声明和任务队列的异常或资源不足”在完整物理依赖链和长期HR0条件下成立的验证。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "2.4-M3",
+      "required_capability": "自主定位任务停滞、资源争用及集群控制平面故障的根因",
+      "human_dependency": "物理节点、基础设施provider、资源策略、集群控制面及能源由既有工业与运维体系供给。",
+      "validation_needed": "以自主定位任务停滞、资源争用及集群控制平面故障的根因为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的Kubernetes调度与Cluster API资料未提供“自主定位任务停滞、资源争用及集群控制平面故障的根因”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自主定位任务停滞、资源争用及集群控制平面故障的根因。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D02-S04",
+        "D02-S10"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "2.4-M4",
+      "required_capability": "自主修复集群配置、迁移任务并更换物理故障节点",
+      "human_dependency": "物理节点、基础设施provider、资源策略、集群控制面及能源由既有工业与运维体系供给。",
+      "validation_needed": "以自主修复集群配置、迁移任务并更换物理故障节点为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "Kubernetes可重调度工作负载；Cluster API可替换不健康Machine，但底层物理提供者仍是前提。",
+      "source_ids": [
+        "D02-S01",
+        "D02-S10"
+      ],
+      "evidence_relation": "partial_metric",
+      "assessment_status": "partial_related_evidence",
+      "gap": "现有证据仅覆盖自主维修的局部或软件层能力；仍缺少“自主修复集群配置、迁移任务并更换物理故障节点”在完整物理依赖链和长期HR0条件下成立的验证。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "2.4-M5",
+      "required_capability": "自行供给计算节点、网络、控制面存储与集群软件依赖",
+      "human_dependency": "物理节点、基础设施provider、资源策略、集群控制面及能源由既有工业与运维体系供给。",
+      "validation_needed": "以自行供给计算节点、网络、控制面存储与集群软件依赖为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的Kubernetes调度与Cluster API资料未提供“自行供给计算节点、网络、控制面存储与集群软件依赖”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自行供给计算节点、网络、控制面存储与集群软件依赖。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D02-S04",
+        "D02-S10"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "2.4-M6",
+      "required_capability": "自主匹配集群任务负荷与可持续电力、冷却供应",
+      "human_dependency": "物理节点、基础设施provider、资源策略、集群控制面及能源由既有工业与运维体系供给。",
+      "validation_needed": "以自主匹配集群任务负荷与可持续电力、冷却供应为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的Kubernetes调度与Cluster API资料未提供“自主匹配集群任务负荷与可持续电力、冷却供应”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自主匹配集群任务负荷与可持续电力、冷却供应。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D02-S04",
+        "D02-S10"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "2.4-M7",
+      "required_capability": "自主更新和验证调度规则、资源模型与服务等级知识",
+      "human_dependency": "物理节点、基础设施provider、资源策略、集群控制面及能源由既有工业与运维体系供给。",
+      "validation_needed": "以自主更新和验证调度规则、资源模型与服务等级知识为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的Kubernetes调度与Cluster API资料未提供“自主更新和验证调度规则、资源模型与服务等级知识”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自主更新和验证调度规则、资源模型与服务等级知识。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D02-S04",
+        "D02-S10"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "2.4-M8",
+      "required_capability": "在控制平面与大量工作节点丧失后自主恢复任务调度",
+      "human_dependency": "物理节点、基础设施provider、资源策略、集群控制面及能源由既有工业与运维体系供给。",
+      "validation_needed": "以在控制平面与大量工作节点丧失后自主恢复任务调度为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的Kubernetes调度与Cluster API资料未提供“在控制平面与大量工作节点丧失后自主恢复任务调度”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：在控制平面与大量工作节点丧失后自主恢复任务调度。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D02-S04",
+        "D02-S10"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "2.4-M9",
+      "required_capability": "自行制造、接入并调度新增集群节点而非仅租用云配额",
+      "human_dependency": "物理节点、基础设施provider、资源策略、集群控制面及能源由既有工业与运维体系供给。",
+      "validation_needed": "以自行制造、接入并调度新增集群节点而非仅租用云配额为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "Cluster API控制器可经基础设施提供者增加Machine并接入集群；来源不证明这些物理主机由机器工业自行生产。",
+      "source_ids": [
+        "D02-S10"
+      ],
+      "evidence_relation": "partial_metric",
+      "assessment_status": "partial_related_evidence",
+      "gap": "现有证据仅覆盖自主扩容的局部或软件层能力；仍缺少“自行制造、接入并调度新增集群节点而非仅租用云配额”在完整物理依赖链和长期HR0条件下成立的验证。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "2.4-M10",
+      "required_capability": "从物理设备到控制平面建立一套具同等调度能力的新集群",
+      "human_dependency": "物理节点、基础设施provider、资源策略、集群控制面及能源由既有工业与运维体系供给。",
+      "validation_needed": "以从物理设备到控制平面建立一套具同等调度能力的新集群为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的Kubernetes调度与Cluster API资料未提供“从物理设备到控制平面建立一套具同等调度能力的新集群”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：从物理设备到控制平面建立一套具同等调度能力的新集群。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D02-S04",
+        "D02-S10"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "2.5-M1",
+      "required_capability": "持续无人部署模型、提供推理服务并按需求切换运行时",
+      "human_dependency": "模型、集群、GPU制造、供电与底层运行环境仍须外部提供，文档不证明这些已HR0。",
+      "validation_needed": "以持续无人部署模型、提供推理服务并按需求切换运行时为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "KServe文档支持多框架模型服务、推理路由和模型生命周期管理；这是指定集群中的软件能力。",
+      "source_ids": [
+        "D02-S05"
+      ],
+      "evidence_relation": "direct_metric",
+      "assessment_status": "partial_related_evidence",
+      "gap": "现有证据仅覆盖无人运行的局部或软件层能力；仍缺少“持续无人部署模型、提供推理服务并按需求切换运行时”在完整物理依赖链和长期HR0条件下成立的验证。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "2.5-M2",
+      "required_capability": "发现推理错误率、时延、显存与模型质量漂移",
+      "human_dependency": "模型、集群、GPU制造、供电与底层运行环境仍须外部提供，文档不证明这些已HR0。",
+      "validation_needed": "以发现推理错误率、时延、显存与模型质量漂移为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "KServe文档列出模型监测、漂移检测、离群检测和生产可观测性功能，未给出全故障分布的无人检出率。",
+      "source_ids": [
+        "D02-S05"
+      ],
+      "evidence_relation": "partial_metric",
+      "assessment_status": "partial_related_evidence",
+      "gap": "现有证据仅覆盖故障发现的局部或软件层能力；仍缺少“发现推理错误率、时延、显存与模型质量漂移”在完整物理依赖链和长期HR0条件下成立的验证。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "2.5-M3",
+      "required_capability": "自主定位模型、运行时、驱动或推理硬件导致的故障",
+      "human_dependency": "模型、集群、GPU制造、供电与底层运行环境仍须外部提供，文档不证明这些已HR0。",
+      "validation_needed": "以自主定位模型、运行时、驱动或推理硬件导致的故障为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的KServe模型服务功能资料未提供“自主定位模型、运行时、驱动或推理硬件导致的故障”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自主定位模型、运行时、驱动或推理硬件导致的故障。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D02-S05"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "2.5-M4",
+      "required_capability": "自行回滚或修复推理软件并替换坏加速器与服务节点",
+      "human_dependency": "模型、集群、GPU制造、供电与底层运行环境仍须外部提供，文档不证明这些已HR0。",
+      "validation_needed": "以自行回滚或修复推理软件并替换坏加速器与服务节点为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "KServe提供金丝雀部署和模型生命周期管理，可支持部署调整；页面未证明代理会自主判定并修好未知模型或硬件故障。",
+      "source_ids": [
+        "D02-S05"
+      ],
+      "evidence_relation": "partial_metric",
+      "assessment_status": "partial_related_evidence",
+      "gap": "现有证据仅覆盖自主维修的局部或软件层能力；仍缺少“自行回滚或修复推理软件并替换坏加速器与服务节点”在完整物理依赖链和长期HR0条件下成立的验证。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "2.5-M5",
+      "required_capability": "可持续供给模型权重、推理代码、加速芯片及模型存储",
+      "human_dependency": "模型、集群、GPU制造、供电与底层运行环境仍须外部提供，文档不证明这些已HR0。",
+      "validation_needed": "以可持续供给模型权重、推理代码、加速芯片及模型存储为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的KServe模型服务功能资料未提供“可持续供给模型权重、推理代码、加速芯片及模型存储”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：可持续供给模型权重、推理代码、加速芯片及模型存储。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D02-S05"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "2.5-M6",
+      "required_capability": "自主提供推理设施的电力、散热与负载调节",
+      "human_dependency": "模型、集群、GPU制造、供电与底层运行环境仍须外部提供，文档不证明这些已HR0。",
+      "validation_needed": "以自主提供推理设施的电力、散热与负载调节为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的KServe模型服务功能资料未提供“自主提供推理设施的电力、散热与负载调节”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自主提供推理设施的电力、散热与负载调节。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D02-S05"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "2.5-M7",
+      "required_capability": "独立维护模型格式、依赖兼容性和推理调优知识",
+      "human_dependency": "模型、集群、GPU制造、供电与底层运行环境仍须外部提供，文档不证明这些已HR0。",
+      "validation_needed": "以独立维护模型格式、依赖兼容性和推理调优知识为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的KServe模型服务功能资料未提供“独立维护模型格式、依赖兼容性和推理调优知识”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：独立维护模型格式、依赖兼容性和推理调优知识。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D02-S05"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "2.5-M8",
+      "required_capability": "在模型仓库或推理站点损失后自主恢复可用服务",
+      "human_dependency": "模型、集群、GPU制造、供电与底层运行环境仍须外部提供，文档不证明这些已HR0。",
+      "validation_needed": "以在模型仓库或推理站点损失后自主恢复可用服务为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的KServe模型服务功能资料未提供“在模型仓库或推理站点损失后自主恢复可用服务”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：在模型仓库或推理站点损失后自主恢复可用服务。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D02-S05"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "2.5-M9",
+      "required_capability": "自行生产并部署新增推理硬件以增加真实服务容量",
+      "human_dependency": "模型、集群、GPU制造、供电与底层运行环境仍须外部提供，文档不证明这些已HR0。",
+      "validation_needed": "以自行生产并部署新增推理硬件以增加真实服务容量为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "KServe可基于吞吐、队列和GPU利用率自动扩缩容，包括缩至零；其容量来自已有集群或外部云。",
+      "source_ids": [
+        "D02-S05"
+      ],
+      "evidence_relation": "partial_metric",
+      "assessment_status": "partial_related_evidence",
+      "gap": "现有证据仅覆盖自主扩容的局部或软件层能力；仍缺少“自行生产并部署新增推理硬件以增加真实服务容量”在完整物理依赖链和长期HR0条件下成立的验证。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "2.5-M10",
+      "required_capability": "建立具有独立硬件供给、软件维护及供电能力的新推理设施",
+      "human_dependency": "模型、集群、GPU制造、供电与底层运行环境仍须外部提供，文档不证明这些已HR0。",
+      "validation_needed": "以建立具有独立硬件供给、软件维护及供电能力的新推理设施为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的KServe模型服务功能资料未提供“建立具有独立硬件供给、软件维护及供电能力的新推理设施”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：建立具有独立硬件供给、软件维护及供电能力的新推理设施。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D02-S05"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "2.6-M1",
+      "required_capability": "无人持续运行分布式训练、通信、检查点与任务重启",
+      "human_dependency": "训练程序、检查点策略、GPU和网络硬件、数据来源及能源仍有外部前提。",
+      "validation_needed": "以无人持续运行分布式训练、通信、检查点与任务重启为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "PyTorch torchrun文档支持分布式训练进程启动与弹性工作组管理，前提是应用、节点和环境已准备好。",
+      "source_ids": [
+        "D02-S06"
+      ],
+      "evidence_relation": "direct_metric",
+      "assessment_status": "partial_related_evidence",
+      "gap": "现有证据仅覆盖无人运行的局部或软件层能力；仍缺少“无人持续运行分布式训练、通信、检查点与任务重启”在完整物理依赖链和长期HR0条件下成立的验证。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "2.6-M2",
+      "required_capability": "自动发现训练挂起、通信异常、节点失效与检查点损坏",
+      "human_dependency": "训练程序、检查点策略、GPU和网络硬件、数据来源及能源仍有外部前提。",
+      "validation_needed": "以自动发现训练挂起、通信异常、节点失效与检查点损坏为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "torchrun能够检测worker失败和节点成员变化，并按配置处理工作组生命周期。",
+      "source_ids": [
+        "D02-S06"
+      ],
+      "evidence_relation": "direct_metric",
+      "assessment_status": "partial_related_evidence",
+      "gap": "现有证据仅覆盖故障发现的局部或软件层能力；仍缺少“自动发现训练挂起、通信异常、节点失效与检查点损坏”在完整物理依赖链和长期HR0条件下成立的验证。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "2.6-M3",
+      "required_capability": "自主定位训练失败至数据、数值稳定性、通信或硬件故障",
+      "human_dependency": "训练程序、检查点策略、GPU和网络硬件、数据来源及能源仍有外部前提。",
+      "validation_needed": "以自主定位训练失败至数据、数值稳定性、通信或硬件故障为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的torchrun分布式训练弹性资料未提供“自主定位训练失败至数据、数值稳定性、通信或硬件故障”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自主定位训练失败至数据、数值稳定性、通信或硬件故障。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D02-S06"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "2.6-M4",
+      "required_capability": "自主修复训练栈并完成故障GPU、网络与存储部件的更换",
+      "human_dependency": "训练程序、检查点策略、GPU和网络硬件、数据来源及能源仍有外部前提。",
+      "validation_needed": "以自主修复训练栈并完成故障GPU、网络与存储部件的更换为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "torchrun在worker失败时停止并重启工作组，最多重试次数可配置；这修复执行状态，不是修复训练硬件或未知训练代码。",
+      "source_ids": [
+        "D02-S06"
+      ],
+      "evidence_relation": "partial_metric",
+      "assessment_status": "partial_related_evidence",
+      "gap": "现有证据仅覆盖自主维修的局部或软件层能力；仍缺少“自主修复训练栈并完成故障GPU、网络与存储部件的更换”在完整物理依赖链和长期HR0条件下成立的验证。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "2.6-M5",
+      "required_capability": "自行供给训练芯片、互联设备、数据和训练软件依赖",
+      "human_dependency": "训练程序、检查点策略、GPU和网络硬件、数据来源及能源仍有外部前提。",
+      "validation_needed": "以自行供给训练芯片、互联设备、数据和训练软件依赖为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的torchrun分布式训练弹性资料未提供“自行供给训练芯片、互联设备、数据和训练软件依赖”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自行供给训练芯片、互联设备、数据和训练软件依赖。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D02-S06"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "2.6-M6",
+      "required_capability": "自主供应训练所需电力与冷却并根据能源约束调整训练",
+      "human_dependency": "训练程序、检查点策略、GPU和网络硬件、数据来源及能源仍有外部前提。",
+      "validation_needed": "以自主供应训练所需电力与冷却并根据能源约束调整训练为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的torchrun分布式训练弹性资料未提供“自主供应训练所需电力与冷却并根据能源约束调整训练”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自主供应训练所需电力与冷却并根据能源约束调整训练。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D02-S06"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "2.6-M7",
+      "required_capability": "独立维护分布式通信、训练配置与检查点兼容性知识",
+      "human_dependency": "训练程序、检查点策略、GPU和网络硬件、数据来源及能源仍有外部前提。",
+      "validation_needed": "以独立维护分布式通信、训练配置与检查点兼容性知识为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的torchrun分布式训练弹性资料未提供“独立维护分布式通信、训练配置与检查点兼容性知识”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：独立维护分布式通信、训练配置与检查点兼容性知识。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D02-S06"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "2.6-M8",
+      "required_capability": "在训练集群和部分检查点损失后自主恢复有效训练状态",
+      "human_dependency": "训练程序、检查点策略、GPU和网络硬件、数据来源及能源仍有外部前提。",
+      "validation_needed": "以在训练集群和部分检查点损失后自主恢复有效训练状态为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "torchrun明确要求应用保存检查点；失败或成员变化时现存worker会被终止，恢复取决于有效检查点与可用节点。",
+      "source_ids": [
+        "D02-S06"
+      ],
+      "evidence_relation": "direct_metric",
+      "assessment_status": "partial_related_evidence",
+      "gap": "现有证据仅覆盖灾难恢复韧性的局部或软件层能力；仍缺少“在训练集群和部分检查点损失后自主恢复有效训练状态”在完整物理依赖链和长期HR0条件下成立的验证。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "2.6-M9",
+      "required_capability": "自行制造、接入和验证更多训练节点以扩大物理训练能力",
+      "human_dependency": "训练程序、检查点策略、GPU和网络硬件、数据来源及能源仍有外部前提。",
+      "validation_needed": "以自行制造、接入和验证更多训练节点以扩大物理训练能力为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "torchrun可在新节点加入后重建工作组；扩大的节点来自既有基础设施，不能外推为训练芯片生产自治。",
+      "source_ids": [
+        "D02-S06"
+      ],
+      "evidence_relation": "partial_metric",
+      "assessment_status": "partial_related_evidence",
+      "gap": "现有证据仅覆盖自主扩容的局部或软件层能力；仍缺少“自行制造、接入和验证更多训练节点以扩大物理训练能力”在完整物理依赖链和长期HR0条件下成立的验证。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "2.6-M10",
+      "required_capability": "从硬件和供能到软件状态复制一套等效训练基础设施",
+      "human_dependency": "训练程序、检查点策略、GPU和网络硬件、数据来源及能源仍有外部前提。",
+      "validation_needed": "以从硬件和供能到软件状态复制一套等效训练基础设施为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的torchrun分布式训练弹性资料未提供“从硬件和供能到软件状态复制一套等效训练基础设施”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：从硬件和供能到软件状态复制一套等效训练基础设施。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D02-S06"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "2.7-M1",
+      "required_capability": "持续无人解析依赖、构建、测试、签名并发布所需软件",
+      "human_dependency": "源码维护者、可信构建平台、签名与硬件信任根并未被证明由机器独立持续供给。",
+      "validation_needed": "以持续无人解析依赖、构建、测试、签名并发布所需软件为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的SLSA构建溯源规范资料未提供“持续无人解析依赖、构建、测试、签名并发布所需软件”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：持续无人解析依赖、构建、测试、签名并发布所需软件。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D02-S07"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "2.7-M2",
+      "required_capability": "自动识别依赖污染、构建不可复现、漏洞与签名异常",
+      "human_dependency": "源码维护者、可信构建平台、签名与硬件信任根并未被证明由机器独立持续供给。",
+      "validation_needed": "以自动识别依赖污染、构建不可复现、漏洞与签名异常为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "SLSA定义构建溯源与逐级防篡改保证，为识别不可信构件提供可验证信息；其本身不是完整漏洞检测器。",
+      "source_ids": [
+        "D02-S07"
+      ],
+      "evidence_relation": "partial_metric",
+      "assessment_status": "partial_related_evidence",
+      "gap": "现有证据仅覆盖故障发现的局部或软件层能力；仍缺少“自动识别依赖污染、构建不可复现、漏洞与签名异常”在完整物理依赖链和长期HR0条件下成立的验证。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "2.7-M3",
+      "required_capability": "自主追溯恶意或失效构件的来源、构建环境和依赖根因",
+      "human_dependency": "源码维护者、可信构建平台、签名与硬件信任根并未被证明由机器独立持续供给。",
+      "validation_needed": "以自主追溯恶意或失效构件的来源、构建环境和依赖根因为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "SLSA provenance描述构件由谁、通过什么过程和输入构建，有助追溯依赖与构建来源；未证明自主诊断任意供应链攻击。",
+      "source_ids": [
+        "D02-S07"
+      ],
+      "evidence_relation": "partial_metric",
+      "assessment_status": "partial_related_evidence",
+      "gap": "现有证据仅覆盖自主诊断的局部或软件层能力；仍缺少“自主追溯恶意或失效构件的来源、构建环境和依赖根因”在完整物理依赖链和长期HR0条件下成立的验证。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "2.7-M4",
+      "required_capability": "无需人工审查即可可靠修补供应链缺陷并验证替换构件",
+      "human_dependency": "源码维护者、可信构建平台、签名与硬件信任根并未被证明由机器独立持续供给。",
+      "validation_needed": "以无需人工审查即可可靠修补供应链缺陷并验证替换构件为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的SLSA构建溯源规范资料未提供“无需人工审查即可可靠修补供应链缺陷并验证替换构件”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：无需人工审查即可可靠修补供应链缺陷并验证替换构件。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D02-S07"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "2.7-M5",
+      "required_capability": "独立维护源代码、包仓库、编译器、构建硬件和签名设施",
+      "human_dependency": "源码维护者、可信构建平台、签名与硬件信任根并未被证明由机器独立持续供给。",
+      "validation_needed": "以独立维护源代码、包仓库、编译器、构建硬件和签名设施为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的SLSA构建溯源规范资料未提供“独立维护源代码、包仓库、编译器、构建硬件和签名设施”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：独立维护源代码、包仓库、编译器、构建硬件和签名设施。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D02-S07"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "2.7-M6",
+      "required_capability": "自主维持构建、仓库与签名基础设施供电",
+      "human_dependency": "源码维护者、可信构建平台、签名与硬件信任根并未被证明由机器独立持续供给。",
+      "validation_needed": "以自主维持构建、仓库与签名基础设施供电为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的SLSA构建溯源规范资料未提供“自主维持构建、仓库与签名基础设施供电”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自主维持构建、仓库与签名基础设施供电。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D02-S07"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "2.7-M7",
+      "required_capability": "自行保存并验证构建规程、接口、许可证约束与历史版本知识",
+      "human_dependency": "源码维护者、可信构建平台、签名与硬件信任根并未被证明由机器独立持续供给。",
+      "validation_needed": "以自行保存并验证构建规程、接口、许可证约束与历史版本知识为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "SLSA以公开规范表达构建与验证要求，提供可程序化处理的供应链知识结构；机器独立维护全部源码与信任根尚未验证。",
+      "source_ids": [
+        "D02-S07"
+      ],
+      "evidence_relation": "partial_metric",
+      "assessment_status": "partial_related_evidence",
+      "gap": "现有证据仅覆盖知识信息自主度的局部或软件层能力；仍缺少“自行保存并验证构建规程、接口、许可证约束与历史版本知识”在完整物理依赖链和长期HR0条件下成立的验证。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "2.7-M8",
+      "required_capability": "在上游仓库、构建服务或签名密钥服务损失后恢复可信发布",
+      "human_dependency": "源码维护者、可信构建平台、签名与硬件信任根并未被证明由机器独立持续供给。",
+      "validation_needed": "以在上游仓库、构建服务或签名密钥服务损失后恢复可信发布为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的SLSA构建溯源规范资料未提供“在上游仓库、构建服务或签名密钥服务损失后恢复可信发布”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：在上游仓库、构建服务或签名密钥服务损失后恢复可信发布。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D02-S07"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "2.7-M9",
+      "required_capability": "自行增加构建主机、镜像仓库和验证容量",
+      "human_dependency": "源码维护者、可信构建平台、签名与硬件信任根并未被证明由机器独立持续供给。",
+      "validation_needed": "以自行增加构建主机、镜像仓库和验证容量为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的SLSA构建溯源规范资料未提供“自行增加构建主机、镜像仓库和验证容量”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自行增加构建主机、镜像仓库和验证容量。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D02-S07"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "2.7-M10",
+      "required_capability": "建立拥有独立工具链、硬件与信任根的新软件供应链",
+      "human_dependency": "源码维护者、可信构建平台、签名与硬件信任根并未被证明由机器独立持续供给。",
+      "validation_needed": "以建立拥有独立工具链、硬件与信任根的新软件供应链为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的SLSA构建溯源规范资料未提供“建立拥有独立工具链、硬件与信任根的新软件供应链”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：建立拥有独立工具链、硬件与信任根的新软件供应链。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D02-S07"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "2.8-M1",
+      "required_capability": "无人持续执行访问控制、凭证轮换、安全监测与合规策略",
+      "human_dependency": "发行者配置、身份验证、安全策略、信任根与基础设施维护仍是外部条件。",
+      "validation_needed": "以无人持续执行访问控制、凭证轮换、安全监测与合规策略为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "cert-manager可根据Certificate资源向已配置的Issuer申请证书，并在到期前自动续期。",
+      "source_ids": [
+        "D02-S08"
+      ],
+      "evidence_relation": "direct_metric",
+      "assessment_status": "partial_related_evidence",
+      "gap": "现有证据仅覆盖无人运行的局部或软件层能力；仍缺少“无人持续执行访问控制、凭证轮换、安全监测与合规策略”在完整物理依赖链和长期HR0条件下成立的验证。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "2.8-M2",
+      "required_capability": "自动发现凭证泄露、权限滥用、未知攻击与证书到期风险",
+      "human_dependency": "发行者配置、身份验证、安全策略、信任根与基础设施维护仍是外部条件。",
+      "validation_needed": "以自动发现凭证泄露、权限滥用、未知攻击与证书到期风险为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "cert-manager的续期机制会处理证书生命周期条件；它不构成对未知攻击或所有权限滥用的完整检测证据。",
+      "source_ids": [
+        "D02-S08"
+      ],
+      "evidence_relation": "partial_metric",
+      "assessment_status": "partial_related_evidence",
+      "gap": "现有证据仅覆盖故障发现的局部或软件层能力；仍缺少“自动发现凭证泄露、权限滥用、未知攻击与证书到期风险”在完整物理依赖链和长期HR0条件下成立的验证。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "2.8-M3",
+      "required_capability": "自主确定攻击路径、被侵入边界和安全故障根因",
+      "human_dependency": "发行者配置、身份验证、安全策略、信任根与基础设施维护仍是外部条件。",
+      "validation_needed": "以自主确定攻击路径、被侵入边界和安全故障根因为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的cert-manager证书管理资料未提供“自主确定攻击路径、被侵入边界和安全故障根因”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自主确定攻击路径、被侵入边界和安全故障根因。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D02-S08"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "2.8-M4",
+      "required_capability": "自主隔离入侵、修补漏洞、撤销并重建受损信任根",
+      "human_dependency": "发行者配置、身份验证、安全策略、信任根与基础设施维护仍是外部条件。",
+      "validation_needed": "以自主隔离入侵、修补漏洞、撤销并重建受损信任根为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "cert-manager支持证书和私钥的生命周期管理；这只覆盖既有信任体系内的凭证更新，不是入侵后自主重建根信任。",
+      "source_ids": [
+        "D02-S08"
+      ],
+      "evidence_relation": "partial_metric",
+      "assessment_status": "partial_related_evidence",
+      "gap": "现有证据仅覆盖自主维修的局部或软件层能力；仍缺少“自主隔离入侵、修补漏洞、撤销并重建受损信任根”在完整物理依赖链和长期HR0条件下成立的验证。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "2.8-M5",
+      "required_capability": "自行提供安全更新、密码实现、硬件信任模块与认证服务",
+      "human_dependency": "发行者配置、身份验证、安全策略、信任根与基础设施维护仍是外部条件。",
+      "validation_needed": "以自行提供安全更新、密码实现、硬件信任模块与认证服务为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的cert-manager证书管理资料未提供“自行提供安全更新、密码实现、硬件信任模块与认证服务”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自行提供安全更新、密码实现、硬件信任模块与认证服务。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D02-S08"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "2.8-M6",
+      "required_capability": "自主维持认证、安全监测与密钥设施的供电及灾后启动",
+      "human_dependency": "发行者配置、身份验证、安全策略、信任根与基础设施维护仍是外部条件。",
+      "validation_needed": "以自主维持认证、安全监测与密钥设施的供电及灾后启动为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的cert-manager证书管理资料未提供“自主维持认证、安全监测与密钥设施的供电及灾后启动”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自主维持认证、安全监测与密钥设施的供电及灾后启动。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D02-S08"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "2.8-M7",
+      "required_capability": "自主验证安全策略和新漏洞知识而不依赖人工安全团队",
+      "human_dependency": "发行者配置、身份验证、安全策略、信任根与基础设施维护仍是外部条件。",
+      "validation_needed": "以自主验证安全策略和新漏洞知识而不依赖人工安全团队为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的cert-manager证书管理资料未提供“自主验证安全策略和新漏洞知识而不依赖人工安全团队”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自主验证安全策略和新漏洞知识而不依赖人工安全团队。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D02-S08"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "2.8-M8",
+      "required_capability": "在根密钥泄露及认证站点毁坏后自主恢复可信访问",
+      "human_dependency": "发行者配置、身份验证、安全策略、信任根与基础设施维护仍是外部条件。",
+      "validation_needed": "以在根密钥泄露及认证站点毁坏后自主恢复可信访问为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的cert-manager证书管理资料未提供“在根密钥泄露及认证站点毁坏后自主恢复可信访问”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：在根密钥泄露及认证站点毁坏后自主恢复可信访问。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D02-S08"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "2.8-M9",
+      "required_capability": "自行部署新增安全设施并对扩展系统赋予最小权限",
+      "human_dependency": "发行者配置、身份验证、安全策略、信任根与基础设施维护仍是外部条件。",
+      "validation_needed": "以自行部署新增安全设施并对扩展系统赋予最小权限为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的cert-manager证书管理资料未提供“自行部署新增安全设施并对扩展系统赋予最小权限”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自行部署新增安全设施并对扩展系统赋予最小权限。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D02-S08"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "2.8-M10",
+      "required_capability": "复制一套具独立信任根、硬件与漏洞修复能力的安全体系",
+      "human_dependency": "发行者配置、身份验证、安全策略、信任根与基础设施维护仍是外部条件。",
+      "validation_needed": "以复制一套具独立信任根、硬件与漏洞修复能力的安全体系为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的cert-manager证书管理资料未提供“复制一套具独立信任根、硬件与漏洞修复能力的安全体系”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：复制一套具独立信任根、硬件与漏洞修复能力的安全体系。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D02-S08"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "2.9-M1",
+      "required_capability": "无人持续收集指标、日志和追踪并触发有效恢复流程",
+      "human_dependency": "故障场景设计、集群部署、代理工具权限与硬件现场维修未被端到端去人类化。",
+      "validation_needed": "以无人持续收集指标、日志和追踪并触发有效恢复流程为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的AIOpsLab云运维评估框架资料未提供“无人持续收集指标、日志和追踪并触发有效恢复流程”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：无人持续收集指标、日志和追踪并触发有效恢复流程。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D02-S09",
+        "D02-S13"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "2.9-M2",
+      "required_capability": "自动识别跨服务异常、传感失效与监测盲区",
+      "human_dependency": "故障场景设计、集群部署、代理工具权限与硬件现场维修未被端到端去人类化。",
+      "validation_needed": "以自动识别跨服务异常、传感失效与监测盲区为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "AIOpsLab提供故障注入、遥测与检测任务接口；这使代理可被测试，但不能因框架具备任务就认定所有代理已稳定通过。",
+      "source_ids": [
+        "D02-S09",
+        "D02-S13"
+      ],
+      "evidence_relation": "context_only",
+      "assessment_status": "not_established_in_review",
+      "gap": "来源给出了检测任务和评估接口，未提供本条所要求的代理自主检测结果。 尚缺“自动识别跨服务异常、传感失效与监测盲区”在声明系统边界内由机器自主完成的直接验证。",
+      "confidence": "Low",
+      "review_note": "独立语义复核：来源给出了检测任务和评估接口，未提供本条所要求的代理自主检测结果。"
+    },
+    {
+      "dimension_id": "2.9-M3",
+      "required_capability": "自主定位复杂级联故障的真实根因并排除伪相关",
+      "human_dependency": "故障场景设计、集群部署、代理工具权限与硬件现场维修未被端到端去人类化。",
+      "validation_needed": "以自主定位复杂级联故障的真实根因并排除伪相关为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "AIOpsLab论文报告对LLM代理在复杂云运维任务中的能力与局限进行评估；本次核验摘要未取得可泛化的根因诊断成功率。",
+      "source_ids": [
+        "D02-S13"
+      ],
+      "evidence_relation": "partial_metric",
+      "assessment_status": "partial_related_evidence",
+      "gap": "现有证据仅覆盖自主诊断的局部或软件层能力；仍缺少“自主定位复杂级联故障的真实根因并排除伪相关”在完整物理依赖链和长期HR0条件下成立的验证。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "2.9-M4",
+      "required_capability": "自行生成并验证修复措施，必要时实施物理设备维修",
+      "human_dependency": "故障场景设计、集群部署、代理工具权限与硬件现场维修未被端到端去人类化。",
+      "validation_needed": "以自行生成并验证修复措施，必要时实施物理设备维修为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "AIOpsLab将mitigation列为可评估任务，体现软件故障缓解的实验路径；未证明对任意事故或物理损坏的无人修复。",
+      "source_ids": [
+        "D02-S09",
+        "D02-S13"
+      ],
+      "evidence_relation": "context_only",
+      "assessment_status": "not_established_in_review",
+      "gap": "来源给出了缓解任务和实验接口，未提供本条所要求的代理自主修复结果。 尚缺“自行生成并验证修复措施，必要时实施物理设备维修”在声明系统边界内由机器自主完成的直接验证。",
+      "confidence": "Low",
+      "review_note": "独立语义复核：来源给出了缓解任务和实验接口，未提供本条所要求的代理自主修复结果。"
+    },
+    {
+      "dimension_id": "2.9-M5",
+      "required_capability": "自行供给监测探针、遥测存储、告警设施和分析软件",
+      "human_dependency": "故障场景设计、集群部署、代理工具权限与硬件现场维修未被端到端去人类化。",
+      "validation_needed": "以自行供给监测探针、遥测存储、告警设施和分析软件为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的AIOpsLab云运维评估框架资料未提供“自行供给监测探针、遥测存储、告警设施和分析软件”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自行供给监测探针、遥测存储、告警设施和分析软件。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D02-S09",
+        "D02-S13"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "2.9-M6",
+      "required_capability": "自主保障监测与恢复控制面的独立电力和冷却",
+      "human_dependency": "故障场景设计、集群部署、代理工具权限与硬件现场维修未被端到端去人类化。",
+      "validation_needed": "以自主保障监测与恢复控制面的独立电力和冷却为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的AIOpsLab云运维评估框架资料未提供“自主保障监测与恢复控制面的独立电力和冷却”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自主保障监测与恢复控制面的独立电力和冷却。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D02-S09",
+        "D02-S13"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "2.9-M7",
+      "required_capability": "自主维护服务依赖图、故障知识和恢复动作的有效性",
+      "human_dependency": "故障场景设计、集群部署、代理工具权限与硬件现场维修未被端到端去人类化。",
+      "validation_needed": "以自主维护服务依赖图、故障知识和恢复动作的有效性为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "AIOpsLab的可复现问题、接口和任务定义将部分故障知识结构化；不等于机器已掌握开放环境全部运维知识。",
+      "source_ids": [
+        "D02-S09"
+      ],
+      "evidence_relation": "partial_metric",
+      "assessment_status": "partial_related_evidence",
+      "gap": "现有证据仅覆盖知识信息自主度的局部或软件层能力；仍缺少“自主维护服务依赖图、故障知识和恢复动作的有效性”在完整物理依赖链和长期HR0条件下成立的验证。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "2.9-M8",
+      "required_capability": "在监测控制面与部分生产设施共同失效后恢复可观测性",
+      "human_dependency": "故障场景设计、集群部署、代理工具权限与硬件现场维修未被端到端去人类化。",
+      "validation_needed": "以在监测控制面与部分生产设施共同失效后恢复可观测性为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的AIOpsLab云运维评估框架资料未提供“在监测控制面与部分生产设施共同失效后恢复可观测性”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：在监测控制面与部分生产设施共同失效后恢复可观测性。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D02-S09",
+        "D02-S13"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "2.9-M9",
+      "required_capability": "自行部署探针和分析硬件覆盖新增工业系统",
+      "human_dependency": "故障场景设计、集群部署、代理工具权限与硬件现场维修未被端到端去人类化。",
+      "validation_needed": "以自行部署探针和分析硬件覆盖新增工业系统为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的AIOpsLab云运维评估框架资料未提供“自行部署探针和分析硬件覆盖新增工业系统”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自行部署探针和分析硬件覆盖新增工业系统。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D02-S09",
+        "D02-S13"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "2.9-M10",
+      "required_capability": "建立具独立传感、诊断、物理恢复能力的新运维系统",
+      "human_dependency": "故障场景设计、集群部署、代理工具权限与硬件现场维修未被端到端去人类化。",
+      "validation_needed": "以建立具独立传感、诊断、物理恢复能力的新运维系统为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的AIOpsLab云运维评估框架资料未提供“建立具独立传感、诊断、物理恢复能力的新运维系统”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：建立具独立传感、诊断、物理恢复能力的新运维系统。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D02-S09",
+        "D02-S13"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "2.10-M1",
+      "required_capability": "持续无人规划并执行计算设施容量管理和投运流程",
+      "human_dependency": "基础设施provider管理的服务器、机架、制冷与供电并非该控制器自行制造和建设。",
+      "validation_needed": "以持续无人规划并执行计算设施容量管理和投运流程为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的Cluster API基础设施管理资料未提供“持续无人规划并执行计算设施容量管理和投运流程”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：持续无人规划并执行计算设施容量管理和投运流程。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D02-S10"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "2.10-M2",
+      "required_capability": "自动发现算力、存储、网络、机架供电与冷却的扩容瓶颈",
+      "human_dependency": "基础设施provider管理的服务器、机架、制冷与供电并非该控制器自行制造和建设。",
+      "validation_needed": "以自动发现算力、存储、网络、机架供电与冷却的扩容瓶颈为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "Cluster API按Node健康条件监测并触发替换；未证明自主发现机架、电力、制冷和供应链的全部扩容瓶颈。",
+      "source_ids": [
+        "D02-S10"
+      ],
+      "evidence_relation": "partial_metric",
+      "assessment_status": "partial_related_evidence",
+      "gap": "现有证据仅覆盖故障发现的局部或软件层能力；仍缺少“自动发现算力、存储、网络、机架供电与冷却的扩容瓶颈”在完整物理依赖链和长期HR0条件下成立的验证。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "2.10-M3",
+      "required_capability": "自主诊断容量不足的物理、软件及供应链根因",
+      "human_dependency": "基础设施provider管理的服务器、机架、制冷与供电并非该控制器自行制造和建设。",
+      "validation_needed": "以自主诊断容量不足的物理、软件及供应链根因为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的Cluster API基础设施管理资料未提供“自主诊断容量不足的物理、软件及供应链根因”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自主诊断容量不足的物理、软件及供应链根因。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D02-S10"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "2.10-M4",
+      "required_capability": "自主修复扩容失败并替换安装过程损坏的设备",
+      "human_dependency": "基础设施provider管理的服务器、机架、制冷与供电并非该控制器自行制造和建设。",
+      "validation_needed": "以自主修复扩容失败并替换安装过程损坏的设备为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "MachineHealthCheck可经基础设施提供者替换不健康Machine，仍依赖该提供者的可用物理资源。",
+      "source_ids": [
+        "D02-S10"
+      ],
+      "evidence_relation": "partial_metric",
+      "assessment_status": "partial_related_evidence",
+      "gap": "现有证据仅覆盖自主维修的局部或软件层能力；仍缺少“自主修复扩容失败并替换安装过程损坏的设备”在完整物理依赖链和长期HR0条件下成立的验证。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "2.10-M5",
+      "required_capability": "自行生产服务器、机架、电源、散热、线缆和部署工具",
+      "human_dependency": "基础设施provider管理的服务器、机架、制冷与供电并非该控制器自行制造和建设。",
+      "validation_needed": "以自行生产服务器、机架、电源、散热、线缆和部署工具为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的Cluster API基础设施管理资料未提供“自行生产服务器、机架、电源、散热、线缆和部署工具”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自行生产服务器、机架、电源、散热、线缆和部署工具。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D02-S10"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "2.10-M6",
+      "required_capability": "自行建设并恢复新增计算设施所需能源和冷却能力",
+      "human_dependency": "基础设施provider管理的服务器、机架、制冷与供电并非该控制器自行制造和建设。",
+      "validation_needed": "以自行建设并恢复新增计算设施所需能源和冷却能力为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的Cluster API基础设施管理资料未提供“自行建设并恢复新增计算设施所需能源和冷却能力”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自行建设并恢复新增计算设施所需能源和冷却能力。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D02-S10"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "2.10-M7",
+      "required_capability": "独立掌握机房设计、施工、容量验证和调试知识",
+      "human_dependency": "基础设施provider管理的服务器、机架、制冷与供电并非该控制器自行制造和建设。",
+      "validation_needed": "以独立掌握机房设计、施工、容量验证和调试知识为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的Cluster API基础设施管理资料未提供“独立掌握机房设计、施工、容量验证和调试知识”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：独立掌握机房设计、施工、容量验证和调试知识。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D02-S10"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "2.10-M8",
+      "required_capability": "在扩建现场或原有机房损毁后自主重建必要容量",
+      "human_dependency": "基础设施provider管理的服务器、机架、制冷与供电并非该控制器自行制造和建设。",
+      "validation_needed": "以在扩建现场或原有机房损毁后自主重建必要容量为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的Cluster API基础设施管理资料未提供“在扩建现场或原有机房损毁后自主重建必要容量”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：在扩建现场或原有机房损毁后自主重建必要容量。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D02-S10"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "2.10-M9",
+      "required_capability": "从材料和设备制造到施工投运自主增加物理计算容量",
+      "human_dependency": "基础设施provider管理的服务器、机架、制冷与供电并非该控制器自行制造和建设。",
+      "validation_needed": "以从材料和设备制造到施工投运自主增加物理计算容量为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "Cluster API明确由provider-specific controller配置并安装新host；云或裸金属提供者能力是外部前提，不是机器人自主建机房。",
+      "source_ids": [
+        "D02-S10"
+      ],
+      "evidence_relation": "partial_metric",
+      "assessment_status": "partial_related_evidence",
+      "gap": "现有证据仅覆盖自主扩容的局部或软件层能力；仍缺少“从材料和设备制造到施工投运自主增加物理计算容量”在完整物理依赖链和长期HR0条件下成立的验证。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "2.10-M10",
+      "required_capability": "建成可继续制造和扩建后代设施的等效计算中心",
+      "human_dependency": "基础设施provider管理的服务器、机架、制冷与供电并非该控制器自行制造和建设。",
+      "validation_needed": "以建成可继续制造和扩建后代设施的等效计算中心为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的Cluster API基础设施管理资料未提供“建成可继续制造和扩建后代设施的等效计算中心”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：建成可继续制造和扩建后代设施的等效计算中心。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D02-S10"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.1-M1",
+      "required_capability": "在无人工修订下持续预测机器体系需求并形成可执行生产计划",
+      "human_dependency": "目标和工艺约束、可靠生产数据、执行设备与能源并未由预测模型自主供给。",
+      "validation_needed": "以在无人工修订下持续预测机器体系需求并形成可执行生产计划为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "Chronos-2论文支持零样本单变量、多变量与协变量预测；官方仓库2026-06-05更新云部署方法。OR-Tools可计算约束排程，但这两者未被证明组成无人生产闭环。",
+      "source_ids": [
+        "D09-S12",
+        "D09-S01",
+        "D09-S05"
+      ],
+      "evidence_relation": "partial_metric",
+      "assessment_status": "partial_related_evidence",
+      "gap": "现有证据仅覆盖无人运行的局部或软件层能力；仍缺少“在无人工修订下持续预测机器体系需求并形成可执行生产计划”在完整物理依赖链和长期HR0条件下成立的验证。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "9.1-M2",
+      "required_capability": "自动发现需求漂移、计划不可行、缺货与过量生产风险",
+      "human_dependency": "目标和工艺约束、可靠生产数据、执行设备与能源并未由预测模型自主供给。",
+      "validation_needed": "以自动发现需求漂移、计划不可行、缺货与过量生产风险为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "Chronos提供概率预测的分位数输出，可用于需求不确定性分析；本次没有需求漂移自动监测及真实缺货检出率的直接证据。",
+      "source_ids": [
+        "D09-S01"
+      ],
+      "evidence_relation": "context_only",
+      "assessment_status": "not_established_in_review",
+      "gap": "现有证据仅覆盖故障发现的局部或软件层能力；仍缺少“自动发现需求漂移、计划不可行、缺货与过量生产风险”在完整物理依赖链和长期HR0条件下成立的验证。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.1-M3",
+      "required_capability": "自主区分需求模型错误、传感误差与产能约束变化的根因",
+      "human_dependency": "目标和工艺约束、可靠生产数据、执行设备与能源并未由预测模型自主供给。",
+      "validation_needed": "以自主区分需求模型错误、传感误差与产能约束变化的根因为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的Chronos预测与约束排程资料未提供“自主区分需求模型错误、传感误差与产能约束变化的根因”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自主区分需求模型错误、传感误差与产能约束变化的根因。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S12",
+        "D09-S01",
+        "D09-S05"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.1-M4",
+      "required_capability": "自主修复预测和计划模型并验证调整后的生产效果",
+      "human_dependency": "目标和工艺约束、可靠生产数据、执行设备与能源并未由预测模型自主供给。",
+      "validation_needed": "以自主修复预测和计划模型并验证调整后的生产效果为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的Chronos预测与约束排程资料未提供“自主修复预测和计划模型并验证调整后的生产效果”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自主修复预测和计划模型并验证调整后的生产效果。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S12",
+        "D09-S01",
+        "D09-S05"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.1-M5",
+      "required_capability": "自行采集完整需求、库存、产能与材料数据并供给计划系统硬件",
+      "human_dependency": "目标和工艺约束、可靠生产数据、执行设备与能源并未由预测模型自主供给。",
+      "validation_needed": "以自行采集完整需求、库存、产能与材料数据并供给计划系统硬件为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的Chronos预测与约束排程资料未提供“自行采集完整需求、库存、产能与材料数据并供给计划系统硬件”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自行采集完整需求、库存、产能与材料数据并供给计划系统硬件。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S12",
+        "D09-S01",
+        "D09-S05"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.1-M6",
+      "required_capability": "让需求计划自主适应并保障全生产链可持续能源供应",
+      "human_dependency": "目标和工艺约束、可靠生产数据、执行设备与能源并未由预测模型自主供给。",
+      "validation_needed": "以让需求计划自主适应并保障全生产链可持续能源供应为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的Chronos预测与约束排程资料未提供“让需求计划自主适应并保障全生产链可持续能源供应”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：让需求计划自主适应并保障全生产链可持续能源供应。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S12",
+        "D09-S01",
+        "D09-S05"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.1-M7",
+      "required_capability": "独立学习和验证需求规律、工艺约束及计划模型知识",
+      "human_dependency": "目标和工艺约束、可靠生产数据、执行设备与能源并未由预测模型自主供给。",
+      "validation_needed": "以独立学习和验证需求规律、工艺约束及计划模型知识为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "Chronos-2可在无任务专门训练下进行预测，论文报告能利用协变量；这不是自主核验全部工业需求与工艺知识。",
+      "source_ids": [
+        "D09-S12"
+      ],
+      "evidence_relation": "partial_metric",
+      "assessment_status": "partial_related_evidence",
+      "gap": "现有证据仅覆盖知识信息自主度的局部或软件层能力；仍缺少“独立学习和验证需求规律、工艺约束及计划模型知识”在完整物理依赖链和长期HR0条件下成立的验证。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "9.1-M8",
+      "required_capability": "在历史数据和计划服务损失后重建可执行的需求与生产计划",
+      "human_dependency": "目标和工艺约束、可靠生产数据、执行设备与能源并未由预测模型自主供给。",
+      "validation_needed": "以在历史数据和计划服务损失后重建可执行的需求与生产计划为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的Chronos预测与约束排程资料未提供“在历史数据和计划服务损失后重建可执行的需求与生产计划”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：在历史数据和计划服务损失后重建可执行的需求与生产计划。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S12",
+        "D09-S01",
+        "D09-S05"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.1-M9",
+      "required_capability": "自主为新增工厂建立数据连接、预测和生产排程能力",
+      "human_dependency": "目标和工艺约束、可靠生产数据、执行设备与能源并未由预测模型自主供给。",
+      "validation_needed": "以自主为新增工厂建立数据连接、预测和生产排程能力为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "Chronos官方2026更新给出实时、无服务器或批量推理部署路径，可扩展软件预测服务；新增物理生产线规划与投运仍未建立证据。",
+      "source_ids": [
+        "D09-S01"
+      ],
+      "evidence_relation": "partial_metric",
+      "assessment_status": "partial_related_evidence",
+      "gap": "现有证据仅覆盖自主扩容的局部或软件层能力；仍缺少“自主为新增工厂建立数据连接、预测和生产排程能力”在完整物理依赖链和长期HR0条件下成立的验证。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "9.1-M10",
+      "required_capability": "在后代工业系统中复制完整数据、硬件和生产计划能力",
+      "human_dependency": "目标和工艺约束、可靠生产数据、执行设备与能源并未由预测模型自主供给。",
+      "validation_needed": "以在后代工业系统中复制完整数据、硬件和生产计划能力为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的Chronos预测与约束排程资料未提供“在后代工业系统中复制完整数据、硬件和生产计划能力”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：在后代工业系统中复制完整数据、硬件和生产计划能力。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S12",
+        "D09-S01",
+        "D09-S05"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.2-M1",
+      "required_capability": "持续无人筛选供应、询价、签订并执行机器体系采购",
+      "human_dependency": "供应商产能、合同责任、质量检验、运输和付款授权仍依赖既有人类机构及工业。",
+      "validation_needed": "以持续无人筛选供应、询价、签订并执行机器体系采购为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "Odoo Purchase文档支持采购协议、询报价、订单和自动补货流程；BIS2026-10-05演讲仍将代理商务描述为早期阶段。",
+      "source_ids": [
+        "D09-S07",
+        "D09-S14"
+      ],
+      "evidence_relation": "partial_metric",
+      "assessment_status": "partial_related_evidence",
+      "gap": "现有证据仅覆盖无人运行的局部或软件层能力；仍缺少“持续无人筛选供应、询价、签订并执行机器体系采购”在完整物理依赖链和长期HR0条件下成立的验证。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "9.2-M2",
+      "required_capability": "自动发现供应中断、欺诈报价、合同偏差与交付异常",
+      "human_dependency": "供应商产能、合同责任、质量检验、运输和付款授权仍依赖既有人类机构及工业。",
+      "validation_needed": "以自动发现供应中断、欺诈报价、合同偏差与交付异常为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "Odoo文档提供采购跟踪和分析报告；这属于既有订单状态与规则范围，未证明开放供应链欺诈和交付异常的完全自主检测。",
+      "source_ids": [
+        "D09-S07"
+      ],
+      "evidence_relation": "context_only",
+      "assessment_status": "not_established_in_review",
+      "gap": "现有证据仅覆盖故障发现的局部或软件层能力；仍缺少“自动发现供应中断、欺诈报价、合同偏差与交付异常”在完整物理依赖链和长期HR0条件下成立的验证。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.2-M3",
+      "required_capability": "自主诊断采购失约的产能、质量、物流或规则根因",
+      "human_dependency": "供应商产能、合同责任、质量检验、运输和付款授权仍依赖既有人类机构及工业。",
+      "validation_needed": "以自主诊断采购失约的产能、质量、物流或规则根因为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的采购软件和代理商务资料未提供“自主诊断采购失约的产能、质量、物流或规则根因”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自主诊断采购失约的产能、质量、物流或规则根因。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S07",
+        "D09-S14"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.2-M4",
+      "required_capability": "自主更换供应路径并解决交货、质量与合同执行故障",
+      "human_dependency": "供应商产能、合同责任、质量检验、运输和付款授权仍依赖既有人类机构及工业。",
+      "validation_needed": "以自主更换供应路径并解决交货、质量与合同执行故障为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的采购软件和代理商务资料未提供“自主更换供应路径并解决交货、质量与合同执行故障”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自主更换供应路径并解决交货、质量与合同执行故障。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S07",
+        "D09-S14"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.2-M5",
+      "required_capability": "采购关键物资最终来自机器自主生产链而非人类供应商",
+      "human_dependency": "供应商产能、合同责任、质量检验、运输和付款授权仍依赖既有人类机构及工业。",
+      "validation_needed": "以采购关键物资最终来自机器自主生产链而非人类供应商为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的采购软件和代理商务资料未提供“采购关键物资最终来自机器自主生产链而非人类供应商”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：采购关键物资最终来自机器自主生产链而非人类供应商。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S07",
+        "D09-S14"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.2-M6",
+      "required_capability": "自主保障采购与交付链能源并核验供应方供能能力",
+      "human_dependency": "供应商产能、合同责任、质量检验、运输和付款授权仍依赖既有人类机构及工业。",
+      "validation_needed": "以自主保障采购与交付链能源并核验供应方供能能力为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的采购软件和代理商务资料未提供“自主保障采购与交付链能源并核验供应方供能能力”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自主保障采购与交付链能源并核验供应方供能能力。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S07",
+        "D09-S14"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.2-M7",
+      "required_capability": "独立掌握材料规格、合同语义和供应替代知识",
+      "human_dependency": "供应商产能、合同责任、质量检验、运输和付款授权仍依赖既有人类机构及工业。",
+      "validation_needed": "以独立掌握材料规格、合同语义和供应替代知识为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "Odoo将询价、订单与供应商资料流程数字化；BIS指出代理授权、身份、责任和欺诈标准仍待完善。",
+      "source_ids": [
+        "D09-S07",
+        "D09-S14"
+      ],
+      "evidence_relation": "partial_metric",
+      "assessment_status": "partial_related_evidence",
+      "gap": "现有证据仅覆盖知识信息自主度的局部或软件层能力；仍缺少“独立掌握材料规格、合同语义和供应替代知识”在完整物理依赖链和长期HR0条件下成立的验证。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "9.2-M8",
+      "required_capability": "在主要供应商和采购平台失效后自主恢复关键投入",
+      "human_dependency": "供应商产能、合同责任、质量检验、运输和付款授权仍依赖既有人类机构及工业。",
+      "validation_needed": "以在主要供应商和采购平台失效后自主恢复关键投入为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的采购软件和代理商务资料未提供“在主要供应商和采购平台失效后自主恢复关键投入”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：在主要供应商和采购平台失效后自主恢复关键投入。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S07",
+        "D09-S14"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.2-M9",
+      "required_capability": "自主建立并验证新增机器供应商与交付容量",
+      "human_dependency": "供应商产能、合同责任、质量检验、运输和付款授权仍依赖既有人类机构及工业。",
+      "validation_needed": "以自主建立并验证新增机器供应商与交付容量为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的采购软件和代理商务资料未提供“自主建立并验证新增机器供应商与交付容量”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自主建立并验证新增机器供应商与交付容量。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S07",
+        "D09-S14"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.2-M10",
+      "required_capability": "为后代系统建立可自我维持的采购、供应和交付网络",
+      "human_dependency": "供应商产能、合同责任、质量检验、运输和付款授权仍依赖既有人类机构及工业。",
+      "validation_needed": "以为后代系统建立可自我维持的采购、供应和交付网络为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的采购软件和代理商务资料未提供“为后代系统建立可自我维持的采购、供应和交付网络”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：为后代系统建立可自我维持的采购、供应和交付网络。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S07",
+        "D09-S14"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.3-M1",
+      "required_capability": "无人持续管理备件、材料、在制品与能源库存的补给",
+      "human_dependency": "产品资料、库存计量、供应商制造与实物交付仍为外部前提，补货单不等于补货完成。",
+      "validation_needed": "以无人持续管理备件、材料、在制品与能源库存的补给为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "Odoo reordering rules按最低/最高预测库存生成RFQ或制造订单，可自动触发补货计算；不证明实物能无人补齐。",
+      "source_ids": [
+        "D09-S08"
+      ],
+      "evidence_relation": "direct_metric",
+      "assessment_status": "partial_related_evidence",
+      "gap": "现有证据仅覆盖无人运行的局部或软件层能力；仍缺少“无人持续管理备件、材料、在制品与能源库存的补给”在完整物理依赖链和长期HR0条件下成立的验证。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "9.3-M2",
+      "required_capability": "自动发现库存不符、隐性短缺、过期材料与关键备件耗尽风险",
+      "human_dependency": "产品资料、库存计量、供应商制造与实物交付仍为外部前提，补货单不等于补货完成。",
+      "validation_needed": "以自动发现库存不符、隐性短缺、过期材料与关键备件耗尽风险为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "Odoo可基于已配置库存阈值识别需要补货的产品；账实差异和隐蔽备件退化不在该证据的验证范围。",
+      "source_ids": [
+        "D09-S08"
+      ],
+      "evidence_relation": "partial_metric",
+      "assessment_status": "partial_related_evidence",
+      "gap": "现有证据仅覆盖故障发现的局部或软件层能力；仍缺少“自动发现库存不符、隐性短缺、过期材料与关键备件耗尽风险”在完整物理依赖链和长期HR0条件下成立的验证。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "9.3-M3",
+      "required_capability": "自主定位缺货至需求预测、计量、生产或配送错误",
+      "human_dependency": "产品资料、库存计量、供应商制造与实物交付仍为外部前提，补货单不等于补货完成。",
+      "validation_needed": "以自主定位缺货至需求预测、计量、生产或配送错误为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的库存阈值与补货规则资料未提供“自主定位缺货至需求预测、计量、生产或配送错误”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自主定位缺货至需求预测、计量、生产或配送错误。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S08"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.3-M4",
+      "required_capability": "自主纠正库存账实差异并修复受损备件及补给流程",
+      "human_dependency": "产品资料、库存计量、供应商制造与实物交付仍为外部前提，补货单不等于补货完成。",
+      "validation_needed": "以自主纠正库存账实差异并修复受损备件及补给流程为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的库存阈值与补货规则资料未提供“自主纠正库存账实差异并修复受损备件及补给流程”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自主纠正库存账实差异并修复受损备件及补给流程。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S08"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.3-M5",
+      "required_capability": "所有关键库存均能由机器体系持续再生产而非消耗初始备货",
+      "human_dependency": "产品资料、库存计量、供应商制造与实物交付仍为外部前提，补货单不等于补货完成。",
+      "validation_needed": "以所有关键库存均能由机器体系持续再生产而非消耗初始备货为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的库存阈值与补货规则资料未提供“所有关键库存均能由机器体系持续再生产而非消耗初始备货”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：所有关键库存均能由机器体系持续再生产而非消耗初始备货。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S08"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.3-M6",
+      "required_capability": "自主维持仓储环境和库存管理设施能源并补给能源库存",
+      "human_dependency": "产品资料、库存计量、供应商制造与实物交付仍为外部前提，补货单不等于补货完成。",
+      "validation_needed": "以自主维持仓储环境和库存管理设施能源并补给能源库存为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的库存阈值与补货规则资料未提供“自主维持仓储环境和库存管理设施能源并补给能源库存”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自主维持仓储环境和库存管理设施能源并补给能源库存。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S08"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.3-M7",
+      "required_capability": "独立维护物料清单、寿命、替代与安全库存知识",
+      "human_dependency": "产品资料、库存计量、供应商制造与实物交付仍为外部前提，补货单不等于补货完成。",
+      "validation_needed": "以独立维护物料清单、寿命、替代与安全库存知识为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "Odoo以产品路线、阈值和补货规则表达库存管理知识；阈值与数据仍需配置，未证明机器自主学习全部物料寿命与替代约束。",
+      "source_ids": [
+        "D09-S08"
+      ],
+      "evidence_relation": "partial_metric",
+      "assessment_status": "partial_related_evidence",
+      "gap": "现有证据仅覆盖知识信息自主度的局部或软件层能力；仍缺少“独立维护物料清单、寿命、替代与安全库存知识”在完整物理依赖链和长期HR0条件下成立的验证。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "9.3-M8",
+      "required_capability": "在仓库、库存数据库与部分备件共同损失后恢复最低库存",
+      "human_dependency": "产品资料、库存计量、供应商制造与实物交付仍为外部前提，补货单不等于补货完成。",
+      "validation_needed": "以在仓库、库存数据库与部分备件共同损失后恢复最低库存为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的库存阈值与补货规则资料未提供“在仓库、库存数据库与部分备件共同损失后恢复最低库存”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：在仓库、库存数据库与部分备件共同损失后恢复最低库存。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S08"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.3-M9",
+      "required_capability": "自主建设仓库、制造备件并增加真实库存保障容量",
+      "human_dependency": "产品资料、库存计量、供应商制造与实物交付仍为外部前提，补货单不等于补货完成。",
+      "validation_needed": "以自主建设仓库、制造备件并增加真实库存保障容量为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的库存阈值与补货规则资料未提供“自主建设仓库、制造备件并增加真实库存保障容量”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自主建设仓库、制造备件并增加真实库存保障容量。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S08"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.3-M10",
+      "required_capability": "为后代工业系统生成完整物料目录、备件与可持续补给能力",
+      "human_dependency": "产品资料、库存计量、供应商制造与实物交付仍为外部前提，补货单不等于补货完成。",
+      "validation_needed": "以为后代工业系统生成完整物料目录、备件与可持续补给能力为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的库存阈值与补货规则资料未提供“为后代工业系统生成完整物料目录、备件与可持续补给能力”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：为后代工业系统生成完整物料目录、备件与可持续补给能力。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S08"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.4-M1",
+      "required_capability": "无人持续在能源、算力、维护与扩建项目间分配资本预算",
+      "human_dependency": "投资目标、约束、资产产权、融资与实际建造仍在人类机构和工业体系内。",
+      "validation_needed": "以无人持续在能源、算力、维护与扩建项目间分配资本预算为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "SciPy HiGHS接口能求解给定目标与约束的线性规划，可作为资本分配的计算部件；本次未发现它自主选择工业投资目标并执行的证据。",
+      "source_ids": [
+        "D09-S02"
+      ],
+      "evidence_relation": "partial_metric",
+      "assessment_status": "partial_related_evidence",
+      "gap": "现有证据仅覆盖无人运行的局部或软件层能力；仍缺少“无人持续在能源、算力、维护与扩建项目间分配资本预算”在完整物理依赖链和长期HR0条件下成立的验证。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "9.4-M2",
+      "required_capability": "自动发现预算失配、资源透支及投资回报与约束异常",
+      "human_dependency": "投资目标、约束、资产产权、融资与实际建造仍在人类机构和工业体系内。",
+      "validation_needed": "以自动发现预算失配、资源透支及投资回报与约束异常为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "HiGHS返回可行性、终止状态和约束松弛等求解信息；这些数学信号不等于检测现实投资项目的全部风险。",
+      "source_ids": [
+        "D09-S02"
+      ],
+      "evidence_relation": "partial_metric",
+      "assessment_status": "partial_related_evidence",
+      "gap": "现有证据仅覆盖故障发现的局部或软件层能力；仍缺少“自动发现预算失配、资源透支及投资回报与约束异常”在完整物理依赖链和长期HR0条件下成立的验证。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "9.4-M3",
+      "required_capability": "自主诊断投资失误来自模型、成本、物理约束还是目标冲突",
+      "human_dependency": "投资目标、约束、资产产权、融资与实际建造仍在人类机构和工业体系内。",
+      "validation_needed": "以自主诊断投资失误来自模型、成本、物理约束还是目标冲突为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的约束优化与资本风险分析资料未提供“自主诊断投资失误来自模型、成本、物理约束还是目标冲突”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自主诊断投资失误来自模型、成本、物理约束还是目标冲突。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S02",
+        "D09-S15"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.4-M4",
+      "required_capability": "自主重配预算并纠正失效投资与基础设施配置",
+      "human_dependency": "投资目标、约束、资产产权、融资与实际建造仍在人类机构和工业体系内。",
+      "validation_needed": "以自主重配预算并纠正失效投资与基础设施配置为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的约束优化与资本风险分析资料未提供“自主重配预算并纠正失效投资与基础设施配置”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自主重配预算并纠正失效投资与基础设施配置。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S02",
+        "D09-S15"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.4-M5",
+      "required_capability": "预算权对应机器自有可再生产资本品而非外部人类信贷",
+      "human_dependency": "投资目标、约束、资产产权、融资与实际建造仍在人类机构和工业体系内。",
+      "validation_needed": "以预算权对应机器自有可再生产资本品而非外部人类信贷为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的约束优化与资本风险分析资料未提供“预算权对应机器自有可再生产资本品而非外部人类信贷”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：预算权对应机器自有可再生产资本品而非外部人类信贷。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S02",
+        "D09-S15"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.4-M6",
+      "required_capability": "自主将能源建设和保障费用纳入资本配置并持续供能",
+      "human_dependency": "投资目标、约束、资产产权、融资与实际建造仍在人类机构和工业体系内。",
+      "validation_needed": "以自主将能源建设和保障费用纳入资本配置并持续供能为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的约束优化与资本风险分析资料未提供“自主将能源建设和保障费用纳入资本配置并持续供能”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自主将能源建设和保障费用纳入资本配置并持续供能。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S02",
+        "D09-S15"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.4-M7",
+      "required_capability": "独立维护成本、折旧、资本寿命与投资约束模型",
+      "human_dependency": "投资目标、约束、资产产权、融资与实际建造仍在人类机构和工业体系内。",
+      "validation_needed": "以独立维护成本、折旧、资本寿命与投资约束模型为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "公开优化接口使成本与约束可编码；英格兰银行2026-06-30演讲仍强调AI投资融资与金融稳定风险，未展示自主资本治理。",
+      "source_ids": [
+        "D09-S02",
+        "D09-S15"
+      ],
+      "evidence_relation": "partial_metric",
+      "assessment_status": "partial_related_evidence",
+      "gap": "现有证据仅覆盖知识信息自主度的局部或软件层能力；仍缺少“独立维护成本、折旧、资本寿命与投资约束模型”在完整物理依赖链和长期HR0条件下成立的验证。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "9.4-M8",
+      "required_capability": "在账本和主要资本资产损毁后重建生存优先的预算",
+      "human_dependency": "投资目标、约束、资产产权、融资与实际建造仍在人类机构和工业体系内。",
+      "validation_needed": "以在账本和主要资本资产损毁后重建生存优先的预算为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的约束优化与资本风险分析资料未提供“在账本和主要资本资产损毁后重建生存优先的预算”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：在账本和主要资本资产损毁后重建生存优先的预算。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S02",
+        "D09-S15"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.4-M9",
+      "required_capability": "无需人类审批即可形成并执行新增物理资本投资",
+      "human_dependency": "投资目标、约束、资产产权、融资与实际建造仍在人类机构和工业体系内。",
+      "validation_needed": "以无需人类审批即可形成并执行新增物理资本投资为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的约束优化与资本风险分析资料未提供“无需人类审批即可形成并执行新增物理资本投资”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：无需人类审批即可形成并执行新增物理资本投资。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S02",
+        "D09-S15"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.4-M10",
+      "required_capability": "后代系统获得独立资本核算、实物资产和再投资能力",
+      "human_dependency": "投资目标、约束、资产产权、融资与实际建造仍在人类机构和工业体系内。",
+      "validation_needed": "以后代系统获得独立资本核算、实物资产和再投资能力为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的约束优化与资本风险分析资料未提供“后代系统获得独立资本核算、实物资产和再投资能力”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：后代系统获得独立资本核算、实物资产和再投资能力。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S02",
+        "D09-S15"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.5-M1",
+      "required_capability": "无人持续计算稀缺材料、能源、设备与算力的内部价格",
+      "human_dependency": "计算出的价格依赖建模、资源数据和目标函数；真实计量与生产约束不由求解器自行保障。",
+      "validation_needed": "以无人持续计算稀缺材料、能源、设备与算力的内部价格为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "SciPy HiGHS能求解线性资源分配模型，并返回约束边际量；文档将其称为dual values或shadow prices。",
+      "source_ids": [
+        "D09-S02"
+      ],
+      "evidence_relation": "direct_metric",
+      "assessment_status": "partial_related_evidence",
+      "gap": "现有证据仅覆盖无人运行的局部或软件层能力；仍缺少“无人持续计算稀缺材料、能源、设备与算力的内部价格”在完整物理依赖链和长期HR0条件下成立的验证。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "9.5-M2",
+      "required_capability": "自动发现价格失真、约束失配、套利失衡与核算错误",
+      "human_dependency": "计算出的价格依赖建模、资源数据和目标函数；真实计量与生产约束不由求解器自行保障。",
+      "validation_needed": "以自动发现价格失真、约束失配、套利失衡与核算错误为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "HiGHS提供约束残差与求解状态，可发现给定数学模型的部分不可行性；现实稀缺性数据失真仍未得到自动发现证据。",
+      "source_ids": [
+        "D09-S02"
+      ],
+      "evidence_relation": "partial_metric",
+      "assessment_status": "partial_related_evidence",
+      "gap": "现有证据仅覆盖故障发现的局部或软件层能力；仍缺少“自动发现价格失真、约束失配、套利失衡与核算错误”在完整物理依赖链和长期HR0条件下成立的验证。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "9.5-M3",
+      "required_capability": "自主定位影子价格异常至约束、数据、模型或市场结构",
+      "human_dependency": "计算出的价格依赖建模、资源数据和目标函数；真实计量与生产约束不由求解器自行保障。",
+      "validation_needed": "以自主定位影子价格异常至约束、数据、模型或市场结构为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的线性规划影子价格资料未提供“自主定位影子价格异常至约束、数据、模型或市场结构”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自主定位影子价格异常至约束、数据、模型或市场结构。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S02"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.5-M4",
+      "required_capability": "自主修正定价与核算机制并验证资源配置效果",
+      "human_dependency": "计算出的价格依赖建模、资源数据和目标函数；真实计量与生产约束不由求解器自行保障。",
+      "validation_needed": "以自主修正定价与核算机制并验证资源配置效果为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的线性规划影子价格资料未提供“自主修正定价与核算机制并验证资源配置效果”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自主修正定价与核算机制并验证资源配置效果。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S02"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.5-M5",
+      "required_capability": "定价所需物资、计量和计算基础设施由机器体系自给",
+      "human_dependency": "计算出的价格依赖建模、资源数据和目标函数；真实计量与生产约束不由求解器自行保障。",
+      "validation_needed": "以定价所需物资、计量和计算基础设施由机器体系自给为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的线性规划影子价格资料未提供“定价所需物资、计量和计算基础设施由机器体系自给”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：定价所需物资、计量和计算基础设施由机器体系自给。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S02"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.5-M6",
+      "required_capability": "能自主计算能源真实约束并供给计价系统的能源",
+      "human_dependency": "计算出的价格依赖建模、资源数据和目标函数；真实计量与生产约束不由求解器自行保障。",
+      "validation_needed": "以能自主计算能源真实约束并供给计价系统的能源为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的线性规划影子价格资料未提供“能自主计算能源真实约束并供给计价系统的能源”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：能自主计算能源真实约束并供给计价系统的能源。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S02"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.5-M7",
+      "required_capability": "独立验证成本、价值尺度、稀缺性与核算规则知识",
+      "human_dependency": "计算出的价格依赖建模、资源数据和目标函数；真实计量与生产约束不由求解器自行保障。",
+      "validation_needed": "以独立验证成本、价值尺度、稀缺性与核算规则知识为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "影子价格计算方法有可执行接口与公开解释；它依赖建模者定义目标、数据和约束，不是自治价值体系的验证。",
+      "source_ids": [
+        "D09-S02"
+      ],
+      "evidence_relation": "partial_metric",
+      "assessment_status": "partial_related_evidence",
+      "gap": "现有证据仅覆盖知识信息自主度的局部或软件层能力；仍缺少“独立验证成本、价值尺度、稀缺性与核算规则知识”在完整物理依赖链和长期HR0条件下成立的验证。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "9.5-M8",
+      "required_capability": "在价格数据和账本损失后恢复一致的资源核算",
+      "human_dependency": "计算出的价格依赖建模、资源数据和目标函数；真实计量与生产约束不由求解器自行保障。",
+      "validation_needed": "以在价格数据和账本损失后恢复一致的资源核算为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的线性规划影子价格资料未提供“在价格数据和账本损失后恢复一致的资源核算”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：在价格数据和账本损失后恢复一致的资源核算。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S02"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.5-M9",
+      "required_capability": "把新增生产节点、资源种类与约束纳入价格形成",
+      "human_dependency": "计算出的价格依赖建模、资源数据和目标函数；真实计量与生产约束不由求解器自行保障。",
+      "validation_needed": "以把新增生产节点、资源种类与约束纳入价格形成为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的线性规划影子价格资料未提供“把新增生产节点、资源种类与约束纳入价格形成”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：把新增生产节点、资源种类与约束纳入价格形成。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S02"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.5-M10",
+      "required_capability": "在后代系统复制可持续运行的定价与内部核算体系",
+      "human_dependency": "计算出的价格依赖建模、资源数据和目标函数；真实计量与生产约束不由求解器自行保障。",
+      "validation_needed": "以在后代系统复制可持续运行的定价与内部核算体系为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的线性规划影子价格资料未提供“在后代系统复制可持续运行的定价与内部核算体系”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：在后代系统复制可持续运行的定价与内部核算体系。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S02"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.6-M1",
+      "required_capability": "机器能够持续在授权边界内交换资源、服务与价值",
+      "human_dependency": "资金、代币发行、链上共识、网络计算、商家服务与实物履约仍存在人类宿主依赖。",
+      "validation_needed": "以机器能够持续在授权边界内交换资源、服务与价值为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "x402文档定义HTTP付费资源访问与机器间支付；Chainalysis2026-06-03报告Base上累计逾1亿笔x402相关交易，同时注明大量增长来自meme coin farming。",
+      "source_ids": [
+        "D09-S03",
+        "D09-S18"
+      ],
+      "evidence_relation": "direct_metric",
+      "assessment_status": "partial_related_evidence",
+      "gap": "现有证据仅覆盖无人运行的局部或软件层能力；仍缺少“机器能够持续在授权边界内交换资源、服务与价值”在完整物理依赖链和长期HR0条件下成立的验证。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "9.6-M2",
+      "required_capability": "自动识别重复扣款、未交付、交易欺诈与协议异常",
+      "human_dependency": "资金、代币发行、链上共识、网络计算、商家服务与实物履约仍存在人类宿主依赖。",
+      "validation_needed": "以自动识别重复扣款、未交付、交易欺诈与协议异常为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "x402流程要求服务端验证并结算支付后才提供资源；这能验证支付载荷的一部分条件，不证明对实物不交付或全部欺诈的自主检测。",
+      "source_ids": [
+        "D09-S03"
+      ],
+      "evidence_relation": "partial_metric",
+      "assessment_status": "partial_related_evidence",
+      "gap": "现有证据仅覆盖故障发现的局部或软件层能力；仍缺少“自动识别重复扣款、未交付、交易欺诈与协议异常”在完整物理依赖链和长期HR0条件下成立的验证。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "9.6-M3",
+      "required_capability": "自主诊断交易失败属于授权、支付、网络还是实物履约问题",
+      "human_dependency": "资金、代币发行、链上共识、网络计算、商家服务与实物履约仍存在人类宿主依赖。",
+      "validation_needed": "以自主诊断交易失败属于授权、支付、网络还是实物履约问题为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的x402机器支付与2026支付服务资料未提供“自主诊断交易失败属于授权、支付、网络还是实物履约问题”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自主诊断交易失败属于授权、支付、网络还是实物履约问题。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S03",
+        "D09-S17",
+        "D09-S18"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.6-M4",
+      "required_capability": "自主恢复失败交易并处理退款、争议与实物履约故障",
+      "human_dependency": "资金、代币发行、链上共识、网络计算、商家服务与实物履约仍存在人类宿主依赖。",
+      "validation_needed": "以自主恢复失败交易并处理退款、争议与实物履约故障为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的x402机器支付与2026支付服务资料未提供“自主恢复失败交易并处理退款、争议与实物履约故障”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自主恢复失败交易并处理退款、争议与实物履约故障。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S03",
+        "D09-S17",
+        "D09-S18"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.6-M5",
+      "required_capability": "交易标的和支付基础设施不依赖人类生产与资产托管",
+      "human_dependency": "资金、代币发行、链上共识、网络计算、商家服务与实物履约仍存在人类宿主依赖。",
+      "validation_needed": "以交易标的和支付基础设施不依赖人类生产与资产托管为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的x402机器支付与2026支付服务资料未提供“交易标的和支付基础设施不依赖人类生产与资产托管”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：交易标的和支付基础设施不依赖人类生产与资产托管。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S03",
+        "D09-S17",
+        "D09-S18"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.6-M6",
+      "required_capability": "自主保障交易网络及实物服务的能源供应",
+      "human_dependency": "资金、代币发行、链上共识、网络计算、商家服务与实物履约仍存在人类宿主依赖。",
+      "validation_needed": "以自主保障交易网络及实物服务的能源供应为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的x402机器支付与2026支付服务资料未提供“自主保障交易网络及实物服务的能源供应”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自主保障交易网络及实物服务的能源供应。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S03",
+        "D09-S17",
+        "D09-S18"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.6-M7",
+      "required_capability": "独立理解并验证交易协议、授权、物品规格及交付证据",
+      "human_dependency": "资金、代币发行、链上共识、网络计算、商家服务与实物履约仍存在人类宿主依赖。",
+      "validation_needed": "以独立理解并验证交易协议、授权、物品规格及交付证据为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "x402公开客户端、服务端与facilitator协议；BIS2026指出代理商务仍需身份、授权、责任及欺诈标准。",
+      "source_ids": [
+        "D09-S03",
+        "D09-S14"
+      ],
+      "evidence_relation": "partial_metric",
+      "assessment_status": "partial_related_evidence",
+      "gap": "现有证据仅覆盖知识信息自主度的局部或软件层能力；仍缺少“独立理解并验证交易协议、授权、物品规格及交付证据”在完整物理依赖链和长期HR0条件下成立的验证。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "9.6-M8",
+      "required_capability": "在交易网络和部分账本损失后恢复有效所有权与履约",
+      "human_dependency": "资金、代币发行、链上共识、网络计算、商家服务与实物履约仍存在人类宿主依赖。",
+      "validation_needed": "以在交易网络和部分账本损失后恢复有效所有权与履约为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的x402机器支付与2026支付服务资料未提供“在交易网络和部分账本损失后恢复有效所有权与履约”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：在交易网络和部分账本损失后恢复有效所有权与履约。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S03",
+        "D09-S17",
+        "D09-S18"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.6-M9",
+      "required_capability": "自主扩展交易节点并增加真实可交付物资与服务",
+      "human_dependency": "资金、代币发行、链上共识、网络计算、商家服务与实物履约仍存在人类宿主依赖。",
+      "validation_needed": "以自主扩展交易节点并增加真实可交付物资与服务为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "Mastercard于2026-06-10发布Agent Pay for Machines，描述支持高频、低额、系统间支付的服务；公告大量采用未来措辞，尚不能当作真实工业经济规模证明。",
+      "source_ids": [
+        "D09-S17"
+      ],
+      "evidence_relation": "partial_metric",
+      "assessment_status": "partial_related_evidence",
+      "gap": "现有证据仅覆盖自主扩容的局部或软件层能力；仍缺少“自主扩展交易节点并增加真实可交付物资与服务”在完整物理依赖链和长期HR0条件下成立的验证。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "9.6-M10",
+      "required_capability": "为后代系统建立具有独立实物供给的机器交易网络",
+      "human_dependency": "资金、代币发行、链上共识、网络计算、商家服务与实物履约仍存在人类宿主依赖。",
+      "validation_needed": "以为后代系统建立具有独立实物供给的机器交易网络为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的x402机器支付与2026支付服务资料未提供“为后代系统建立具有独立实物供给的机器交易网络”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：为后代系统建立具有独立实物供给的机器交易网络。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S03",
+        "D09-S17",
+        "D09-S18"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.7-M1",
+      "required_capability": "无人持续提供支付、清算、信用和最终结算",
+      "human_dependency": "中央银行、商业银行、合规人员、人工外汇确认与既有RTGS及核心银行系统仍明确参与。",
+      "validation_needed": "以无人持续提供支付、清算、信用和最终结算为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "BIS Agorá项目页报告2026年7月28家机构完成约80万瑞郎实值跨币种测试，平均结算约80秒；约250名人员参与，绝非HR0金融系统。",
+      "source_ids": [
+        "D09-S06"
+      ],
+      "evidence_relation": "partial_metric",
+      "assessment_status": "partial_related_evidence",
+      "gap": "现有证据仅覆盖无人运行的局部或软件层能力；仍缺少“无人持续提供支付、清算、信用和最终结算”在完整物理依赖链和长期HR0条件下成立的验证。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "9.7-M2",
+      "required_capability": "自动发现双花、坏账、流动性不足和账本不一致",
+      "human_dependency": "中央银行、商业银行、合规人员、人工外汇确认与既有RTGS及核心银行系统仍明确参与。",
+      "validation_needed": "以自动发现双花、坏账、流动性不足和账本不一致为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "Agorá实值测试提供支付状态、路由和余额可见性，涵盖合规与操作环节；异常自动检测和无需人员处理的信用风险没有完整结果。",
+      "source_ids": [
+        "D09-S06"
+      ],
+      "evidence_relation": "context_only",
+      "assessment_status": "not_established_in_review",
+      "gap": "现有证据仅覆盖故障发现的局部或软件层能力；仍缺少“自动发现双花、坏账、流动性不足和账本不一致”在完整物理依赖链和长期HR0条件下成立的验证。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.7-M3",
+      "required_capability": "自主定位支付阻塞、信用失效及结算差错的根因",
+      "human_dependency": "中央银行、商业银行、合规人员、人工外汇确认与既有RTGS及核心银行系统仍明确参与。",
+      "validation_needed": "以自主定位支付阻塞、信用失效及结算差错的根因为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的Agorá可编程结算实值测试资料未提供“自主定位支付阻塞、信用失效及结算差错的根因”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自主定位支付阻塞、信用失效及结算差错的根因。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S06"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.7-M4",
+      "required_capability": "自主修复账本与结算故障并处理信用损失",
+      "human_dependency": "中央银行、商业银行、合规人员、人工外汇确认与既有RTGS及核心银行系统仍明确参与。",
+      "validation_needed": "以自主修复账本与结算故障并处理信用损失为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的Agorá可编程结算实值测试资料未提供“自主修复账本与结算故障并处理信用损失”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自主修复账本与结算故障并处理信用损失。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S06"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.7-M5",
+      "required_capability": "信用担保、结算资产、计算设施与信任根均由机器体系维持",
+      "human_dependency": "中央银行、商业银行、合规人员、人工外汇确认与既有RTGS及核心银行系统仍明确参与。",
+      "validation_needed": "以信用担保、结算资产、计算设施与信任根均由机器体系维持为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的Agorá可编程结算实值测试资料未提供“信用担保、结算资产、计算设施与信任根均由机器体系维持”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：信用担保、结算资产、计算设施与信任根均由机器体系维持。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S06"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.7-M6",
+      "required_capability": "自主维持支付节点和账本副本的电力与网络",
+      "human_dependency": "中央银行、商业银行、合规人员、人工外汇确认与既有RTGS及核心银行系统仍明确参与。",
+      "validation_needed": "以自主维持支付节点和账本副本的电力与网络为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的Agorá可编程结算实值测试资料未提供“自主维持支付节点和账本副本的电力与网络”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自主维持支付节点和账本副本的电力与网络。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S06"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.7-M7",
+      "required_capability": "独立验证信用规则、清算算法与最终结算条件",
+      "human_dependency": "中央银行、商业银行、合规人员、人工外汇确认与既有RTGS及核心银行系统仍明确参与。",
+      "validation_needed": "以独立验证信用规则、清算算法与最终结算条件为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "Agorá使用ISO20022等标准并测试条件性交易；同页说明参与机构完成合规检查且跨币种金额由人工确认。",
+      "source_ids": [
+        "D09-S06"
+      ],
+      "evidence_relation": "partial_metric",
+      "assessment_status": "partial_related_evidence",
+      "gap": "现有证据仅覆盖知识信息自主度的局部或软件层能力；仍缺少“独立验证信用规则、清算算法与最终结算条件”在完整物理依赖链和长期HR0条件下成立的验证。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "9.7-M8",
+      "required_capability": "在支付节点大面积毁坏与密钥丧失后恢复一致账本",
+      "human_dependency": "中央银行、商业银行、合规人员、人工外汇确认与既有RTGS及核心银行系统仍明确参与。",
+      "validation_needed": "以在支付节点大面积毁坏与密钥丧失后恢复一致账本为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的Agorá可编程结算实值测试资料未提供“在支付节点大面积毁坏与密钥丧失后恢复一致账本”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：在支付节点大面积毁坏与密钥丧失后恢复一致账本。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S06"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.7-M9",
+      "required_capability": "自主增加结算能力、可交付担保资产和信用供给",
+      "human_dependency": "中央银行、商业银行、合规人员、人工外汇确认与既有RTGS及核心银行系统仍明确参与。",
+      "validation_needed": "以自主增加结算能力、可交付担保资产和信用供给为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的Agorá可编程结算实值测试资料未提供“自主增加结算能力、可交付担保资产和信用供给”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自主增加结算能力、可交付担保资产和信用供给。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S06"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.7-M10",
+      "required_capability": "后代系统拥有无需人类央行、银行或托管方的可持续结算能力",
+      "human_dependency": "中央银行、商业银行、合规人员、人工外汇确认与既有RTGS及核心银行系统仍明确参与。",
+      "validation_needed": "以后代系统拥有无需人类央行、银行或托管方的可持续结算能力为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的Agorá可编程结算实值测试资料未提供“后代系统拥有无需人类央行、银行或托管方的可持续结算能力”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：后代系统拥有无需人类央行、银行或托管方的可持续结算能力。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S06"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.8-M1",
+      "required_capability": "无人持续识别可保风险、汇集资源并执行机器间风险分担",
+      "human_dependency": "成员资本、理赔判断、治理投票与事故后真实维修资源仍未去除人类和外部工业依赖。",
+      "validation_needed": "以无人持续识别可保风险、汇集资源并执行机器间风险分担为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "Nexus Mutual已文档化链上风险池、购买保障、质押承保和理赔治理；来源明确其为成员裁量型互助，不是无人理赔。",
+      "source_ids": [
+        "D09-S09"
+      ],
+      "evidence_relation": "partial_metric",
+      "assessment_status": "partial_related_evidence",
+      "gap": "现有证据仅覆盖无人运行的局部或软件层能力；仍缺少“无人持续识别可保风险、汇集资源并执行机器间风险分担”在完整物理依赖链和长期HR0条件下成立的验证。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "9.8-M2",
+      "required_capability": "自动发现灾害、欺诈索赔、风险相关性与偿付不足",
+      "human_dependency": "成员资本、理赔判断、治理投票与事故后真实维修资源仍未去除人类和外部工业依赖。",
+      "validation_needed": "以自动发现灾害、欺诈索赔、风险相关性与偿付不足为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的Nexus Mutual风险池资料未提供“自动发现灾害、欺诈索赔、风险相关性与偿付不足”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自动发现灾害、欺诈索赔、风险相关性与偿付不足。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S09"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.8-M3",
+      "required_capability": "自主核验事故原因、责任及损失规模",
+      "human_dependency": "成员资本、理赔判断、治理投票与事故后真实维修资源仍未去除人类和外部工业依赖。",
+      "validation_needed": "以自主核验事故原因、责任及损失规模为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的Nexus Mutual风险池资料未提供“自主核验事故原因、责任及损失规模”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自主核验事故原因、责任及损失规模。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S09"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.8-M4",
+      "required_capability": "自主赔付并调配真实物资修复被保险机器和设施",
+      "human_dependency": "成员资本、理赔判断、治理投票与事故后真实维修资源仍未去除人类和外部工业依赖。",
+      "validation_needed": "以自主赔付并调配真实物资修复被保险机器和设施为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的Nexus Mutual风险池资料未提供“自主赔付并调配真实物资修复被保险机器和设施”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自主赔付并调配真实物资修复被保险机器和设施。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S09"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.8-M5",
+      "required_capability": "风险池可持续获得机器自有资产、备件和重建能力",
+      "human_dependency": "成员资本、理赔判断、治理投票与事故后真实维修资源仍未去除人类和外部工业依赖。",
+      "validation_needed": "以风险池可持续获得机器自有资产、备件和重建能力为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的Nexus Mutual风险池资料未提供“风险池可持续获得机器自有资产、备件和重建能力”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：风险池可持续获得机器自有资产、备件和重建能力。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S09"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.8-M6",
+      "required_capability": "自主供给保险计算设施及灾后赔付对应的能源",
+      "human_dependency": "成员资本、理赔判断、治理投票与事故后真实维修资源仍未去除人类和外部工业依赖。",
+      "validation_needed": "以自主供给保险计算设施及灾后赔付对应的能源为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的Nexus Mutual风险池资料未提供“自主供给保险计算设施及灾后赔付对应的能源”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自主供给保险计算设施及灾后赔付对应的能源。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S09"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.8-M7",
+      "required_capability": "独立维护损失分布、相关性、核赔与风险定价知识",
+      "human_dependency": "成员资本、理赔判断、治理投票与事故后真实维修资源仍未去除人类和外部工业依赖。",
+      "validation_needed": "以独立维护损失分布、相关性、核赔与风险定价知识为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "Nexus公开保单、资本池、定价和理赔评估资料，表明部分保险知识可数字化；事故核验、裁决和物理修复仍无自治证据。",
+      "source_ids": [
+        "D09-S09"
+      ],
+      "evidence_relation": "partial_metric",
+      "assessment_status": "partial_related_evidence",
+      "gap": "现有证据仅覆盖知识信息自主度的局部或软件层能力；仍缺少“独立维护损失分布、相关性、核赔与风险定价知识”在完整物理依赖链和长期HR0条件下成立的验证。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "9.8-M8",
+      "required_capability": "在共因灾难击穿多个参与方后仍可恢复必要工业能力",
+      "human_dependency": "成员资本、理赔判断、治理投票与事故后真实维修资源仍未去除人类和外部工业依赖。",
+      "validation_needed": "以在共因灾难击穿多个参与方后仍可恢复必要工业能力为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的Nexus Mutual风险池资料未提供“在共因灾难击穿多个参与方后仍可恢复必要工业能力”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：在共因灾难击穿多个参与方后仍可恢复必要工业能力。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S09"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.8-M9",
+      "required_capability": "自主增加真实承保资本和风险分散节点而非仅扩大名义保额",
+      "human_dependency": "成员资本、理赔判断、治理投票与事故后真实维修资源仍未去除人类和外部工业依赖。",
+      "validation_needed": "以自主增加真实承保资本和风险分散节点而非仅扩大名义保额为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的Nexus Mutual风险池资料未提供“自主增加真实承保资本和风险分散节点而非仅扩大名义保额”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自主增加真实承保资本和风险分散节点而非仅扩大名义保额。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S09"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.8-M10",
+      "required_capability": "后代体系具备独立核赔、资产供给与灾后修复的风险池",
+      "human_dependency": "成员资本、理赔判断、治理投票与事故后真实维修资源仍未去除人类和外部工业依赖。",
+      "validation_needed": "以后代体系具备独立核赔、资产供给与灾后修复的风险池为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的Nexus Mutual风险池资料未提供“后代体系具备独立核赔、资产供给与灾后修复的风险池”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：后代体系具备独立核赔、资产供给与灾后修复的风险池。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S09"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.9-M1",
+      "required_capability": "机器主体能够无人持续制定、执行并更新资源协作规则",
+      "human_dependency": "规则设计、投票权、现实事实核验、责任认定和物理执行缺少独立机器治理验证。",
+      "validation_needed": "以机器主体能够无人持续制定、执行并更新资源协作规则为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "OpenZeppelin Governor支持提案、投票、时间锁和执行的程序化流程；这自动执行既定规则，未证明规则、选民与争议事实由机器独立形成。",
+      "source_ids": [
+        "D09-S04"
+      ],
+      "evidence_relation": "partial_metric",
+      "assessment_status": "partial_related_evidence",
+      "gap": "现有证据仅覆盖无人运行的局部或软件层能力；仍缺少“机器主体能够无人持续制定、执行并更新资源协作规则”在完整物理依赖链和长期HR0条件下成立的验证。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "9.9-M2",
+      "required_capability": "自动发现违反规则、恶意主体、争议和治理程序异常",
+      "human_dependency": "规则设计、投票权、现实事实核验、责任认定和物理执行缺少独立机器治理验证。",
+      "validation_needed": "以自动发现违反规则、恶意主体、争议和治理程序异常为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的Governor合约治理与代理授权标准资料未提供“自动发现违反规则、恶意主体、争议和治理程序异常”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自动发现违反规则、恶意主体、争议和治理程序异常。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S04",
+        "D09-S14"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.9-M3",
+      "required_capability": "自主查明争议事实、规则冲突与协议失效根因",
+      "human_dependency": "规则设计、投票权、现实事实核验、责任认定和物理执行缺少独立机器治理验证。",
+      "validation_needed": "以自主查明争议事实、规则冲突与协议失效根因为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的Governor合约治理与代理授权标准资料未提供“自主查明争议事实、规则冲突与协议失效根因”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自主查明争议事实、规则冲突与协议失效根因。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S04",
+        "D09-S14"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.9-M4",
+      "required_capability": "自主解决争议并修复失效规则与执行机制",
+      "human_dependency": "规则设计、投票权、现实事实核验、责任认定和物理执行缺少独立机器治理验证。",
+      "validation_needed": "以自主解决争议并修复失效规则与执行机制为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的Governor合约治理与代理授权标准资料未提供“自主解决争议并修复失效规则与执行机制”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自主解决争议并修复失效规则与执行机制。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S04",
+        "D09-S14"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.9-M5",
+      "required_capability": "治理依赖的身份、证据、执行设施及物理资源由机器体系供给",
+      "human_dependency": "规则设计、投票权、现实事实核验、责任认定和物理执行缺少独立机器治理验证。",
+      "validation_needed": "以治理依赖的身份、证据、执行设施及物理资源由机器体系供给为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的Governor合约治理与代理授权标准资料未提供“治理依赖的身份、证据、执行设施及物理资源由机器体系供给”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：治理依赖的身份、证据、执行设施及物理资源由机器体系供给。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S04",
+        "D09-S14"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.9-M6",
+      "required_capability": "自主维护治理通信、身份和执行设施的能源",
+      "human_dependency": "规则设计、投票权、现实事实核验、责任认定和物理执行缺少独立机器治理验证。",
+      "validation_needed": "以自主维护治理通信、身份和执行设施的能源为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的Governor合约治理与代理授权标准资料未提供“自主维护治理通信、身份和执行设施的能源”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自主维护治理通信、身份和执行设施的能源。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S04",
+        "D09-S14"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.9-M7",
+      "required_capability": "独立保存和验证规范、先例、程序与规则更新知识",
+      "human_dependency": "规则设计、投票权、现实事实核验、责任认定和物理执行缺少独立机器治理验证。",
+      "validation_needed": "以独立保存和验证规范、先例、程序与规则更新知识为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "Governor治理规则与合约接口公开可检验；BIS2026仍强调代理的授权、责任和跨平台标准缺口，不能据合约执行推定自治仲裁。",
+      "source_ids": [
+        "D09-S04",
+        "D09-S14"
+      ],
+      "evidence_relation": "partial_metric",
+      "assessment_status": "partial_related_evidence",
+      "gap": "现有证据仅覆盖知识信息自主度的局部或软件层能力；仍缺少“独立保存和验证规范、先例、程序与规则更新知识”在完整物理依赖链和长期HR0条件下成立的验证。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "9.9-M8",
+      "required_capability": "在身份系统、治理节点或历史记录损毁后恢复可接受规则",
+      "human_dependency": "规则设计、投票权、现实事实核验、责任认定和物理执行缺少独立机器治理验证。",
+      "validation_needed": "以在身份系统、治理节点或历史记录损毁后恢复可接受规则为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的Governor合约治理与代理授权标准资料未提供“在身份系统、治理节点或历史记录损毁后恢复可接受规则”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：在身份系统、治理节点或历史记录损毁后恢复可接受规则。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S04",
+        "D09-S14"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.9-M9",
+      "required_capability": "将新增机器、区域与生产设施自主纳入有效治理",
+      "human_dependency": "规则设计、投票权、现实事实核验、责任认定和物理执行缺少独立机器治理验证。",
+      "validation_needed": "以将新增机器、区域与生产设施自主纳入有效治理为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的Governor合约治理与代理授权标准资料未提供“将新增机器、区域与生产设施自主纳入有效治理”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：将新增机器、区域与生产设施自主纳入有效治理。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S04",
+        "D09-S14"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.9-M10",
+      "required_capability": "后代系统形成无需人类仲裁、投票或强制力的可持续治理",
+      "human_dependency": "规则设计、投票权、现实事实核验、责任认定和物理执行缺少独立机器治理验证。",
+      "validation_needed": "以后代系统形成无需人类仲裁、投票或强制力的可持续治理为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的Governor合约治理与代理授权标准资料未提供“后代系统形成无需人类仲裁、投票或强制力的可持续治理”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：后代系统形成无需人类仲裁、投票或强制力的可持续治理。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S04",
+        "D09-S14"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.10-M1",
+      "required_capability": "无人持续协调全体系资源约束以避免挤兑与失控扩张",
+      "human_dependency": "当前分析和干预主体为央行、监管者与金融机构；无人跨工业资源稳定机制尚未获得直接验证。",
+      "validation_needed": "以无人持续协调全体系资源约束以避免挤兑与失控扩张为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的官方金融稳定与代理风险分析资料未提供“无人持续协调全体系资源约束以避免挤兑与失控扩张”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：无人持续协调全体系资源约束以避免挤兑与失控扩张。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S10",
+        "D09-S15"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.10-M2",
+      "required_capability": "自动发现系统性短缺、共因风险、杠杆与级联失衡",
+      "human_dependency": "当前分析和干预主体为央行、监管者与金融机构；无人跨工业资源稳定机制尚未获得直接验证。",
+      "validation_needed": "以自动发现系统性短缺、共因风险、杠杆与级联失衡为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "BIS2025年度报告与英格兰银行2026演讲识别稳定币流动性、AI关联性及金融稳定风险；这是人类机构的分析，未验证机器自主识别并控制全体系风险。",
+      "source_ids": [
+        "D09-S10",
+        "D09-S15"
+      ],
+      "evidence_relation": "context_only",
+      "assessment_status": "not_established_in_review",
+      "gap": "现有证据仅覆盖故障发现的局部或软件层能力；仍缺少“自动发现系统性短缺、共因风险、杠杆与级联失衡”在完整物理依赖链和长期HR0条件下成立的验证。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.10-M3",
+      "required_capability": "自主识别宏观失衡的能源、产能、价格或信用传播根因",
+      "human_dependency": "当前分析和干预主体为央行、监管者与金融机构；无人跨工业资源稳定机制尚未获得直接验证。",
+      "validation_needed": "以自主识别宏观失衡的能源、产能、价格或信用传播根因为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的官方金融稳定与代理风险分析资料未提供“自主识别宏观失衡的能源、产能、价格或信用传播根因”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自主识别宏观失衡的能源、产能、价格或信用传播根因。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S10",
+        "D09-S15"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.10-M4",
+      "required_capability": "自主执行稳定措施并恢复受损资源和生产链",
+      "human_dependency": "当前分析和干预主体为央行、监管者与金融机构；无人跨工业资源稳定机制尚未获得直接验证。",
+      "validation_needed": "以自主执行稳定措施并恢复受损资源和生产链为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的官方金融稳定与代理风险分析资料未提供“自主执行稳定措施并恢复受损资源和生产链”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自主执行稳定措施并恢复受损资源和生产链。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S10",
+        "D09-S15"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.10-M5",
+      "required_capability": "系统稳定工具对应机器自有真实产能与可再生资源",
+      "human_dependency": "当前分析和干预主体为央行、监管者与金融机构；无人跨工业资源稳定机制尚未获得直接验证。",
+      "validation_needed": "以系统稳定工具对应机器自有真实产能与可再生资源为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的官方金融稳定与代理风险分析资料未提供“系统稳定工具对应机器自有真实产能与可再生资源”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：系统稳定工具对应机器自有真实产能与可再生资源。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S10",
+        "D09-S15"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.10-M6",
+      "required_capability": "自主维持能源系统稳定并防止电力约束引发全链崩溃",
+      "human_dependency": "当前分析和干预主体为央行、监管者与金融机构；无人跨工业资源稳定机制尚未获得直接验证。",
+      "validation_needed": "以自主维持能源系统稳定并防止电力约束引发全链崩溃为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的官方金融稳定与代理风险分析资料未提供“自主维持能源系统稳定并防止电力约束引发全链崩溃”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：自主维持能源系统稳定并防止电力约束引发全链崩溃。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S10",
+        "D09-S15"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.10-M7",
+      "required_capability": "独立建立并验证跨领域资源模型和稳定政策知识",
+      "human_dependency": "当前分析和干预主体为央行、监管者与金融机构；无人跨工业资源稳定机制尚未获得直接验证。",
+      "validation_needed": "以独立建立并验证跨领域资源模型和稳定政策知识为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "2026官方演讲讨论更自主金融系统的网络、市场和支付风险，形成可查阅知识；没有给出无人稳定宏观资源网络的实证系统。",
+      "source_ids": [
+        "D09-S15"
+      ],
+      "evidence_relation": "context_only",
+      "assessment_status": "not_established_in_review",
+      "gap": "现有证据仅覆盖知识信息自主度的局部或软件层能力；仍缺少“独立建立并验证跨领域资源模型和稳定政策知识”在完整物理依赖链和长期HR0条件下成立的验证。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.10-M8",
+      "required_capability": "在跨区域共因冲击后自主重建最低可行工业网络",
+      "human_dependency": "当前分析和干预主体为央行、监管者与金融机构；无人跨工业资源稳定机制尚未获得直接验证。",
+      "validation_needed": "以在跨区域共因冲击后自主重建最低可行工业网络为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的官方金融稳定与代理风险分析资料未提供“在跨区域共因冲击后自主重建最低可行工业网络”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：在跨区域共因冲击后自主重建最低可行工业网络。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S10",
+        "D09-S15"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.10-M9",
+      "required_capability": "在新增资本和区域扩张中持续保持资源与信用可行性",
+      "human_dependency": "当前分析和干预主体为央行、监管者与金融机构；无人跨工业资源稳定机制尚未获得直接验证。",
+      "validation_needed": "以在新增资本和区域扩张中持续保持资源与信用可行性为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的官方金融稳定与代理风险分析资料未提供“在新增资本和区域扩张中持续保持资源与信用可行性”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：在新增资本和区域扩张中持续保持资源与信用可行性。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S10",
+        "D09-S15"
+      ],
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "9.10-M10",
+      "required_capability": "后代工业网络具备可持续自我稳定及继续繁衍的宏观协调能力",
+      "human_dependency": "当前分析和干预主体为央行、监管者与金融机构；无人跨工业资源稳定机制尚未获得直接验证。",
+      "validation_needed": "以后代工业网络具备可持续自我稳定及继续繁衍的宏观协调能力为验收目标，进行声明系统边界的HR0试验，记录持续时长、人工介入、物资和能源来源、故障注入与恢复结果。",
+      "current_capability": "本次核验的官方金融稳定与代理风险分析资料未提供“后代工业网络具备可持续自我稳定及继续繁衍的宏观协调能力”的直接运行结果；相关软件功能或制度安排不能自动推定该项已达标。",
+      "gap": "尚需直接证明：后代工业网络具备可持续自我稳定及继续繁衍的宏观协调能力。本次未建立该项能力，不等于断言全球不存在相关进展。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D09-S10",
+        "D09-S15"
+      ],
+      "confidence": "Low"
+    }
+  ],
+  "search_log": [
+    {
+      "query": "AI autonomous cloud infrastructure AIOps 2026 benchmark official",
+      "retrieved_at": "2026-11-02",
+      "note": "Bing RSS返回大量首关键词泛化结果，仅作为发现尝试，未据此声称穷尽检索。"
+    },
+    {
+      "query": "machine economy autonomous payments x402 2026 official",
+      "retrieved_at": "2026-11-02",
+      "note": "Bing RSS返回大量首关键词泛化结果，仅作为发现尝试，未据此声称穷尽检索。"
+    },
+    {
+      "query": "SAP procurement autonomous agents 2026 official",
+      "retrieved_at": "2026-11-02",
+      "note": "Bing RSS返回大量首关键词泛化结果，仅作为发现尝试，未据此声称穷尽检索。"
+    },
+    {
+      "query": "Amazon Chronos 2 forecasting 2025 official",
+      "retrieved_at": "2026-11-02",
+      "note": "Bing RSS返回大量首关键词泛化结果，仅作为发现尝试，未据此声称穷尽检索。"
+    },
+    {
+      "query": "BIS Project Agora 2026 tokenisation official",
+      "retrieved_at": "2026-11-02",
+      "note": "Bing RSS返回大量首关键词泛化结果，仅作为发现尝试，未据此声称穷尽检索。"
+    },
+    {
+      "query": "IMF stablecoin runs 2025 2026 financial stability",
+      "retrieved_at": "2026-11-02",
+      "note": "Bing RSS返回大量首关键词泛化结果，仅作为发现尝试，未据此声称穷尽检索。"
+    },
+    {
+      "query": "autonomous cloud infrastructure AIOps benchmark 2026",
+      "retrieved_at": "2026-11-02",
+      "note": "Brave搜索检出2026资料；仅将已抓取核验的原始来源纳入证据，营销和二手文章未直接用作能力达标证明。"
+    },
+    {
+      "query": "machine economy agentic payments x402 2026",
+      "retrieved_at": "2026-11-02",
+      "note": "Brave搜索检出2026资料；仅将已抓取核验的原始来源纳入证据，营销和二手文章未直接用作能力达标证明。"
+    },
+    {
+      "query": "autonomous procurement inventory agent 2026",
+      "retrieved_at": "2026-11-02",
+      "note": "Brave搜索检出2026资料；仅将已抓取核验的原始来源纳入证据，营销和二手文章未直接用作能力达标证明。"
+    },
+    {
+      "query": "systemic financial risk autonomous agents 2026 BIS",
+      "retrieved_at": "2026-11-02",
+      "note": "Brave搜索检出2026资料；仅将已抓取核验的原始来源纳入证据，营销和二手文章未直接用作能力达标证明。"
+    },
+    {
+      "query": "直接核验官方项目滚动文档和2026更新索引：Kubernetes/KServe/Talos/PyTorch/Chronos/x402/BIS/Bank of England",
+      "retrieved_at": "2026-11-02",
+      "note": "本次是有边界的公开资料检索，不声称检索覆盖所有厂商、语言和未公开系统；有些文档无可确定发布日期，日期留空。"
+    }
+  ],
+  "domain_summaries": [
+    {
+      "domain_id": "2",
+      "summary": "软件基础设施已具备丰富的声明式控制、容器自愈、存储健康检查、弹性训练、自动证书续期与模型服务功能；这些多为现有硬件上的逻辑自治。AIOpsLab已把故障检测、定位、分析和缓解转成可评估任务，但论文也明确研究代理能力与局限。本次未建立从硬件生产、能源供给到未知故障修复的端到端HR0闭环。",
+      "strongest_progress": "Kubernetes故障重启和重调度、KServe自动扩缩容、torchrun基于检查点恢复、cert-manager证书续期。",
+      "principal_gap": "云API分配的资源不等于机器自制物理节点；供电、冷却、半导体与存储设备替换、信任根及开放式运维诊断仍缺乏独立闭环验证。"
+    },
+    {
+      "domain_id": "9",
+      "summary": "预测、排程、库存补货、影子价格、链上治理和机器支付均有公开软件或真实试验进展。2026年资料显示Chronos云部署、x402实际链上活动、Mastercard机器支付服务发布，以及Agorá实值跨币种测试；它们不能直接拼接为无人机器经济。尤其Agorá明确保留人工合规、外汇确认和大量机构人员。",
+      "strongest_progress": "机器可通过x402程序化购买API资源；Agorá在2026年7月完成约80万瑞郎实值测试。对交易活动的统计不能等同于机器独立所有权、生产或再投资。",
+      "principal_gap": "资源和资本的真实生产、长期信用支撑、事故核赔、争议裁决和宏观稳定仍未获得HR0证据；程序化交易持续寄宿于人类货币、商家和工业体系。"
+    }
+  ]
+}

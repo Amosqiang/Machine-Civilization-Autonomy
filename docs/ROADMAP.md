@@ -1,5 +1,7 @@
 # MCAB Long-term Roadmap
 
+Task tracking: [#2 engineering](https://github.com/Amosqiang/Machine-Civilization-Autonomy/issues/2), [#1 baseline](https://github.com/Amosqiang/Machine-Civilization-Autonomy/issues/1), [#3 public collaboration](https://github.com/Amosqiang/Machine-Civilization-Autonomy/issues/3), and #4–#13 domain reviews. The [issue alignment snapshot](GITHUB_ISSUE_ALIGNMENT.md) maps current artifacts to their acceptance criteria and remaining work. Literature coverage, engineering delivery, expert review, and publication are tracked separately.
+
 ## Phase 0 — Framework freeze
 Status: in progress
 - Lock the 10 domains and 100 subsystems.
@@ -7,8 +9,20 @@ Status: in progress
 - Finalize scoring, evidence and confidence standards.
 - Define critical-path aggregation.
 
+Implementation available (not a framework freeze):
+- Draft operational specification: [MCAB-v0.1.md](MCAB-v0.1.md).
+- Input validation and a generator that refuses overwrite by default.
+- Structural checks for the HR0 dimensions table and optional scenario evidence.
+- Temporary-copy regression tests for generation and data protection.
+
+Engineering available: formal evidence CSV template, conservative versioned ordinal screening, route-conditional dependency schema/analysis, a CSV-driven dashboard, one-command pipeline, and CI. See [DEVELOPMENT.md](DEVELOPMENT.md).
+
+Still open: domain-expert review, populated formal evidence, evidence-backed scoring calibration, verified dependency edges, and defensible physical aggregate definitions. No 2026 baseline scores are supplied by the generator.
+
 ## Phase 1 — MCAB-2026 baseline
 Goal: produce the first evidence-backed map of machine-civilization autonomy.
+
+Current deliverable: a [2026-11-02 evidence comparison](../reports/2026/MCAB-2026-report.md) for all 1000 ontology dimensions, with 117 retrieved source records, explicit target/current/gap fields, and separate direct/partial/context/missing-evidence labels. This is a literature-based comparison draft, not a calibrated numerical baseline, a verified industrial dependency graph, or an estimate of C/H/R_M/g₀.
 
 Work order:
 1. AI cognition and autonomous governance
@@ -23,7 +37,7 @@ Work order:
 10. Reproduction, expansion and continuity
 
 For every subsystem:
-- collect the strongest public evidence available as of 2026-10-31;
+- collect the strongest public evidence available at each edition's declared cutoff (the current latest-evidence comparison uses 2026-11-02, superseding the planned 2026-10-31 cutoff);
 - score HR100/HR50/HR10/HR1/HR0 where evidence allows;
 - identify the last indispensable human role;
 - record evidence level and confidence;

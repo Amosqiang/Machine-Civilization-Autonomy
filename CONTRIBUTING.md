@@ -49,6 +49,8 @@ For substantial changes:
 
 ## Suggested starting points
 
+Existing tasks provide concrete entry points: [baseline evidence #1](https://github.com/Amosqiang/Machine-Civilization-Autonomy/issues/1), [engineering #2](https://github.com/Amosqiang/Machine-Civilization-Autonomy/issues/2), and domain reviews #4–#13. The [issue alignment snapshot](docs/GITHUB_ISSUE_ALIGNMENT.md) maps each domain to its current research inputs and remaining review work. Link contributions to the relevant issue and identify whether they add literature evidence, calibrated scores, engineering functionality, or expert review.
+
 - Review one of the 100 subsystems as a domain expert.
 - Add evidence for one subsystem in the 2026 baseline.
 - Improve dependency edges between energy, materials, manufacturing, semiconductors, robotics, and compute.
