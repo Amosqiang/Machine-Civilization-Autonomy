@@ -40,3 +40,13 @@ Canonical layout:
 - `CHANGELOG.md` — human-facing edition notes.
 
 No force-push rewrite of Era 0/1 history. File moves use Git renames so blame and prior PRs remain recoverable.
+
+## Era 3 — Method loop for frontier acquisition
+
+Added a closed-loop research method for multi-domain, latest-tech evidence:
+
+- `docs/METHOD_LOOP.md`
+- `data/method/` (`source_playbooks.csv`, `target_queue.csv`, `cycle_log.csv`)
+- `scripts/build_target_queue.py`, `log_method_cycle.py`, `validate_method.py`
+
+Bootstrap cycle `2026-C00` records method establishment; subsequent cycles acquire evidence against the ranked queue.

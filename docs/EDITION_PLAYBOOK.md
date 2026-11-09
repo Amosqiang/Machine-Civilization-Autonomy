@@ -1,6 +1,6 @@
 # Edition Playbook — 年度 / 月度操作手册
 
-Operational checklist for running MCAB until the host-independence threshold. Philosophy: [PHILOSOPHY.md](PHILOSOPHY.md). Rules: [CONTINUITY.md](CONTINUITY.md).
+Operational checklist for running MCAB until the host-independence threshold. Philosophy: [PHILOSOPHY.md](PHILOSOPHY.md). Rules: [CONTINUITY.md](CONTINUITY.md). Evidence acquisition method: [METHOD_LOOP.md](METHOD_LOOP.md).
 
 ## Before any change
 
@@ -27,16 +27,20 @@ Prior editions stay untouched.
 
 ## Monthly / interim update (same year)
 
-1. Add or amend rows only in the current open edition’s `evidence.csv`.
-2. Update the edition `as_of_date` in evidence rows and, if freezing an interim cut, in `registry.csv` + `MANIFEST.md`.
-3. Rebuild:
+Run inside the method loop (do not ad-hoc browse):
 
 ```sh
+python3 scripts/build_target_queue.py --year YYYY
+# acquire+verify top batch using data/method/source_playbooks.csv
 python3 scripts/run_pipeline.py --year YYYY
+python3 scripts/build_target_queue.py --year YYYY
+python3 scripts/log_method_cycle.py --cycle YYYY-Cxx --summary "..."
 ```
 
-4. Note in `CHANGELOG.md` whether the delta is **capability**, **evidence**, **ontology**, or **assumption**.
-5. Do not brand an interim scrape as a calibrated annual baseline.
+1. Add or amend rows only in the current open edition’s `evidence.csv`.
+2. Update the edition `as_of_date` in evidence rows and, if freezing an interim cut, in `registry.csv` + `MANIFEST.md`.
+3. Note in `CHANGELOG.md` whether the delta is **capability**, **evidence**, **ontology**, or **assumption**.
+4. Do not brand an interim scrape as a calibrated annual baseline.
 
 ## Freeze and release
 

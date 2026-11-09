@@ -2,6 +2,8 @@
 
 字段语义、场景记录方式、评分边界及校验命令见 [MCAB v0.1工作规范](MCAB-v0.1.md)。该规范仍为草案，补充本协议的操作细节，不代表已完成基线研究或本体冻结。
 
+跨行业前沿证据如何选题、检索、核验与反馈，见方法回环 [METHOD_LOOP.md](METHOD_LOOP.md)（`build_target_queue.py` / `source_playbooks.csv` / `cycle_log.csv`）。
+
 ## 研究对象
 MCAB 研究的不是单个模型，而是“AI + 机器人 + 能源 + 原材料 + 制造 + 半导体 + 物流 + 经济调度”构成的机器文明系统。
 

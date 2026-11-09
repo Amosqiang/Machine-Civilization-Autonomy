@@ -20,6 +20,8 @@
 
 ```sh
 python3 scripts/edition_status.py
+python3 scripts/build_target_queue.py
+python3 scripts/validate_method.py
 python3 scripts/run_pipeline.py
 python3 -m unittest discover -s tests -v
 ```

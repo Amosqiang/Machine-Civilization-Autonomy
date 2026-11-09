@@ -14,9 +14,9 @@ The project studies the full dependency chain from AI and software to energy, mi
 
 MCAB is intended to be an open, evidence-backed, **long-horizon** research instrument: annual baselines, optional monthly/interim updates, full Git history preserved across refactors — continuing until evidence supports the **host-independence capability threshold** (autonomous operate / repair / expand / reproduce under declared HR0 conditions). That threshold is about capability, not about a world without humans.
 
-Constitutive docs: [Philosophy](docs/PHILOSOPHY.md) · [Continuity protocol](docs/CONTINUITY.md) · [Edition playbook](docs/EDITION_PLAYBOOK.md) · [History](docs/HISTORY.md) · [Changelog](CHANGELOG.md)
+Constitutive docs: [Philosophy](docs/PHILOSOPHY.md) · [Continuity](docs/CONTINUITY.md) · [Method loop](docs/METHOD_LOOP.md) · [Edition playbook](docs/EDITION_PLAYBOOK.md) · [History](docs/HISTORY.md) · [Changelog](CHANGELOG.md)
 
-Living registers: [`data/editions/registry.csv`](data/editions/registry.csv) · [`data/threshold/STATUS.md`](data/threshold/STATUS.md) (`not_met` until host-independence is evidenced).
+Living registers: [`data/editions/registry.csv`](data/editions/registry.csv) · [`data/threshold/STATUS.md`](data/threshold/STATUS.md) (`not_met`) · [`data/method/target_queue.csv`](data/method/target_queue.csv) (frontier gap priorities).
 
 Contributions from AI researchers, roboticists, industrial engineers, semiconductor experts, energy researchers, economists, systems researchers, and other domain specialists are welcome.
 
@@ -142,9 +142,13 @@ Please read `CONTRIBUTING.md` before opening a pull request. Evidence-backed cor
 
 ```sh
 python3 scripts/edition_status.py
+python3 scripts/build_target_queue.py          # SELECT: rank multi-domain frontier gaps
+python3 scripts/validate_method.py
 python3 scripts/new_edition.py --year 2027 --from-year 2026
 python3 scripts/run_pipeline.py
 ```
+
+Method loop (monthly/deep-dive): select → acquire via domain playbooks → verify → ingest → measure → learn. See [METHOD_LOOP.md](docs/METHOD_LOOP.md).
 
 重构可以换目录；**不得**为了整洁而改写已发布 Git 历史。详见 [CONTINUITY.md](docs/CONTINUITY.md)。
 

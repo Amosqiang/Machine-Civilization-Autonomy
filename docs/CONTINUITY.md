@@ -55,7 +55,9 @@ Use when strong public evidence moves a bottleneck, without waiting for year-end
 6. **Supersede, don’t delete** — later corrections ship as `rN+1` or next edition.
 
 Operator checklist: [EDITION_PLAYBOOK.md](EDITION_PLAYBOOK.md).  
-Living threshold register: `data/threshold/STATUS.md` (inspect with `python3 scripts/edition_status.py`).
+Evidence acquisition loop: [METHOD_LOOP.md](METHOD_LOOP.md).  
+Living threshold register: `data/threshold/STATUS.md` (inspect with `python3 scripts/edition_status.py`).  
+Living research queue: `data/method/target_queue.csv` (rebuild with `python3 scripts/build_target_queue.py`).
 
 ## 5. Threshold — “那一天”
 

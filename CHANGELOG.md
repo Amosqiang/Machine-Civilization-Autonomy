@@ -15,6 +15,7 @@ Format inspired by Keep a Changelog. Dates use Asia/Shanghai calendar days unles
 
 - Continuity protocol for annual baselines and optional monthly/interim updates until the host-independence capability threshold.
 - Edition lifecycle tooling: `scripts/new_edition.py`, `scripts/edition_status.py`, `data/editions/registry.csv`, `data/threshold/STATUS.md`, edition playbook, annual/interim GitHub issue templates.
+- Method loop for frontier multi-domain evidence acquisition: `docs/METHOD_LOOP.md`, domain `source_playbooks.csv`, regenerable `target_queue.csv`, `cycle_log.csv`, `build_target_queue.py` / `log_method_cycle.py` / `validate_method.py`, method-cycle issue template; bootstrap cycle `2026-C00`.
 
 ## [2026-11-02] — MCAB-2026 literature comparison draft
 

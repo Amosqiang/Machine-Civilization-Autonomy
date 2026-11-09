@@ -77,6 +77,22 @@ def edition_manifest(year: int = DEFAULT_YEAR) -> Path:
     return edition_dir(year) / "MANIFEST.md"
 
 
+def method_dir() -> Path:
+    return DATA / "method"
+
+
+def target_queue_csv() -> Path:
+    return method_dir() / "target_queue.csv"
+
+
+def cycle_log_csv() -> Path:
+    return method_dir() / "cycle_log.csv"
+
+
+def source_playbooks_csv() -> Path:
+    return method_dir() / "source_playbooks.csv"
+
+
 def _parts_under(path: Path, root: Path) -> tuple[str, ...] | None:
     """Return relative parts for path under root, trying resolve then abspath."""
     import os
