@@ -13,6 +13,7 @@ from pathlib import Path
 import sys
 import tempfile
 
+from paths import DEFAULT_YEAR, evidence_csv, is_curated_data, ontology_dir, scores_json
 from validate_data import EVIDENCE_FIELDS, ValidationError, load_inputs, read_table, validate_evidence
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -182,10 +183,11 @@ def aggregate_scores(taxonomy: list[dict], metrics: list[dict], rows: list[dict]
     }
 
 
-def build_scores(evidence: Path, data_dir: Path = ROOT / "data", *, year: int = 2026, as_of: str = AS_OF) -> dict:
-    input_paths = {"evidence_sha256": evidence, "taxonomy_sha256": data_dir / "taxonomy.csv", "metrics_sha256": data_dir / "metrics.csv"}
+def build_scores(evidence: Path, data_dir: Path | None = None, *, year: int = DEFAULT_YEAR, as_of: str = AS_OF) -> dict:
+    ontology = ontology_dir() if data_dir is None else data_dir
+    input_paths = {"evidence_sha256": evidence, "taxonomy_sha256": ontology / "taxonomy.csv", "metrics_sha256": ontology / "metrics.csv"}
     snapshots = {key: path.read_bytes() for key, path in input_paths.items()}
-    taxonomy, metrics = load_inputs(data_dir)
+    taxonomy, metrics = load_inputs(ontology)
     validate_evidence(evidence, taxonomy, metrics)
     rows = read_table(evidence, EVIDENCE_FIELDS)
     try:
@@ -203,13 +205,11 @@ def build_scores(evidence: Path, data_dir: Path = ROOT / "data", *, year: int = 
 def validate_output_path(output: Path, evidence: Path | None = None) -> None:
     if evidence is not None and evidence.resolve() == output.resolve():
         raise ValidationError("Evidence input and JSON output must be different files")
-    data_root, analysis_root = ROOT / "data", ROOT / "data" / "analysis"
-    lexical_output = Path(os.path.abspath(output))
-    resolved_output = output.resolve()
-    lexical_protected = lexical_output.is_relative_to(data_root) and not lexical_output.is_relative_to(analysis_root)
-    resolved_protected = resolved_output.is_relative_to(data_root.resolve()) and not resolved_output.is_relative_to(analysis_root.resolve())
-    if lexical_protected or resolved_protected:
-        raise ValidationError("Scoring output must not overwrite curated data; use data/analysis/ or a custom output outside data/")
+    if is_curated_data(output):
+        raise ValidationError(
+            "Scoring output must not overwrite curated data; "
+            "use data/editions/<year>/analysis/ or a custom output outside data/"
+        )
 
 
 def write_scores(result: dict, output: Path) -> None:
@@ -231,19 +231,21 @@ def write_scores(result: dict, output: Path) -> None:
 
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--evidence", type=Path, default=ROOT / "data" / "evidence_2026.csv", help="validated manual scenario evidence CSV; a header-only file yields all unknown scores")
-    parser.add_argument("--output", type=Path, default=ROOT / "data" / "analysis" / "2026" / "scores.json", help="JSON analysis output")
-    parser.add_argument("--year", type=int, default=2026, help="required baseline year for every evidence row; other years are rejected")
+    parser.add_argument("--evidence", type=Path, default=None, help="validated manual scenario evidence CSV; a header-only file yields all unknown scores")
+    parser.add_argument("--output", type=Path, default=None, help="JSON analysis output")
+    parser.add_argument("--year", type=int, default=DEFAULT_YEAR, help="required baseline year for every evidence row; other years are rejected")
     parser.add_argument("--as-of", default=AS_OF, help="latest permitted evidence as_of_date and source_date (YYYY-MM-DD)")
     args = parser.parse_args(argv)
+    evidence = args.evidence if args.evidence is not None else evidence_csv(args.year)
+    output = args.output if args.output is not None else scores_json(args.year)
     try:
-        validate_output_path(args.output, args.evidence)
-        result = build_scores(args.evidence, year=args.year, as_of=args.as_of)
-        write_scores(result, args.output)
+        validate_output_path(output, evidence)
+        result = build_scores(evidence, year=args.year, as_of=args.as_of)
+        write_scores(result, output)
     except (ValidationError, OSError, UnicodeError, ValueError) as error:
         print(f"Scoring failed: {error}", file=sys.stderr)
         return 1
-    print(f"OK: {result['input']['evidence_records']} evidence records; {result['totals']['dimensions']} dimensions; {FORMULA_VERSION} -> {args.output}")
+    print(f"OK: {result['input']['evidence_records']} evidence records; {result['totals']['dimensions']} dimensions; {FORMULA_VERSION} -> {output}")
     return 0
 
 

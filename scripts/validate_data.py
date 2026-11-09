@@ -78,8 +78,15 @@ def check_score(value: str, label: str, errors: list[str]) -> None:
         errors.append(f"{label}: score_0_5 must be blank or an integer from 0 to 5")
 
 
-def load_inputs(data_dir: Path) -> tuple[list[dict[str, str]], list[dict[str, str]]]:
-    """Return validated ontology/metrics, raising before any output is written."""
+def load_inputs(data_dir: Path | None = None) -> tuple[list[dict[str, str]], list[dict[str, str]]]:
+    """Return validated ontology/metrics, raising before any output is written.
+
+    ``data_dir`` is the ontology directory (``data/ontology`` by default).
+    """
+    if data_dir is None:
+        from paths import ontology_dir
+
+        data_dir = ontology_dir()
     taxonomy = read_table(data_dir / "taxonomy.csv", TAXONOMY_FIELDS)
     metrics = read_table(data_dir / "metrics.csv", METRIC_FIELDS)
     errors: list[str] = []
@@ -207,13 +214,15 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--require-dimensions", action="store_true", help="fail if dimensions.csv is missing")
     args = parser.parse_args(argv)
     try:
-        taxonomy, metrics = load_inputs(ROOT / "data")
-        schema = read_table(ROOT / "data/evidence_schema.csv", ("field", "description"))
+        from paths import dimensions_csv, evidence_schema_csv, ontology_dir
+
+        taxonomy, metrics = load_inputs(ontology_dir())
+        schema = read_table(evidence_schema_csv(), ("field", "description"))
         if len(schema) != len(EVIDENCE_FIELDS) or {r["field"] for r in schema} != set(EVIDENCE_FIELDS):
             raise ValidationError("evidence_schema.csv: expected each of the 23 evidence fields exactly once")
         if any(not row["description"].strip() for row in schema):
             raise ValidationError("evidence_schema.csv: field descriptions must not be blank")
-        dimensions = ROOT / "data/dimensions.csv"
+        dimensions = dimensions_csv()
         summaries = ["10 domains / 100 subsystems / 10 metrics; evidence schema valid"]
         if dimensions.exists():
             summaries.append(f"{validate_dimensions(dimensions, taxonomy, metrics)} dimensions valid")

@@ -41,10 +41,11 @@ class DependencyTests(unittest.TestCase):
         temporary = tempfile.TemporaryDirectory(prefix="mcab-dependencies-test-")
         self.addCleanup(temporary.cleanup)
         self.root = Path(temporary.name)
-        (self.root / "data").mkdir()
+        ontology = self.root / "data" / "ontology"
+        ontology.mkdir(parents=True)
         for name in ("taxonomy.csv", "metrics.csv"):
-            shutil.copy2(ROOT / "data" / name, self.root / "data" / name)
-        self.path = self.root / "data/dependencies.csv"
+            shutil.copy2(ROOT / "data" / "ontology" / name, ontology / name)
+        self.path = ontology / "dependencies.csv"
 
     def write(self, rows):
         with self.path.open("w", encoding="utf-8-sig", newline="") as stream:
@@ -53,17 +54,17 @@ class DependencyTests(unittest.TestCase):
             writer.writerows(rows)
 
     def load(self):
-        return dependencies.load_dependencies(self.root, Path("data/dependencies.csv"))
+        return dependencies.load_dependencies(self.root, Path("data/ontology/dependencies.csv"))
 
     def copy_scripts(self):
         scripts = self.root / "scripts"
         scripts.mkdir()
-        for name in ("analyze_dependencies.py", "validate_data.py"):
+        for name in ("analyze_dependencies.py", "validate_data.py", "paths.py"):
             shutil.copy2(ROOT / "scripts" / name, scripts / name)
         return scripts
 
     def test_seed_table_is_explicitly_structural_without_claimed_verified_links(self):
-        rows = dependencies.load_dependencies(ROOT, Path("data/dependencies.csv"))
+        rows = dependencies.load_dependencies(ROOT, Path("data/ontology/dependencies.csv"))
         self.assertEqual(len(rows), 20)
         self.assertTrue(all(row["verification_status"] == "structural_hypothesis" for row in rows))
         self.assertTrue(all(row["critical"] == "Unknown" and row["evidence_refs"] == "" for row in rows))
@@ -223,7 +224,7 @@ class DependencyTests(unittest.TestCase):
             cwd=self.root, capture_output=True, text=True,
         )
         self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
-        output = json.loads((self.root / "data/analysis/2026/dependencies.json").read_text())
+        output = json.loads((self.root / "data/editions/2026/analysis/dependencies.json").read_text())
         self.assertEqual(len(output["dependency_csv_sha256"]), 64)
         self.assertEqual(len(output["scores_sha256"]), 64)
         self.assertEqual(len(output["taxonomy_sha256"]), 64)
@@ -236,7 +237,7 @@ class DependencyTests(unittest.TestCase):
         scripts = self.copy_scripts()
         scores = self.root / "scores.json"
         scores.write_text(json.dumps({"subsystems": {}}), encoding="utf-8")
-        curated = self.root / "data/curated-research.json"
+        curated = self.root / "data/ontology/curated-research.json"
         curated.write_text('{"curated":true}\n', encoding="utf-8")
         for output in (self.path, scores, curated):
             with self.subTest(output=output):

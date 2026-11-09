@@ -10,10 +10,11 @@ import sys
 import tempfile
 from pathlib import Path
 
+from paths import dimensions_csv, ontology_dir
 from validate_data import ValidationError, load_inputs
 
 ROOT = Path(__file__).resolve().parents[1]
-OUTPUT = ROOT / "data" / "dimensions.csv"
+OUTPUT = dimensions_csv()
 
 SCORE_SCALE = {
     0: "H5 完全寄宿：关键操作必须依赖人类",
@@ -72,7 +73,7 @@ def main() -> int:
                 f"{OUTPUT} already exists; preserve it or use --force to discard "
                 "all existing scores and evidence"
             )
-        taxonomy, metrics = load_inputs(ROOT / "data")
+        taxonomy, metrics = load_inputs(ontology_dir())
     except (OSError, ValidationError) as error:
         print(f"Error: {error}", file=sys.stderr)
         return 1

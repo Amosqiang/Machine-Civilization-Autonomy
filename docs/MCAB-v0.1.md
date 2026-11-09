@@ -20,10 +20,10 @@
 
 | 文件 | 内容与约定 |
 | --- | --- |
-| `data/taxonomy.csv` | 10个领域，每个领域10个子系统，共100行。字段：`domain_id,domain,subsystem_id,subsystem,definition,criticality`。 |
-| `data/metrics.csv` | 10个统一指标。字段：`metric_id,metric,definition`。 |
-| `data/dimensions.csv` | 由本体与指标生成的1000行HR0评估工作表；不是已完成评分的数据集。 |
-| `data/evidence_schema.csv` | 证据记录的字段字典，字段为 `field,description`；它不是证据记录本身。 |
+| `data/ontology/taxonomy.csv` | 10个领域，每个领域10个子系统，共100行。字段：`domain_id,domain,subsystem_id,subsystem,definition,criticality`。 |
+| `data/ontology/metrics.csv` | 10个统一指标。字段：`metric_id,metric,definition`。 |
+| `data/ontology/dimensions.csv` | 由本体与指标生成的1000行HR0评估工作表；不是已完成评分的数据集。 |
+| `data/ontology/evidence_schema.csv` | 证据记录的字段字典，字段为 `field,description`；它不是证据记录本身。 |
 | 单独保存的证据CSV | 按字段字典记录具体来源、HR场景、能力和边界，可交给校验器检查。 |
 
 `domain_id` 使用字符串 `1` 至 `10`。`subsystem_id` 使用 `<domain_id>.<子系统序号>`，子系统序号为1至10，例如 `1.1`、`1.10`。这些是标识符，不能按小数处理。`metric_id` 为 `M1` 至 `M10`；`dimension_id` 为 `<subsystem_id>-<metric_id>`，例如 `1.10-M10`。
@@ -107,7 +107,7 @@ E0推断必须有可追溯的推断依据，并在 `notes` 明确标记其为推
 
 ## 6. 证据记录字段
 
-证据CSV使用 `data/evidence_schema.csv` 中现有的23个字段，不额外创建隐含的列。一个记录对应一个子系统、指标和HR场景下的一条来源及分析；多条来源应保留各自的 `record_id`。
+证据CSV使用 `data/ontology/evidence_schema.csv` 中现有的23个字段，不额外创建隐含的列。一个记录对应一个子系统、指标和HR场景下的一条来源及分析；多条来源应保留各自的 `record_id`。
 
 | 字段 | 约定 |
 | --- | --- |
@@ -134,7 +134,7 @@ E0推断必须有可追溯的推断依据，并在 `notes` 明确标记其为推
 
 每条记录必填 `record_id,year,as_of_date,domain_id,subsystem_id,metric_id,human_removal_scenario,evidence_level,confidence,observed_capability`。E1—E5还必填四个来源字段 `source_title,source_url,source_type,source_date`。E0没有直接证据，可以不填这些来源字段，但必须填写 `notes` 说明推断及依据；不能省略必填的记录身份和分析内容。`year` 为四位基线年份，`as_of_date` 不能晚于该年份；还应遵守具体报告声明的截止日。
 
-2026最新对照研究另存于 `data/research/2026/domains_*.json`，保留逐维度的目标能力、已核验能力、证据适用关系、差距和验证需求，并由 `scripts/build_2026_report.py` 生成报告。该对照资料不等同于上述五场景评分记录，不自动回填0—5分，也不把当前访问到的厂商文档视为已完成HR0验证。未能核实发布日期的当前文档应留空发布日期，同时保留核验日期与局限。
+2026最新对照研究另存于 `data/editions/2026/research/domains_*.json`，保留逐维度的目标能力、已核验能力、证据适用关系、差距和验证需求，并由 `scripts/build_2026_report.py` 生成报告。该对照资料不等同于上述五场景评分记录，不自动回填0—5分，也不把当前访问到的厂商文档视为已完成HR0验证。未能核实发布日期的当前文档应留空发布日期，同时保留核验日期与局限。
 
 尚未获得的信息应保留未知，不要制造恢复时间、库存量或依赖关系。`single_point_of_failure` 尚未分析时也可留空。校验器检查列集合、ID、必填项和已实现的值约束，不检查来源网址的实际内容，也不自动判断其是否支持所填主张。观察是否足够长期、推断是否合理及是否遵守特定版次的研究截止日，仍需要人工研究与复核。
 
@@ -156,7 +156,7 @@ python3 scripts/generate_dimensions.py
 python3 scripts/validate_data.py --require-dimensions
 ```
 
-生成器默认写入 `data/dimensions.csv`。它应先检查输入，再生成1000个唯一组合；目标已存在时拒绝覆盖，以保护人工填写的分数与证据。确认已有文件可以丢弃并完成备份后，才使用显式覆盖：
+生成器默认写入 `data/ontology/dimensions.csv`。它应先检查输入，再生成1000个唯一组合；目标已存在时拒绝覆盖，以保护人工填写的分数与证据。确认已有文件可以丢弃并完成备份后，才使用显式覆盖：
 
 ```sh
 python3 scripts/generate_dimensions.py --force

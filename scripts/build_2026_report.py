@@ -16,6 +16,7 @@ import sys
 import tempfile
 from urllib.parse import urlsplit
 
+from paths import research_dir
 from validate_data import ValidationError, load_inputs
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -65,7 +66,7 @@ def read_json(path: Path) -> dict:
 
 def load_expected_grid(root: Path) -> dict[str, dict[str, str]]:
     try:
-        taxonomy, metrics = load_inputs(root / "data")
+        taxonomy, metrics = load_inputs(root / "data" / "ontology")
     except ValidationError as error:
         raise ReportError(str(error)) from error
     grid = {}
@@ -403,9 +404,10 @@ def main() -> int:
     args = parser.parse_args()
     try:
         expected = load_expected_grid(ROOT)
-        paths = [ROOT / "data" / "research" / "2026" / name for name in INPUT_NAMES]
+        research = research_dir(2026)
+        paths = [research / name for name in INPUT_NAMES]
         bundle = validate_research_files(ROOT, paths, expected, verify_cache=args.verify_cache)
-        attach_synthesis(bundle, ROOT / "data" / "research" / "2026" / "synthesis.json")
+        attach_synthesis(bundle, research / "synthesis.json")
         artifacts = write_reports(bundle, args.output_dir)
     except (ReportError, OSError, UnicodeError, KeyError, csv.Error) as error:
         print(f"Error: {error}", file=sys.stderr)

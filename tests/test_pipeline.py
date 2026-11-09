@@ -26,15 +26,21 @@ class PipelineTests(unittest.TestCase):
         return result
 
     def test_empty_evidence_preserves_manual_inputs_and_generates_unknowns(self):
-        names = ("taxonomy.csv", "metrics.csv", "dimensions.csv", "evidence_2026.csv", "dependencies.csv")
-        before = {name: (self.root / "data" / name).read_bytes() for name in names}
+        paths = (
+            self.root / "data/ontology/taxonomy.csv",
+            self.root / "data/ontology/metrics.csv",
+            self.root / "data/ontology/dimensions.csv",
+            self.root / "data/editions/2026/evidence.csv",
+            self.root / "data/ontology/dependencies.csv",
+        )
+        before = {str(path): path.read_bytes() for path in paths}
         self.run_script("run_pipeline.py", "--skip-research")
-        self.assertEqual(before, {name: (self.root / "data" / name).read_bytes() for name in names})
-        scores = json.loads((self.root / "data/analysis/2026/scores.json").read_text())
+        self.assertEqual(before, {str(path): path.read_bytes() for path in paths})
+        scores = json.loads((self.root / "data/editions/2026/analysis/scores.json").read_text())
         self.assertEqual(len(scores["dimensions"]), 1000)
         self.assertTrue(all(value is None for values in scores["dimensions"].values() for value in values.values()))
         self.assertTrue(all(value is None for value in scores["proxies"].values()))
-        dependencies = json.loads((self.root / "data/analysis/2026/dependencies.json").read_text())
+        dependencies = json.loads((self.root / "data/editions/2026/analysis/dependencies.json").read_text())
         self.assertEqual(dependencies["verified_edge_count"], 0)
         self.assertEqual(dependencies["possible_bottlenecks"], [])
         report = (self.root / "reports/2026/MCAB-2026-engineering.html").read_text()
@@ -42,7 +48,7 @@ class PipelineTests(unittest.TestCase):
         self.assertEqual(report.count('<section data-scenario="'), 5)
 
     def test_supplied_score_stays_local_and_stale_inputs_are_rejected(self):
-        path = self.root / "data/evidence_2026.csv"
+        path = self.root / "data/editions/2026/evidence.csv"
         with path.open(encoding="utf-8-sig", newline="") as stream:
             fields = csv.DictReader(stream).fieldnames
         row = dict.fromkeys(fields, "")
@@ -54,7 +60,7 @@ class PipelineTests(unittest.TestCase):
                 writer.writerow(row)
         write()
         self.run_script("run_pipeline.py", "--skip-research")
-        scores = json.loads((self.root / "data/analysis/2026/scores.json").read_text())
+        scores = json.loads((self.root / "data/editions/2026/analysis/scores.json").read_text())
         self.assertEqual(scores["dimensions"]["1.1-M1"]["HR0"], 2)
         self.assertIsNone(scores["subsystems"]["1.1"]["HR0"])
         self.assertIsNone(scores["proxies"]["C_proxy"])
@@ -67,15 +73,15 @@ class PipelineTests(unittest.TestCase):
 
     def test_invalid_evidence_stops_before_overwriting_analysis(self):
         self.run_script("run_pipeline.py", "--skip-research")
-        artifact = self.root / "data/analysis/2026/scores.json"
+        artifact = self.root / "data/editions/2026/analysis/scores.json"
         before = artifact.read_bytes()
-        (self.root / "data/evidence_2026.csv").write_text("broken,header\n")
+        (self.root / "data/editions/2026/evidence.csv").write_text("broken,header\n")
         self.run_script("run_pipeline.py", "--skip-research", success=False)
         self.assertEqual(artifact.read_bytes(), before)
 
     def test_ontology_changes_and_curated_output_targets_are_rejected(self):
         self.run_script("run_pipeline.py", "--skip-research")
-        path = self.root / "data/metrics.csv"
+        path = self.root / "data/ontology/metrics.csv"
         before = path.read_bytes()
         self.run_script("build_engineering_report.py", "--output", str(path), success=False)
         self.assertEqual(path.read_bytes(), before)
@@ -91,12 +97,18 @@ class PipelineTests(unittest.TestCase):
         self.run_script("run_pipeline.py", "--skip-research")
 
     def test_other_year_cannot_be_presented_as_2026(self):
-        self.run_script("score_evidence.py", "--year", "2025", "--as-of", "2025-12-31")
-        self.run_script("analyze_dependencies.py", "--scores", "data/analysis/2026/scores.json")
+        self.run_script(
+            "score_evidence.py",
+            "--year", "2025",
+            "--as-of", "2025-12-31",
+            "--evidence", "data/editions/2026/evidence.csv",
+            "--output", "data/editions/2026/analysis/scores.json",
+        )
+        self.run_script("analyze_dependencies.py", "--scores", "data/editions/2026/analysis/scores.json")
         self.run_script("build_engineering_report.py", success=False)
 
     def test_missing_dimensions_are_generated_and_research_rebuilds_without_cache(self):
-        (self.root / "data/dimensions.csv").unlink()
+        (self.root / "data/ontology/dimensions.csv").unlink()
         self.run_script("run_pipeline.py")
         with (self.root / "reports/2026/MCAB-2026-dimension-comparison.csv").open(encoding="utf-8-sig", newline="") as stream:
             rows = list(csv.DictReader(stream))

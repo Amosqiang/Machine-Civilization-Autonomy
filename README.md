@@ -12,7 +12,11 @@ Most AI benchmarks measure intelligence, coding, reasoning, tool use, agent perf
 
 The project studies the full dependency chain from AI and software to energy, mining, materials, manufacturing, semiconductors, robotics, logistics, economic coordination, maintenance, recovery, and physical reproduction.
 
-MCAB is intended to be an open, evidence-backed, annually updated research benchmark. Contributions from AI researchers, roboticists, industrial engineers, semiconductor experts, energy researchers, economists, systems researchers, and other domain specialists are welcome.
+MCAB is intended to be an open, evidence-backed, **long-horizon** research instrument: annual baselines, optional monthly/interim updates, full Git history preserved across refactors — continuing until evidence supports the **host-independence capability threshold** (autonomous operate / repair / expand / reproduce under declared HR0 conditions). That threshold is about capability, not about a world without humans.
+
+Constitutive docs: [Philosophy](docs/PHILOSOPHY.md) · [Continuity protocol](docs/CONTINUITY.md) · [History of structural eras](docs/HISTORY.md) · [Changelog](CHANGELOG.md)
+
+Contributions from AI researchers, roboticists, industrial engineers, semiconductor experts, energy researchers, economists, systems researchers, and other domain specialists are welcome.
 
 ## 核心问题
 
@@ -121,6 +125,18 @@ MCAB is designed as a community research project. Useful contributions include:
 
 Please read `CONTRIBUTING.md` before opening a pull request. Evidence-backed corrections are preferred over unsupported estimates.
 
+## 仓库布局（长期仪器）
+
+| 路径 | 含义 |
+| --- | --- |
+| `data/ontology/` | 共享本体、指标、维表、依赖边 |
+| `data/editions/<YYYY>/` | 年度证据、研究输入与可重建分析 |
+| `reports/<YYYY>/` | 人读报告 |
+| `docs/` | 哲学、连续性、协议、规范、路线图 |
+| `scripts/paths.py` | 唯一路径注册表 |
+
+重构可以换目录；**不得**为了整洁而改写已发布 Git 历史。详见 [CONTINUITY.md](docs/CONTINUITY.md)。
+
 ## 当前阶段
 
 v0.1 先完成：
@@ -132,7 +148,7 @@ v0.1 先完成：
 5. 识别最弱关键路径；
 6. 后续加入年度数据与情景模拟。
 
-详细定义见 [v0.1工作规范](docs/MCAB-v0.1.md)，本体见 `data/taxonomy.csv`。规范仍为草案；尚未形成经过校准的2026正式数值评分，也未冻结本体或确定总指标计算公式。
+详细定义见 [v0.1工作规范](docs/MCAB-v0.1.md)，本体见 `data/ontology/taxonomy.csv`。规范仍为草案；尚未形成经过校准的2026正式数值评分，也未冻结本体或确定总指标计算公式。
 
 ## GitHub任务与进度
 
@@ -155,7 +171,7 @@ v0.1 先完成：
 
 核验来源文字不等于独立复现其性能。报告保留厂商声明、实验条件、原型局限和无法核实的发布日期；“最新”表示本轮检索可核验的最新公开资料，不保证穷尽全球所有进展。本版提供能力与差距对照，尚未形成经过校准的0—5分基线或C/H/R_M/g₀估计。
 
-研究记录和短引文保存在 `data/research/2026/domains_*.json`。重新生成报告：
+研究记录和短引文保存在 `data/editions/2026/research/domains_*.json`。重新生成报告：
 
 ```sh
 python3 scripts/build_2026_report.py
@@ -183,7 +199,7 @@ python3 scripts/validate_data.py --require-dimensions
 python3 -m unittest discover -s tests -v
 ```
 
-`data/dimensions.csv` 是 **HR0场景的1000维空白概览**，不是已完成的基线。未知评分留空，不能用0代替。HR100、HR50、HR10、HR1和HR0的分场景证据按 `data/evidence_schema.csv` 定义另存为CSV，再运行：
+`data/ontology/dimensions.csv` 是 **HR0场景的1000维空白概览**，不是已完成的基线。未知评分留空，不能用0代替。HR100、HR50、HR10、HR1和HR0的分场景证据按 `data/ontology/evidence_schema.csv` 定义另存为CSV，再运行：
 
 ```sh
 python3 scripts/validate_data.py --evidence path/to/evidence.csv

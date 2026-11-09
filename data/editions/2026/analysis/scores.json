@@ -18,7 +18,7 @@
     "R_M and g_0 require separate reproduction and longitudinal growth measurements and remain unestimated."
   ],
   "input": {
-    "evidence_path": "data/evidence_2026.csv",
+    "evidence_path": "data/editions/2026/evidence.csv",
     "year": 2026,
     "as_of_date": "2026-11-02",
     "evidence_records": 0,

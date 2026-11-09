@@ -13,6 +13,18 @@ from pathlib import Path
 import sys
 import tempfile
 
+from paths import (
+    DEFAULT_YEAR,
+    dependencies_csv,
+    dependencies_json,
+    evidence_csv,
+    is_curated_data,
+    metrics_csv,
+    ontology_dir,
+    reports_dir,
+    scores_json,
+    taxonomy_csv,
+)
 from validate_data import EVIDENCE_FIELDS, ValidationError, load_inputs, read_table, validate_evidence
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -27,24 +39,24 @@ def display(value) -> str:
     return "未知" if value is None else escape(value)
 
 
-def load_dashboard(evidence: Path, scores_path: Path, dependency_path: Path) -> tuple:
-    taxonomy, metrics = load_inputs(ROOT / "data")
+def load_dashboard(evidence: Path, scores_path: Path, dependency_path: Path, *, year: int) -> tuple:
+    taxonomy, metrics = load_inputs(ontology_dir())
     validate_evidence(evidence, taxonomy, metrics)
     rows = read_table(evidence, EVIDENCE_FIELDS)
     scores = json.loads(scores_path.read_text(encoding="utf-8"))
     dependencies = json.loads(dependency_path.read_text(encoding="utf-8"))
-    if scores.get("input", {}).get("year") != 2026:
-        raise ValidationError("This dashboard is the 2026 edition; other years require their own report")
+    if scores.get("input", {}).get("year") != year:
+        raise ValidationError(f"This dashboard is the {year} edition; other years require their own report")
     checksum = hashlib.sha256(evidence.read_bytes()).hexdigest()
     if scores.get("input", {}).get("evidence_sha256") != checksum:
         raise ValidationError("Score artifact is stale or belongs to a different evidence CSV; run the pipeline")
-    for name in ("taxonomy", "metrics"):
-        expected = hashlib.sha256((ROOT / "data" / f"{name}.csv").read_bytes()).hexdigest()
+    for name, path in (("taxonomy", taxonomy_csv()), ("metrics", metrics_csv())):
+        expected = hashlib.sha256(path.read_bytes()).hexdigest()
         if scores["input"].get(f"{name}_sha256") != expected or dependencies.get(f"{name}_sha256") != expected:
             raise ValidationError(f"Analysis uses a stale {name}; run the pipeline")
     if dependencies.get("scores_sha256") != hashlib.sha256(scores_path.read_bytes()).hexdigest():
         raise ValidationError("Dependency artifact is stale or belongs to a different score file; run the pipeline")
-    if dependencies.get("dependency_csv_sha256") != hashlib.sha256((ROOT / "data/dependencies.csv").read_bytes()).hexdigest():
+    if dependencies.get("dependency_csv_sha256") != hashlib.sha256(dependencies_csv().read_bytes()).hexdigest():
         raise ValidationError("Dependency artifact is stale or belongs to a different dependency CSV; run the pipeline")
     if scores["input"]["evidence_records"] != len(rows):
         raise ValidationError("Score artifact evidence count disagrees with the CSV")
@@ -53,7 +65,7 @@ def load_dashboard(evidence: Path, scores_path: Path, dependency_path: Path) -> 
     return taxonomy, rows, scores, dependencies
 
 
-def render_dashboard(taxonomy, evidence, scores: dict, dependencies: dict) -> str:
+def render_dashboard(taxonomy, evidence, scores: dict, dependencies: dict, *, year: int) -> str:
     domains = {row["domain_id"]: row["domain"] for row in taxonomy}
     names = {row["subsystem_id"]: row["subsystem"] for row in taxonomy}
     sections = []
@@ -82,11 +94,14 @@ def render_dashboard(taxonomy, evidence, scores: dict, dependencies: dict) -> st
         rank_sections.append(f'<h3>{title}</h3>{content}')
     assertions = dependencies.get("evidence_reported_single_points_of_failure", [])
     assertions_html = '<pre>' + escape(json.dumps(assertions, ensure_ascii=False, indent=2)) + '</pre>' if assertions else '<p>未知：当前没有证据记录明确报告单点故障。</p>'
-    return f'''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>MCAB-2026 工程与证据状态</title><style>
+    evidence_href = f"../../data/editions/{year}/evidence.csv"
+    scores_href = f"../../data/editions/{year}/analysis/scores.json"
+    deps_href = f"../../data/editions/{year}/analysis/dependencies.json"
+    return f'''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>MCAB-{year} 工程与证据状态</title><style>
 body{{font-family:system-ui,"Noto Sans SC",sans-serif;background:#f4f6f9;color:#203148;line-height:1.7;margin:0}}main{{max-width:1200px;margin:auto;padding:28px}}table{{border-collapse:collapse;width:100%;background:white}}th,td{{text-align:left;padding:12px;border-bottom:1px solid #dce3eb;vertical-align:top;overflow-wrap:anywhere}}.notice{{background:#fff4df;border-left:4px solid #b27020;padding:16px}}a{{color:#155b9b}}select{{padding:10px;font:inherit}}section{{margin:24px 0}}pre{{white-space:pre-wrap;overflow-wrap:anywhere}}[hidden]{{display:none!important}}@media(max-width:650px){{main{{padding:14px}}th,td{{padding:7px;font-size:.8rem}}}}@media print{{select{{display:none}}section[hidden]{{display:block!important}}}}
-</style></head><body><main><h1>MCAB-2026：正式证据与工程分析</h1>
+</style></head><body><main><h1>MCAB-{year}：正式证据与工程分析</h1>
 <p>基线年 {escape(scores['input']['year'])} · 截止 {escape(scores['input']['as_of_date'])} · {len(evidence)} 条人工证据记录 · 公式版本 {escape(scores['formula_version'])}</p>
-<p><a href="MCAB-2026-latest.html">查看1000维最新文献对照</a> · <a href="../../data/evidence_2026.csv">正式证据CSV</a> · <a href="../../data/analysis/2026/scores.json">评分JSON</a> · <a href="../../data/analysis/2026/dependencies.json">依赖分析JSON</a></p>
+<p><a href="MCAB-{year}-latest.html">查看1000维最新文献对照</a> · <a href="{evidence_href}">正式证据CSV</a> · <a href="{scores_href}">评分JSON</a> · <a href="{deps_href}">依赖分析JSON</a></p>
 <div class="notice">正式证据CSV目前可以仅含表头。未知评分始终显示“未知”，文献来源数量、相关性或置信度不会自动转换为评分。下面的C/H仅为约定的序数筛查代理，不是实测工业闭环率或人类依赖；R_M与g₀保持未估计。</div>
 <p><label for="scenario">人类参与场景：</label><select id="scenario">{''.join(f'<option{chr(32)+"selected" if value=="HR0" else ""}>{value}</option>' for value in SCENARIOS)}</select></p>{''.join(sections)}
 <h2>序数工程代理</h2><table><thead><tr><th>量</th><th>结果</th><th>定义与适用条件</th></tr></thead><tbody>{proxy_rows}</tbody></table>
@@ -98,25 +113,33 @@ body{{font-family:system-ui,"Noto Sans SC",sans-serif;background:#f4f6f9;color:#
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--evidence", type=Path, default=ROOT / "data/evidence_2026.csv")
-    parser.add_argument("--scores", type=Path, default=ROOT / "data/analysis/2026/scores.json")
-    parser.add_argument("--dependencies", type=Path, default=ROOT / "data/analysis/2026/dependencies.json")
-    parser.add_argument("--output", type=Path, default=ROOT / "reports/2026/MCAB-2026-engineering.html")
+    parser.add_argument("--year", type=int, default=DEFAULT_YEAR)
+    parser.add_argument("--evidence", type=Path, default=None)
+    parser.add_argument("--scores", type=Path, default=None)
+    parser.add_argument("--dependencies", type=Path, default=None)
+    parser.add_argument("--output", type=Path, default=None)
     args = parser.parse_args()
+    year = args.year
+    evidence = args.evidence if args.evidence is not None else evidence_csv(year)
+    scores_path = args.scores if args.scores is not None else scores_json(year)
+    dependency_path = args.dependencies if args.dependencies is not None else dependencies_json(year)
+    output = args.output if args.output is not None else reports_dir(year) / f"MCAB-{year}-engineering.html"
     temporary = None
     try:
-        if args.output.resolve() in {path.resolve() for path in (args.evidence, args.scores, args.dependencies)}:
+        if output.resolve() in {path.resolve() for path in (evidence, scores_path, dependency_path)}:
             raise ValidationError("Dashboard output must not overwrite an input")
-        data_root = (ROOT / "data").resolve()
-        if args.output.resolve().is_relative_to(data_root) and not args.output.resolve().is_relative_to(data_root / "analysis"):
+        if is_curated_data(output):
             raise ValidationError("Dashboard output must not overwrite curated data")
-        content = render_dashboard(*load_dashboard(args.evidence, args.scores, args.dependencies))
-        args.output.parent.mkdir(parents=True, exist_ok=True)
-        with tempfile.NamedTemporaryFile(mode="w", encoding="utf-8", dir=args.output.parent, prefix=".dashboard-", suffix=".tmp", delete=False) as handle:
+        content = render_dashboard(
+            *load_dashboard(evidence, scores_path, dependency_path, year=year),
+            year=year,
+        )
+        output.parent.mkdir(parents=True, exist_ok=True)
+        with tempfile.NamedTemporaryFile(mode="w", encoding="utf-8", dir=output.parent, prefix=".dashboard-", suffix=".tmp", delete=False) as handle:
             temporary = Path(handle.name)
             handle.write(content)
-        os.replace(temporary, args.output)
-        print(f"Built CSV-driven dashboard -> {args.output}")
+        os.replace(temporary, output)
+        print(f"Built CSV-driven dashboard -> {output}")
     except (OSError, UnicodeError, ValueError, KeyError, TypeError) as error:
         print(f"Dashboard failed: {error}", file=sys.stderr)
         return 1

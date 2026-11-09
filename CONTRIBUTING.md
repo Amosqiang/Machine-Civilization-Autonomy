@@ -60,3 +60,5 @@ Existing tasks provide concrete entry points: [baseline evidence #1](https://git
 ## Research norm
 
 The goal is not to argue that machine civilization is inevitable or impossible. The goal is to measure dependencies, closure, uncertainty, and change over time as rigorously as possible.
+
+Read [docs/PHILOSOPHY.md](docs/PHILOSOPHY.md) and [docs/CONTINUITY.md](docs/CONTINUITY.md) before large structural or scoring changes. Prefer forward corrections and new edition rows over rewriting history. Update [CHANGELOG.md](CHANGELOG.md) when an edition or ontology materially moves.

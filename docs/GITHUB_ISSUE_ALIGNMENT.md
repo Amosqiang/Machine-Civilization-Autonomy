@@ -14,9 +14,9 @@
 | --- | --- | --- |
 | 1. 生成1000维 | 完整工作表、默认覆盖保护、原子写入 | 本体专家审定与变更迁移 |
 | 2. 结构与ID校验 | 本体、指标、维度、正式证据与研究JSON校验 | 来源适用性与评分合理性 |
-| 3. 正式证据CSV | data/evidence_2026.csv，23字段、初始仅表头 | 分场景实证及人工评分 |
+| 3. 正式证据CSV | data/editions/2026/evidence.csv，23字段、初始仅表头 | 分场景实证及人工评分 |
 | 4. 评分引擎 | 保守最小值、冲突与完整性规则、明示C/H序数代理 | 领域校准、实测C/H；R_M与g₀未知 |
-| 5. 依赖边契约 | data/dependencies.csv，20条路线相关结构假设 | 验证边、关键性、替代及恢复证据 |
+| 5. 依赖边契约 | data/ontology/dependencies.csv，20条路线相关结构假设 | 验证边、关键性、替代及恢复证据 |
 | 6. 分析工具 | 完整HR0低分、成对场景代理、关键子图候选、来源报告SPOF断言 | 不推断初始图的真实全系统瓶颈或单点故障 |
 | 7. CSV驱动报告 | 工程网页，另保留1000维文献报告 | 空证据表显示未知，不是正式评分基线 |
 | 8. 测试与复现 | 一键流水线、标准库测试、开发说明及GitHub Actions | PR审阅及GitHub运行结果 |
@@ -36,16 +36,16 @@
 
 | Issue | 领域 | 本地研究文件 | 维度数 | 直接 / 部分 / 背景 / 无直接证据 | 引用来源数 | 建议状态 |
 | --- | --- | --- | ---: | --- | ---: | --- |
-| [#4](https://github.com/Amosqiang/Machine-Civilization-Autonomy/issues/4) | 1. 智能、认知与自主治理 | [`domains_01_03.json`](../data/research/2026/domains_01_03.json) | 100 | 4 / 28 / 23 / 45 | 13 | 文献输入已有本地草稿，等待领域评审 |
-| [#5](https://github.com/Amosqiang/Machine-Civilization-Autonomy/issues/5) | 2. 软件与计算基础设施 | [`domains_02_09.json`](../data/research/2026/domains_02_09.json) | 100 | 9 / 27 / 64 / 0 | 12 | 文献输入已有本地草稿，等待领域评审 |
-| [#6](https://github.com/Amosqiang/Machine-Civilization-Autonomy/issues/6) | 3. AI研发与模型迭代 | [`domains_01_03.json`](../data/research/2026/domains_01_03.json) | 100 | 9 / 35 / 25 / 31 | 17 | 文献输入已有本地草稿，等待领域评审 |
-| [#7](https://github.com/Amosqiang/Machine-Civilization-Autonomy/issues/7) | 4. 能源系统 | [`domains_04_05.json`](../data/research/2026/domains_04_05.json) | 100 | 6 / 13 / 81 / 0 | 15 | 文献输入已有本地草稿，等待领域评审 |
-| [#8](https://github.com/Amosqiang/Machine-Civilization-Autonomy/issues/8) | 5. 原材料、化工与资源循环 | [`domains_04_05.json`](../data/research/2026/domains_04_05.json) | 100 | 3 / 18 / 79 / 0 | 14 | 文献输入已有本地草稿，等待领域评审 |
-| [#9](https://github.com/Amosqiang/Machine-Civilization-Autonomy/issues/9) | 6. 制造业与资本设备 | [`domains_06_07.json`](../data/research/2026/domains_06_07.json) | 100 | 5 / 14 / 9 / 72 | 12 | 文献输入已有本地草稿，等待领域评审 |
-| [#10](https://github.com/Amosqiang/Machine-Civilization-Autonomy/issues/10) | 7. 半导体与计算硬件 | [`domains_06_07.json`](../data/research/2026/domains_06_07.json) | 100 | 0 / 21 / 14 / 65 | 13 | 文献输入已有本地草稿，等待领域评审 |
-| [#11](https://github.com/Amosqiang/Machine-Civilization-Autonomy/issues/11) | 8. 机器人、运输与物流 | [`domains_08_10.json`](../data/research/2026/domains_08_10.json) | 100 | 7 / 20 / 73 / 0 | 12 | 文献输入已有本地草稿，等待领域评审 |
-| [#12](https://github.com/Amosqiang/Machine-Civilization-Autonomy/issues/12) | 9. 机器经济与资源配置 | [`domains_02_09.json`](../data/research/2026/domains_02_09.json) | 100 | 3 / 21 / 76 / 0 | 15 | 文献输入已有本地草稿，等待领域评审 |
-| [#13](https://github.com/Amosqiang/Machine-Civilization-Autonomy/issues/13) | 10. 复制、扩张与文明连续性 | [`domains_08_10.json`](../data/research/2026/domains_08_10.json) | 100 | 1 / 17 / 82 / 0 | 11 | 文献输入已有本地草稿，等待领域评审 |
+| [#4](https://github.com/Amosqiang/Machine-Civilization-Autonomy/issues/4) | 1. 智能、认知与自主治理 | [`domains_01_03.json`](../data/editions/2026/research/domains_01_03.json) | 100 | 4 / 28 / 23 / 45 | 13 | 文献输入已有本地草稿，等待领域评审 |
+| [#5](https://github.com/Amosqiang/Machine-Civilization-Autonomy/issues/5) | 2. 软件与计算基础设施 | [`domains_02_09.json`](../data/editions/2026/research/domains_02_09.json) | 100 | 9 / 27 / 64 / 0 | 12 | 文献输入已有本地草稿，等待领域评审 |
+| [#6](https://github.com/Amosqiang/Machine-Civilization-Autonomy/issues/6) | 3. AI研发与模型迭代 | [`domains_01_03.json`](../data/editions/2026/research/domains_01_03.json) | 100 | 9 / 35 / 25 / 31 | 17 | 文献输入已有本地草稿，等待领域评审 |
+| [#7](https://github.com/Amosqiang/Machine-Civilization-Autonomy/issues/7) | 4. 能源系统 | [`domains_04_05.json`](../data/editions/2026/research/domains_04_05.json) | 100 | 6 / 13 / 81 / 0 | 15 | 文献输入已有本地草稿，等待领域评审 |
+| [#8](https://github.com/Amosqiang/Machine-Civilization-Autonomy/issues/8) | 5. 原材料、化工与资源循环 | [`domains_04_05.json`](../data/editions/2026/research/domains_04_05.json) | 100 | 3 / 18 / 79 / 0 | 14 | 文献输入已有本地草稿，等待领域评审 |
+| [#9](https://github.com/Amosqiang/Machine-Civilization-Autonomy/issues/9) | 6. 制造业与资本设备 | [`domains_06_07.json`](../data/editions/2026/research/domains_06_07.json) | 100 | 5 / 14 / 9 / 72 | 12 | 文献输入已有本地草稿，等待领域评审 |
+| [#10](https://github.com/Amosqiang/Machine-Civilization-Autonomy/issues/10) | 7. 半导体与计算硬件 | [`domains_06_07.json`](../data/editions/2026/research/domains_06_07.json) | 100 | 0 / 21 / 14 / 65 | 13 | 文献输入已有本地草稿，等待领域评审 |
+| [#11](https://github.com/Amosqiang/Machine-Civilization-Autonomy/issues/11) | 8. 机器人、运输与物流 | [`domains_08_10.json`](../data/editions/2026/research/domains_08_10.json) | 100 | 7 / 20 / 73 / 0 | 12 | 文献输入已有本地草稿，等待领域评审 |
+| [#12](https://github.com/Amosqiang/Machine-Civilization-Autonomy/issues/12) | 9. 机器经济与资源配置 | [`domains_02_09.json`](../data/editions/2026/research/domains_02_09.json) | 100 | 3 / 21 / 76 / 0 | 15 | 文献输入已有本地草稿，等待领域评审 |
+| [#13](https://github.com/Amosqiang/Machine-Civilization-Autonomy/issues/13) | 10. 复制、扩张与文明连续性 | [`domains_08_10.json`](../data/editions/2026/research/domains_08_10.json) | 100 | 1 / 17 / 82 / 0 | 11 | 文献输入已有本地草稿，等待领域评审 |
 
 来源数按各领域实际引用的编号统计，跨领域可能复用；表中对应关系仅表示来源适用性，不表示能力达标。所有领域仍需专家检查本体完整性、指标阈值、人类角色、来源外推、替代路径和评分输入。
 

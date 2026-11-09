@@ -55,11 +55,11 @@ class ReportContractTests(unittest.TestCase):
     def test_production_grid_is_exact_and_rejects_invalid_ontology(self):
         source_root = SCRIPT.parents[1]
         self.assertEqual(len(report.load_expected_grid(source_root)), 1000)
-        data = self.root / "data"
-        data.mkdir()
+        ontology = self.root / "data" / "ontology"
+        ontology.mkdir(parents=True)
         for name in ("taxonomy.csv", "metrics.csv"):
-            shutil.copy2(source_root / "data" / name, data / name)
-        taxonomy = data / "taxonomy.csv"
+            shutil.copy2(source_root / "data" / "ontology" / name, ontology / name)
+        taxonomy = ontology / "taxonomy.csv"
         with taxonomy.open(encoding="utf-8-sig", newline="") as handle:
             reader = csv.DictReader(handle)
             fields = reader.fieldnames

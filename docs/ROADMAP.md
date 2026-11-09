@@ -2,6 +2,12 @@
 
 Task tracking: [#2 engineering](https://github.com/Amosqiang/Machine-Civilization-Autonomy/issues/2), [#1 baseline](https://github.com/Amosqiang/Machine-Civilization-Autonomy/issues/1), [#3 public collaboration](https://github.com/Amosqiang/Machine-Civilization-Autonomy/issues/3), and #4–#13 domain reviews. The [issue alignment snapshot](GITHUB_ISSUE_ALIGNMENT.md) maps current artifacts to their acceptance criteria and remaining work. Literature coverage, engineering delivery, expert review, and publication are tracked separately.
 
+## Phase -1 — Constitutive freeze (long-horizon instrument)
+Status: drafted in this refactor
+- [Philosophy](PHILOSOPHY.md): object of study, counterfactual, value stance, epistemology.
+- [Continuity](CONTINUITY.md): append-only editions, Git as audit trail, annual/monthly cadence, host-independence threshold.
+- Layout: `data/ontology/` + `data/editions/<YYYY>/` + `scripts/paths.py`.
+
 ## Phase 0 — Framework freeze
 Status: in progress
 - Lock the 10 domains and 100 subsystems.

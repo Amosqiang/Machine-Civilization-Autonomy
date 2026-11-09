@@ -21,6 +21,7 @@ import tempfile
 from datetime import date
 from pathlib import Path
 
+from paths import DEFAULT_YEAR, dependencies_csv, dependencies_json, is_curated_data, metrics_csv, taxonomy_csv
 from validate_data import ValidationError, load_inputs, read_table
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -47,7 +48,7 @@ def resolve_path(root: Path, path: Path) -> Path:
 
 def load_dependencies(root: Path, path: Path) -> list[dict[str, str]]:
     """Read the dependency CSV and validate references against the full ontology."""
-    taxonomy, _ = load_inputs(root / "data")
+    taxonomy, _ = load_inputs(root / "data" / "ontology")
     subsystem_ids = {row["subsystem_id"] for row in taxonomy}
     rows = read_table(resolve_path(root, path), FIELDS)
     errors: list[str] = []
@@ -332,10 +333,10 @@ def analyze(rows: list[dict[str, str]], scores: dict | None = None) -> dict:
 
 def ensure_separate_output(output: Path, inputs: list[Path], curated_root: Path | None = None) -> None:
     """Protect curated data and input aliases from generated JSON publication."""
-    if curated_root is not None:
-        destination = output.resolve()
-        if destination.is_relative_to(curated_root.resolve()) and not destination.is_relative_to((curated_root / "analysis").resolve()):
-            raise DependencyError("output under data/ must be inside data/analysis/; curated data cannot be replaced")
+    if curated_root is not None and is_curated_data(output):
+        raise DependencyError(
+            "output under data/ must be inside data/editions/<year>/analysis/; curated data cannot be replaced"
+        )
     for source in inputs:
         if output.resolve() == source.resolve() or (
             output.exists() and source.exists() and output.samefile(source)
@@ -365,24 +366,26 @@ def write_json_atomic(output: Path, result: dict) -> None:
 
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--dependencies", type=Path, default=Path("data/dependencies.csv"))
+    parser.add_argument("--dependencies", type=Path, default=None)
     parser.add_argument("--scores", type=Path, help="optional JSON produced by score_evidence.py")
-    parser.add_argument("--output", type=Path, default=Path("data/analysis/2026/dependencies.json"))
+    parser.add_argument("--output", type=Path, default=None)
+    parser.add_argument("--year", type=int, default=DEFAULT_YEAR, help="edition year for default dependency analysis output")
     args = parser.parse_args(argv)
     try:
-        output = resolve_path(ROOT, args.output)
-        inputs = [resolve_path(ROOT, args.dependencies), ROOT / "data/taxonomy.csv", ROOT / "data/metrics.csv"]
+        dependency_path = args.dependencies if args.dependencies is not None else dependencies_csv()
+        output = resolve_path(ROOT, args.output if args.output is not None else dependencies_json(args.year))
+        inputs = [resolve_path(ROOT, dependency_path), taxonomy_csv(), metrics_csv()]
         if args.scores is not None:
             inputs.append(resolve_path(ROOT, args.scores))
         ensure_separate_output(output, inputs, ROOT / "data")
-        rows = load_dependencies(ROOT, args.dependencies)
+        rows = load_dependencies(ROOT, dependency_path)
         scores = None
         if args.scores is not None:
             scores = json.loads(resolve_path(ROOT, args.scores).read_text(encoding="utf-8"))
         result = analyze(rows, scores)
-        result["dependency_csv_sha256"] = hashlib.sha256(resolve_path(ROOT, args.dependencies).read_bytes()).hexdigest()
-        result["taxonomy_sha256"] = hashlib.sha256((ROOT / "data/taxonomy.csv").read_bytes()).hexdigest()
-        result["metrics_sha256"] = hashlib.sha256((ROOT / "data/metrics.csv").read_bytes()).hexdigest()
+        result["dependency_csv_sha256"] = hashlib.sha256(resolve_path(ROOT, dependency_path).read_bytes()).hexdigest()
+        result["taxonomy_sha256"] = hashlib.sha256(taxonomy_csv().read_bytes()).hexdigest()
+        result["metrics_sha256"] = hashlib.sha256(metrics_csv().read_bytes()).hexdigest()
         result["scores_sha256"] = (
             hashlib.sha256(resolve_path(ROOT, args.scores).read_bytes()).hexdigest()
             if args.scores is not None else None

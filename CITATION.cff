@@ -6,12 +6,13 @@ authors:
   - family-names: "Qiang"
     given-names: "Amos"
 repository-code: "https://github.com/Amosqiang/Machine-Civilization-Autonomy"
-abstract: "An open benchmark for measuring how far AI–robotics–industrial systems can continue operating, repairing, expanding, and reproducing as human support is progressively removed."
+abstract: "An open, long-horizon benchmark for measuring how far AI–robotics–industrial systems can continue operating, repairing, expanding, and reproducing as human support is progressively removed, updated across editions until host-independence capability is evidenced."
 keywords:
   - artificial intelligence
   - robotics
   - industrial autonomy
   - autonomous replication
   - machine civilization
+  - host dependence
   - benchmark
 license: "NOASSERTION"

@@ -29,7 +29,7 @@ class EvidenceScoringTests(unittest.TestCase):
         self.temp = tempfile.TemporaryDirectory(prefix="mcab-scoring-test-")
         self.addCleanup(self.temp.cleanup)
         self.evidence = Path(self.temp.name) / "evidence.csv"
-        self.taxonomy, self.metrics = scoring.load_inputs(ROOT / "data")
+        self.taxonomy, self.metrics = scoring.load_inputs(ROOT / "data" / "ontology")
         self.serial = 0
 
     def row(self, subsystem="1.1", metric="M1", scenario="HR0", score="3"):
@@ -182,21 +182,22 @@ class EvidenceScoringTests(unittest.TestCase):
     def test_curated_data_outputs_are_refused_in_an_isolated_checkout(self):
         isolated = Path(self.temp.name) / "checkout"
         (isolated / "scripts").mkdir(parents=True)
-        (isolated / "data").mkdir()
-        for filename in ("score_evidence.py", "validate_data.py"):
+        ontology = isolated / "data" / "ontology"
+        ontology.mkdir(parents=True)
+        for filename in ("score_evidence.py", "validate_data.py", "paths.py"):
             shutil.copy2(ROOT / "scripts" / filename, isolated / "scripts" / filename)
         for filename in ("taxonomy.csv", "metrics.csv"):
-            shutil.copy2(ROOT / "data" / filename, isolated / "data" / filename)
+            shutil.copy2(ROOT / "data" / "ontology" / filename, ontology / filename)
         self.write([])
         script = isolated / "scripts" / "score_evidence.py"
         for filename in ("taxonomy.csv", "metrics.csv"):
-            output = isolated / "data" / filename
+            output = ontology / filename
             original = output.read_bytes()
             result = subprocess.run([sys.executable, str(script), "--evidence", str(self.evidence), "--output", str(output)], capture_output=True, text=True)
             self.assertNotEqual(result.returncode, 0)
             self.assertIn("must not overwrite curated data", result.stderr)
             self.assertEqual(output.read_bytes(), original)
-        allowed = isolated / "data" / "analysis" / "scores.json"
+        allowed = isolated / "data" / "editions" / "2026" / "analysis" / "scores.json"
         result = subprocess.run([sys.executable, str(script), "--evidence", str(self.evidence), "--output", str(allowed)], capture_output=True, text=True)
         self.assertEqual(result.returncode, 0, result.stderr)
         self.assertTrue(allowed.is_file())
@@ -205,7 +206,7 @@ class EvidenceScoringTests(unittest.TestCase):
         data = Path(self.temp.name) / "custom-data"
         data.mkdir()
         for filename in ("taxonomy.csv", "metrics.csv"):
-            shutil.copy2(ROOT / "data" / filename, data / filename)
+            shutil.copy2(ROOT / "data" / "ontology" / filename, data / filename)
         self.write([])
         first = scoring.build_scores(self.evidence, data_dir=data)
         self.assertEqual(first["input"]["taxonomy_sha256"], hashlib.sha256((data / "taxonomy.csv").read_bytes()).hexdigest())
