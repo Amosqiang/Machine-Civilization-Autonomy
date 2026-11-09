@@ -47,12 +47,15 @@ Use when strong public evidence moves a bottleneck, without waiting for year-end
 
 ## 4. Edition lifecycle
 
-1. **Open** — create `data/editions/<YYYY>/` from the prior edition template (header-compatible evidence schema).
+1. **Open** — `python3 scripts/new_edition.py --year YYYY --from-year YYYY-1` (header-compatible evidence schema; refuses clobber).
 2. **Fill** — add evidence; domain reviews; dependency verification.
 3. **Freeze cutoff** — set `as_of`; reject later-dated backfill into that freeze.
-4. **Build** — `python3 scripts/run_pipeline.py` (or year-scoped flags when added).
-5. **Release** — tag `mcab-<YYYY>` (or `mcab-<YYYY>-rN` for corrected releases); update `CHANGELOG.md`.
+4. **Build** — `python3 scripts/run_pipeline.py --year YYYY`.
+5. **Release** — tag `mcab-<YYYY>` (or `mcab-<YYYY>-rN` for corrected releases); update `CHANGELOG.md` and `data/editions/registry.csv`.
 6. **Supersede, don’t delete** — later corrections ship as `rN+1` or next edition.
+
+Operator checklist: [EDITION_PLAYBOOK.md](EDITION_PLAYBOOK.md).  
+Living threshold register: `data/threshold/STATUS.md` (inspect with `python3 scripts/edition_status.py`).
 
 ## 5. Threshold — “那一天”
 

@@ -19,8 +19,15 @@
 在仓库根目录运行：
 
 ```sh
+python3 scripts/edition_status.py
 python3 scripts/run_pipeline.py
 python3 -m unittest discover -s tests -v
+```
+
+Open a future year without touching prior editions:
+
+```sh
+python3 scripts/new_edition.py --year 2027 --from-year 2026 --as-of 2027-10-31
 ```
 
 流程依次校验本体、维度及正式证据，生成评分、依赖分析、CSV驱动工程报告和独立的最新文献报告。已有人工CSV不重建、不覆盖；仅在`dimensions.csv`缺失时调用受保护生成器。

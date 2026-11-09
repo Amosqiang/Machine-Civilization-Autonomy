@@ -16,6 +16,7 @@ jobs:
         with:
           python-version: '3.12'
       - run: python3 -m unittest discover -s tests -v
+      - run: python3 scripts/edition_status.py --require-threshold-not-met
       - run: python3 scripts/run_pipeline.py
       - name: Ensure manual inputs were preserved
-        run: git diff --exit-code -- data/ontology/taxonomy.csv data/ontology/metrics.csv data/ontology/dimensions.csv data/editions/2026/evidence.csv data/ontology/dependencies.csv
+        run: git diff --exit-code -- data/ontology/taxonomy.csv data/ontology/metrics.csv data/ontology/dimensions.csv data/editions/2026/evidence.csv data/ontology/dependencies.csv data/editions/registry.csv data/threshold/STATUS.md

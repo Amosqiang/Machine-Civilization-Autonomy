@@ -14,7 +14,9 @@ The project studies the full dependency chain from AI and software to energy, mi
 
 MCAB is intended to be an open, evidence-backed, **long-horizon** research instrument: annual baselines, optional monthly/interim updates, full Git history preserved across refactors — continuing until evidence supports the **host-independence capability threshold** (autonomous operate / repair / expand / reproduce under declared HR0 conditions). That threshold is about capability, not about a world without humans.
 
-Constitutive docs: [Philosophy](docs/PHILOSOPHY.md) · [Continuity protocol](docs/CONTINUITY.md) · [History of structural eras](docs/HISTORY.md) · [Changelog](CHANGELOG.md)
+Constitutive docs: [Philosophy](docs/PHILOSOPHY.md) · [Continuity protocol](docs/CONTINUITY.md) · [Edition playbook](docs/EDITION_PLAYBOOK.md) · [History](docs/HISTORY.md) · [Changelog](CHANGELOG.md)
+
+Living registers: [`data/editions/registry.csv`](data/editions/registry.csv) · [`data/threshold/STATUS.md`](data/threshold/STATUS.md) (`not_met` until host-independence is evidenced).
 
 Contributions from AI researchers, roboticists, industrial engineers, semiconductor experts, energy researchers, economists, systems researchers, and other domain specialists are welcome.
 
@@ -131,9 +133,18 @@ Please read `CONTRIBUTING.md` before opening a pull request. Evidence-backed cor
 | --- | --- |
 | `data/ontology/` | 共享本体、指标、维表、依赖边 |
 | `data/editions/<YYYY>/` | 年度证据、研究输入与可重建分析 |
+| `data/editions/registry.csv` | 年版名录 |
+| `data/threshold/STATUS.md` | 宿主独立门槛是否已达到 |
 | `reports/<YYYY>/` | 人读报告 |
 | `docs/` | 哲学、连续性、协议、规范、路线图 |
 | `scripts/paths.py` | 唯一路径注册表 |
+| `scripts/new_edition.py` / `edition_status.py` | 开新年份 / 查看状态 |
+
+```sh
+python3 scripts/edition_status.py
+python3 scripts/new_edition.py --year 2027 --from-year 2026
+python3 scripts/run_pipeline.py
+```
 
 重构可以换目录；**不得**为了整洁而改写已发布 Git 历史。详见 [CONTINUITY.md](docs/CONTINUITY.md)。
 

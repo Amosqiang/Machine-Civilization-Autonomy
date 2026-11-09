@@ -65,6 +65,18 @@ def reports_dir(year: int = DEFAULT_YEAR) -> Path:
     return REPORTS / str(year)
 
 
+def editions_registry_csv() -> Path:
+    return EDITIONS / "registry.csv"
+
+
+def threshold_status_md() -> Path:
+    return DATA / "threshold" / "STATUS.md"
+
+
+def edition_manifest(year: int = DEFAULT_YEAR) -> Path:
+    return edition_dir(year) / "MANIFEST.md"
+
+
 def _parts_under(path: Path, root: Path) -> tuple[str, ...] | None:
     """Return relative parts for path under root, trying resolve then abspath."""
     import os

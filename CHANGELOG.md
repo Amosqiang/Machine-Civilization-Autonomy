@@ -14,6 +14,7 @@ Format inspired by Keep a Changelog. Dates use Asia/Shanghai calendar days unles
 ### Added
 
 - Continuity protocol for annual baselines and optional monthly/interim updates until the host-independence capability threshold.
+- Edition lifecycle tooling: `scripts/new_edition.py`, `scripts/edition_status.py`, `data/editions/registry.csv`, `data/threshold/STATUS.md`, edition playbook, annual/interim GitHub issue templates.
 
 ## [2026-11-02] — MCAB-2026 literature comparison draft
 
