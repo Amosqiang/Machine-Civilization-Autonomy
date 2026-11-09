@@ -1,0 +1,2950 @@
+{
+  "as_of_date": "2026-11-02",
+  "domain_ids": [
+    "6",
+    "7"
+  ],
+  "sources": [
+    {
+      "source_id": "D06-S01",
+      "title": "Automation of CNC Machines - DMG MORI",
+      "url": "https://en.dmgmori.com/products/automation",
+      "publisher": "DMG MORI",
+      "publication_date": "",
+      "retrieved_at": "2026-11-02",
+      "source_type": "company-doc",
+      "supporting_excerpt": "This applies to unmanned night and weekend shifts",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_06_07/dmg.txt",
+      "limitations": "产品或公司自述，非独立HR0长期试验；网页检索日期不等于能力首次实现日期。"
+    },
+    {
+      "source_id": "D06-S02",
+      "title": "Die Cast Robots | Foundry & Mold Machine Robots |… | FANUC America",
+      "url": "https://www.fanucamerica.com/industries/die-cast-foundry-mold",
+      "publisher": "FANUC America",
+      "publication_date": "",
+      "retrieved_at": "2026-11-02",
+      "source_type": "company-doc",
+      "supporting_excerpt": "FANUC has the industry's leading casting robots for die cast product handling, foundry robots, and molding machine tending robots.",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_06_07/fanuc_cast.txt",
+      "limitations": "产品或公司自述，非独立HR0长期试验；网页检索日期不等于能力首次实现日期。"
+    },
+    {
+      "source_id": "D06-S03",
+      "title": "Metal 3D Printer | EOS | EOS GmbH",
+      "url": "https://www.eos.info/metal-solutions/metal-printers",
+      "publisher": "EOS",
+      "publication_date": "",
+      "retrieved_at": "2026-11-02",
+      "source_type": "company-doc",
+      "supporting_excerpt": "Both systems share the same automated platform with job changeovers in under 30 minutes",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_06_07/eos.txt",
+      "limitations": "产品或公司自述，非独立HR0长期试验；网页检索日期不等于能力首次实现日期。"
+    },
+    {
+      "source_id": "D06-S04",
+      "title": "Arc Welding Robots & Robotic Welding Systems | FANUC America",
+      "url": "https://www.fanucamerica.com/applications/arc-welding",
+      "publisher": "FANUC America",
+      "publication_date": "",
+      "retrieved_at": "2026-11-02",
+      "source_type": "company-doc",
+      "supporting_excerpt": "FANUC arc welding robots help manufacturers improve weld quality, productivity and consistency with reliable robotic automation for MIG, TIG, plasma",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_06_07/fanuc_weld.txt",
+      "limitations": "产品或公司自述，非独立HR0长期试验；网页检索日期不等于能力首次实现日期。"
+    },
+    {
+      "source_id": "D06-S05",
+      "title": "Electromobility - GROB",
+      "url": "https://www.grobgroup.com/en/products/product-range/electromobility/",
+      "publisher": "GROB",
+      "publication_date": "",
+      "retrieved_at": "2026-11-02",
+      "source_type": "company-doc",
+      "supporting_excerpt": "GROB offers you an integrated concept for tomorrow's components through its MODULAR, FLEXIBLE and SCALEABLE electric powertrain SOLUTIONS.",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_06_07/grob_motor.txt",
+      "limitations": "产品或公司自述，非独立HR0长期试验；网页检索日期不等于能力首次实现日期。"
+    },
+    {
+      "source_id": "D06-S06",
+      "title": "Machines and Systems for Electric Motor Production - GROB",
+      "url": "https://www.grobgroup.com/en/products/product-range/winding-and-inserting-technology/",
+      "publisher": "GROB",
+      "publication_date": "",
+      "retrieved_at": "2026-11-02",
+      "source_type": "company-doc",
+      "supporting_excerpt": "Fully automatic solution",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_06_07/grob_winding.txt",
+      "limitations": "产品或公司自述，非独立HR0长期试验；网页检索日期不等于能力首次实现日期。"
+    },
+    {
+      "source_id": "D06-S07",
+      "title": "SKF accelerates hybrid bearing leadership with new Ceramic Process Laboratory - SKF",
+      "url": "https://news.cision.com/skf/r/skf-accelerates-hybrid-bearing-leadership-with-new-ceramic-process-laboratory,c4411601",
+      "publisher": "SKF (official press release via Cision)",
+      "publication_date": "2026-10-19",
+      "retrieved_at": "2026-11-02",
+      "source_type": "company-doc",
+      "supporting_excerpt": "By bringing powder formulation, compaction, sintering, and surface finishing all together",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_06_07/skf_lab.txt",
+      "limitations": "公司研发实验室启用新闻，证明工艺研发整合，不证明无人生产或自行制造全部设备。"
+    },
+    {
+      "source_id": "D06-S08",
+      "title": "Probing and tool measurement systems for machine tools",
+      "url": "https://www.renishaw.com/en/machine-tool-probes--6073",
+      "publisher": "Renishaw",
+      "publication_date": "",
+      "retrieved_at": "2026-11-02",
+      "source_type": "company-doc",
+      "supporting_excerpt": "Workpiece and tool measurement can happen before, during, and after machining tasks.",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_06_07/renishaw_mt.txt",
+      "limitations": "产品或公司自述，非独立HR0长期试验；网页检索日期不等于能力首次实现日期。"
+    },
+    {
+      "source_id": "D06-S09",
+      "title": "GROB Showcases the Future of Manufacturing at AMB 2026Detail - GROB",
+      "url": "https://www.grobgroup.com/en/news-media/detail/article/grob-showcases-the-future-of-manufacturing-at-amb-2026/",
+      "publisher": "GROB",
+      "publication_date": "2026-10-08",
+      "retrieved_at": "2026-11-02",
+      "source_type": "company-doc",
+      "supporting_excerpt": "the entire flow of parts in production can be digitally tracked, controlled, and monitored.",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_06_07/grob_latest.txt",
+      "limitations": "2026年展会展示与公司新闻，不能外推为完整工厂无人运行或量产验证。"
+    },
+    {
+      "source_id": "D06-S10",
+      "title": "Automotive | ABB",
+      "url": "https://www.abb.com/global/en/areas/robotics/industries/automotive",
+      "publisher": "ABB",
+      "publication_date": "",
+      "retrieved_at": "2026-11-02",
+      "source_type": "company-doc",
+      "supporting_excerpt": "our inspection systems detect and prevent defective parts from entering the production line.",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_06_07/abb_assembly.txt",
+      "limitations": "产品或公司自述，非独立HR0长期试验；网页检索日期不等于能力首次实现日期。"
+    },
+    {
+      "source_id": "D06-S11",
+      "title": "Digital Twin | Siemens",
+      "url": "https://www.siemens.com/global/en/products/software/digital-twin.html",
+      "publisher": "Siemens",
+      "publication_date": "",
+      "retrieved_at": "2026-11-02",
+      "source_type": "company-doc",
+      "supporting_excerpt": "Digital twins in manufacturing create virtual replicas of production processes, equipment and entire factory operations.",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_06_07/siemens.txt",
+      "limitations": "产品或公司自述，非独立HR0长期试验；网页检索日期不等于能力首次实现日期。"
+    },
+    {
+      "source_id": "D07-S01",
+      "title": "Products – Siltronic / perfect silicon solutions",
+      "url": "https://www.siltronic.com/en/products.html",
+      "publisher": "Siltronic",
+      "publication_date": "",
+      "retrieved_at": "2026-11-02",
+      "source_type": "company-doc",
+      "supporting_excerpt": "The wafers are manufactured from monocrystalline silicon ingots that have been made using either the Czochralski process (CZ) or the float",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_06_07/siltronic.txt",
+      "limitations": "产品或公司自述，非独立HR0长期试验；网页检索日期不等于能力首次实现日期。"
+    },
+    {
+      "source_id": "D07-S02",
+      "title": "Lithography principles - Technology | ASML",
+      "url": "https://www.asml.com/en/technology/lithography-principles",
+      "publisher": "ASML",
+      "publication_date": "",
+      "retrieved_at": "2026-11-02",
+      "source_type": "company-doc",
+      "supporting_excerpt": "ASML systems rely on data from sensors as well as diffraction-based and electron beam measurements to optimize chip production.",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_06_07/asml.txt",
+      "limitations": "产品或公司自述，非独立HR0长期试验；网页检索日期不等于能力首次实现日期。"
+    },
+    {
+      "source_id": "D07-S03",
+      "title": "Our Products | Lam Research",
+      "url": "https://www.lamresearch.com/products/our-products/",
+      "publisher": "Lam Research",
+      "publication_date": "",
+      "retrieved_at": "2026-11-02",
+      "source_type": "company-doc",
+      "supporting_excerpt": "Creating the tiny, complex chips used in these devices involves the repetition of a core set of processes and includes hundreds",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_06_07/lam.txt",
+      "limitations": "产品或公司自述，非独立HR0长期试验；网页检索日期不等于能力首次实现日期。"
+    },
+    {
+      "source_id": "D07-S04",
+      "title": "Productsproduct-matrix-animationDocument",
+      "url": "https://www.appliedmaterials.com/us/en/semiconductor/products.html",
+      "publisher": "Applied Materials",
+      "publication_date": "",
+      "retrieved_at": "2026-11-02",
+      "source_type": "company-doc",
+      "supporting_excerpt": "Our equipment can deposit layers of material on a wafer’s surface to change the properties of the material",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_06_07/applied.txt",
+      "limitations": "产品或公司自述，非独立HR0长期试验；网页检索日期不等于能力首次实现日期。"
+    },
+    {
+      "source_id": "D07-S05",
+      "title": "Products | KLA",
+      "url": "https://www.kla.com/products",
+      "publisher": "KLA",
+      "publication_date": "",
+      "retrieved_at": "2026-11-02",
+      "source_type": "company-doc",
+      "supporting_excerpt": "Our process-control and process-enabling solutions are designed to boost the innovation speed of the electronics industry.",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_06_07/kla.txt",
+      "limitations": "产品或公司自述，非独立HR0长期试验；网页检索日期不等于能力首次实现日期。"
+    },
+    {
+      "source_id": "D07-S06",
+      "title": "CoWoS® - Taiwan Semiconductor Manufacturing Company Limited",
+      "url": "https://www.tsmc.com/english/dedicatedFoundry/technology/cowos",
+      "publisher": "TSMC",
+      "publication_date": "",
+      "retrieved_at": "2026-11-02",
+      "source_type": "company-doc",
+      "supporting_excerpt": "This wafer level system integration platform offers wide range of interposer sizes, number of HBM cubes, and package sizes.",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_06_07/tsmc.txt",
+      "limitations": "该CoWoS介绍含2019年历史规格；仅证明封装技术路径，不把其中HBM2规格当作2026年前沿。"
+    },
+    {
+      "source_id": "D07-S07",
+      "title": "SK hynix Announces 3Q26 Financial Results – SK hynix NewsroomSK hynix Newsroom | SK hynix Announces 3Q26 Financial Results",
+      "url": "https://news.skhynix.com/en/q3-2026-business-results/",
+      "publisher": "SK hynix",
+      "publication_date": "2026-10-28",
+      "retrieved_at": "2026-11-02",
+      "source_type": "company-doc",
+      "supporting_excerpt": "By product, DRAM results were driven by a significant increase in sales of server DDR5 while HBM4 shipments began in earnest.",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_06_07/skhynix_q3.txt",
+      "limitations": "公司2026Q3业绩新闻中的出货陈述，未独立核验产量，不等于无人制造；未来扩产与Q4预测单列为计划。"
+    },
+    {
+      "source_id": "D07-S08",
+      "title": "2nm Technology - Taiwan Semiconductor Manufacturing Company Limited",
+      "url": "https://www.tsmc.com/english/dedicatedFoundry/technology/logic/l_2nm",
+      "publisher": "TSMC",
+      "publication_date": "",
+      "retrieved_at": "2026-11-02",
+      "source_type": "company-doc",
+      "supporting_excerpt": "TSMC’s 2nm (N2) technology has started volume production in 4Q25 as planned.",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_06_07/tsmc_n2.txt",
+      "limitations": "当前官方技术页；量产时间取正文，不使用明显占位的1970网页元数据。量产不等于HR0自治。"
+    },
+    {
+      "source_id": "D07-S09",
+      "title": "NVIDIA to Manufacture American-Made AI Supercomputers in US for First Time | NVIDIA Blog",
+      "url": "https://blogs.nvidia.com/blog/nvidia-manufacture-american-made-ai-supercomputers-us/",
+      "publisher": "NVIDIA",
+      "publication_date": "2025-04-14",
+      "retrieved_at": "2026-11-02",
+      "source_type": "company-doc",
+      "supporting_excerpt": "The AI chip and supercomputer supply chain is complex and demands the most advanced manufacturing, packaging, assembly and test technologies.",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_06_07/nvidia.txt",
+      "limitations": "2025年公司公告，区分已开始的晶片生产与当时计划中的服务器工厂；不把12至15个月后预期当成已实现。"
+    },
+    {
+      "source_id": "D07-S10",
+      "title": "Dextro™ - Lam Research",
+      "url": "https://www.lamresearch.com/product/dextro/",
+      "publisher": "Lam Research",
+      "publication_date": "",
+      "retrieved_at": "2026-11-02",
+      "source_type": "company-doc",
+      "supporting_excerpt": "Delivered as part of a term-based service contract, cobots working with humans provide the ideal synergy",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_06_07/dextro.txt",
+      "limitations": "产品或公司自述，非独立HR0长期试验；网页检索日期不等于能力首次实现日期。"
+    },
+    {
+      "source_id": "D07-S11",
+      "title": "Lam Research Introduces the Semiconductor Industry's First Collaborative Robot for Fab Maintenance Optimization - Dec 10, 2024",
+      "url": "https://investor.lamresearch.com/2024-12-10-Lam-Research-Introduces-the-Semiconductor-Industrys-First-Collaborative-Robot-for-Fab-Maintenance-Optimization",
+      "publisher": "Lam Research",
+      "publication_date": "2024-12-10",
+      "retrieved_at": "2026-11-02",
+      "source_type": "company-doc",
+      "supporting_excerpt": "Dextro is a mobile unit with a robotic arm operated by a fab technician or engineer.",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_06_07/dextro_release.txt",
+      "limitations": "官方发布称已部署多个晶圆厂，同时明确由技术员或工程师操作；仅支持部分维护任务机器人化。"
+    },
+    {
+      "source_id": "D07-S12",
+      "title": "AI-driven predictive maintenance: Solving semiconductor fab uptime challenges - Electronics & Semiconductors",
+      "url": "https://blogs.sw.siemens.com/electronics-semiconductors/2026/08/13/ai-driven-predictive-maintenance-solving-semiconductor-fab-uptime-challenges/",
+      "publisher": "Siemens",
+      "publication_date": "2026-08-13",
+      "retrieved_at": "2026-11-02",
+      "source_type": "company-doc",
+      "supporting_excerpt": "LLM-supported troubleshooting helps retain and transfer shop-floor knowledge",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_06_07/siemens_pm.txt",
+      "limitations": "供应商技术博客与宣称收益，不是独立长期HR0试验；提前告警、排故建议仍由维护团队执行。"
+    },
+    {
+      "source_id": "D07-S13",
+      "title": "SK hynix Hosts First Partners Day in Japan, Sharing Business Direction with Key Local Partners – SK hynix NewsroomSK hynix Newsroom | SK hynix Hosts First Partners Day in Japan, Sharing Business Direction with Key Local Partners",
+      "url": "https://news.skhynix.com/en/2026-partners-day-japan/",
+      "publisher": "SK hynix",
+      "publication_date": "2026-10-30",
+      "retrieved_at": "2026-11-02",
+      "source_type": "company-doc",
+      "supporting_excerpt": "close collaboration with our materials, components, and equipment partners is key to semiconductor competitiveness.",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_06_07/skhynix_partners.txt",
+      "limitations": "产业供应链协作的现实证据；证明外部合作存在，不量化每个工序的人类参与比例。"
+    }
+  ],
+  "records": [
+    {
+      "dimension_id": "6.1-M1",
+      "required_capability": "实现选定系统的可持续自我复制，需要无人完成毛坯装夹、车铣磨钻、换刀及尺寸验收，并在刀具寿命周期内保持规定公差。",
+      "current_capability": "DMG MORI明确介绍无人夜间/周末加工与自动换件；适用已有机床、刀具及设定工艺，未报告完整生命周期无人维持。",
+      "gap": "机械加工：完整生产生命周期内的HR0运行与维护尚未由本轮资料证实。",
+      "assessment_status": "demonstrated_limited",
+      "evidence_relation": "direct_metric",
+      "source_ids": [
+        "D06-S01"
+      ],
+      "human_dependency": "现有产品资料明确保留数控编程、工艺准备、质量控制、应用工程和远程服务人员；刀具及机床供应链仍需逐项核验。",
+      "validation_needed": "针对机械加工：连续生产合格品并披露运行时长、产品边界、换料换班和全部人工接管记录；验收对象为无人完成毛坯装夹、车铣磨钻、换刀及尺寸验收，并在刀具寿命周期内保持规定公差。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "6.1-M2",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主检测刀具磨损或断刀、主轴振动、夹紧异常和工件尺寸漂移。",
+      "current_capability": "Renishaw支持工前/工中/工后工件和刀具测量；DMG MORI介绍非计划停机自动通知，覆盖部分异常检测。",
+      "gap": "机械加工：现有检测功能与该项全部故障范围之间仍需覆盖率和无人工验证。",
+      "assessment_status": "demonstrated_limited",
+      "evidence_relation": "direct_metric",
+      "source_ids": [
+        "D06-S08",
+        "D06-S01"
+      ],
+      "human_dependency": "现有产品资料明确保留数控编程、工艺准备、质量控制、应用工程和远程服务人员；刀具及机床供应链仍需逐项核验。",
+      "validation_needed": "针对机械加工：注入上述质量和设备故障，测量漏检、误报、检出时间及传感器自身失效的覆盖；验收对象为自主检测刀具磨损或断刀、主轴振动、夹紧异常和工件尺寸漂移。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "6.1-M3",
+      "required_capability": "实现选定系统的可持续自我复制，需要区分刀具、夹具、热漂移、主轴或数控参数引起的加工异常并制定处置方案。",
+      "current_capability": "DMG MORI介绍远程排障，称超过60%的问题可远程解决；该数字针对服务方案，不是机器自主根因诊断通过率。",
+      "gap": "远程服务人员排障不是机器自主根因诊断。 尚缺“实现选定系统的可持续自我复制，需要区分刀具、夹具、热漂移、主轴或数控参数引起的加工异常并制定处置方案。”在声明系统边界内由机器自主完成的直接验证。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D06-S01"
+      ],
+      "human_dependency": "现有产品资料明确保留数控编程、工艺准备、质量控制、应用工程和远程服务人员；刀具及机床供应链仍需逐项核验。",
+      "validation_needed": "针对机械加工：盲测上述多种根因，要求机器提出并用干预试验验证诊断，统计错误处置；验收对象为区分刀具、夹具、热漂移、主轴或数控参数引起的加工异常并制定处置方案。",
+      "confidence": "Low",
+      "review_note": "独立语义复核：远程服务人员排障不是机器自主根因诊断。"
+    },
+    {
+      "dimension_id": "6.1-M4",
+      "required_capability": "实现选定系统的可持续自我复制，需要无人更换刀具、夹具和损坏的主轴等部件，恢复几何精度并重新验收。",
+      "current_capability": "本轮检索未获得直接证明“无人更换刀具、夹具和损坏的主轴等部件，恢复几何精度并重新验收”已在HR0成立的公开资料；机械加工的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "机械加工：物理维修、备件获取、重新校准和复投产的HR0闭环尚未证实。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "现有产品资料明确保留数控编程、工艺准备、质量控制、应用工程和远程服务人员；刀具及机床供应链仍需逐项核验。",
+      "validation_needed": "针对机械加工：在不允许人工拆装或远程接管下施加故障，要求自主修复并通过原质量验收；验收对象为无人更换刀具、夹具和损坏的主轴等部件，恢复几何精度并重新验收。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.1-M5",
+      "required_capability": "实现选定系统的可持续自我复制，需要由机器工业链持续提供合金毛坯、切削刀具、夹具、轴承及切削液。",
+      "current_capability": "本轮检索未获得直接证明“由机器工业链持续提供合金毛坯、切削刀具、夹具、轴承及切削液”已在HR0成立的公开资料；机械加工的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "机械加工：现有工业供应链与所有关键投入的机器自产之间尚有未核验环节。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "现有产品资料明确保留数控编程、工艺准备、质量控制、应用工程和远程服务人员；刀具及机床供应链仍需逐项核验。",
+      "validation_needed": "针对机械加工：逐项列出关键投入来源，耗尽预置库存后由机器从资源到部件持续补给；验收对象为由机器工业链持续提供合金毛坯、切削刀具、夹具、轴承及切削液。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.1-M6",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主获取机床电力、压缩空气和冷却能力，并处理断电后的安全复机。",
+      "current_capability": "本轮检索未获得直接证明“自主获取机床电力、压缩空气和冷却能力，并处理断电后的安全复机”已在HR0成立的公开资料；机械加工的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "机械加工：本轮来源未直接证实该项供能和厂务系统可脱离人类长期维持。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "现有产品资料明确保留数控编程、工艺准备、质量控制、应用工程和远程服务人员；刀具及机床供应链仍需逐项核验。",
+      "validation_needed": "针对机械加工：切断外部人类运维的供能服务并注入供能故障，验证供能、恢复和耗材补给；验收对象为自主获取机床电力、压缩空气和冷却能力，并处理断电后的安全复机。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.1-M7",
+      "required_capability": "实现选定系统的可持续自我复制，需要把工艺规划、数控编程、装夹和切削参数知识转成可验证的机器执行流程。",
+      "current_capability": "DMG MORI可通过机床界面操作标准自动化；但同页保留数控编程、工艺准备和应用工程支持人员。",
+      "gap": "机械加工：公开文件或数字孪生仅是部分知识；隐性工艺和专家维护的替代尚未证实。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D06-S01"
+      ],
+      "human_dependency": "现有产品资料明确保留数控编程、工艺准备、质量控制、应用工程和远程服务人员；刀具及机床供应链仍需逐项核验。",
+      "validation_needed": "针对机械加工：封存全部人类咨询渠道，给出陌生工况，要求机器仅凭可维护知识完成设计/运行/故障处置；验收对象为把工艺规划、数控编程、装夹和切削参数知识转成可验证的机器执行流程。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "6.1-M8",
+      "required_capability": "实现选定系统的可持续自我复制，需要在碰撞、火灾或控制器损坏后重建机床状态、工艺程序与精度基准。",
+      "current_capability": "本轮检索未获得直接证明“在碰撞、火灾或控制器损坏后重建机床状态、工艺程序与精度基准”已在HR0成立的公开资料；机械加工的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "机械加工：例行备份或单设备服务不能证明严重损毁后的无人重建能力。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "现有产品资料明确保留数控编程、工艺准备、质量控制、应用工程和远程服务人员；刀具及机床供应链仍需逐项核验。",
+      "validation_needed": "针对机械加工：在主设备、部分备件与数据同时损坏的声明灾难情景中恢复并验收生产；验收对象为在碰撞、火灾或控制器损坏后重建机床状态、工艺程序与精度基准。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.1-M9",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主安装新增机床、布置产线并验证新增加工产能。",
+      "current_capability": "本轮检索未获得直接证明“自主安装新增机床、布置产线并验证新增加工产能”已在HR0成立的公开资料；机械加工的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "机械加工：可购买模块或公司扩产计划不能替代无人新建、调试和产能爬坡证明。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "现有产品资料明确保留数控编程、工艺准备、质量控制、应用工程和远程服务人员；刀具及机床供应链仍需逐项核验。",
+      "validation_needed": "针对机械加工：从未安装的材料和设备状态开始，由机器完成新增设施部署和稳定产能验收；验收对象为自主安装新增机床、布置产线并验证新增加工产能。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.1-M10",
+      "required_capability": "实现选定系统的可持续自我复制，需要制造并装配下一套具有同等精度、控制和维修能力的加工系统。",
+      "current_capability": "本轮检索未获得直接证明“制造并装配下一套具有同等精度、控制和维修能力的加工系统”已在HR0成立的公开资料；机械加工的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "机械加工：未在所查资料中找到覆盖上游投入、维修和下一代再复制的完整HR0验证。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "现有产品资料明确保留数控编程、工艺准备、质量控制、应用工程和远程服务人员；刀具及机床供应链仍需逐项核验。",
+      "validation_needed": "针对机械加工：建立可继续制造同等子代的生产系统，核算完整投入、代际时间和每代人工干预；验收对象为制造并装配下一套具有同等精度、控制和维修能力的加工系统。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.2-M1",
+      "required_capability": "实现选定系统的可持续自我复制，需要无人完成配料、熔炼或加热、浇注/锻压/冲压、脱模和合格品转运。",
+      "current_capability": "FANUC提供压铸取件、模具上下料、淬火/去浇口等工位自动化；没有给出熔炼到模具维修全线无人记录。",
+      "gap": "铸造锻造与成形：完整生产生命周期内的HR0运行与维护尚未由本轮资料证实。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D06-S02"
+      ],
+      "human_dependency": "所查机器人方案未排除熔炼、模具维修、设备集成与上游金属供应中的人类参与。",
+      "validation_needed": "针对铸造锻造与成形：连续生产合格品并披露运行时长、产品边界、换料换班和全部人工接管记录；验收对象为无人完成配料、熔炼或加热、浇注/锻压/冲压、脱模和合格品转运。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "6.2-M2",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主发现熔体温度或成分偏差、模具裂纹、润滑不足、压机异常及内部缺陷。",
+      "current_capability": "本轮检索未获得直接证明“自主发现熔体温度或成分偏差、模具裂纹、润滑不足、压机异常及内部缺陷”已在HR0成立的公开资料；铸造锻造与成形的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "铸造锻造与成形：现有检测功能与该项全部故障范围之间仍需覆盖率和无人工验证。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "所查机器人方案未排除熔炼、模具维修、设备集成与上游金属供应中的人类参与。",
+      "validation_needed": "针对铸造锻造与成形：注入上述质量和设备故障，测量漏检、误报、检出时间及传感器自身失效的覆盖；验收对象为自主发现熔体温度或成分偏差、模具裂纹、润滑不足、压机异常及内部缺陷。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.2-M3",
+      "required_capability": "实现选定系统的可持续自我复制，需要把气孔、缩松、开裂或尺寸偏差定位到模具、温控、材料或载荷原因。",
+      "current_capability": "本轮检索未获得直接证明“把气孔、缩松、开裂或尺寸偏差定位到模具、温控、材料或载荷原因”已在HR0成立的公开资料；铸造锻造与成形的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "铸造锻造与成形：预测和排故建议不等于自主验证根因；缺少该项端到端诊断证据。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "所查机器人方案未排除熔炼、模具维修、设备集成与上游金属供应中的人类参与。",
+      "validation_needed": "针对铸造锻造与成形：盲测上述多种根因，要求机器提出并用干预试验验证诊断，统计错误处置；验收对象为把气孔、缩松、开裂或尺寸偏差定位到模具、温控、材料或载荷原因。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.2-M4",
+      "required_capability": "实现选定系统的可持续自我复制，需要无人维修压机液压、加热炉、模具和脱模机构并完成试件验收。",
+      "current_capability": "本轮检索未获得直接证明“无人维修压机液压、加热炉、模具和脱模机构并完成试件验收”已在HR0成立的公开资料；铸造锻造与成形的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "铸造锻造与成形：物理维修、备件获取、重新校准和复投产的HR0闭环尚未证实。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "所查机器人方案未排除熔炼、模具维修、设备集成与上游金属供应中的人类参与。",
+      "validation_needed": "针对铸造锻造与成形：在不允许人工拆装或远程接管下施加故障，要求自主修复并通过原质量验收；验收对象为无人维修压机液压、加热炉、模具和脱模机构并完成试件验收。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.2-M5",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主供给金属料、耐火材料、模具钢、润滑剂和液压密封件。",
+      "current_capability": "本轮检索未获得直接证明“自主供给金属料、耐火材料、模具钢、润滑剂和液压密封件”已在HR0成立的公开资料；铸造锻造与成形的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "铸造锻造与成形：现有工业供应链与所有关键投入的机器自产之间尚有未核验环节。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "所查机器人方案未排除熔炼、模具维修、设备集成与上游金属供应中的人类参与。",
+      "validation_needed": "针对铸造锻造与成形：逐项列出关键投入来源，耗尽预置库存后由机器从资源到部件持续补给；验收对象为自主供给金属料、耐火材料、模具钢、润滑剂和液压密封件。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.2-M6",
+      "required_capability": "实现选定系统的可持续自我复制，需要在无人条件下提供熔炼和锻造热源、压机动力及必要冷却。",
+      "current_capability": "本轮检索未获得直接证明“在无人条件下提供熔炼和锻造热源、压机动力及必要冷却”已在HR0成立的公开资料；铸造锻造与成形的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "铸造锻造与成形：本轮来源未直接证实该项供能和厂务系统可脱离人类长期维持。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "所查机器人方案未排除熔炼、模具维修、设备集成与上游金属供应中的人类参与。",
+      "validation_needed": "针对铸造锻造与成形：切断外部人类运维的供能服务并注入供能故障，验证供能、恢复和耗材补给；验收对象为在无人条件下提供熔炼和锻造热源、压机动力及必要冷却。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.2-M7",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主维护合金配方、凝固仿真、模具设计和成形工艺窗口。",
+      "current_capability": "本轮检索未获得直接证明“自主维护合金配方、凝固仿真、模具设计和成形工艺窗口”已在HR0成立的公开资料；铸造锻造与成形的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "铸造锻造与成形：公开文件或数字孪生仅是部分知识；隐性工艺和专家维护的替代尚未证实。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "所查机器人方案未排除熔炼、模具维修、设备集成与上游金属供应中的人类参与。",
+      "validation_needed": "针对铸造锻造与成形：封存全部人类咨询渠道，给出陌生工况，要求机器仅凭可维护知识完成设计/运行/故障处置；验收对象为自主维护合金配方、凝固仿真、模具设计和成形工艺窗口。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.2-M8",
+      "required_capability": "实现选定系统的可持续自我复制，需要在炉衬损坏、金属泄漏或压机重大故障后恢复安全生产。",
+      "current_capability": "本轮检索未获得直接证明“在炉衬损坏、金属泄漏或压机重大故障后恢复安全生产”已在HR0成立的公开资料；铸造锻造与成形的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "铸造锻造与成形：例行备份或单设备服务不能证明严重损毁后的无人重建能力。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "所查机器人方案未排除熔炼、模具维修、设备集成与上游金属供应中的人类参与。",
+      "validation_needed": "针对铸造锻造与成形：在主设备、部分备件与数据同时损坏的声明灾难情景中恢复并验收生产；验收对象为在炉衬损坏、金属泄漏或压机重大故障后恢复安全生产。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.2-M9",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主建设新增熔炼、压铸或锻压单元并打通物料流。",
+      "current_capability": "本轮检索未获得直接证明“自主建设新增熔炼、压铸或锻压单元并打通物料流”已在HR0成立的公开资料；铸造锻造与成形的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "铸造锻造与成形：可购买模块或公司扩产计划不能替代无人新建、调试和产能爬坡证明。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "所查机器人方案未排除熔炼、模具维修、设备集成与上游金属供应中的人类参与。",
+      "validation_needed": "针对铸造锻造与成形：从未安装的材料和设备状态开始，由机器完成新增设施部署和稳定产能验收；验收对象为自主建设新增熔炼、压铸或锻压单元并打通物料流。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.2-M10",
+      "required_capability": "实现选定系统的可持续自我复制，需要从材料与零部件制造下一套炉、模具、压机和控制系统。",
+      "current_capability": "本轮检索未获得直接证明“从材料与零部件制造下一套炉、模具、压机和控制系统”已在HR0成立的公开资料；铸造锻造与成形的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "铸造锻造与成形：未在所查资料中找到覆盖上游投入、维修和下一代再复制的完整HR0验证。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "所查机器人方案未排除熔炼、模具维修、设备集成与上游金属供应中的人类参与。",
+      "validation_needed": "针对铸造锻造与成形：建立可继续制造同等子代的生产系统，核算完整投入、代际时间和每代人工干预；验收对象为从材料与零部件制造下一套炉、模具、压机和控制系统。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.3-M1",
+      "required_capability": "实现选定系统的可持续自我复制，需要无人完成粉末/材料装载、打印、取件、去支撑、热处理和成品检验。",
+      "current_capability": "EOS当前产品页描述自动化打印平台、少于30分钟的作业切换和工业零件打印；未给出供粉与后处理全链无人验证。",
+      "gap": "增材制造：完整生产生命周期内的HR0运行与维护尚未由本轮资料证实。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D06-S03"
+      ],
+      "human_dependency": "金属粉末、激光器、控制电子、后处理和应用工程服务不能因打印过程自动化而视为已闭环。",
+      "validation_needed": "针对增材制造：连续生产合格品并披露运行时长、产品边界、换料换班和全部人工接管记录；验收对象为无人完成粉末/材料装载、打印、取件、去支撑、热处理和成品检验。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "6.3-M2",
+      "required_capability": "实现选定系统的可持续自我复制，需要检测铺粉缺陷、熔池异常、孔隙、裂纹和激光或喷头状态退化。",
+      "current_capability": "本轮检索未获得直接证明“检测铺粉缺陷、熔池异常、孔隙、裂纹和激光或喷头状态退化”已在HR0成立的公开资料；增材制造的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "增材制造：现有检测功能与该项全部故障范围之间仍需覆盖率和无人工验证。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "金属粉末、激光器、控制电子、后处理和应用工程服务不能因打印过程自动化而视为已闭环。",
+      "validation_needed": "针对增材制造：注入上述质量和设备故障，测量漏检、误报、检出时间及传感器自身失效的覆盖；验收对象为检测铺粉缺陷、熔池异常、孔隙、裂纹和激光或喷头状态退化。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.3-M3",
+      "required_capability": "实现选定系统的可持续自我复制，需要从质量异常追溯到粉末批次、扫描策略、气氛、光学或温度原因。",
+      "current_capability": "本轮检索未获得直接证明“从质量异常追溯到粉末批次、扫描策略、气氛、光学或温度原因”已在HR0成立的公开资料；增材制造的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "增材制造：预测和排故建议不等于自主验证根因；缺少该项端到端诊断证据。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "金属粉末、激光器、控制电子、后处理和应用工程服务不能因打印过程自动化而视为已闭环。",
+      "validation_needed": "针对增材制造：盲测上述多种根因，要求机器提出并用干预试验验证诊断，统计错误处置；验收对象为从质量异常追溯到粉末批次、扫描策略、气氛、光学或温度原因。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.3-M4",
+      "required_capability": "实现选定系统的可持续自我复制，需要无人清理并更换铺粉器、激光光学件、过滤器和失效驱动部件。",
+      "current_capability": "本轮检索未获得直接证明“无人清理并更换铺粉器、激光光学件、过滤器和失效驱动部件”已在HR0成立的公开资料；增材制造的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "增材制造：物理维修、备件获取、重新校准和复投产的HR0闭环尚未证实。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "金属粉末、激光器、控制电子、后处理和应用工程服务不能因打印过程自动化而视为已闭环。",
+      "validation_needed": "针对增材制造：在不允许人工拆装或远程接管下施加故障，要求自主修复并通过原质量验收；验收对象为无人清理并更换铺粉器、激光光学件、过滤器和失效驱动部件。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.3-M5",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主生产或再生合格粉末/丝材、惰性气体、基板与关键打印机备件。",
+      "current_capability": "本轮检索未获得直接证明“自主生产或再生合格粉末/丝材、惰性气体、基板与关键打印机备件”已在HR0成立的公开资料；增材制造的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "增材制造：现有工业供应链与所有关键投入的机器自产之间尚有未核验环节。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "金属粉末、激光器、控制电子、后处理和应用工程服务不能因打印过程自动化而视为已闭环。",
+      "validation_needed": "针对增材制造：逐项列出关键投入来源，耗尽预置库存后由机器从资源到部件持续补给；验收对象为自主生产或再生合格粉末/丝材、惰性气体、基板与关键打印机备件。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.3-M6",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主维持激光电力、预热热源、惰性气体循环和冷却系统。",
+      "current_capability": "本轮检索未获得直接证明“自主维持激光电力、预热热源、惰性气体循环和冷却系统”已在HR0成立的公开资料；增材制造的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "增材制造：本轮来源未直接证实该项供能和厂务系统可脱离人类长期维持。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "金属粉末、激光器、控制电子、后处理和应用工程服务不能因打印过程自动化而视为已闭环。",
+      "validation_needed": "针对增材制造：切断外部人类运维的供能服务并注入供能故障，验证供能、恢复和耗材补给；验收对象为自主维持激光电力、预热热源、惰性气体循环和冷却系统。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.3-M7",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主建立几何设计、切片、支撑、参数库和打印后处理质量标准。",
+      "current_capability": "本轮检索未获得直接证明“自主建立几何设计、切片、支撑、参数库和打印后处理质量标准”已在HR0成立的公开资料；增材制造的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "增材制造：公开文件或数字孪生仅是部分知识；隐性工艺和专家维护的替代尚未证实。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "金属粉末、激光器、控制电子、后处理和应用工程服务不能因打印过程自动化而视为已闭环。",
+      "validation_needed": "针对增材制造：封存全部人类咨询渠道，给出陌生工况，要求机器仅凭可维护知识完成设计/运行/故障处置；验收对象为自主建立几何设计、切片、支撑、参数库和打印后处理质量标准。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.3-M8",
+      "required_capability": "实现选定系统的可持续自我复制，需要在打印舱污染、火灾或控制数据丢失后重建可用打印能力。",
+      "current_capability": "本轮检索未获得直接证明“在打印舱污染、火灾或控制数据丢失后重建可用打印能力”已在HR0成立的公开资料；增材制造的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "增材制造：例行备份或单设备服务不能证明严重损毁后的无人重建能力。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "金属粉末、激光器、控制电子、后处理和应用工程服务不能因打印过程自动化而视为已闭环。",
+      "validation_needed": "针对增材制造：在主设备、部分备件与数据同时损坏的声明灾难情景中恢复并验收生产；验收对象为在打印舱污染、火灾或控制数据丢失后重建可用打印能力。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.3-M9",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主新增打印机与热处理、机加工、检测等配套后处理产线。",
+      "current_capability": "EOS提供模块化和可集成的工业打印设备；可供企业扩产不等于打印系统能无人制造安装新增设备。",
+      "gap": "增材制造：可购买模块或公司扩产计划不能替代无人新建、调试和产能爬坡证明。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D06-S03"
+      ],
+      "human_dependency": "金属粉末、激光器、控制电子、后处理和应用工程服务不能因打印过程自动化而视为已闭环。",
+      "validation_needed": "针对增材制造：从未安装的材料和设备状态开始，由机器完成新增设施部署和稳定产能验收；验收对象为自主新增打印机与热处理、机加工、检测等配套后处理产线。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.3-M10",
+      "required_capability": "实现选定系统的可持续自我复制，需要打印并结合必要非打印工艺重建同等能力打印机和配套生产设备。",
+      "current_capability": "本轮检索未获得直接证明“打印并结合必要非打印工艺重建同等能力打印机和配套生产设备”已在HR0成立的公开资料；增材制造的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "增材制造：未在所查资料中找到覆盖上游投入、维修和下一代再复制的完整HR0验证。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "金属粉末、激光器、控制电子、后处理和应用工程服务不能因打印过程自动化而视为已闭环。",
+      "validation_needed": "针对增材制造：建立可继续制造同等子代的生产系统，核算完整投入、代际时间和每代人工干预；验收对象为打印并结合必要非打印工艺重建同等能力打印机和配套生产设备。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.4-M1",
+      "required_capability": "实现选定系统的可持续自我复制，需要无人定位、装夹、施焊或连接，并对复杂接头完成焊后质量验收。",
+      "current_capability": "FANUC机器人可在配置好的焊接单元中执行MIG、TIG、等离子或激光等连接任务；这是限定工艺的自动作业。",
+      "gap": "焊接与连接：完整生产生命周期内的HR0运行与维护尚未由本轮资料证实。",
+      "assessment_status": "demonstrated_limited",
+      "evidence_relation": "direct_metric",
+      "source_ids": [
+        "D06-S04"
+      ],
+      "human_dependency": "产品页要求工艺、工具与系统配置；自动运动不证明焊材供应、焊机维修或新焊胞建设无需人类。",
+      "validation_needed": "针对焊接与连接：连续生产合格品并披露运行时长、产品边界、换料换班和全部人工接管记录；验收对象为无人定位、装夹、施焊或连接，并对复杂接头完成焊后质量验收。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "6.4-M2",
+      "required_capability": "实现选定系统的可持续自我复制，需要实时发现焊缝偏移、未熔合、气孔、裂纹、焊枪磨损及连接松动。",
+      "current_capability": "本轮检索未获得直接证明“实时发现焊缝偏移、未熔合、气孔、裂纹、焊枪磨损及连接松动”已在HR0成立的公开资料；焊接与连接的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "焊接与连接：现有检测功能与该项全部故障范围之间仍需覆盖率和无人工验证。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "产品页要求工艺、工具与系统配置；自动运动不证明焊材供应、焊机维修或新焊胞建设无需人类。",
+      "validation_needed": "针对焊接与连接：注入上述质量和设备故障，测量漏检、误报、检出时间及传感器自身失效的覆盖；验收对象为实时发现焊缝偏移、未熔合、气孔、裂纹、焊枪磨损及连接松动。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.4-M3",
+      "required_capability": "实现选定系统的可持续自我复制，需要区分材料、接头间隙、保护气、焊接电流和机械轨迹导致的缺陷。",
+      "current_capability": "本轮检索未获得直接证明“区分材料、接头间隙、保护气、焊接电流和机械轨迹导致的缺陷”已在HR0成立的公开资料；焊接与连接的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "焊接与连接：预测和排故建议不等于自主验证根因；缺少该项端到端诊断证据。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "产品页要求工艺、工具与系统配置；自动运动不证明焊材供应、焊机维修或新焊胞建设无需人类。",
+      "validation_needed": "针对焊接与连接：盲测上述多种根因，要求机器提出并用干预试验验证诊断，统计错误处置；验收对象为区分材料、接头间隙、保护气、焊接电流和机械轨迹导致的缺陷。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.4-M4",
+      "required_capability": "实现选定系统的可持续自我复制，需要无人更换焊枪、导电嘴、送丝器和夹具并修复不合格接头。",
+      "current_capability": "本轮检索未获得直接证明“无人更换焊枪、导电嘴、送丝器和夹具并修复不合格接头”已在HR0成立的公开资料；焊接与连接的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "焊接与连接：物理维修、备件获取、重新校准和复投产的HR0闭环尚未证实。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "产品页要求工艺、工具与系统配置；自动运动不证明焊材供应、焊机维修或新焊胞建设无需人类。",
+      "validation_needed": "针对焊接与连接：在不允许人工拆装或远程接管下施加故障，要求自主修复并通过原质量验收；验收对象为无人更换焊枪、导电嘴、送丝器和夹具并修复不合格接头。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.4-M5",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主制造焊丝、焊条、保护气、胶黏剂、紧固件和连接工具。",
+      "current_capability": "本轮检索未获得直接证明“自主制造焊丝、焊条、保护气、胶黏剂、紧固件和连接工具”已在HR0成立的公开资料；焊接与连接的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "焊接与连接：现有工业供应链与所有关键投入的机器自产之间尚有未核验环节。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "产品页要求工艺、工具与系统配置；自动运动不证明焊材供应、焊机维修或新焊胞建设无需人类。",
+      "validation_needed": "针对焊接与连接：逐项列出关键投入来源，耗尽预置库存后由机器从资源到部件持续补给；验收对象为自主制造焊丝、焊条、保护气、胶黏剂、紧固件和连接工具。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.4-M6",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主维持焊接电源、激光源、气体供应与冷却并恢复故障供能。",
+      "current_capability": "本轮检索未获得直接证明“自主维持焊接电源、激光源、气体供应与冷却并恢复故障供能”已在HR0成立的公开资料；焊接与连接的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "焊接与连接：本轮来源未直接证实该项供能和厂务系统可脱离人类长期维持。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "产品页要求工艺、工具与系统配置；自动运动不证明焊材供应、焊机维修或新焊胞建设无需人类。",
+      "validation_needed": "针对焊接与连接：切断外部人类运维的供能服务并注入供能故障，验证供能、恢复和耗材补给；验收对象为自主维持焊接电源、激光源、气体供应与冷却并恢复故障供能。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.4-M7",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主生成并验证焊接工艺规程、接头设计和机器人轨迹。",
+      "current_capability": "FANUC介绍焊接专用机器人、离线编程和与焊接电源接口的集成；工艺选择和工具配置仍是前提。",
+      "gap": "焊接与连接：公开文件或数字孪生仅是部分知识；隐性工艺和专家维护的替代尚未证实。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D06-S04"
+      ],
+      "human_dependency": "产品页要求工艺、工具与系统配置；自动运动不证明焊材供应、焊机维修或新焊胞建设无需人类。",
+      "validation_needed": "针对焊接与连接：封存全部人类咨询渠道，给出陌生工况，要求机器仅凭可维护知识完成设计/运行/故障处置；验收对象为自主生成并验证焊接工艺规程、接头设计和机器人轨迹。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "6.4-M8",
+      "required_capability": "实现选定系统的可持续自我复制，需要在焊接电源损坏、焊胞火灾或工装失效后恢复合格连接能力。",
+      "current_capability": "本轮检索未获得直接证明“在焊接电源损坏、焊胞火灾或工装失效后恢复合格连接能力”已在HR0成立的公开资料；焊接与连接的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "焊接与连接：例行备份或单设备服务不能证明严重损毁后的无人重建能力。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "产品页要求工艺、工具与系统配置；自动运动不证明焊材供应、焊机维修或新焊胞建设无需人类。",
+      "validation_needed": "针对焊接与连接：在主设备、部分备件与数据同时损坏的声明灾难情景中恢复并验收生产；验收对象为在焊接电源损坏、焊胞火灾或工装失效后恢复合格连接能力。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.4-M9",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主安装调试新增焊接单元并适配新的产品和节拍。",
+      "current_capability": "本轮检索未获得直接证明“自主安装调试新增焊接单元并适配新的产品和节拍”已在HR0成立的公开资料；焊接与连接的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "焊接与连接：可购买模块或公司扩产计划不能替代无人新建、调试和产能爬坡证明。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "产品页要求工艺、工具与系统配置；自动运动不证明焊材供应、焊机维修或新焊胞建设无需人类。",
+      "validation_needed": "针对焊接与连接：从未安装的材料和设备状态开始，由机器完成新增设施部署和稳定产能验收；验收对象为自主安装调试新增焊接单元并适配新的产品和节拍。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.4-M10",
+      "required_capability": "实现选定系统的可持续自我复制，需要制造下一套机器人、焊接电源、工装及检测系统以复制连接能力。",
+      "current_capability": "本轮检索未获得直接证明“制造下一套机器人、焊接电源、工装及检测系统以复制连接能力”已在HR0成立的公开资料；焊接与连接的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "焊接与连接：未在所查资料中找到覆盖上游投入、维修和下一代再复制的完整HR0验证。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "产品页要求工艺、工具与系统配置；自动运动不证明焊材供应、焊机维修或新焊胞建设无需人类。",
+      "validation_needed": "针对焊接与连接：建立可继续制造同等子代的生产系统，核算完整投入、代际时间和每代人工干预；验收对象为制造下一套机器人、焊接电源、工装及检测系统以复制连接能力。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.5-M1",
+      "required_capability": "实现选定系统的可持续自我复制，需要无人完成电机定转子、绕线、绝缘、浸漆、装配与负载试验。",
+      "current_capability": "GROB列出自动化程度从低到高及全自动绕线解决方案；ABB列出定转子装配和质量测试模块，未报告生产设备自维护。",
+      "gap": "电机与执行器制造：完整生产生命周期内的HR0运行与维护尚未由本轮资料证实。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D06-S06",
+        "D06-S10"
+      ],
+      "human_dependency": "GROB强调专业工程、交钥匙项目和合作伙伴工艺；铜、磁材、绝缘与功率器件的无人上游供给未被该资料证实。",
+      "validation_needed": "针对电机与执行器制造：连续生产合格品并披露运行时长、产品边界、换料换班和全部人工接管记录；验收对象为无人完成电机定转子、绕线、绝缘、浸漆、装配与负载试验。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "6.5-M2",
+      "required_capability": "实现选定系统的可持续自我复制，需要检测匝间短路、绝缘缺陷、磁体异常、转子失衡及执行器泄漏。",
+      "current_capability": "GROB绕线/铁芯方案包含重量、高度、内径检查；ABB列出电机装配质量及泄漏测试，只支持这些已列检测环节。",
+      "gap": "电机与执行器制造：现有检测功能与该项全部故障范围之间仍需覆盖率和无人工验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D06-S06",
+        "D06-S10"
+      ],
+      "human_dependency": "GROB强调专业工程、交钥匙项目和合作伙伴工艺；铜、磁材、绝缘与功率器件的无人上游供给未被该资料证实。",
+      "validation_needed": "针对电机与执行器制造：注入上述质量和设备故障，测量漏检、误报、检出时间及传感器自身失效的覆盖；验收对象为检测匝间短路、绝缘缺陷、磁体异常、转子失衡及执行器泄漏。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "6.5-M3",
+      "required_capability": "实现选定系统的可持续自我复制，需要把转矩不足、振动或温升异常定位到绕组、气隙、磁体或驱动控制。",
+      "current_capability": "本轮检索未获得直接证明“把转矩不足、振动或温升异常定位到绕组、气隙、磁体或驱动控制”已在HR0成立的公开资料；电机与执行器制造的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "电机与执行器制造：预测和排故建议不等于自主验证根因；缺少该项端到端诊断证据。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "GROB强调专业工程、交钥匙项目和合作伙伴工艺；铜、磁材、绝缘与功率器件的无人上游供给未被该资料证实。",
+      "validation_needed": "针对电机与执行器制造：盲测上述多种根因，要求机器提出并用干预试验验证诊断，统计错误处置；验收对象为把转矩不足、振动或温升异常定位到绕组、气隙、磁体或驱动控制。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.5-M4",
+      "required_capability": "实现选定系统的可持续自我复制，需要无人重绕或更换绕组、轴承、密封和驱动模块并恢复额定性能。",
+      "current_capability": "本轮检索未获得直接证明“无人重绕或更换绕组、轴承、密封和驱动模块并恢复额定性能”已在HR0成立的公开资料；电机与执行器制造的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "电机与执行器制造：物理维修、备件获取、重新校准和复投产的HR0闭环尚未证实。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "GROB强调专业工程、交钥匙项目和合作伙伴工艺；铜、磁材、绝缘与功率器件的无人上游供给未被该资料证实。",
+      "validation_needed": "针对电机与执行器制造：在不允许人工拆装或远程接管下施加故障，要求自主修复并通过原质量验收；验收对象为无人重绕或更换绕组、轴承、密封和驱动模块并恢复额定性能。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.5-M5",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主提供电工钢、铜线、磁体、绝缘漆、轴承和功率器件。",
+      "current_capability": "本轮检索未获得直接证明“自主提供电工钢、铜线、磁体、绝缘漆、轴承和功率器件”已在HR0成立的公开资料；电机与执行器制造的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "电机与执行器制造：现有工业供应链与所有关键投入的机器自产之间尚有未核验环节。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "GROB强调专业工程、交钥匙项目和合作伙伴工艺；铜、磁材、绝缘与功率器件的无人上游供给未被该资料证实。",
+      "validation_needed": "针对电机与执行器制造：逐项列出关键投入来源，耗尽预置库存后由机器从资源到部件持续补给；验收对象为自主提供电工钢、铜线、磁体、绝缘漆、轴承和功率器件。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.5-M6",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主为绕线、热处理、浸漆和负载测试提供电力与工艺热。",
+      "current_capability": "本轮检索未获得直接证明“自主为绕线、热处理、浸漆和负载测试提供电力与工艺热”已在HR0成立的公开资料；电机与执行器制造的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "电机与执行器制造：本轮来源未直接证实该项供能和厂务系统可脱离人类长期维持。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "GROB强调专业工程、交钥匙项目和合作伙伴工艺；铜、磁材、绝缘与功率器件的无人上游供给未被该资料证实。",
+      "validation_needed": "针对电机与执行器制造：切断外部人类运维的供能服务并注入供能故障，验证供能、恢复和耗材补给；验收对象为自主为绕线、热处理、浸漆和负载测试提供电力与工艺热。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.5-M7",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主设计电磁结构、绕线工艺、绝缘系统和执行器控制参数。",
+      "current_capability": "GROB提供从设计、规划到实施的电机交钥匙产线，但明确依托技术专家和合作伙伴工艺，不是知识无人工依赖。",
+      "gap": "电机与执行器制造：公开文件或数字孪生仅是部分知识；隐性工艺和专家维护的替代尚未证实。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D06-S05",
+        "D06-S06"
+      ],
+      "human_dependency": "GROB强调专业工程、交钥匙项目和合作伙伴工艺；铜、磁材、绝缘与功率器件的无人上游供给未被该资料证实。",
+      "validation_needed": "针对电机与执行器制造：封存全部人类咨询渠道，给出陌生工况，要求机器仅凭可维护知识完成设计/运行/故障处置；验收对象为自主设计电磁结构、绕线工艺、绝缘系统和执行器控制参数。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "6.5-M8",
+      "required_capability": "实现选定系统的可持续自我复制，需要在绕线设备、浸漆线或测试台重大损坏后恢复合格电机生产。",
+      "current_capability": "本轮检索未获得直接证明“在绕线设备、浸漆线或测试台重大损坏后恢复合格电机生产”已在HR0成立的公开资料；电机与执行器制造的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "电机与执行器制造：例行备份或单设备服务不能证明严重损毁后的无人重建能力。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "GROB强调专业工程、交钥匙项目和合作伙伴工艺；铜、磁材、绝缘与功率器件的无人上游供给未被该资料证实。",
+      "validation_needed": "针对电机与执行器制造：在主设备、部分备件与数据同时损坏的声明灾难情景中恢复并验收生产；验收对象为在绕线设备、浸漆线或测试台重大损坏后恢复合格电机生产。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.5-M9",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主部署新增电机或液压执行器生产和测试单元。",
+      "current_capability": "本轮检索未获得直接证明“自主部署新增电机或液压执行器生产和测试单元”已在HR0成立的公开资料；电机与执行器制造的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "电机与执行器制造：可购买模块或公司扩产计划不能替代无人新建、调试和产能爬坡证明。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "GROB强调专业工程、交钥匙项目和合作伙伴工艺；铜、磁材、绝缘与功率器件的无人上游供给未被该资料证实。",
+      "validation_needed": "针对电机与执行器制造：从未安装的材料和设备状态开始，由机器完成新增设施部署和稳定产能验收；验收对象为自主部署新增电机或液压执行器生产和测试单元。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.5-M10",
+      "required_capability": "实现选定系统的可持续自我复制，需要制造下一套生产电机、伺服及液压执行器所需的装备和控制系统。",
+      "current_capability": "本轮检索未获得直接证明“制造下一套生产电机、伺服及液压执行器所需的装备和控制系统”已在HR0成立的公开资料；电机与执行器制造的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "电机与执行器制造：未在所查资料中找到覆盖上游投入、维修和下一代再复制的完整HR0验证。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "GROB强调专业工程、交钥匙项目和合作伙伴工艺；铜、磁材、绝缘与功率器件的无人上游供给未被该资料证实。",
+      "validation_needed": "针对电机与执行器制造：建立可继续制造同等子代的生产系统，核算完整投入、代际时间和每代人工干预；验收对象为制造下一套生产电机、伺服及液压执行器所需的装备和控制系统。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.6-M1",
+      "required_capability": "实现选定系统的可持续自我复制，需要无人完成轴承套圈和滚动体制造、齿轮切削热处理、精加工及装配检验。",
+      "current_capability": "SKF2026年10月19日发布陶瓷工艺实验室进展，整合粉体、压制、烧结和表面加工研发；新闻没有报告无人轴承/齿轮生产。",
+      "gap": "轴承齿轮与传动：完整生产生命周期内的HR0运行与维护尚未由本轮资料证实。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D06-S07"
+      ],
+      "human_dependency": "新实验室是专家研发与产业化设施；不存在由这条新闻支持的全线无人运行、维修或供应闭环结论。",
+      "validation_needed": "针对轴承齿轮与传动：连续生产合格品并披露运行时长、产品边界、换料换班和全部人工接管记录；验收对象为无人完成轴承套圈和滚动体制造、齿轮切削热处理、精加工及装配检验。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.6-M2",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主检测齿形误差、滚道缺陷、材料疲劳、游隙和润滑异常。",
+      "current_capability": "本轮检索未获得直接证明“自主检测齿形误差、滚道缺陷、材料疲劳、游隙和润滑异常”已在HR0成立的公开资料；轴承齿轮与传动的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "轴承齿轮与传动：现有检测功能与该项全部故障范围之间仍需覆盖率和无人工验证。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "新实验室是专家研发与产业化设施；不存在由这条新闻支持的全线无人运行、维修或供应闭环结论。",
+      "validation_needed": "针对轴承齿轮与传动：注入上述质量和设备故障，测量漏检、误报、检出时间及传感器自身失效的覆盖；验收对象为自主检测齿形误差、滚道缺陷、材料疲劳、游隙和润滑异常。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.6-M3",
+      "required_capability": "实现选定系统的可持续自我复制，需要把传动噪声、磨损或失效定位到热处理、加工误差、装配或材料原因。",
+      "current_capability": "本轮检索未获得直接证明“把传动噪声、磨损或失效定位到热处理、加工误差、装配或材料原因”已在HR0成立的公开资料；轴承齿轮与传动的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "轴承齿轮与传动：预测和排故建议不等于自主验证根因；缺少该项端到端诊断证据。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "新实验室是专家研发与产业化设施；不存在由这条新闻支持的全线无人运行、维修或供应闭环结论。",
+      "validation_needed": "针对轴承齿轮与传动：盲测上述多种根因，要求机器提出并用干预试验验证诊断，统计错误处置；验收对象为把传动噪声、磨损或失效定位到热处理、加工误差、装配或材料原因。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.6-M4",
+      "required_capability": "实现选定系统的可持续自我复制，需要无人拆换轴承、修复齿轮与减速器并恢复精度和承载寿命。",
+      "current_capability": "本轮检索未获得直接证明“无人拆换轴承、修复齿轮与减速器并恢复精度和承载寿命”已在HR0成立的公开资料；轴承齿轮与传动的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "轴承齿轮与传动：物理维修、备件获取、重新校准和复投产的HR0闭环尚未证实。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "新实验室是专家研发与产业化设施；不存在由这条新闻支持的全线无人运行、维修或供应闭环结论。",
+      "validation_needed": "针对轴承齿轮与传动：在不允许人工拆装或远程接管下施加故障，要求自主修复并通过原质量验收；验收对象为无人拆换轴承、修复齿轮与减速器并恢复精度和承载寿命。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.6-M5",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主提供轴承钢、陶瓷粉体、磨料、润滑剂、密封和热处理介质。",
+      "current_capability": "本轮检索未获得直接证明“自主提供轴承钢、陶瓷粉体、磨料、润滑剂、密封和热处理介质”已在HR0成立的公开资料；轴承齿轮与传动的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "轴承齿轮与传动：现有工业供应链与所有关键投入的机器自产之间尚有未核验环节。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "新实验室是专家研发与产业化设施；不存在由这条新闻支持的全线无人运行、维修或供应闭环结论。",
+      "validation_needed": "针对轴承齿轮与传动：逐项列出关键投入来源，耗尽预置库存后由机器从资源到部件持续补给；验收对象为自主提供轴承钢、陶瓷粉体、磨料、润滑剂、密封和热处理介质。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.6-M6",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主维持热处理和烧结炉、磨削机及寿命试验台的能源供应。",
+      "current_capability": "本轮检索未获得直接证明“自主维持热处理和烧结炉、磨削机及寿命试验台的能源供应”已在HR0成立的公开资料；轴承齿轮与传动的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "轴承齿轮与传动：本轮来源未直接证实该项供能和厂务系统可脱离人类长期维持。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "新实验室是专家研发与产业化设施；不存在由这条新闻支持的全线无人运行、维修或供应闭环结论。",
+      "validation_needed": "针对轴承齿轮与传动：切断外部人类运维的供能服务并注入供能故障，验证供能、恢复和耗材补给；验收对象为自主维持热处理和烧结炉、磨削机及寿命试验台的能源供应。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.6-M7",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主掌握接触力学、热处理、磨削修形和寿命验证的工艺知识。",
+      "current_capability": "SKF实验室将多环节工艺研发集中于专家组织；可用于工艺知识积累，但没有证明机器已独立掌握传动件全套制造知识。",
+      "gap": "轴承齿轮与传动：公开文件或数字孪生仅是部分知识；隐性工艺和专家维护的替代尚未证实。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D06-S07"
+      ],
+      "human_dependency": "新实验室是专家研发与产业化设施；不存在由这条新闻支持的全线无人运行、维修或供应闭环结论。",
+      "validation_needed": "针对轴承齿轮与传动：封存全部人类咨询渠道，给出陌生工况，要求机器仅凭可维护知识完成设计/运行/故障处置；验收对象为自主掌握接触力学、热处理、磨削修形和寿命验证的工艺知识。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.6-M8",
+      "required_capability": "实现选定系统的可持续自我复制，需要在精密磨床、热处理炉或计量基准损毁后恢复合格传动件制造。",
+      "current_capability": "本轮检索未获得直接证明“在精密磨床、热处理炉或计量基准损毁后恢复合格传动件制造”已在HR0成立的公开资料；轴承齿轮与传动的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "轴承齿轮与传动：例行备份或单设备服务不能证明严重损毁后的无人重建能力。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "新实验室是专家研发与产业化设施；不存在由这条新闻支持的全线无人运行、维修或供应闭环结论。",
+      "validation_needed": "针对轴承齿轮与传动：在主设备、部分备件与数据同时损坏的声明灾难情景中恢复并验收生产；验收对象为在精密磨床、热处理炉或计量基准损毁后恢复合格传动件制造。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.6-M9",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主建设新增轴承、齿轮和减速器产线并校准测试装备。",
+      "current_capability": "本轮检索未获得直接证明“自主建设新增轴承、齿轮和减速器产线并校准测试装备”已在HR0成立的公开资料；轴承齿轮与传动的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "轴承齿轮与传动：可购买模块或公司扩产计划不能替代无人新建、调试和产能爬坡证明。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "新实验室是专家研发与产业化设施；不存在由这条新闻支持的全线无人运行、维修或供应闭环结论。",
+      "validation_needed": "针对轴承齿轮与传动：从未安装的材料和设备状态开始，由机器完成新增设施部署和稳定产能验收；验收对象为自主建设新增轴承、齿轮和减速器产线并校准测试装备。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.6-M10",
+      "required_capability": "实现选定系统的可持续自我复制，需要复制制造精密传动件所需的磨床、炉、装配线和计量系统。",
+      "current_capability": "本轮检索未获得直接证明“复制制造精密传动件所需的磨床、炉、装配线和计量系统”已在HR0成立的公开资料；轴承齿轮与传动的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "轴承齿轮与传动：未在所查资料中找到覆盖上游投入、维修和下一代再复制的完整HR0验证。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "新实验室是专家研发与产业化设施；不存在由这条新闻支持的全线无人运行、维修或供应闭环结论。",
+      "validation_needed": "针对轴承齿轮与传动：建立可继续制造同等子代的生产系统，核算完整投入、代际时间和每代人工干预；验收对象为复制制造精密传动件所需的磨床、炉、装配线和计量系统。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.7-M1",
+      "required_capability": "实现选定系统的可持续自我复制，需要无人制造并校准传感元件、信号链、封装与测量仪器且保持溯源精度。",
+      "current_capability": "Renishaw展示可采购的测头和测量系统及定制制造服务；来源没有说明这些传感器本身由无人生产线制造。",
+      "gap": "传感器与仪器：完整生产生命周期内的HR0运行与维护尚未由本轮资料证实。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D06-S08"
+      ],
+      "human_dependency": "Renishaw页面明确有定制设计和专家服务；仪器制造所需芯片、计量基准与校准人工是否消除仍需专项证据。",
+      "validation_needed": "针对传感器与仪器：连续生产合格品并披露运行时长、产品边界、换料换班和全部人工接管记录；验收对象为无人制造并校准传感元件、信号链、封装与测量仪器且保持溯源精度。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.7-M2",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主识别传感器漂移、零点失准、噪声、失联和校准标准损坏。",
+      "current_capability": "Renishaw将机床健康监测和诊断作为工艺控制基础；这支持测量/监测工具存在，不是传感器制造线自主检错的完整证明。",
+      "gap": "传感器与仪器：现有检测功能与该项全部故障范围之间仍需覆盖率和无人工验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D06-S08"
+      ],
+      "human_dependency": "Renishaw页面明确有定制设计和专家服务；仪器制造所需芯片、计量基准与校准人工是否消除仍需专项证据。",
+      "validation_needed": "针对传感器与仪器：注入上述质量和设备故障，测量漏检、误报、检出时间及传感器自身失效的覆盖；验收对象为自主识别传感器漂移、零点失准、噪声、失联和校准标准损坏。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "6.7-M3",
+      "required_capability": "实现选定系统的可持续自我复制，需要区分被测对象异常与传感器、模拟前端、采样或校准模型故障。",
+      "current_capability": "本轮检索未获得直接证明“区分被测对象异常与传感器、模拟前端、采样或校准模型故障”已在HR0成立的公开资料；传感器与仪器的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "传感器与仪器：预测和排故建议不等于自主验证根因；缺少该项端到端诊断证据。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "Renishaw页面明确有定制设计和专家服务；仪器制造所需芯片、计量基准与校准人工是否消除仍需专项证据。",
+      "validation_needed": "针对传感器与仪器：盲测上述多种根因，要求机器提出并用干预试验验证诊断，统计错误处置；验收对象为区分被测对象异常与传感器、模拟前端、采样或校准模型故障。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.7-M4",
+      "required_capability": "实现选定系统的可持续自我复制，需要无人维修传感器和仪器、重建校准并用独立标准交叉验收。",
+      "current_capability": "本轮检索未获得直接证明“无人维修传感器和仪器、重建校准并用独立标准交叉验收”已在HR0成立的公开资料；传感器与仪器的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "传感器与仪器：物理维修、备件获取、重新校准和复投产的HR0闭环尚未证实。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "Renishaw页面明确有定制设计和专家服务；仪器制造所需芯片、计量基准与校准人工是否消除仍需专项证据。",
+      "validation_needed": "针对传感器与仪器：在不允许人工拆装或远程接管下施加故障，要求自主修复并通过原质量验收；验收对象为无人维修传感器和仪器、重建校准并用独立标准交叉验收。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.7-M5",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主提供敏感材料、精密光机结构、模拟芯片和可维护的计量基准。",
+      "current_capability": "本轮检索未获得直接证明“自主提供敏感材料、精密光机结构、模拟芯片和可维护的计量基准”已在HR0成立的公开资料；传感器与仪器的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "传感器与仪器：现有工业供应链与所有关键投入的机器自产之间尚有未核验环节。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "Renishaw页面明确有定制设计和专家服务；仪器制造所需芯片、计量基准与校准人工是否消除仍需专项证据。",
+      "validation_needed": "针对传感器与仪器：逐项列出关键投入来源，耗尽预置库存后由机器从资源到部件持续补给；验收对象为自主提供敏感材料、精密光机结构、模拟芯片和可维护的计量基准。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.7-M6",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主保证仪器供电、恒温、隔振及必要光源和冷却条件。",
+      "current_capability": "本轮检索未获得直接证明“自主保证仪器供电、恒温、隔振及必要光源和冷却条件”已在HR0成立的公开资料；传感器与仪器的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "传感器与仪器：本轮来源未直接证实该项供能和厂务系统可脱离人类长期维持。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "Renishaw页面明确有定制设计和专家服务；仪器制造所需芯片、计量基准与校准人工是否消除仍需专项证据。",
+      "validation_needed": "针对传感器与仪器：切断外部人类运维的供能服务并注入供能故障，验证供能、恢复和耗材补给；验收对象为自主保证仪器供电、恒温、隔振及必要光源和冷却条件。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.7-M7",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主保存并验证测量原理、误差预算、校准链和仪器设计知识。",
+      "current_capability": "公开探测技术规格和选型资料使部分仪器应用知识数字化；定制设计和专家服务仍在产品方案中。",
+      "gap": "传感器与仪器：公开文件或数字孪生仅是部分知识；隐性工艺和专家维护的替代尚未证实。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D06-S08"
+      ],
+      "human_dependency": "Renishaw页面明确有定制设计和专家服务；仪器制造所需芯片、计量基准与校准人工是否消除仍需专项证据。",
+      "validation_needed": "针对传感器与仪器：封存全部人类咨询渠道，给出陌生工况，要求机器仅凭可维护知识完成设计/运行/故障处置；验收对象为自主保存并验证测量原理、误差预算、校准链和仪器设计知识。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "6.7-M8",
+      "required_capability": "实现选定系统的可持续自我复制，需要在关键计量基准或仪器损毁后重建可溯源的测量体系。",
+      "current_capability": "本轮检索未获得直接证明“在关键计量基准或仪器损毁后重建可溯源的测量体系”已在HR0成立的公开资料；传感器与仪器的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "传感器与仪器：例行备份或单设备服务不能证明严重损毁后的无人重建能力。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "Renishaw页面明确有定制设计和专家服务；仪器制造所需芯片、计量基准与校准人工是否消除仍需专项证据。",
+      "validation_needed": "针对传感器与仪器：在主设备、部分备件与数据同时损坏的声明灾难情景中恢复并验收生产；验收对象为在关键计量基准或仪器损毁后重建可溯源的测量体系。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.7-M9",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主增加传感器与仪器制造产能并验证新增产品的准确度。",
+      "current_capability": "本轮检索未获得直接证明“自主增加传感器与仪器制造产能并验证新增产品的准确度”已在HR0成立的公开资料；传感器与仪器的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "传感器与仪器：可购买模块或公司扩产计划不能替代无人新建、调试和产能爬坡证明。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "Renishaw页面明确有定制设计和专家服务；仪器制造所需芯片、计量基准与校准人工是否消除仍需专项证据。",
+      "validation_needed": "针对传感器与仪器：从未安装的材料和设备状态开始，由机器完成新增设施部署和稳定产能验收；验收对象为自主增加传感器与仪器制造产能并验证新增产品的准确度。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.7-M10",
+      "required_capability": "实现选定系统的可持续自我复制，需要制造并校准同等测量能力的下一代仪器及其生产检测设备。",
+      "current_capability": "本轮检索未获得直接证明“制造并校准同等测量能力的下一代仪器及其生产检测设备”已在HR0成立的公开资料；传感器与仪器的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "传感器与仪器：未在所查资料中找到覆盖上游投入、维修和下一代再复制的完整HR0验证。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "Renishaw页面明确有定制设计和专家服务；仪器制造所需芯片、计量基准与校准人工是否消除仍需专项证据。",
+      "validation_needed": "针对传感器与仪器：建立可继续制造同等子代的生产系统，核算完整投入、代际时间和每代人工干预；验收对象为制造并校准同等测量能力的下一代仪器及其生产检测设备。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.8-M1",
+      "required_capability": "实现选定系统的可持续自我复制，需要无人执行机床与资本设备的零件制造、装配、精度校准和出厂验收。",
+      "current_capability": "GROB2026年展出机床和模块化机器人单元；自动加工能力不等于自主完成母机整机制造、精度装配与出厂验收。",
+      "gap": "机床与生产设备：完整生产生命周期内的HR0运行与维护尚未由本轮资料证实。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D06-S09"
+      ],
+      "human_dependency": "现有资料包含应用工程师、维护服务和供应商工具工装支持；母机、控制器和精度基准的复制闭环未获证实。",
+      "validation_needed": "针对机床与生产设备：连续生产合格品并披露运行时长、产品边界、换料换班和全部人工接管记录；验收对象为无人执行机床与资本设备的零件制造、装配、精度校准和出厂验收。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.8-M2",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主发现导轨磨损、主轴退化、几何漂移、数控故障及设备装配缺陷。",
+      "current_capability": "GROB2026年COSERA演示可数字跟踪、控制和监控生产零件流；未覆盖机床制造的所有质量和故障模式。",
+      "gap": "机床与生产设备：现有检测功能与该项全部故障范围之间仍需覆盖率和无人工验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D06-S09"
+      ],
+      "human_dependency": "现有资料包含应用工程师、维护服务和供应商工具工装支持；母机、控制器和精度基准的复制闭环未获证实。",
+      "validation_needed": "针对机床与生产设备：注入上述质量和设备故障，测量漏检、误报、检出时间及传感器自身失效的覆盖；验收对象为自主发现导轨磨损、主轴退化、几何漂移、数控故障及设备装配缺陷。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "6.8-M3",
+      "required_capability": "实现选定系统的可持续自我复制，需要从整机精度或可靠性异常定位机电液、控制软件与制造工艺根因。",
+      "current_capability": "本轮检索未获得直接证明“从整机精度或可靠性异常定位机电液、控制软件与制造工艺根因”已在HR0成立的公开资料；机床与生产设备的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "机床与生产设备：预测和排故建议不等于自主验证根因；缺少该项端到端诊断证据。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "现有资料包含应用工程师、维护服务和供应商工具工装支持；母机、控制器和精度基准的复制闭环未获证实。",
+      "validation_needed": "针对机床与生产设备：盲测上述多种根因，要求机器提出并用干预试验验证诊断，统计错误处置；验收对象为从整机精度或可靠性异常定位机电液、控制软件与制造工艺根因。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.8-M4",
+      "required_capability": "实现选定系统的可持续自我复制，需要无人拆装主轴、导轨、丝杠、控制器和液压系统并恢复设备能力。",
+      "current_capability": "本轮检索未获得直接证明“无人拆装主轴、导轨、丝杠、控制器和液压系统并恢复设备能力”已在HR0成立的公开资料；机床与生产设备的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "机床与生产设备：物理维修、备件获取、重新校准和复投产的HR0闭环尚未证实。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "现有资料包含应用工程师、维护服务和供应商工具工装支持；母机、控制器和精度基准的复制闭环未获证实。",
+      "validation_needed": "针对机床与生产设备：在不允许人工拆装或远程接管下施加故障，要求自主修复并通过原质量验收；验收对象为无人拆装主轴、导轨、丝杠、控制器和液压系统并恢复设备能力。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.8-M5",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主供给铸件、精密导轨丝杠、伺服、数控芯片和测量基准。",
+      "current_capability": "本轮检索未获得直接证明“自主供给铸件、精密导轨丝杠、伺服、数控芯片和测量基准”已在HR0成立的公开资料；机床与生产设备的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "机床与生产设备：现有工业供应链与所有关键投入的机器自产之间尚有未核验环节。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "现有资料包含应用工程师、维护服务和供应商工具工装支持；母机、控制器和精度基准的复制闭环未获证实。",
+      "validation_needed": "针对机床与生产设备：逐项列出关键投入来源，耗尽预置库存后由机器从资源到部件持续补给；验收对象为自主供给铸件、精密导轨丝杠、伺服、数控芯片和测量基准。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.8-M6",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主保障资本设备制造、测试和运行所需电力、工艺热与辅助动力。",
+      "current_capability": "本轮检索未获得直接证明“自主保障资本设备制造、测试和运行所需电力、工艺热与辅助动力”已在HR0成立的公开资料；机床与生产设备的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "机床与生产设备：本轮来源未直接证实该项供能和厂务系统可脱离人类长期维持。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "现有资料包含应用工程师、维护服务和供应商工具工装支持；母机、控制器和精度基准的复制闭环未获证实。",
+      "validation_needed": "针对机床与生产设备：切断外部人类运维的供能服务并注入供能故障，验证供能、恢复和耗材补给；验收对象为自主保障资本设备制造、测试和运行所需电力、工艺热与辅助动力。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.8-M7",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主维护整机设计、精度分配、加工装配和数控软件的可执行知识。",
+      "current_capability": "Siemens数字孪生可在制造前建模验证生产机器；相关描述面向工程团队，没有排除人类精度设计和装配知识。",
+      "gap": "机床与生产设备：公开文件或数字孪生仅是部分知识；隐性工艺和专家维护的替代尚未证实。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D06-S11"
+      ],
+      "human_dependency": "现有资料包含应用工程师、维护服务和供应商工具工装支持；母机、控制器和精度基准的复制闭环未获证实。",
+      "validation_needed": "针对机床与生产设备：封存全部人类咨询渠道，给出陌生工况，要求机器仅凭可维护知识完成设计/运行/故障处置；验收对象为自主维护整机设计、精度分配、加工装配和数控软件的可执行知识。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "6.8-M8",
+      "required_capability": "实现选定系统的可持续自我复制，需要在主设备和关键备份同时损坏后恢复制造生产设备的母机能力。",
+      "current_capability": "本轮检索未获得直接证明“在主设备和关键备份同时损坏后恢复制造生产设备的母机能力”已在HR0成立的公开资料；机床与生产设备的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "机床与生产设备：例行备份或单设备服务不能证明严重损毁后的无人重建能力。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "现有资料包含应用工程师、维护服务和供应商工具工装支持；母机、控制器和精度基准的复制闭环未获证实。",
+      "validation_needed": "针对机床与生产设备：在主设备、部分备件与数据同时损坏的声明灾难情景中恢复并验收生产；验收对象为在主设备和关键备份同时损坏后恢复制造生产设备的母机能力。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.8-M9",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主制造并投运新增母机、专机和产线装备。",
+      "current_capability": "本轮检索未获得直接证明“自主制造并投运新增母机、专机和产线装备”已在HR0成立的公开资料；机床与生产设备的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "机床与生产设备：可购买模块或公司扩产计划不能替代无人新建、调试和产能爬坡证明。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "现有资料包含应用工程师、维护服务和供应商工具工装支持；母机、控制器和精度基准的复制闭环未获证实。",
+      "validation_needed": "针对机床与生产设备：从未安装的材料和设备状态开始，由机器完成新增设施部署和稳定产能验收；验收对象为自主制造并投运新增母机、专机和产线装备。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.8-M10",
+      "required_capability": "实现选定系统的可持续自我复制，需要以本地工业投入复制能继续制造同等级母机的完整设备集合。",
+      "current_capability": "本轮检索未获得直接证明“以本地工业投入复制能继续制造同等级母机的完整设备集合”已在HR0成立的公开资料；机床与生产设备的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "机床与生产设备：未在所查资料中找到覆盖上游投入、维修和下一代再复制的完整HR0验证。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "现有资料包含应用工程师、维护服务和供应商工具工装支持；母机、控制器和精度基准的复制闭环未获证实。",
+      "validation_needed": "针对机床与生产设备：建立可继续制造同等子代的生产系统，核算完整投入、代际时间和每代人工干预；验收对象为以本地工业投入复制能继续制造同等级母机的完整设备集合。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.9-M1",
+      "required_capability": "实现选定系统的可持续自我复制，需要无人完成多品种精密装配、紧固、布线、功能测试和不合格品分流。",
+      "current_capability": "ABB提供电池、电驱与汽车最终装配自动化，包含物料流、预装、装配和质量检测；限定于已集成产品线。",
+      "gap": "自动装配与质量控制：完整生产生命周期内的HR0运行与维护尚未由本轮资料证实。",
+      "assessment_status": "demonstrated_limited",
+      "evidence_relation": "direct_metric",
+      "source_ids": [
+        "D06-S10"
+      ],
+      "human_dependency": "资料中的自动化集成、供应零件、应用适配和服务网络未被证明已脱离人类；产品装配不同于设备复制。",
+      "validation_needed": "针对自动装配与质量控制：连续生产合格品并披露运行时长、产品边界、换料换班和全部人工接管记录；验收对象为无人完成多品种精密装配、紧固、布线、功能测试和不合格品分流。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "6.9-M2",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主检测错装、漏装、紧固异常、尺寸偏差和功能测试失效。",
+      "current_capability": "ABB说明检查系统能检测并阻止缺陷件进入生产线；证明特定装配检错功能，不等于识别所有开放世界故障。",
+      "gap": "自动装配与质量控制：现有检测功能与该项全部故障范围之间仍需覆盖率和无人工验证。",
+      "assessment_status": "demonstrated_limited",
+      "evidence_relation": "direct_metric",
+      "source_ids": [
+        "D06-S10"
+      ],
+      "human_dependency": "资料中的自动化集成、供应零件、应用适配和服务网络未被证明已脱离人类；产品装配不同于设备复制。",
+      "validation_needed": "针对自动装配与质量控制：注入上述质量和设备故障，测量漏检、误报、检出时间及传感器自身失效的覆盖；验收对象为自主检测错装、漏装、紧固异常、尺寸偏差和功能测试失效。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "6.9-M3",
+      "required_capability": "实现选定系统的可持续自我复制，需要把不良品与产线停机定位到零件、夹具、程序、机器人或测试系统。",
+      "current_capability": "本轮检索未获得直接证明“把不良品与产线停机定位到零件、夹具、程序、机器人或测试系统”已在HR0成立的公开资料；自动装配与质量控制的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "自动装配与质量控制：预测和排故建议不等于自主验证根因；缺少该项端到端诊断证据。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "资料中的自动化集成、供应零件、应用适配和服务网络未被证明已脱离人类；产品装配不同于设备复制。",
+      "validation_needed": "针对自动装配与质量控制：盲测上述多种根因，要求机器提出并用干预试验验证诊断，统计错误处置；验收对象为把不良品与产线停机定位到零件、夹具、程序、机器人或测试系统。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.9-M4",
+      "required_capability": "实现选定系统的可持续自我复制，需要无人返修产品并修复装配线的夹具、机器人、传感器及测试设备。",
+      "current_capability": "本轮检索未获得直接证明“无人返修产品并修复装配线的夹具、机器人、传感器及测试设备”已在HR0成立的公开资料；自动装配与质量控制的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "自动装配与质量控制：物理维修、备件获取、重新校准和复投产的HR0闭环尚未证实。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "资料中的自动化集成、供应零件、应用适配和服务网络未被证明已脱离人类；产品装配不同于设备复制。",
+      "validation_needed": "针对自动装配与质量控制：在不允许人工拆装或远程接管下施加故障，要求自主修复并通过原质量验收；验收对象为无人返修产品并修复装配线的夹具、机器人、传感器及测试设备。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.9-M5",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主获得全部合格零部件、连接耗材、工装和检测标准件。",
+      "current_capability": "本轮检索未获得直接证明“自主获得全部合格零部件、连接耗材、工装和检测标准件”已在HR0成立的公开资料；自动装配与质量控制的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "自动装配与质量控制：现有工业供应链与所有关键投入的机器自产之间尚有未核验环节。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "资料中的自动化集成、供应零件、应用适配和服务网络未被证明已脱离人类；产品装配不同于设备复制。",
+      "validation_needed": "针对自动装配与质量控制：逐项列出关键投入来源，耗尽预置库存后由机器从资源到部件持续补给；验收对象为自主获得全部合格零部件、连接耗材、工装和检测标准件。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.9-M6",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主维持装配线电力、压缩空气、洁净和温控设施。",
+      "current_capability": "本轮检索未获得直接证明“自主维持装配线电力、压缩空气、洁净和温控设施”已在HR0成立的公开资料；自动装配与质量控制的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "自动装配与质量控制：本轮来源未直接证实该项供能和厂务系统可脱离人类长期维持。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "资料中的自动化集成、供应零件、应用适配和服务网络未被证明已脱离人类；产品装配不同于设备复制。",
+      "validation_needed": "针对自动装配与质量控制：切断外部人类运维的供能服务并注入供能故障，验证供能、恢复和耗材补给；验收对象为自主维持装配线电力、压缩空气、洁净和温控设施。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.9-M7",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主理解装配图纸、公差链、工艺顺序和质量验收标准。",
+      "current_capability": "ABB提供可适配现有或新工厂的装配集成方案；资料未证明机器独立生成并核验全套新产品装配工艺。",
+      "gap": "自动装配与质量控制：公开文件或数字孪生仅是部分知识；隐性工艺和专家维护的替代尚未证实。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D06-S10"
+      ],
+      "human_dependency": "资料中的自动化集成、供应零件、应用适配和服务网络未被证明已脱离人类；产品装配不同于设备复制。",
+      "validation_needed": "针对自动装配与质量控制：封存全部人类咨询渠道，给出陌生工况，要求机器仅凭可维护知识完成设计/运行/故障处置；验收对象为自主理解装配图纸、公差链、工艺顺序和质量验收标准。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.9-M8",
+      "required_capability": "实现选定系统的可持续自我复制，需要在装配单元和测试数据库损毁后恢复产品追溯与合格装配。",
+      "current_capability": "本轮检索未获得直接证明“在装配单元和测试数据库损毁后恢复产品追溯与合格装配”已在HR0成立的公开资料；自动装配与质量控制的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "自动装配与质量控制：例行备份或单设备服务不能证明严重损毁后的无人重建能力。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "资料中的自动化集成、供应零件、应用适配和服务网络未被证明已脱离人类；产品装配不同于设备复制。",
+      "validation_needed": "针对自动装配与质量控制：在主设备、部分备件与数据同时损坏的声明灾难情景中恢复并验收生产；验收对象为在装配单元和测试数据库损毁后恢复产品追溯与合格装配。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.9-M9",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主布置新增装配线、生成工艺并验证产能与良率。",
+      "current_capability": "本轮检索未获得直接证明“自主布置新增装配线、生成工艺并验证产能与良率”已在HR0成立的公开资料；自动装配与质量控制的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "自动装配与质量控制：可购买模块或公司扩产计划不能替代无人新建、调试和产能爬坡证明。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "资料中的自动化集成、供应零件、应用适配和服务网络未被证明已脱离人类；产品装配不同于设备复制。",
+      "validation_needed": "针对自动装配与质量控制：从未安装的材料和设备状态开始，由机器完成新增设施部署和稳定产能验收；验收对象为自主布置新增装配线、生成工艺并验证产能与良率。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.9-M10",
+      "required_capability": "实现选定系统的可持续自我复制，需要复制具有同等产品覆盖、质量控制和维护能力的装配系统。",
+      "current_capability": "本轮检索未获得直接证明“复制具有同等产品覆盖、质量控制和维护能力的装配系统”已在HR0成立的公开资料；自动装配与质量控制的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "自动装配与质量控制：未在所查资料中找到覆盖上游投入、维修和下一代再复制的完整HR0验证。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "资料中的自动化集成、供应零件、应用适配和服务网络未被证明已脱离人类；产品装配不同于设备复制。",
+      "validation_needed": "针对自动装配与质量控制：建立可继续制造同等子代的生产系统，核算完整投入、代际时间和每代人工干预；验收对象为复制具有同等产品覆盖、质量控制和维护能力的装配系统。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.10-M1",
+      "required_capability": "实现选定系统的可持续自我复制，需要无人完成选址、厂房施工、设备安装、设施联接、调试并持续生产合格产品。",
+      "current_capability": "Siemens数字孪生用于工厂流程和设备仿真；GROB提供交钥匙产线。这些未展示无人完成土建、安装到投产的整厂作业。",
+      "gap": "工厂设计建设与扩容：完整生产生命周期内的HR0运行与维护尚未由本轮资料证实。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D06-S11",
+        "D06-S05"
+      ],
+      "human_dependency": "工程设计、土建、机电安装、调试、供应商设备和基础设施连接的人工参与未被这些资料排除。",
+      "validation_needed": "针对工厂设计建设与扩容：连续生产合格品并披露运行时长、产品边界、换料换班和全部人工接管记录；验收对象为无人完成选址、厂房施工、设备安装、设施联接、调试并持续生产合格产品。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.10-M2",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主发现厂房、基础设施、工程进度和整厂联调中的质量与功能偏差。",
+      "current_capability": "Siemens描述传感数据驱动的实时监控和仿真，可识别部分设计/运行问题；不是整厂自主施工验收的直接证据。",
+      "gap": "工厂设计建设与扩容：现有检测功能与该项全部故障范围之间仍需覆盖率和无人工验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D06-S11"
+      ],
+      "human_dependency": "工程设计、土建、机电安装、调试、供应商设备和基础设施连接的人工参与未被这些资料排除。",
+      "validation_needed": "针对工厂设计建设与扩容：注入上述质量和设备故障，测量漏检、误报、检出时间及传感器自身失效的覆盖；验收对象为自主发现厂房、基础设施、工程进度和整厂联调中的质量与功能偏差。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "6.10-M3",
+      "required_capability": "实现选定系统的可持续自我复制，需要把产线瓶颈、设施失效和设计冲突定位到土建、设备或流程根因。",
+      "current_capability": "Siemens数字孪生用于远程诊断、预测性维护和生产瓶颈分析；资料面向工程与服务团队，未证明自主定位并修复全部整厂故障。",
+      "gap": "工厂设计建设与扩容：预测和排故建议不等于自主验证根因；缺少该项端到端诊断证据。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D06-S11"
+      ],
+      "human_dependency": "工程设计、土建、机电安装、调试、供应商设备和基础设施连接的人工参与未被这些资料排除。",
+      "validation_needed": "针对工厂设计建设与扩容：盲测上述多种根因，要求机器提出并用干预试验验证诊断，统计错误处置；验收对象为把产线瓶颈、设施失效和设计冲突定位到土建、设备或流程根因。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "6.10-M4",
+      "required_capability": "实现选定系统的可持续自我复制，需要无人维修建筑、厂务和产线装备并重新验证全厂生产能力。",
+      "current_capability": "本轮检索未获得直接证明“无人维修建筑、厂务和产线装备并重新验证全厂生产能力”已在HR0成立的公开资料；工厂设计建设与扩容的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "工厂设计建设与扩容：物理维修、备件获取、重新校准和复投产的HR0闭环尚未证实。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "工程设计、土建、机电安装、调试、供应商设备和基础设施连接的人工参与未被这些资料排除。",
+      "validation_needed": "针对工厂设计建设与扩容：在不允许人工拆装或远程接管下施加故障，要求自主修复并通过原质量验收；验收对象为无人维修建筑、厂务和产线装备并重新验证全厂生产能力。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.10-M5",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主供给建材、施工机械、生产设备、洁净设施和工程安装耗材。",
+      "current_capability": "本轮检索未获得直接证明“自主供给建材、施工机械、生产设备、洁净设施和工程安装耗材”已在HR0成立的公开资料；工厂设计建设与扩容的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "工厂设计建设与扩容：现有工业供应链与所有关键投入的机器自产之间尚有未核验环节。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "工程设计、土建、机电安装、调试、供应商设备和基础设施连接的人工参与未被这些资料排除。",
+      "validation_needed": "针对工厂设计建设与扩容：逐项列出关键投入来源，耗尽预置库存后由机器从资源到部件持续补给；验收对象为自主供给建材、施工机械、生产设备、洁净设施和工程安装耗材。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.10-M6",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主新建并维持厂区供电、热源、冷却与关键公用工程。",
+      "current_capability": "本轮检索未获得直接证明“自主新建并维持厂区供电、热源、冷却与关键公用工程”已在HR0成立的公开资料；工厂设计建设与扩容的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "工厂设计建设与扩容：本轮来源未直接证实该项供能和厂务系统可脱离人类长期维持。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "工程设计、土建、机电安装、调试、供应商设备和基础设施连接的人工参与未被这些资料排除。",
+      "validation_needed": "针对工厂设计建设与扩容：切断外部人类运维的供能服务并注入供能故障，验证供能、恢复和耗材补给；验收对象为自主新建并维持厂区供电、热源、冷却与关键公用工程。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.10-M7",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主完成工程设计、施工工艺、系统集成与验收标准的全套可执行知识。",
+      "current_capability": "Siemens数字孪生支持在物理生产前建模、验证与优化设计；这说明工程辅助能力，未证明施工调试的隐性知识已完全机器化。",
+      "gap": "工厂设计建设与扩容：公开文件或数字孪生仅是部分知识；隐性工艺和专家维护的替代尚未证实。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D06-S11"
+      ],
+      "human_dependency": "工程设计、土建、机电安装、调试、供应商设备和基础设施连接的人工参与未被这些资料排除。",
+      "validation_needed": "针对工厂设计建设与扩容：封存全部人类咨询渠道，给出陌生工况，要求机器仅凭可维护知识完成设计/运行/故障处置；验收对象为自主完成工程设计、施工工艺、系统集成与验收标准的全套可执行知识。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "6.10-M8",
+      "required_capability": "实现选定系统的可持续自我复制，需要在厂房火灾、洪水或设施整体损毁后重建可生产的完整工厂。",
+      "current_capability": "本轮检索未获得直接证明“在厂房火灾、洪水或设施整体损毁后重建可生产的完整工厂”已在HR0成立的公开资料；工厂设计建设与扩容的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "工厂设计建设与扩容：例行备份或单设备服务不能证明严重损毁后的无人重建能力。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "工程设计、土建、机电安装、调试、供应商设备和基础设施连接的人工参与未被这些资料排除。",
+      "validation_needed": "针对工厂设计建设与扩容：在主设备、部分备件与数据同时损坏的声明灾难情景中恢复并验收生产；验收对象为在厂房火灾、洪水或设施整体损毁后重建可生产的完整工厂。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.10-M9",
+      "required_capability": "实现选定系统的可持续自我复制，需要无人完成新工厂从设计施工到稳定产能爬坡而非仅扩展数字模型。",
+      "current_capability": "NVIDIA2025公告计划以Omniverse数字孪生和机器人设计运营工厂；GROB出售交钥匙系统。这是扩建手段或计划，未证明无人扩建完成。",
+      "gap": "工厂设计建设与扩容：可购买模块或公司扩产计划不能替代无人新建、调试和产能爬坡证明。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D07-S09",
+        "D06-S05"
+      ],
+      "human_dependency": "工程设计、土建、机电安装、调试、供应商设备和基础设施连接的人工参与未被这些资料排除。",
+      "validation_needed": "针对工厂设计建设与扩容：从未安装的材料和设备状态开始，由机器完成新增设施部署和稳定产能验收；验收对象为无人完成新工厂从设计施工到稳定产能爬坡而非仅扩展数字模型。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "6.10-M10",
+      "required_capability": "实现选定系统的可持续自我复制，需要由一座机器工厂持续建设具同等完整工业功能的子代工厂。",
+      "current_capability": "本轮检索未获得直接证明“由一座机器工厂持续建设具同等完整工业功能的子代工厂”已在HR0成立的公开资料；工厂设计建设与扩容的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "工厂设计建设与扩容：未在所查资料中找到覆盖上游投入、维修和下一代再复制的完整HR0验证。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "工程设计、土建、机电安装、调试、供应商设备和基础设施连接的人工参与未被这些资料排除。",
+      "validation_needed": "针对工厂设计建设与扩容：建立可继续制造同等子代的生产系统，核算完整投入、代际时间和每代人工干预；验收对象为由一座机器工厂持续建设具同等完整工业功能的子代工厂。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.1-M1",
+      "required_capability": "实现选定系统的可持续自我复制，需要在选定计算架构规格下无人完成高纯硅制备、拉晶、切片、抛光与晶圆验收。",
+      "current_capability": "Siltronic给出CZ/FZ拉晶、切片、抛光和清洗的现实生产流程；页面没有公布无人值守时长、干预计数或长期HR0数据。",
+      "gap": "电子级硅与晶圆：完整生产生命周期内的HR0运行与维护尚未由本轮资料证实。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D07-S01"
+      ],
+      "human_dependency": "资料描述多阶段供应商制造，未报告硅料、坩埚、气体和设备在HR0下的持续自产与维修。",
+      "validation_needed": "针对电子级硅与晶圆：连续生产合格品并披露运行时长、产品边界、换料换班和全部人工接管记录；验收对象为在选定计算架构规格下无人完成高纯硅制备、拉晶、切片、抛光与晶圆验收。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "7.1-M2",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主检测杂质、位错、氧碳含量、晶体缺陷、表面颗粒和厚度平整度偏差。",
+      "current_capability": "Siltronic说明单晶分段前质量控制、切片参数监测及激光标记追溯，覆盖部分质量监测，未说明全部检错均自主。",
+      "gap": "电子级硅与晶圆：现有检测功能与该项全部故障范围之间仍需覆盖率和无人工验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D07-S01"
+      ],
+      "human_dependency": "资料描述多阶段供应商制造，未报告硅料、坩埚、气体和设备在HR0下的持续自产与维修。",
+      "validation_needed": "针对电子级硅与晶圆：注入上述质量和设备故障，测量漏检、误报、检出时间及传感器自身失效的覆盖；验收对象为自主检测杂质、位错、氧碳含量、晶体缺陷、表面颗粒和厚度平整度偏差。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "7.1-M3",
+      "required_capability": "实现选定系统的可持续自我复制，需要把晶圆缺陷定位到原料、坩埚、热场、拉速、切片或清洗工序。",
+      "current_capability": "本轮检索未获得直接证明“把晶圆缺陷定位到原料、坩埚、热场、拉速、切片或清洗工序”已在HR0成立的公开资料；电子级硅与晶圆的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "电子级硅与晶圆：预测和排故建议不等于自主验证根因；缺少该项端到端诊断证据。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "资料描述多阶段供应商制造，未报告硅料、坩埚、气体和设备在HR0下的持续自产与维修。",
+      "validation_needed": "针对电子级硅与晶圆：盲测上述多种根因，要求机器提出并用干预试验验证诊断，统计错误处置；验收对象为把晶圆缺陷定位到原料、坩埚、热场、拉速、切片或清洗工序。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.1-M4",
+      "required_capability": "实现选定系统的可持续自我复制，需要无人维修拉晶炉、切片机和抛光清洗设备并恢复合格晶圆生产。",
+      "current_capability": "本轮检索未获得直接证明“无人维修拉晶炉、切片机和抛光清洗设备并恢复合格晶圆生产”已在HR0成立的公开资料；电子级硅与晶圆的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "电子级硅与晶圆：物理维修、备件获取、重新校准和复投产的HR0闭环尚未证实。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "资料描述多阶段供应商制造，未报告硅料、坩埚、气体和设备在HR0下的持续自产与维修。",
+      "validation_needed": "针对电子级硅与晶圆：在不允许人工拆装或远程接管下施加故障，要求自主修复并通过原质量验收；验收对象为无人维修拉晶炉、切片机和抛光清洗设备并恢复合格晶圆生产。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.1-M5",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主制备多晶硅、石英坩埚、掺杂剂、磨料、超纯水及高纯气体。",
+      "current_capability": "SK hynix2026伙伴新闻列举Shin-Etsu、SUMCO等材料企业；现实材料供给存在跨企业协作，未展示由无人体系自行提供全部关键投入。",
+      "gap": "电子级硅与晶圆：现有工业供应链与所有关键投入的机器自产之间尚有未核验环节。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D07-S13"
+      ],
+      "human_dependency": "资料描述多阶段供应商制造，未报告硅料、坩埚、气体和设备在HR0下的持续自产与维修。",
+      "validation_needed": "针对电子级硅与晶圆：逐项列出关键投入来源，耗尽预置库存后由机器从资源到部件持续补给；验收对象为自主制备多晶硅、石英坩埚、掺杂剂、磨料、超纯水及高纯气体。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.1-M6",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主供应拉晶熔炼、温控、洁净空调和水处理所需连续能源。",
+      "current_capability": "本轮检索未获得直接证明“自主供应拉晶熔炼、温控、洁净空调和水处理所需连续能源”已在HR0成立的公开资料；电子级硅与晶圆的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "电子级硅与晶圆：本轮来源未直接证实该项供能和厂务系统可脱离人类长期维持。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "资料描述多阶段供应商制造，未报告硅料、坩埚、气体和设备在HR0下的持续自产与维修。",
+      "validation_needed": "针对电子级硅与晶圆：切断外部人类运维的供能服务并注入供能故障，验证供能、恢复和耗材补给；验收对象为自主供应拉晶熔炼、温控、洁净空调和水处理所需连续能源。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.1-M7",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主维护纯化、晶体生长、缺陷控制与表面处理的工艺知识。",
+      "current_capability": "Siltronic公开晶体生长与晶圆加工步骤和部分关键参数；公开描述不能代替完整工艺包、设备维护和质量调优知识。",
+      "gap": "电子级硅与晶圆：公开文件或数字孪生仅是部分知识；隐性工艺和专家维护的替代尚未证实。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D07-S01"
+      ],
+      "human_dependency": "资料描述多阶段供应商制造，未报告硅料、坩埚、气体和设备在HR0下的持续自产与维修。",
+      "validation_needed": "针对电子级硅与晶圆：封存全部人类咨询渠道，给出陌生工况，要求机器仅凭可维护知识完成设计/运行/故障处置；验收对象为自主维护纯化、晶体生长、缺陷控制与表面处理的工艺知识。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "7.1-M8",
+      "required_capability": "实现选定系统的可持续自我复制，需要在拉晶热场、洁净环境或水气系统严重受损后恢复晶圆质量。",
+      "current_capability": "本轮检索未获得直接证明“在拉晶热场、洁净环境或水气系统严重受损后恢复晶圆质量”已在HR0成立的公开资料；电子级硅与晶圆的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "电子级硅与晶圆：例行备份或单设备服务不能证明严重损毁后的无人重建能力。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "资料描述多阶段供应商制造，未报告硅料、坩埚、气体和设备在HR0下的持续自产与维修。",
+      "validation_needed": "针对电子级硅与晶圆：在主设备、部分备件与数据同时损坏的声明灾难情景中恢复并验收生产；验收对象为在拉晶热场、洁净环境或水气系统严重受损后恢复晶圆质量。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.1-M9",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主建设新增拉晶、切片和抛光产线并验证晶圆批次一致性。",
+      "current_capability": "本轮检索未获得直接证明“自主建设新增拉晶、切片和抛光产线并验证晶圆批次一致性”已在HR0成立的公开资料；电子级硅与晶圆的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "电子级硅与晶圆：可购买模块或公司扩产计划不能替代无人新建、调试和产能爬坡证明。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "资料描述多阶段供应商制造，未报告硅料、坩埚、气体和设备在HR0下的持续自产与维修。",
+      "validation_needed": "针对电子级硅与晶圆：从未安装的材料和设备状态开始，由机器完成新增设施部署和稳定产能验收；验收对象为自主建设新增拉晶、切片和抛光产线并验证晶圆批次一致性。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.1-M10",
+      "required_capability": "实现选定系统的可持续自我复制，需要复制同等晶圆制造能力及其炉体、工具、纯化和计量设备。",
+      "current_capability": "本轮检索未获得直接证明“复制同等晶圆制造能力及其炉体、工具、纯化和计量设备”已在HR0成立的公开资料；电子级硅与晶圆的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "电子级硅与晶圆：未在所查资料中找到覆盖上游投入、维修和下一代再复制的完整HR0验证。 比较须固定最低必要计算架构，先进节点或HBM不是所有复制路线的必要条件。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "资料描述多阶段供应商制造，未报告硅料、坩埚、气体和设备在HR0下的持续自产与维修。",
+      "validation_needed": "针对电子级硅与晶圆：建立可继续制造同等子代的生产系统，核算完整投入、代际时间和每代人工干预；验收对象为复制同等晶圆制造能力及其炉体、工具、纯化和计量设备。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.2-M1",
+      "required_capability": "实现选定系统的可持续自我复制，需要按选定芯片工艺无人完成掩模制备、涂胶曝光显影与套刻验收。",
+      "current_capability": "ASML系统把掩模图形投影到晶圆并移动晶圆重复曝光；这是实际设备工作原理，未提供整套曝光/制掩模HR0运行边界。",
+      "gap": "光刻系统与掩模：完整生产生命周期内的HR0运行与维护尚未由本轮资料证实。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D07-S02"
+      ],
+      "human_dependency": "关键光学、光源、光刻胶、精密设备和供应商工程服务的无人闭环未由所查资料展示。",
+      "validation_needed": "针对光刻系统与掩模：连续生产合格品并披露运行时长、产品边界、换料换班和全部人工接管记录；验收对象为按选定芯片工艺无人完成掩模制备、涂胶曝光显影与套刻验收。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "7.2-M2",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主发现光源衰减、光学污染、掩模缺陷、焦距和套刻偏差。",
+      "current_capability": "ASML说明传感器、衍射和电子束测量用于优化芯片生产，可支持部分套刻/工艺偏差监测。",
+      "gap": "光刻系统与掩模：现有检测功能与该项全部故障范围之间仍需覆盖率和无人工验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D07-S02"
+      ],
+      "human_dependency": "关键光学、光源、光刻胶、精密设备和供应商工程服务的无人闭环未由所查资料展示。",
+      "validation_needed": "针对光刻系统与掩模：注入上述质量和设备故障，测量漏检、误报、检出时间及传感器自身失效的覆盖；验收对象为自主发现光源衰减、光学污染、掩模缺陷、焦距和套刻偏差。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "7.2-M3",
+      "required_capability": "实现选定系统的可持续自我复制，需要把曝光缺陷定位到光源、光学件、运动台、掩模、胶材或测量链。",
+      "current_capability": "本轮检索未获得直接证明“把曝光缺陷定位到光源、光学件、运动台、掩模、胶材或测量链”已在HR0成立的公开资料；光刻系统与掩模的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "光刻系统与掩模：预测和排故建议不等于自主验证根因；缺少该项端到端诊断证据。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "关键光学、光源、光刻胶、精密设备和供应商工程服务的无人闭环未由所查资料展示。",
+      "validation_needed": "针对光刻系统与掩模：盲测上述多种根因，要求机器提出并用干预试验验证诊断，统计错误处置；验收对象为把曝光缺陷定位到光源、光学件、运动台、掩模、胶材或测量链。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.2-M4",
+      "required_capability": "实现选定系统的可持续自我复制，需要无人更换与调校光源、光学组件、运动台和掩模缺陷处理系统。",
+      "current_capability": "本轮检索未获得直接证明“无人更换与调校光源、光学组件、运动台和掩模缺陷处理系统”已在HR0成立的公开资料；光刻系统与掩模的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "光刻系统与掩模：物理维修、备件获取、重新校准和复投产的HR0闭环尚未证实。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "关键光学、光源、光刻胶、精密设备和供应商工程服务的无人闭环未由所查资料展示。",
+      "validation_needed": "针对光刻系统与掩模：在不允许人工拆装或远程接管下施加故障，要求自主修复并通过原质量验收；验收对象为无人更换与调校光源、光学组件、运动台和掩模缺陷处理系统。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.2-M5",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主制造所选工艺所需光源、镜片/反射镜、掩模基板和光刻化学品。",
+      "current_capability": "本轮检索未获得直接证明“自主制造所选工艺所需光源、镜片/反射镜、掩模基板和光刻化学品”已在HR0成立的公开资料；光刻系统与掩模的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "光刻系统与掩模：现有工业供应链与所有关键投入的机器自产之间尚有未核验环节。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "关键光学、光源、光刻胶、精密设备和供应商工程服务的无人闭环未由所查资料展示。",
+      "validation_needed": "针对光刻系统与掩模：逐项列出关键投入来源，耗尽预置库存后由机器从资源到部件持续补给；验收对象为自主制造所选工艺所需光源、镜片/反射镜、掩模基板和光刻化学品。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.2-M6",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主维持光刻设备电力、真空、冷却、隔振和洁净条件。",
+      "current_capability": "本轮检索未获得直接证明“自主维持光刻设备电力、真空、冷却、隔振和洁净条件”已在HR0成立的公开资料；光刻系统与掩模的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "光刻系统与掩模：本轮来源未直接证实该项供能和厂务系统可脱离人类长期维持。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "关键光学、光源、光刻胶、精密设备和供应商工程服务的无人闭环未由所查资料展示。",
+      "validation_needed": "针对光刻系统与掩模：切断外部人类运维的供能服务并注入供能故障，验证供能、恢复和耗材补给；验收对象为自主维持光刻设备电力、真空、冷却、隔振和洁净条件。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.2-M7",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主掌握分辨率、套刻、光学补偿、掩模和设备控制的全套工艺知识。",
+      "current_capability": "ASML公开光刻原理、精密机电与测量知识；资料不包含可替代全部光源/光学工程师的完整可执行制造与维修知识。",
+      "gap": "光刻系统与掩模：公开文件或数字孪生仅是部分知识；隐性工艺和专家维护的替代尚未证实。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D07-S02"
+      ],
+      "human_dependency": "关键光学、光源、光刻胶、精密设备和供应商工程服务的无人闭环未由所查资料展示。",
+      "validation_needed": "针对光刻系统与掩模：封存全部人类咨询渠道，给出陌生工况，要求机器仅凭可维护知识完成设计/运行/故障处置；验收对象为自主掌握分辨率、套刻、光学补偿、掩模和设备控制的全套工艺知识。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.2-M8",
+      "required_capability": "实现选定系统的可持续自我复制，需要在光学污染、光源重大失效或计量基准丢失后恢复合格曝光能力。",
+      "current_capability": "本轮检索未获得直接证明“在光学污染、光源重大失效或计量基准丢失后恢复合格曝光能力”已在HR0成立的公开资料；光刻系统与掩模的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "光刻系统与掩模：例行备份或单设备服务不能证明严重损毁后的无人重建能力。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "关键光学、光源、光刻胶、精密设备和供应商工程服务的无人闭环未由所查资料展示。",
+      "validation_needed": "针对光刻系统与掩模：在主设备、部分备件与数据同时损坏的声明灾难情景中恢复并验收生产；验收对象为在光学污染、光源重大失效或计量基准丢失后恢复合格曝光能力。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.2-M9",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主制造安装新增曝光及掩模设备并达到选定工艺所需产能。",
+      "current_capability": "本轮检索未获得直接证明“自主制造安装新增曝光及掩模设备并达到选定工艺所需产能”已在HR0成立的公开资料；光刻系统与掩模的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "光刻系统与掩模：可购买模块或公司扩产计划不能替代无人新建、调试和产能爬坡证明。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "关键光学、光源、光刻胶、精密设备和供应商工程服务的无人闭环未由所查资料展示。",
+      "validation_needed": "针对光刻系统与掩模：从未安装的材料和设备状态开始，由机器完成新增设施部署和稳定产能验收；验收对象为自主制造安装新增曝光及掩模设备并达到选定工艺所需产能。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.2-M10",
+      "required_capability": "实现选定系统的可持续自我复制，需要复制支撑选定计算能力的光刻与掩模生产链，不预设必须采用最先进EUV。",
+      "current_capability": "本轮检索未获得直接证明“复制支撑选定计算能力的光刻与掩模生产链，不预设必须采用最先进EUV”已在HR0成立的公开资料；光刻系统与掩模的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "光刻系统与掩模：未在所查资料中找到覆盖上游投入、维修和下一代再复制的完整HR0验证。 比较须固定最低必要计算架构，先进节点或HBM不是所有复制路线的必要条件。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "关键光学、光源、光刻胶、精密设备和供应商工程服务的无人闭环未由所查资料展示。",
+      "validation_needed": "针对光刻系统与掩模：建立可继续制造同等子代的生产系统，核算完整投入、代际时间和每代人工干预；验收对象为复制支撑选定计算能力的光刻与掩模生产链，不预设必须采用最先进EUV。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.3-M1",
+      "required_capability": "实现选定系统的可持续自我复制，需要无人执行选定芯片工艺的CVD/PVD/ALD沉积并保持膜厚、均匀性和洁净度。",
+      "current_capability": "Lam和Applied提供ALD/CVD/PVD等设备或工艺类别，说明沉积工具可用；未提供从运行到维修完整无人周期试验。",
+      "gap": "薄膜沉积：完整生产生命周期内的HR0运行与维护尚未由本轮资料证实。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D07-S03",
+        "D07-S04"
+      ],
+      "human_dependency": "设备供应商、工艺工程和维修人员、前驱体与真空零件供应仍需核验；Dextro协作概念不能无差别推广到所有沉积设备。",
+      "validation_needed": "针对薄膜沉积：连续生产合格品并披露运行时长、产品边界、换料换班和全部人工接管记录；验收对象为无人执行选定芯片工艺的CVD/PVD/ALD沉积并保持膜厚、均匀性和洁净度。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "7.3-M2",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主检测膜厚漂移、颗粒、真空泄漏、温度及前驱体输送异常。",
+      "current_capability": "Siemens2026博客介绍基于现有设备信号的故障预警方法；这是面向晶圆厂资产的相关能力，未逐一验证全部沉积工艺。",
+      "gap": "薄膜沉积：现有检测功能与该项全部故障范围之间仍需覆盖率和无人工验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D07-S12"
+      ],
+      "human_dependency": "设备供应商、工艺工程和维修人员、前驱体与真空零件供应仍需核验；Dextro协作概念不能无差别推广到所有沉积设备。",
+      "validation_needed": "针对薄膜沉积：注入上述质量和设备故障，测量漏检、误报、检出时间及传感器自身失效的覆盖；验收对象为自主检测膜厚漂移、颗粒、真空泄漏、温度及前驱体输送异常。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "7.3-M3",
+      "required_capability": "实现选定系统的可持续自我复制，需要把膜质异常定位到反应配方、前驱体、腔体污染、真空或加热系统。",
+      "current_capability": "Siemens2026介绍LLM结合设备数据和维护文档提出排查顺序，帮助技术员；它不是机器独立完成沉积根因诊断的现场闭环验证。",
+      "gap": "薄膜沉积：预测和排故建议不等于自主验证根因；缺少该项端到端诊断证据。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D07-S12"
+      ],
+      "human_dependency": "设备供应商、工艺工程和维修人员、前驱体与真空零件供应仍需核验；Dextro协作概念不能无差别推广到所有沉积设备。",
+      "validation_needed": "针对薄膜沉积：盲测上述多种根因，要求机器提出并用干预试验验证诊断，统计错误处置；验收对象为把膜质异常定位到反应配方、前驱体、腔体污染、真空或加热系统。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "7.3-M4",
+      "required_capability": "实现选定系统的可持续自我复制，需要无人清洗沉积腔、更换密封/泵/加热器并重做工艺资格验证。",
+      "current_capability": "本轮检索未获得直接证明“无人清洗沉积腔、更换密封/泵/加热器并重做工艺资格验证”已在HR0成立的公开资料；薄膜沉积的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "薄膜沉积：物理维修、备件获取、重新校准和复投产的HR0闭环尚未证实。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "设备供应商、工艺工程和维修人员、前驱体与真空零件供应仍需核验；Dextro协作概念不能无差别推广到所有沉积设备。",
+      "validation_needed": "针对薄膜沉积：在不允许人工拆装或远程接管下施加故障，要求自主修复并通过原质量验收；验收对象为无人清洗沉积腔、更换密封/泵/加热器并重做工艺资格验证。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.3-M5",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主制备所需高纯前驱体、靶材、气体、阀泵和腔体消耗件。",
+      "current_capability": "本轮检索未获得直接证明“自主制备所需高纯前驱体、靶材、气体、阀泵和腔体消耗件”已在HR0成立的公开资料；薄膜沉积的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "薄膜沉积：现有工业供应链与所有关键投入的机器自产之间尚有未核验环节。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "设备供应商、工艺工程和维修人员、前驱体与真空零件供应仍需核验；Dextro协作概念不能无差别推广到所有沉积设备。",
+      "validation_needed": "针对薄膜沉积：逐项列出关键投入来源，耗尽预置库存后由机器从资源到部件持续补给；验收对象为自主制备所需高纯前驱体、靶材、气体、阀泵和腔体消耗件。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.3-M6",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主保证沉积温控、等离子电源、真空泵和厂务供能。",
+      "current_capability": "本轮检索未获得直接证明“自主保证沉积温控、等离子电源、真空泵和厂务供能”已在HR0成立的公开资料；薄膜沉积的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "薄膜沉积：本轮来源未直接证实该项供能和厂务系统可脱离人类长期维持。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "设备供应商、工艺工程和维修人员、前驱体与真空零件供应仍需核验；Dextro协作概念不能无差别推广到所有沉积设备。",
+      "validation_needed": "针对薄膜沉积：切断外部人类运维的供能服务并注入供能故障，验证供能、恢复和耗材补给；验收对象为自主保证沉积温控、等离子电源、真空泵和厂务供能。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.3-M7",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主建立并验证材料反应、沉积配方、界面和缺陷控制知识。",
+      "current_capability": "Siemens2026提出用维护程序、决策树和设备数据支持排故并沉淀经验；仍作为人员辅助，未证明沉积工艺知识无人工依赖。",
+      "gap": "薄膜沉积：公开文件或数字孪生仅是部分知识；隐性工艺和专家维护的替代尚未证实。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D07-S12"
+      ],
+      "human_dependency": "设备供应商、工艺工程和维修人员、前驱体与真空零件供应仍需核验；Dextro协作概念不能无差别推广到所有沉积设备。",
+      "validation_needed": "针对薄膜沉积：封存全部人类咨询渠道，给出陌生工况，要求机器仅凭可维护知识完成设计/运行/故障处置；验收对象为自主建立并验证材料反应、沉积配方、界面和缺陷控制知识。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "7.3-M8",
+      "required_capability": "实现选定系统的可持续自我复制，需要在严重腔体污染、前驱体事故或真空系统破坏后恢复合格薄膜。",
+      "current_capability": "本轮检索未获得直接证明“在严重腔体污染、前驱体事故或真空系统破坏后恢复合格薄膜”已在HR0成立的公开资料；薄膜沉积的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "薄膜沉积：例行备份或单设备服务不能证明严重损毁后的无人重建能力。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "设备供应商、工艺工程和维修人员、前驱体与真空零件供应仍需核验；Dextro协作概念不能无差别推广到所有沉积设备。",
+      "validation_needed": "针对薄膜沉积：在主设备、部分备件与数据同时损坏的声明灾难情景中恢复并验收生产；验收对象为在严重腔体污染、前驱体事故或真空系统破坏后恢复合格薄膜。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.3-M9",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主制造并调试新增沉积腔室、气路和控制设备。",
+      "current_capability": "本轮检索未获得直接证明“自主制造并调试新增沉积腔室、气路和控制设备”已在HR0成立的公开资料；薄膜沉积的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "薄膜沉积：可购买模块或公司扩产计划不能替代无人新建、调试和产能爬坡证明。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "设备供应商、工艺工程和维修人员、前驱体与真空零件供应仍需核验；Dextro协作概念不能无差别推广到所有沉积设备。",
+      "validation_needed": "针对薄膜沉积：从未安装的材料和设备状态开始，由机器完成新增设施部署和稳定产能验收；验收对象为自主制造并调试新增沉积腔室、气路和控制设备。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.3-M10",
+      "required_capability": "实现选定系统的可持续自我复制，需要复制同等薄膜工艺能力并闭合前驱体、装备和计量的生产链。",
+      "current_capability": "本轮检索未获得直接证明“复制同等薄膜工艺能力并闭合前驱体、装备和计量的生产链”已在HR0成立的公开资料；薄膜沉积的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "薄膜沉积：未在所查资料中找到覆盖上游投入、维修和下一代再复制的完整HR0验证。 比较须固定最低必要计算架构，先进节点或HBM不是所有复制路线的必要条件。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "设备供应商、工艺工程和维修人员、前驱体与真空零件供应仍需核验；Dextro协作概念不能无差别推广到所有沉积设备。",
+      "validation_needed": "针对薄膜沉积：建立可继续制造同等子代的生产系统，核算完整投入、代际时间和每代人工干预；验收对象为复制同等薄膜工艺能力并闭合前驱体、装备和计量的生产链。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.4-M1",
+      "required_capability": "实现选定系统的可持续自我复制，需要无人完成干湿法刻蚀、去胶和清洗并保持选定结构的形貌与洁净度。",
+      "current_capability": "Lam提供刻蚀与清洗设备和工艺；其维护机器人部署不等同于刻蚀、清洗和补给整个运行周期完全无人。",
+      "gap": "刻蚀与清洗：完整生产生命周期内的HR0运行与维护尚未由本轮资料证实。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D07-S03",
+        "D07-S11"
+      ],
+      "human_dependency": "Dextro官方说明由fab technician或engineer操作；协作维护没有消除现场人员、零件及高纯化学品供应。",
+      "validation_needed": "针对刻蚀与清洗：连续生产合格品并披露运行时长、产品边界、换料换班和全部人工接管记录；验收对象为无人完成干湿法刻蚀、去胶和清洗并保持选定结构的形貌与洁净度。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "7.4-M2",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主发现刻蚀速率漂移、等离子异常、腔壁退化、颗粒及微弧放电。",
+      "current_capability": "Siemens的2026年供应商方法文章讨论半导体预测维护，并描述未明确设备类型的告警演示；刻蚀收益数字被标为example targets，不能当作已测得的刻蚀故障检测通过率。",
+      "gap": "尚缺明确针对刻蚀设备的自动故障检出实验、误报漏报与长期现场结果；方法说明和示例目标不能代替这些数据。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D07-S12"
+      ],
+      "human_dependency": "Dextro官方说明由fab technician或engineer操作；协作维护没有消除现场人员、零件及高纯化学品供应。",
+      "validation_needed": "针对刻蚀与清洗：注入上述质量和设备故障，测量漏检、误报、检出时间及传感器自身失效的覆盖；验收对象为自主发现刻蚀速率漂移、等离子异常、腔壁退化、颗粒及微弧放电。",
+      "confidence": "Low",
+      "review_note": "独立语义复核：示例目标不是实测性能，未指明设备的演示不外推为刻蚀指标验证。"
+    },
+    {
+      "dimension_id": "7.4-M3",
+      "required_capability": "实现选定系统的可持续自我复制，需要把图形缺陷定位到气体配比、射频、腔体状态、掩模或湿化学液。",
+      "current_capability": "Siemens2026介绍用设备信号、文档和LLM提示优先排查项；现场技术员仍承担解释和行动，未证明完整自主诊断。",
+      "gap": "刻蚀与清洗：预测和排故建议不等于自主验证根因；缺少该项端到端诊断证据。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D07-S12"
+      ],
+      "human_dependency": "Dextro官方说明由fab technician或engineer操作；协作维护没有消除现场人员、零件及高纯化学品供应。",
+      "validation_needed": "针对刻蚀与清洗：盲测上述多种根因，要求机器提出并用干预试验验证诊断，统计错误处置；验收对象为把图形缺陷定位到气体配比、射频、腔体状态、掩模或湿化学液。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "7.4-M4",
+      "required_capability": "实现选定系统的可持续自我复制，需要无人清除腔壁聚合物、更换腔件和密封并重新验证刻蚀工艺。",
+      "current_capability": "Lam官方称Dextro已在多家先进晶圆厂部署，可紧固精密真空螺栓、去除腔壁聚合物；同文明确由技术员或工程师操作。",
+      "gap": "已部署机器人由技术人员或工程师操作，未证明本条要求的无人维修。 尚缺“实现选定系统的可持续自我复制，需要无人清除腔壁聚合物、更换腔件和密封并重新验证刻蚀工艺。”在声明系统边界内由机器自主完成的直接验证。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D07-S11",
+        "D07-S10"
+      ],
+      "human_dependency": "Dextro官方说明由fab technician或engineer操作；协作维护没有消除现场人员、零件及高纯化学品供应。",
+      "validation_needed": "针对刻蚀与清洗：在不允许人工拆装或远程接管下施加故障，要求自主修复并通过原质量验收；验收对象为无人清除腔壁聚合物、更换腔件和密封并重新验证刻蚀工艺。",
+      "confidence": "Low",
+      "review_note": "独立语义复核：已部署机器人由技术人员或工程师操作，未证明本条要求的无人维修。"
+    },
+    {
+      "dimension_id": "7.4-M5",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主供给高纯刻蚀气体、酸碱清洗液、腔件、密封和过滤器。",
+      "current_capability": "本轮检索未获得直接证明“自主供给高纯刻蚀气体、酸碱清洗液、腔件、密封和过滤器”已在HR0成立的公开资料；刻蚀与清洗的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "刻蚀与清洗：现有工业供应链与所有关键投入的机器自产之间尚有未核验环节。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "Dextro官方说明由fab technician或engineer操作；协作维护没有消除现场人员、零件及高纯化学品供应。",
+      "validation_needed": "针对刻蚀与清洗：逐项列出关键投入来源，耗尽预置库存后由机器从资源到部件持续补给；验收对象为自主供给高纯刻蚀气体、酸碱清洗液、腔件、密封和过滤器。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.4-M6",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主保障射频/微波电源、真空、废气处理及湿法槽温控供能。",
+      "current_capability": "本轮检索未获得直接证明“自主保障射频/微波电源、真空、废气处理及湿法槽温控供能”已在HR0成立的公开资料；刻蚀与清洗的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "刻蚀与清洗：本轮来源未直接证实该项供能和厂务系统可脱离人类长期维持。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "Dextro官方说明由fab technician或engineer操作；协作维护没有消除现场人员、零件及高纯化学品供应。",
+      "validation_needed": "针对刻蚀与清洗：切断外部人类运维的供能服务并注入供能故障，验证供能、恢复和耗材补给；验收对象为自主保障射频/微波电源、真空、废气处理及湿法槽温控供能。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.4-M7",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主维护选择比、各向异性、终点检测和安全清洗工艺知识。",
+      "current_capability": "Dextro靠数据和预设任务实现重复维护，Siemens用LLM支持维护知识转移；两者均未证明无需现场工程师的全工艺知识闭环。",
+      "gap": "刻蚀与清洗：公开文件或数字孪生仅是部分知识；隐性工艺和专家维护的替代尚未证实。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D07-S10",
+        "D07-S12"
+      ],
+      "human_dependency": "Dextro官方说明由fab technician或engineer操作；协作维护没有消除现场人员、零件及高纯化学品供应。",
+      "validation_needed": "针对刻蚀与清洗：封存全部人类咨询渠道，给出陌生工况，要求机器仅凭可维护知识完成设计/运行/故障处置；验收对象为自主维护选择比、各向异性、终点检测和安全清洗工艺知识。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "7.4-M8",
+      "required_capability": "实现选定系统的可持续自我复制，需要在腐蚀泄漏、真空故障或严重污染后恢复安全合格刻蚀与清洗。",
+      "current_capability": "本轮检索未获得直接证明“在腐蚀泄漏、真空故障或严重污染后恢复安全合格刻蚀与清洗”已在HR0成立的公开资料；刻蚀与清洗的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "刻蚀与清洗：例行备份或单设备服务不能证明严重损毁后的无人重建能力。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "Dextro官方说明由fab technician或engineer操作；协作维护没有消除现场人员、零件及高纯化学品供应。",
+      "validation_needed": "针对刻蚀与清洗：在主设备、部分备件与数据同时损坏的声明灾难情景中恢复并验收生产；验收对象为在腐蚀泄漏、真空故障或严重污染后恢复安全合格刻蚀与清洗。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.4-M9",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主制造并安装新增刻蚀和湿法清洗能力及配套环保设施。",
+      "current_capability": "本轮检索未获得直接证明“自主制造并安装新增刻蚀和湿法清洗能力及配套环保设施”已在HR0成立的公开资料；刻蚀与清洗的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "刻蚀与清洗：可购买模块或公司扩产计划不能替代无人新建、调试和产能爬坡证明。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "Dextro官方说明由fab technician或engineer操作；协作维护没有消除现场人员、零件及高纯化学品供应。",
+      "validation_needed": "针对刻蚀与清洗：从未安装的材料和设备状态开始，由机器完成新增设施部署和稳定产能验收；验收对象为自主制造并安装新增刻蚀和湿法清洗能力及配套环保设施。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.4-M10",
+      "required_capability": "实现选定系统的可持续自我复制，需要复制同等刻蚀清洗设备、耗材与气体化学品供给的完整能力。",
+      "current_capability": "本轮检索未获得直接证明“复制同等刻蚀清洗设备、耗材与气体化学品供给的完整能力”已在HR0成立的公开资料；刻蚀与清洗的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "刻蚀与清洗：未在所查资料中找到覆盖上游投入、维修和下一代再复制的完整HR0验证。 比较须固定最低必要计算架构，先进节点或HBM不是所有复制路线的必要条件。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "Dextro官方说明由fab technician或engineer操作；协作维护没有消除现场人员、零件及高纯化学品供应。",
+      "validation_needed": "针对刻蚀与清洗：建立可继续制造同等子代的生产系统，核算完整投入、代际时间和每代人工干预；验收对象为复制同等刻蚀清洗设备、耗材与气体化学品供给的完整能力。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.5-M1",
+      "required_capability": "实现选定系统的可持续自我复制，需要无人完成选定工艺的离子剂量/能量控制、退火与结温验证。",
+      "current_capability": "Applied产品矩阵列出Ion Implant和Thermal Processing等类别，证明相应设备供给；页面没有报告离子注入/退火的完整无人干预数据。",
+      "gap": "离子注入与热处理：完整生产生命周期内的HR0运行与维护尚未由本轮资料证实。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D07-S04"
+      ],
+      "human_dependency": "离子源、高压部件、掺杂化学品及专业工艺维修是否摆脱人工供应在所查资料中未知。",
+      "validation_needed": "针对离子注入与热处理：连续生产合格品并披露运行时长、产品边界、换料换班和全部人工接管记录；验收对象为无人完成选定工艺的离子剂量/能量控制、退火与结温验证。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.5-M2",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主检测束流漂移、剂量偏差、污染、温场不均和晶格损伤。",
+      "current_capability": "Siemens面向晶圆厂资产的预测维护可监测电流、电压、流量和温度等信号；这是相关方法，未提供注入束流和掺杂质量全覆盖验证。",
+      "gap": "离子注入与热处理：现有检测功能与该项全部故障范围之间仍需覆盖率和无人工验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D07-S12"
+      ],
+      "human_dependency": "离子源、高压部件、掺杂化学品及专业工艺维修是否摆脱人工供应在所查资料中未知。",
+      "validation_needed": "针对离子注入与热处理：注入上述质量和设备故障，测量漏检、误报、检出时间及传感器自身失效的覆盖；验收对象为自主检测束流漂移、剂量偏差、污染、温场不均和晶格损伤。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "7.5-M3",
+      "required_capability": "实现选定系统的可持续自我复制，需要把电学异常定位到离子源、束线、掺杂配方、退火温度或测量偏差。",
+      "current_capability": "本轮检索未获得直接证明“把电学异常定位到离子源、束线、掺杂配方、退火温度或测量偏差”已在HR0成立的公开资料；离子注入与热处理的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "离子注入与热处理：预测和排故建议不等于自主验证根因；缺少该项端到端诊断证据。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "离子源、高压部件、掺杂化学品及专业工艺维修是否摆脱人工供应在所查资料中未知。",
+      "validation_needed": "针对离子注入与热处理：盲测上述多种根因，要求机器提出并用干预试验验证诊断，统计错误处置；验收对象为把电学异常定位到离子源、束线、掺杂配方、退火温度或测量偏差。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.5-M4",
+      "required_capability": "实现选定系统的可持续自我复制，需要无人维修离子源、磁体/束线和退火炉并恢复剂量及热场精度。",
+      "current_capability": "本轮检索未获得直接证明“无人维修离子源、磁体/束线和退火炉并恢复剂量及热场精度”已在HR0成立的公开资料；离子注入与热处理的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "离子注入与热处理：物理维修、备件获取、重新校准和复投产的HR0闭环尚未证实。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "离子源、高压部件、掺杂化学品及专业工艺维修是否摆脱人工供应在所查资料中未知。",
+      "validation_needed": "针对离子注入与热处理：在不允许人工拆装或远程接管下施加故障，要求自主修复并通过原质量验收；验收对象为无人维修离子源、磁体/束线和退火炉并恢复剂量及热场精度。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.5-M5",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主提供高纯掺杂气体、离子源消耗件、石英件、灯与精密电源。",
+      "current_capability": "本轮检索未获得直接证明“自主提供高纯掺杂气体、离子源消耗件、石英件、灯与精密电源”已在HR0成立的公开资料；离子注入与热处理的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "离子注入与热处理：现有工业供应链与所有关键投入的机器自产之间尚有未核验环节。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "离子源、高压部件、掺杂化学品及专业工艺维修是否摆脱人工供应在所查资料中未知。",
+      "validation_needed": "针对离子注入与热处理：逐项列出关键投入来源，耗尽预置库存后由机器从资源到部件持续补给；验收对象为自主提供高纯掺杂气体、离子源消耗件、石英件、灯与精密电源。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.5-M6",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主维持高压加速、电磁控制、加热、真空和冷却所需能源。",
+      "current_capability": "本轮检索未获得直接证明“自主维持高压加速、电磁控制、加热、真空和冷却所需能源”已在HR0成立的公开资料；离子注入与热处理的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "离子注入与热处理：本轮来源未直接证实该项供能和厂务系统可脱离人类长期维持。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "离子源、高压部件、掺杂化学品及专业工艺维修是否摆脱人工供应在所查资料中未知。",
+      "validation_needed": "针对离子注入与热处理：切断外部人类运维的供能服务并注入供能故障，验证供能、恢复和耗材补给；验收对象为自主维持高压加速、电磁控制、加热、真空和冷却所需能源。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.5-M7",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主掌握掺杂剖面、损伤恢复、扩散和热预算的设计与验证知识。",
+      "current_capability": "所查Applied页面提供设备与工艺类别信息，但不足以证明机器独立掌握掺杂、扩散和损伤修复的完整工艺包。",
+      "gap": "离子注入与热处理：公开文件或数字孪生仅是部分知识；隐性工艺和专家维护的替代尚未证实。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D07-S04"
+      ],
+      "human_dependency": "离子源、高压部件、掺杂化学品及专业工艺维修是否摆脱人工供应在所查资料中未知。",
+      "validation_needed": "针对离子注入与热处理：封存全部人类咨询渠道，给出陌生工况，要求机器仅凭可维护知识完成设计/运行/故障处置；验收对象为自主掌握掺杂剖面、损伤恢复、扩散和热预算的设计与验证知识。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.5-M8",
+      "required_capability": "实现选定系统的可持续自我复制，需要在束线污染、高压故障或炉管破坏后恢复可用掺杂和退火能力。",
+      "current_capability": "本轮检索未获得直接证明“在束线污染、高压故障或炉管破坏后恢复可用掺杂和退火能力”已在HR0成立的公开资料；离子注入与热处理的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "离子注入与热处理：例行备份或单设备服务不能证明严重损毁后的无人重建能力。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "离子源、高压部件、掺杂化学品及专业工艺维修是否摆脱人工供应在所查资料中未知。",
+      "validation_needed": "针对离子注入与热处理：在主设备、部分备件与数据同时损坏的声明灾难情景中恢复并验收生产；验收对象为在束线污染、高压故障或炉管破坏后恢复可用掺杂和退火能力。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.5-M9",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主新增注入与热处理设备并完成工艺均匀性验收。",
+      "current_capability": "本轮检索未获得直接证明“自主新增注入与热处理设备并完成工艺均匀性验收”已在HR0成立的公开资料；离子注入与热处理的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "离子注入与热处理：可购买模块或公司扩产计划不能替代无人新建、调试和产能爬坡证明。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "离子源、高压部件、掺杂化学品及专业工艺维修是否摆脱人工供应在所查资料中未知。",
+      "validation_needed": "针对离子注入与热处理：从未安装的材料和设备状态开始，由机器完成新增设施部署和稳定产能验收；验收对象为自主新增注入与热处理设备并完成工艺均匀性验收。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.5-M10",
+      "required_capability": "实现选定系统的可持续自我复制，需要复制所选芯片工艺的注入退火能力及其高压、真空、气体与计量链。",
+      "current_capability": "本轮检索未获得直接证明“复制所选芯片工艺的注入退火能力及其高压、真空、气体与计量链”已在HR0成立的公开资料；离子注入与热处理的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "离子注入与热处理：未在所查资料中找到覆盖上游投入、维修和下一代再复制的完整HR0验证。 比较须固定最低必要计算架构，先进节点或HBM不是所有复制路线的必要条件。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "离子源、高压部件、掺杂化学品及专业工艺维修是否摆脱人工供应在所查资料中未知。",
+      "validation_needed": "针对离子注入与热处理：建立可继续制造同等子代的生产系统，核算完整投入、代际时间和每代人工干预；验收对象为复制所选芯片工艺的注入退火能力及其高压、真空、气体与计量链。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.6-M1",
+      "required_capability": "实现选定系统的可持续自我复制，需要无人完成晶圆缺陷扫描、关键尺寸/套刻测量、判片和闭环工艺控制。",
+      "current_capability": "KLA提供检测、计量、过程控制和AI分析产品；支持特定自动检测流程，不证明仪器维护与全厂控制无需人工。",
+      "gap": "晶圆检测与过程控制：完整生产生命周期内的HR0运行与维护尚未由本轮资料证实。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D07-S05"
+      ],
+      "human_dependency": "检测算法与预警可辅助人员；资料未证明计量仪器自修复、独立制造及标准溯源完全无需人类。",
+      "validation_needed": "针对晶圆检测与过程控制：连续生产合格品并披露运行时长、产品边界、换料换班和全部人工接管记录；验收对象为无人完成晶圆缺陷扫描、关键尺寸/套刻测量、判片和闭环工艺控制。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "7.6-M2",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主识别纳米级缺陷、颗粒、工艺漂移及检测设备自身退化。",
+      "current_capability": "KLA提供缺陷检测与计量产品，ASML说明传感器和电子束测量用于优化生产；这些来源支持机器检测工具存在，但未给出完全无人工判片和处置的故障检出覆盖。",
+      "gap": "晶圆检测与过程控制：现有检测功能与该项全部故障范围之间仍需覆盖率和无人工验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D07-S05",
+        "D07-S02"
+      ],
+      "human_dependency": "检测算法与预警可辅助人员；资料未证明计量仪器自修复、独立制造及标准溯源完全无需人类。",
+      "validation_needed": "针对晶圆检测与过程控制：注入上述质量和设备故障，测量漏检、误报、检出时间及传感器自身失效的覆盖；验收对象为自主识别纳米级缺陷、颗粒、工艺漂移及检测设备自身退化。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.6-M3",
+      "required_capability": "实现选定系统的可持续自我复制，需要把良率异常追溯到上游工序、设备、材料或检测误报并提出可验证处置。",
+      "current_capability": "KLA提供AI和数据分析产品，Siemens2026介绍有设备证据的排故建议；所查资料没有给出全部制造失效根因的自主定位成功率。",
+      "gap": "晶圆检测与过程控制：预测和排故建议不等于自主验证根因；缺少该项端到端诊断证据。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D07-S05",
+        "D07-S12"
+      ],
+      "human_dependency": "检测算法与预警可辅助人员；资料未证明计量仪器自修复、独立制造及标准溯源完全无需人类。",
+      "validation_needed": "针对晶圆检测与过程控制：盲测上述多种根因，要求机器提出并用干预试验验证诊断，统计错误处置；验收对象为把良率异常追溯到上游工序、设备、材料或检测误报并提出可验证处置。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "7.6-M4",
+      "required_capability": "实现选定系统的可持续自我复制，需要无人维修电子束、光学、运动台和探测器并恢复可溯源计量性能。",
+      "current_capability": "本轮检索未获得直接证明“无人维修电子束、光学、运动台和探测器并恢复可溯源计量性能”已在HR0成立的公开资料；晶圆检测与过程控制的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "晶圆检测与过程控制：物理维修、备件获取、重新校准和复投产的HR0闭环尚未证实。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "检测算法与预警可辅助人员；资料未证明计量仪器自修复、独立制造及标准溯源完全无需人类。",
+      "validation_needed": "针对晶圆检测与过程控制：在不允许人工拆装或远程接管下施加故障，要求自主修复并通过原质量验收；验收对象为无人维修电子束、光学、运动台和探测器并恢复可溯源计量性能。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.6-M5",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主制造检测传感器、电子束源、光学件、标准片和精密台。",
+      "current_capability": "本轮检索未获得直接证明“自主制造检测传感器、电子束源、光学件、标准片和精密台”已在HR0成立的公开资料；晶圆检测与过程控制的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "晶圆检测与过程控制：现有工业供应链与所有关键投入的机器自产之间尚有未核验环节。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "检测算法与预警可辅助人员；资料未证明计量仪器自修复、独立制造及标准溯源完全无需人类。",
+      "validation_needed": "针对晶圆检测与过程控制：逐项列出关键投入来源，耗尽预置库存后由机器从资源到部件持续补给；验收对象为自主制造检测传感器、电子束源、光学件、标准片和精密台。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.6-M6",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主保障检测设备电力、真空、温控、隔振与算力供能。",
+      "current_capability": "本轮检索未获得直接证明“自主保障检测设备电力、真空、温控、隔振与算力供能”已在HR0成立的公开资料；晶圆检测与过程控制的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "晶圆检测与过程控制：本轮来源未直接证实该项供能和厂务系统可脱离人类长期维持。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "检测算法与预警可辅助人员；资料未证明计量仪器自修复、独立制造及标准溯源完全无需人类。",
+      "validation_needed": "针对晶圆检测与过程控制：切断外部人类运维的供能服务并注入供能故障，验证供能、恢复和耗材补给；验收对象为自主保障检测设备电力、真空、温控、隔振与算力供能。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.6-M7",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主维持缺陷标签、工艺模型、计量算法和校准标准的知识连续性。",
+      "current_capability": "KLA提供工艺数据分析，Siemens2026支持维护文档和经验转移；没有展示计量标准、算法及校准全链不依赖专家。",
+      "gap": "晶圆检测与过程控制：公开文件或数字孪生仅是部分知识；隐性工艺和专家维护的替代尚未证实。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D07-S05",
+        "D07-S12"
+      ],
+      "human_dependency": "检测算法与预警可辅助人员；资料未证明计量仪器自修复、独立制造及标准溯源完全无需人类。",
+      "validation_needed": "针对晶圆检测与过程控制：封存全部人类咨询渠道，给出陌生工况，要求机器仅凭可维护知识完成设计/运行/故障处置；验收对象为自主维持缺陷标签、工艺模型、计量算法和校准标准的知识连续性。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "7.6-M8",
+      "required_capability": "实现选定系统的可持续自我复制，需要在标准片、测量数据库或关键检测设备损毁后恢复合格过程控制。",
+      "current_capability": "本轮检索未获得直接证明“在标准片、测量数据库或关键检测设备损毁后恢复合格过程控制”已在HR0成立的公开资料；晶圆检测与过程控制的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "晶圆检测与过程控制：例行备份或单设备服务不能证明严重损毁后的无人重建能力。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "检测算法与预警可辅助人员；资料未证明计量仪器自修复、独立制造及标准溯源完全无需人类。",
+      "validation_needed": "针对晶圆检测与过程控制：在主设备、部分备件与数据同时损坏的声明灾难情景中恢复并验收生产；验收对象为在标准片、测量数据库或关键检测设备损毁后恢复合格过程控制。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.6-M9",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主制造部署新增检测与计量设备以匹配产能增长。",
+      "current_capability": "本轮检索未获得直接证明“自主制造部署新增检测与计量设备以匹配产能增长”已在HR0成立的公开资料；晶圆检测与过程控制的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "晶圆检测与过程控制：可购买模块或公司扩产计划不能替代无人新建、调试和产能爬坡证明。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "检测算法与预警可辅助人员；资料未证明计量仪器自修复、独立制造及标准溯源完全无需人类。",
+      "validation_needed": "针对晶圆检测与过程控制：从未安装的材料和设备状态开始，由机器完成新增设施部署和稳定产能验收；验收对象为自主制造部署新增检测与计量设备以匹配产能增长。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.6-M10",
+      "required_capability": "实现选定系统的可持续自我复制，需要复制同等级检测计量能力及其校准、标准件和分析系统。",
+      "current_capability": "本轮检索未获得直接证明“复制同等级检测计量能力及其校准、标准件和分析系统”已在HR0成立的公开资料；晶圆检测与过程控制的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "晶圆检测与过程控制：未在所查资料中找到覆盖上游投入、维修和下一代再复制的完整HR0验证。 比较须固定最低必要计算架构，先进节点或HBM不是所有复制路线的必要条件。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "检测算法与预警可辅助人员；资料未证明计量仪器自修复、独立制造及标准溯源完全无需人类。",
+      "validation_needed": "针对晶圆检测与过程控制：建立可继续制造同等子代的生产系统，核算完整投入、代际时间和每代人工干预；验收对象为复制同等级检测计量能力及其校准、标准件和分析系统。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.7-M1",
+      "required_capability": "实现选定系统的可持续自我复制，需要按选定架构无人完成晶片互连、键合、封装、散热集成与终测。",
+      "current_capability": "TSMC展示CoWoS逻辑-HBM封装平台；SK hynix2026公告确认HBM4出货。产品实现证据没有同时证明封装线HR0运行。",
+      "gap": "先进封装：完整生产生命周期内的HR0运行与维护尚未由本轮资料证实。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D07-S06",
+        "D07-S07"
+      ],
+      "human_dependency": "封装涉及逻辑芯片、HBM、基板、材料和测试合作；人类运行的专业供应链没有因集成成功而消失。",
+      "validation_needed": "针对先进封装：连续生产合格品并披露运行时长、产品边界、换料换班和全部人工接管记录；验收对象为按选定架构无人完成晶片互连、键合、封装、散热集成与终测。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "7.7-M2",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主检测键合空洞、翘曲、互连失效、热缺陷和封装应力异常。",
+      "current_capability": "本轮检索未获得直接证明“自主检测键合空洞、翘曲、互连失效、热缺陷和封装应力异常”已在HR0成立的公开资料；先进封装的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "先进封装：现有检测功能与该项全部故障范围之间仍需覆盖率和无人工验证。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "封装涉及逻辑芯片、HBM、基板、材料和测试合作；人类运行的专业供应链没有因集成成功而消失。",
+      "validation_needed": "针对先进封装：注入上述质量和设备故障，测量漏检、误报、检出时间及传感器自身失效的覆盖；验收对象为自主检测键合空洞、翘曲、互连失效、热缺陷和封装应力异常。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.7-M3",
+      "required_capability": "实现选定系统的可持续自我复制，需要把封装不良定位到键合、基板、对准、材料或热机械设计。",
+      "current_capability": "本轮检索未获得直接证明“把封装不良定位到键合、基板、对准、材料或热机械设计”已在HR0成立的公开资料；先进封装的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "先进封装：预测和排故建议不等于自主验证根因；缺少该项端到端诊断证据。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "封装涉及逻辑芯片、HBM、基板、材料和测试合作；人类运行的专业供应链没有因集成成功而消失。",
+      "validation_needed": "针对先进封装：盲测上述多种根因，要求机器提出并用干预试验验证诊断，统计错误处置；验收对象为把封装不良定位到键合、基板、对准、材料或热机械设计。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.7-M4",
+      "required_capability": "实现选定系统的可持续自我复制，需要无人维修键合、贴片与测试设备并完成工艺重新认证。",
+      "current_capability": "本轮检索未获得直接证明“无人维修键合、贴片与测试设备并完成工艺重新认证”已在HR0成立的公开资料；先进封装的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "先进封装：物理维修、备件获取、重新校准和复投产的HR0闭环尚未证实。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "封装涉及逻辑芯片、HBM、基板、材料和测试合作；人类运行的专业供应链没有因集成成功而消失。",
+      "validation_needed": "针对先进封装：在不允许人工拆装或远程接管下施加故障，要求自主修复并通过原质量验收；验收对象为无人维修键合、贴片与测试设备并完成工艺重新认证。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.7-M5",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主提供中介层、基板、键合材料、焊料、填充胶和封装测试设备。",
+      "current_capability": "SK hynix2026新闻列举材料、设备、后段加工测试和基础设施伙伴；先进封装的关键投入仍呈跨企业分工，未证明全机器自产。",
+      "gap": "先进封装：现有工业供应链与所有关键投入的机器自产之间尚有未核验环节。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D07-S13"
+      ],
+      "human_dependency": "封装涉及逻辑芯片、HBM、基板、材料和测试合作；人类运行的专业供应链没有因集成成功而消失。",
+      "validation_needed": "针对先进封装：逐项列出关键投入来源，耗尽预置库存后由机器从资源到部件持续补给；验收对象为自主提供中介层、基板、键合材料、焊料、填充胶和封装测试设备。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.7-M6",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主保障高精度对准、热压、洁净和测试冷却的能源供给。",
+      "current_capability": "本轮检索未获得直接证明“自主保障高精度对准、热压、洁净和测试冷却的能源供给”已在HR0成立的公开资料；先进封装的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "先进封装：本轮来源未直接证实该项供能和厂务系统可脱离人类长期维持。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "封装涉及逻辑芯片、HBM、基板、材料和测试合作；人类运行的专业供应链没有因集成成功而消失。",
+      "validation_needed": "针对先进封装：切断外部人类运维的供能服务并注入供能故障，验证供能、恢复和耗材补给；验收对象为自主保障高精度对准、热压、洁净和测试冷却的能源供给。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.7-M7",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主掌握互连布局、封装电热设计、应力分析和可靠性试验知识。",
+      "current_capability": "本轮检索未获得直接证明“自主掌握互连布局、封装电热设计、应力分析和可靠性试验知识”已在HR0成立的公开资料；先进封装的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "先进封装：公开文件或数字孪生仅是部分知识；隐性工艺和专家维护的替代尚未证实。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "封装涉及逻辑芯片、HBM、基板、材料和测试合作；人类运行的专业供应链没有因集成成功而消失。",
+      "validation_needed": "针对先进封装：封存全部人类咨询渠道，给出陌生工况，要求机器仅凭可维护知识完成设计/运行/故障处置；验收对象为自主掌握互连布局、封装电热设计、应力分析和可靠性试验知识。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.7-M8",
+      "required_capability": "实现选定系统的可持续自我复制，需要在封装线污染、键合工具损坏或追溯数据丢失后恢复合格封装。",
+      "current_capability": "本轮检索未获得直接证明“在封装线污染、键合工具损坏或追溯数据丢失后恢复合格封装”已在HR0成立的公开资料；先进封装的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "先进封装：例行备份或单设备服务不能证明严重损毁后的无人重建能力。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "封装涉及逻辑芯片、HBM、基板、材料和测试合作；人类运行的专业供应链没有因集成成功而消失。",
+      "validation_needed": "针对先进封装：在主设备、部分备件与数据同时损坏的声明灾难情景中恢复并验收生产；验收对象为在封装线污染、键合工具损坏或追溯数据丢失后恢复合格封装。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.7-M9",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主建设新增封装与测试产线并验证良率和可靠性。",
+      "current_capability": "本轮检索未获得直接证明“自主建设新增封装与测试产线并验证良率和可靠性”已在HR0成立的公开资料；先进封装的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "先进封装：可购买模块或公司扩产计划不能替代无人新建、调试和产能爬坡证明。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "封装涉及逻辑芯片、HBM、基板、材料和测试合作；人类运行的专业供应链没有因集成成功而消失。",
+      "validation_needed": "针对先进封装：从未安装的材料和设备状态开始，由机器完成新增设施部署和稳定产能验收；验收对象为自主建设新增封装与测试产线并验证良率和可靠性。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.7-M10",
+      "required_capability": "实现选定系统的可持续自我复制，需要复制所需封装能力及其设备材料链，允许选择无需最高端2.5D/3D的架构。",
+      "current_capability": "本轮检索未获得直接证明“复制所需封装能力及其设备材料链，允许选择无需最高端2.5D/3D的架构”已在HR0成立的公开资料；先进封装的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "先进封装：未在所查资料中找到覆盖上游投入、维修和下一代再复制的完整HR0验证。 比较须固定最低必要计算架构，先进节点或HBM不是所有复制路线的必要条件。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "封装涉及逻辑芯片、HBM、基板、材料和测试合作；人类运行的专业供应链没有因集成成功而消失。",
+      "validation_needed": "针对先进封装：建立可继续制造同等子代的生产系统，核算完整投入、代际时间和每代人工干预；验收对象为复制所需封装能力及其设备材料链，允许选择无需最高端2.5D/3D的架构。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.8-M1",
+      "required_capability": "实现选定系统的可持续自我复制，需要无人制造选定计算架构所需存储器，若需要HBM则完成DRAM、TSV、堆叠与测试。",
+      "current_capability": "SK hynix2026Q3公告称HBM4开始实质出货，是当期产品供给证据；并未提供DRAM与HBM制造的无人运行时长或干预数据。",
+      "gap": "存储器与HBM制造：完整生产生命周期内的HR0运行与维护尚未由本轮资料证实。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D07-S07"
+      ],
+      "human_dependency": "2026官方新闻明确列举材料、设备、封装测试与基础设施合作方；HBM4量产没有证明这些供应由无人机器体系复制。",
+      "validation_needed": "针对存储器与HBM制造：连续生产合格品并披露运行时长、产品边界、换料换班和全部人工接管记录；验收对象为无人制造选定计算架构所需存储器，若需要HBM则完成DRAM、TSV、堆叠与测试。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "7.8-M2",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主检测存储单元失效、堆叠互连缺陷、保持/带宽异常和设备退化。",
+      "current_capability": "本轮检索未获得直接证明“自主检测存储单元失效、堆叠互连缺陷、保持/带宽异常和设备退化”已在HR0成立的公开资料；存储器与HBM制造的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "存储器与HBM制造：现有检测功能与该项全部故障范围之间仍需覆盖率和无人工验证。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "2026官方新闻明确列举材料、设备、封装测试与基础设施合作方；HBM4量产没有证明这些供应由无人机器体系复制。",
+      "validation_needed": "针对存储器与HBM制造：注入上述质量和设备故障，测量漏检、误报、检出时间及传感器自身失效的覆盖；验收对象为自主检测存储单元失效、堆叠互连缺陷、保持/带宽异常和设备退化。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.8-M3",
+      "required_capability": "实现选定系统的可持续自我复制，需要把存储失效定位到单元工艺、晶圆良率、键合、封装或测试条件。",
+      "current_capability": "本轮检索未获得直接证明“把存储失效定位到单元工艺、晶圆良率、键合、封装或测试条件”已在HR0成立的公开资料；存储器与HBM制造的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "存储器与HBM制造：预测和排故建议不等于自主验证根因；缺少该项端到端诊断证据。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "2026官方新闻明确列举材料、设备、封装测试与基础设施合作方；HBM4量产没有证明这些供应由无人机器体系复制。",
+      "validation_needed": "针对存储器与HBM制造：盲测上述多种根因，要求机器提出并用干预试验验证诊断，统计错误处置；验收对象为把存储失效定位到单元工艺、晶圆良率、键合、封装或测试条件。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.8-M4",
+      "required_capability": "实现选定系统的可持续自我复制，需要无人维修存储器晶圆工艺、堆叠和测试设备并恢复稳定良率。",
+      "current_capability": "本轮检索未获得直接证明“无人维修存储器晶圆工艺、堆叠和测试设备并恢复稳定良率”已在HR0成立的公开资料；存储器与HBM制造的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "存储器与HBM制造：物理维修、备件获取、重新校准和复投产的HR0闭环尚未证实。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "2026官方新闻明确列举材料、设备、封装测试与基础设施合作方；HBM4量产没有证明这些供应由无人机器体系复制。",
+      "validation_needed": "针对存储器与HBM制造：在不允许人工拆装或远程接管下施加故障，要求自主修复并通过原质量验收；验收对象为无人维修存储器晶圆工艺、堆叠和测试设备并恢复稳定良率。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.8-M5",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主供给存储晶圆、掩模、化学品、基板及生产与测试设备。",
+      "current_capability": "SK hynix2026年10月30日说明日本材料、设备、测试及基础设施伙伴的作用；没有报告这些投入已由无人产业链自行生产。",
+      "gap": "存储器与HBM制造：现有工业供应链与所有关键投入的机器自产之间尚有未核验环节。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D07-S13"
+      ],
+      "human_dependency": "2026官方新闻明确列举材料、设备、封装测试与基础设施合作方；HBM4量产没有证明这些供应由无人机器体系复制。",
+      "validation_needed": "针对存储器与HBM制造：逐项列出关键投入来源，耗尽预置库存后由机器从资源到部件持续补给；验收对象为自主供给存储晶圆、掩模、化学品、基板及生产与测试设备。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.8-M6",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主维持高连续性存储工艺供电、冷却、洁净和厂务能源。",
+      "current_capability": "本轮检索未获得直接证明“自主维持高连续性存储工艺供电、冷却、洁净和厂务能源”已在HR0成立的公开资料；存储器与HBM制造的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "存储器与HBM制造：本轮来源未直接证实该项供能和厂务系统可脱离人类长期维持。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "2026官方新闻明确列举材料、设备、封装测试与基础设施合作方；HBM4量产没有证明这些供应由无人机器体系复制。",
+      "validation_needed": "针对存储器与HBM制造：切断外部人类运维的供能服务并注入供能故障，验证供能、恢复和耗材补给；验收对象为自主维持高连续性存储工艺供电、冷却、洁净和厂务能源。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.8-M7",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主维护存储设计、工艺整合、堆叠与失效分析所需知识。",
+      "current_capability": "本轮检索未获得直接证明“自主维护存储设计、工艺整合、堆叠与失效分析所需知识”已在HR0成立的公开资料；存储器与HBM制造的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "存储器与HBM制造：公开文件或数字孪生仅是部分知识；隐性工艺和专家维护的替代尚未证实。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "2026官方新闻明确列举材料、设备、封装测试与基础设施合作方；HBM4量产没有证明这些供应由无人机器体系复制。",
+      "validation_needed": "针对存储器与HBM制造：封存全部人类咨询渠道，给出陌生工况，要求机器仅凭可维护知识完成设计/运行/故障处置；验收对象为自主维护存储设计、工艺整合、堆叠与失效分析所需知识。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.8-M8",
+      "required_capability": "实现选定系统的可持续自我复制，需要在存储产线或工艺数据严重损毁后恢复所需容量与可靠性。",
+      "current_capability": "本轮检索未获得直接证明“在存储产线或工艺数据严重损毁后恢复所需容量与可靠性”已在HR0成立的公开资料；存储器与HBM制造的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "存储器与HBM制造：例行备份或单设备服务不能证明严重损毁后的无人重建能力。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "2026官方新闻明确列举材料、设备、封装测试与基础设施合作方；HBM4量产没有证明这些供应由无人机器体系复制。",
+      "validation_needed": "针对存储器与HBM制造：在主设备、部分备件与数据同时损坏的声明灾难情景中恢复并验收生产；验收对象为在存储产线或工艺数据严重损毁后恢复所需容量与可靠性。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.8-M9",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主建设新增存储晶圆与堆叠产能而非依靠采购外部供货。",
+      "current_capability": "SK hynix2026Q3计划年底前把M15X提高至最大产能并提高HBM4供给；这是公司扩产计划，不是无人扩容已完成的证据。",
+      "gap": "存储器与HBM制造：可购买模块或公司扩产计划不能替代无人新建、调试和产能爬坡证明。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D07-S07"
+      ],
+      "human_dependency": "2026官方新闻明确列举材料、设备、封装测试与基础设施合作方；HBM4量产没有证明这些供应由无人机器体系复制。",
+      "validation_needed": "针对存储器与HBM制造：从未安装的材料和设备状态开始，由机器完成新增设施部署和稳定产能验收；验收对象为自主建设新增存储晶圆与堆叠产能而非依靠采购外部供货。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.8-M10",
+      "required_capability": "实现选定系统的可持续自我复制，需要复制满足自身计算需求的存储生产能力；HBM是架构选项而非所有复制系统的逻辑必需。",
+      "current_capability": "本轮检索未获得直接证明“复制满足自身计算需求的存储生产能力；HBM是架构选项而非所有复制系统的逻辑必需”已在HR0成立的公开资料；存储器与HBM制造的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "存储器与HBM制造：未在所查资料中找到覆盖上游投入、维修和下一代再复制的完整HR0验证。 比较须固定最低必要计算架构，先进节点或HBM不是所有复制路线的必要条件。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "2026官方新闻明确列举材料、设备、封装测试与基础设施合作方；HBM4量产没有证明这些供应由无人机器体系复制。",
+      "validation_needed": "针对存储器与HBM制造：建立可继续制造同等子代的生产系统，核算完整投入、代际时间和每代人工干预；验收对象为复制满足自身计算需求的存储生产能力；HBM是架构选项而非所有复制系统的逻辑必需。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.9-M1",
+      "required_capability": "实现选定系统的可持续自我复制，需要无人完成选定处理器设计到晶圆制造、封装和功能验证并维持所需算力。",
+      "current_capability": "TSMC当前页面写明N2在2025Q4量产、N3C在2026量产；证明芯片制造前沿，未报告维持生产所需人工参与已消除。",
+      "gap": "计算芯片制造：完整生产生命周期内的HR0运行与维护尚未由本轮资料证实。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D07-S08"
+      ],
+      "human_dependency": "光刻、沉积、刻蚀、检测和化学品由高度专业化供应链支撑；尖端节点量产并未报告排除人类工艺工程与维修。",
+      "validation_needed": "针对计算芯片制造：连续生产合格品并披露运行时长、产品边界、换料换班和全部人工接管记录；验收对象为无人完成选定处理器设计到晶圆制造、封装和功能验证并维持所需算力。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "7.9-M2",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主检测晶体管与互连缺陷、时序/功耗偏差及晶圆设备异常。",
+      "current_capability": "本轮检索未获得直接证明“自主检测晶体管与互连缺陷、时序/功耗偏差及晶圆设备异常”已在HR0成立的公开资料；计算芯片制造的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "计算芯片制造：现有检测功能与该项全部故障范围之间仍需覆盖率和无人工验证。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "光刻、沉积、刻蚀、检测和化学品由高度专业化供应链支撑；尖端节点量产并未报告排除人类工艺工程与维修。",
+      "validation_needed": "针对计算芯片制造：注入上述质量和设备故障，测量漏检、误报、检出时间及传感器自身失效的覆盖；验收对象为自主检测晶体管与互连缺陷、时序/功耗偏差及晶圆设备异常。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.9-M3",
+      "required_capability": "实现选定系统的可持续自我复制，需要把计算芯片失效定位到设计、制造工艺、材料或封装与测试条件。",
+      "current_capability": "本轮检索未获得直接证明“把计算芯片失效定位到设计、制造工艺、材料或封装与测试条件”已在HR0成立的公开资料；计算芯片制造的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "计算芯片制造：预测和排故建议不等于自主验证根因；缺少该项端到端诊断证据。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "光刻、沉积、刻蚀、检测和化学品由高度专业化供应链支撑；尖端节点量产并未报告排除人类工艺工程与维修。",
+      "validation_needed": "针对计算芯片制造：盲测上述多种根因，要求机器提出并用干预试验验证诊断，统计错误处置；验收对象为把计算芯片失效定位到设计、制造工艺、材料或封装与测试条件。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.9-M4",
+      "required_capability": "实现选定系统的可持续自我复制，需要无人修复关键晶圆设备并修改工艺或设计以恢复合格芯片供给。",
+      "current_capability": "本轮检索未获得直接证明“无人修复关键晶圆设备并修改工艺或设计以恢复合格芯片供给”已在HR0成立的公开资料；计算芯片制造的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "计算芯片制造：物理维修、备件获取、重新校准和复投产的HR0闭环尚未证实。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "光刻、沉积、刻蚀、检测和化学品由高度专业化供应链支撑；尖端节点量产并未报告排除人类工艺工程与维修。",
+      "validation_needed": "针对计算芯片制造：在不允许人工拆装或远程接管下施加故障，要求自主修复并通过原质量验收；验收对象为无人修复关键晶圆设备并修改工艺或设计以恢复合格芯片供给。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.9-M5",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主提供晶圆、掩模、化学品、制造设备及设计验证工具的全部关键投入。",
+      "current_capability": "ASML、Lam及SK hynix伙伴资料显示专门设备、材料和测试机构构成制造链；多家供应商有能力不等于该链能无人提供全部投入。",
+      "gap": "计算芯片制造：现有工业供应链与所有关键投入的机器自产之间尚有未核验环节。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D07-S02",
+        "D07-S03",
+        "D07-S13"
+      ],
+      "human_dependency": "光刻、沉积、刻蚀、检测和化学品由高度专业化供应链支撑；尖端节点量产并未报告排除人类工艺工程与维修。",
+      "validation_needed": "针对计算芯片制造：逐项列出关键投入来源，耗尽预置库存后由机器从资源到部件持续补给；验收对象为自主提供晶圆、掩模、化学品、制造设备及设计验证工具的全部关键投入。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.9-M6",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主供给晶圆厂连续电力、超纯水、冷却和洁净环境所需能源。",
+      "current_capability": "本轮检索未获得直接证明“自主供给晶圆厂连续电力、超纯水、冷却和洁净环境所需能源”已在HR0成立的公开资料；计算芯片制造的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "计算芯片制造：本轮来源未直接证实该项供能和厂务系统可脱离人类长期维持。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "光刻、沉积、刻蚀、检测和化学品由高度专业化供应链支撑；尖端节点量产并未报告排除人类工艺工程与维修。",
+      "validation_needed": "针对计算芯片制造：切断外部人类运维的供能服务并注入供能故障，验证供能、恢复和耗材补给；验收对象为自主供给晶圆厂连续电力、超纯水、冷却和洁净环境所需能源。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.9-M7",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主保持芯片架构、EDA、器件模型、工艺整合和良率学习知识。",
+      "current_capability": "技术页说明N2、N3等节点路线，ASML公开光刻原理；公开技术介绍不是可自主执行的完整芯片设计、制造与维护知识包。",
+      "gap": "计算芯片制造：公开文件或数字孪生仅是部分知识；隐性工艺和专家维护的替代尚未证实。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D07-S08",
+        "D07-S02"
+      ],
+      "human_dependency": "光刻、沉积、刻蚀、检测和化学品由高度专业化供应链支撑；尖端节点量产并未报告排除人类工艺工程与维修。",
+      "validation_needed": "针对计算芯片制造：封存全部人类咨询渠道，给出陌生工况，要求机器仅凭可维护知识完成设计/运行/故障处置；验收对象为自主保持芯片架构、EDA、器件模型、工艺整合和良率学习知识。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.9-M8",
+      "required_capability": "实现选定系统的可持续自我复制，需要在关键晶圆厂或设计/工艺数据库损毁后恢复计算芯片制造。",
+      "current_capability": "本轮检索未获得直接证明“在关键晶圆厂或设计/工艺数据库损毁后恢复计算芯片制造”已在HR0成立的公开资料；计算芯片制造的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "计算芯片制造：例行备份或单设备服务不能证明严重损毁后的无人重建能力。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "光刻、沉积、刻蚀、检测和化学品由高度专业化供应链支撑；尖端节点量产并未报告排除人类工艺工程与维修。",
+      "validation_needed": "针对计算芯片制造：在主设备、部分备件与数据同时损坏的声明灾难情景中恢复并验收生产；验收对象为在关键晶圆厂或设计/工艺数据库损毁后恢复计算芯片制造。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.9-M9",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主建设并调试新增芯片生产能力以供新增机器系统使用。",
+      "current_capability": "TSMC说明扩展工艺家族并规划其他地区新增产能；当前页面未表明新晶圆厂由机器自主施工、安装与调试。",
+      "gap": "计算芯片制造：可购买模块或公司扩产计划不能替代无人新建、调试和产能爬坡证明。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D07-S08"
+      ],
+      "human_dependency": "光刻、沉积、刻蚀、检测和化学品由高度专业化供应链支撑；尖端节点量产并未报告排除人类工艺工程与维修。",
+      "validation_needed": "针对计算芯片制造：从未安装的材料和设备状态开始，由机器完成新增设施部署和稳定产能验收；验收对象为自主建设并调试新增芯片生产能力以供新增机器系统使用。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.9-M10",
+      "required_capability": "实现选定系统的可持续自我复制，需要复制维持同等必要计算能力的芯片生产链，允许退回可闭合的较成熟制程。",
+      "current_capability": "本轮检索未获得直接证明“复制维持同等必要计算能力的芯片生产链，允许退回可闭合的较成熟制程”已在HR0成立的公开资料；计算芯片制造的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "计算芯片制造：未在所查资料中找到覆盖上游投入、维修和下一代再复制的完整HR0验证。 比较须固定最低必要计算架构，先进节点或HBM不是所有复制路线的必要条件。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "光刻、沉积、刻蚀、检测和化学品由高度专业化供应链支撑；尖端节点量产并未报告排除人类工艺工程与维修。",
+      "validation_needed": "针对计算芯片制造：建立可继续制造同等子代的生产系统，核算完整投入、代际时间和每代人工干预；验收对象为复制维持同等必要计算能力的芯片生产链，允许退回可闭合的较成熟制程。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.10-M1",
+      "required_capability": "实现选定系统的可持续自我复制，需要无人完成板卡、服务器、机架、电源和冷却系统装配测试与部署。",
+      "current_capability": "NVIDIA2025公告称芯片在TSMC亚利桑那已开始生产，而Foxconn/Wistron服务器工厂仍在建设计划阶段；这份来源不能证实2026整机生产的HR0状态。",
+      "gap": "服务器与计算系统集成：完整生产生命周期内的HR0运行与维护尚未由本轮资料证实。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D07-S09"
+      ],
+      "human_dependency": "所查公告依赖TSMC、Foxconn、Wistron、Amkor、SPIL等现实合作企业；数字孪生和机器人规划不证明无人生产或设施复制。",
+      "validation_needed": "针对服务器与计算系统集成：连续生产合格品并披露运行时长、产品边界、换料换班和全部人工接管记录；验收对象为无人完成板卡、服务器、机架、电源和冷却系统装配测试与部署。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.10-M2",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主发现板级缺陷、互连故障、电源/散热异常及系统性能退化。",
+      "current_capability": "本轮检索未获得直接证明“自主发现板级缺陷、互连故障、电源/散热异常及系统性能退化”已在HR0成立的公开资料；服务器与计算系统集成的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "服务器与计算系统集成：现有检测功能与该项全部故障范围之间仍需覆盖率和无人工验证。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "所查公告依赖TSMC、Foxconn、Wistron、Amkor、SPIL等现实合作企业；数字孪生和机器人规划不证明无人生产或设施复制。",
+      "validation_needed": "针对服务器与计算系统集成：注入上述质量和设备故障，测量漏检、误报、检出时间及传感器自身失效的覆盖；验收对象为自主发现板级缺陷、互连故障、电源/散热异常及系统性能退化。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.10-M3",
+      "required_capability": "实现选定系统的可持续自我复制，需要把服务器失效定位到芯片、内存、板卡、固件、电源或冷却部件。",
+      "current_capability": "本轮检索未获得直接证明“把服务器失效定位到芯片、内存、板卡、固件、电源或冷却部件”已在HR0成立的公开资料；服务器与计算系统集成的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "服务器与计算系统集成：预测和排故建议不等于自主验证根因；缺少该项端到端诊断证据。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "所查公告依赖TSMC、Foxconn、Wistron、Amkor、SPIL等现实合作企业；数字孪生和机器人规划不证明无人生产或设施复制。",
+      "validation_needed": "针对服务器与计算系统集成：盲测上述多种根因，要求机器提出并用干预试验验证诊断，统计错误处置；验收对象为把服务器失效定位到芯片、内存、板卡、固件、电源或冷却部件。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.10-M4",
+      "required_capability": "实现选定系统的可持续自我复制，需要无人更换失效板卡、连接器、电源和冷却组件并恢复业务算力。",
+      "current_capability": "本轮检索未获得直接证明“无人更换失效板卡、连接器、电源和冷却组件并恢复业务算力”已在HR0成立的公开资料；服务器与计算系统集成的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "服务器与计算系统集成：物理维修、备件获取、重新校准和复投产的HR0闭环尚未证实。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "所查公告依赖TSMC、Foxconn、Wistron、Amkor、SPIL等现实合作企业；数字孪生和机器人规划不证明无人生产或设施复制。",
+      "validation_needed": "针对服务器与计算系统集成：在不允许人工拆装或远程接管下施加故障，要求自主修复并通过原质量验收；验收对象为无人更换失效板卡、连接器、电源和冷却组件并恢复业务算力。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.10-M5",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主制造所需芯片、内存、PCB、连接器、电源和散热器件。",
+      "current_capability": "NVIDIA公告明确列出TSMC、Foxconn、Wistron及Amkor、SPIL等分工伙伴；所查材料没有显示CPU/GPU、内存和板级器件由同一无人体系供给。",
+      "gap": "服务器与计算系统集成：现有工业供应链与所有关键投入的机器自产之间尚有未核验环节。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D07-S09"
+      ],
+      "human_dependency": "所查公告依赖TSMC、Foxconn、Wistron、Amkor、SPIL等现实合作企业；数字孪生和机器人规划不证明无人生产或设施复制。",
+      "validation_needed": "针对服务器与计算系统集成：逐项列出关键投入来源，耗尽预置库存后由机器从资源到部件持续补给；验收对象为自主制造所需芯片、内存、PCB、连接器、电源和散热器件。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.10-M6",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主建设并保障服务器电力、备用供电、制冷和热排放能力。",
+      "current_capability": "本轮检索未获得直接证明“自主建设并保障服务器电力、备用供电、制冷和热排放能力”已在HR0成立的公开资料；服务器与计算系统集成的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "服务器与计算系统集成：本轮来源未直接证实该项供能和厂务系统可脱离人类长期维持。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "所查公告依赖TSMC、Foxconn、Wistron、Amkor、SPIL等现实合作企业；数字孪生和机器人规划不证明无人生产或设施复制。",
+      "validation_needed": "针对服务器与计算系统集成：切断外部人类运维的供能服务并注入供能故障，验证供能、恢复和耗材补给；验收对象为自主建设并保障服务器电力、备用供电、制冷和热排放能力。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.10-M7",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主维护板级设计、固件、系统集成、测试和数据中心运维知识。",
+      "current_capability": "本轮检索未获得直接证明“自主维护板级设计、固件、系统集成、测试和数据中心运维知识”已在HR0成立的公开资料；服务器与计算系统集成的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "服务器与计算系统集成：公开文件或数字孪生仅是部分知识；隐性工艺和专家维护的替代尚未证实。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "所查公告依赖TSMC、Foxconn、Wistron、Amkor、SPIL等现实合作企业；数字孪生和机器人规划不证明无人生产或设施复制。",
+      "validation_needed": "针对服务器与计算系统集成：封存全部人类咨询渠道，给出陌生工况，要求机器仅凭可维护知识完成设计/运行/故障处置；验收对象为自主维护板级设计、固件、系统集成、测试和数据中心运维知识。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.10-M8",
+      "required_capability": "实现选定系统的可持续自我复制，需要在机架火灾、散热故障或系统软件损毁后重建必要计算服务。",
+      "current_capability": "本轮检索未获得直接证明“在机架火灾、散热故障或系统软件损毁后重建必要计算服务”已在HR0成立的公开资料；服务器与计算系统集成的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "服务器与计算系统集成：例行备份或单设备服务不能证明严重损毁后的无人重建能力。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "所查公告依赖TSMC、Foxconn、Wistron、Amkor、SPIL等现实合作企业；数字孪生和机器人规划不证明无人生产或设施复制。",
+      "validation_needed": "针对服务器与计算系统集成：在主设备、部分备件与数据同时损坏的声明灾难情景中恢复并验收生产；验收对象为在机架火灾、散热故障或系统软件损毁后重建必要计算服务。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.10-M9",
+      "required_capability": "实现选定系统的可持续自我复制，需要自主制造安装新增服务器与数据中心配套并验证有效算力增长。",
+      "current_capability": "NVIDIA2025年预计美国服务器厂12至15个月爬坡，并计划用机器人和数字孪生；不以计划到期推断这些设施已自主建成或完成扩容。",
+      "gap": "服务器与计算系统集成：可购买模块或公司扩产计划不能替代无人新建、调试和产能爬坡证明。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D07-S09"
+      ],
+      "human_dependency": "所查公告依赖TSMC、Foxconn、Wistron、Amkor、SPIL等现实合作企业；数字孪生和机器人规划不证明无人生产或设施复制。",
+      "validation_needed": "针对服务器与计算系统集成：从未安装的材料和设备状态开始，由机器完成新增设施部署和稳定产能验收；验收对象为自主制造安装新增服务器与数据中心配套并验证有效算力增长。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "7.10-M10",
+      "required_capability": "实现选定系统的可持续自我复制，需要复制同等必要算力的服务器、供电冷却和维护系统，包含上游硬件供应。",
+      "current_capability": "本轮检索未获得直接证明“复制同等必要算力的服务器、供电冷却和维护系统，包含上游硬件供应”已在HR0成立的公开资料；服务器与计算系统集成的相关常规工艺或产品能力不能据此自动升级为该项自治能力。",
+      "gap": "服务器与计算系统集成：未在所查资料中找到覆盖上游投入、维修和下一代再复制的完整HR0验证。 比较须固定最低必要计算架构，先进节点或HBM不是所有复制路线的必要条件。",
+      "assessment_status": "unknown",
+      "evidence_relation": "no_direct_evidence",
+      "source_ids": [],
+      "human_dependency": "所查公告依赖TSMC、Foxconn、Wistron、Amkor、SPIL等现实合作企业；数字孪生和机器人规划不证明无人生产或设施复制。",
+      "validation_needed": "针对服务器与计算系统集成：建立可继续制造同等子代的生产系统，核算完整投入、代际时间和每代人工干预；验收对象为复制同等必要算力的服务器、供电冷却和维护系统，包含上游硬件供应。",
+      "confidence": "Low"
+    }
+  ],
+  "search_log": [
+    {
+      "query": "site:fanucamerica.com zero downtime manufacturing",
+      "retrieved_at": "2026-11-02",
+      "note": "Bing RSS返回明显不相关结果，不作为证据；随后通过OEM官方站点导航核验实际来源。"
+    },
+    {
+      "query": "site:asml.com 2026 annual report lithography",
+      "retrieved_at": "2026-11-02",
+      "note": "Bing RSS返回明显不相关结果，不作为证据；随后通过OEM官方站点导航核验实际来源。"
+    },
+    {
+      "query": "site:skhynix.com HBM4 mass production 2026",
+      "retrieved_at": "2026-11-02",
+      "note": "Bing RSS返回明显不相关结果，不作为证据；随后通过OEM官方站点导航核验实际来源。"
+    },
+    {
+      "query": "site:siemens.com 2026 autonomous manufacturing factory",
+      "retrieved_at": "2026-11-02",
+      "note": "Bing RSS返回明显不相关结果，不作为证据；随后通过OEM官方站点导航核验实际来源。"
+    },
+    {
+      "query": "site:skf.com autonomous bearing manufacturing",
+      "retrieved_at": "2026-11-02",
+      "note": "Bing RSS返回明显不相关结果，不作为证据；随后通过OEM官方站点导航核验实际来源。"
+    },
+    {
+      "query": "2026 autonomous manufacturing predictive maintenance machine tool self repair",
+      "retrieved_at": "2026-11-02",
+      "note": "Brave检索后核验实际主来源。行业博客与SEO宣传不作为自治能力已实现证据。SEMI2026PM白皮书PDF返回403，未按已读全文引用。"
+    },
+    {
+      "query": "2026 semiconductor autonomous fab equipment maintenance robotics",
+      "retrieved_at": "2026-11-02",
+      "note": "Brave检索后核验实际主来源。行业博客与SEO宣传不作为自治能力已实现证据。SEMI2026PM白皮书PDF返回403，未按已读全文引用。"
+    },
+    {
+      "query": "2026 autonomous bearing manufacturing SKF",
+      "retrieved_at": "2026-11-02",
+      "note": "Brave检索后核验实际主来源。行业博客与SEO宣传不作为自治能力已实现证据。SEMI2026PM白皮书PDF返回403，未按已读全文引用。"
+    },
+    {
+      "query": "2026 sensor manufacturing automation quality metrology",
+      "retrieved_at": "2026-11-02",
+      "note": "Brave检索后核验实际主来源。行业博客与SEO宣传不作为自治能力已实现证据。SEMI2026PM白皮书PDF返回403，未按已读全文引用。"
+    },
+    {
+      "query": "Lam Research fab maintenance robot 2026 official",
+      "retrieved_at": "2026-11-02",
+      "note": "Brave检索后核验实际主来源。行业博客与SEO宣传不作为自治能力已实现证据。SEMI2026PM白皮书PDF返回403，未按已读全文引用。"
+    },
+    {
+      "query": "SEMI autonomous fab preventive maintenance automation white paper 2026",
+      "retrieved_at": "2026-11-02",
+      "note": "Brave检索后核验实际主来源。行业博客与SEO宣传不作为自治能力已实现证据。SEMI2026PM白皮书PDF返回403，未按已读全文引用。"
+    },
+    {
+      "query": "SKF accelerates hybrid bearing leadership new ceramic process laboratory 2026",
+      "retrieved_at": "2026-11-02",
+      "note": "Brave检索后核验实际主来源。行业博客与SEO宣传不作为自治能力已实现证据。SEMI2026PM白皮书PDF返回403，未按已读全文引用。"
+    },
+    {
+      "query": "官方首页与产品导航：DMG MORI、GROB、FANUC、ABB、ASML、Lam、Applied、KLA、TSMC、Siltronic、SK hynix",
+      "retrieved_at": "2026-11-02",
+      "note": "直接读取公开正文及官方最新新闻索引。检索非穷尽，产品无明确日期时不以网页版权、元数据修改日期推定首次实现年份；未将供应商声称等同独立长期试验。"
+    }
+  ],
+  "domain_summaries": [
+    {
+      "domain_id": "6",
+      "summary": "已核验资料显示加工、焊接、绕线、装配和测量存在成熟的限定工位自动化；2026年GROB展示柔性机器人单元与生产流监控，SKF新增陶瓷工艺研发整合。多数证据来自OEM产品页或公司新闻，缺少完全去除人类后的生命周期试验。",
+      "strongest_progress": "已设置工艺下的自动重复生产、机内测量、装配检测与数字化设计监控。",
+      "principal_gap": "刀具/母机/精密传动和电子控制等上游制造，设备物理修复、工艺专家替代、能源厂务以及无人建厂；工厂会生产产品不同于工厂会复制自身。"
+    },
+    {
+      "domain_id": "7",
+      "summary": "TSMC当前页面确认N2于2025Q4、N3C于2026量产；SK hynix2026年10月公告HBM4出货。先进工艺、检测计量与部分机器人维护均有现实产品证据，但供应商协作和人员维护并未消除。",
+      "strongest_progress": "纳米级工艺控制、自动检测和数据分析，以及Dextro对特定刻蚀维护任务的精密自动化。",
+      "principal_gap": "Dextro官方资料仍明确由工程师或技术员操作；高纯材料、光刻/沉积/刻蚀工具、计量基准、能源与整厂重建的HR0链未证实。尖端节点/HBM是所选架构条件，不能当作所有自复制路线的必要前提。"
+    }
+  ]
+}

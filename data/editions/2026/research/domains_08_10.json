@@ -1,0 +1,3192 @@
+{
+  "as_of_date": "2026-11-02",
+  "domain_ids": [
+    "8",
+    "10"
+  ],
+  "sources": [
+    {
+      "source_id": "D08-S01",
+      "title": "A Steerable Model with Emergent Capabilities",
+      "url": "https://www.pi.website/blog/pi07",
+      "publisher": "Physical Intelligence",
+      "publication_date": "2026-04-16",
+      "retrieved_at": "2026-11-02",
+      "source_type": "company-doc",
+      "supporting_excerpt": "it can follow new language commands and perform tasks that were never seen in its training data.",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_08_10/pi07.txt",
+      "limitations": "开发者自报的具体机器人实验；泛化不等于无需人类训练、维修和供能。"
+    },
+    {
+      "source_id": "D08-S02",
+      "title": "VLAs with Long and Short-Term Memory",
+      "url": "https://www.pi.website/research/memory",
+      "publisher": "Physical Intelligence",
+      "publication_date": "2026-03-03",
+      "retrieved_at": "2026-11-02",
+      "source_type": "company-doc",
+      "supporting_excerpt": "track of tasks up to fifteen minutes in length, keep both short-term and",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_08_10/pimemory.txt",
+      "limitations": "记忆增强操作任务最长约十五分钟；不能外推到设备寿命或跨代连续性。"
+    },
+    {
+      "source_id": "D08-S03",
+      "title": "Gemini Robotics — Google DeepMind",
+      "url": "https://deepmind.google/models/gemini-robotics/",
+      "publisher": "Google DeepMind",
+      "publication_date": "",
+      "retrieved_at": "2026-11-02",
+      "source_type": "company-doc",
+      "supporting_excerpt": "Gemini Robotics 2 is the next step on our journey towards general, useful robotics.",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_08_10/deepmindrobotics.txt",
+      "limitations": "现行产品页未给出发布日期或独立工业长期运行记录；仅记录核验日可见的模型声明。"
+    },
+    {
+      "source_id": "D08-S04",
+      "title": "Egocentric visual self-modeling for autonomous robot dynamics prediction and adaptation | npj Robotics Close banner Close banner",
+      "url": "https://www.nature.com/articles/s44182-025-00031-6",
+      "publisher": "npj Robotics / Nature Portfolio",
+      "publication_date": "2025-06-13",
+      "retrieved_at": "2026-11-02",
+      "source_type": "Paper",
+      "supporting_excerpt": "Notably, the robot can autonomously detect anomalies, such as damaged components, and adapt its behavior, showcasing resilience in dynamic environments.",
+      "verification": "full_text",
+      "cache_path": ".research_cache/domains_08_10/naturefull.txt",
+      "limitations": "12自由度机器人实验的损伤识别和行为适应；不是机械部件自我制造与更换。"
+    },
+    {
+      "source_id": "D08-S05",
+      "title": "Robot metabolism: Toward machines that can grow by consuming other machines",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12266095/fullTextXML",
+      "publisher": "Science Advances / AAAS (Europe PMC full text)",
+      "publication_date": "2025-07-16",
+      "retrieved_at": "2026-11-02",
+      "source_type": "Paper",
+      "supporting_excerpt": "The Truss Links were operator controlled in all physical Truss Link experiments using a custom keyboard interface.",
+      "verification": "full_text",
+      "cache_path": ".research_cache/domains_08_10/metabolismxml.txt",
+      "limitations": "全文方法明确全部物理Truss Link实验由操作者键盘控制。模块生长/重构以已有机电模块为材料，不能证明自主维修、由原料制造模块或工业闭环。"
+    },
+    {
+      "source_id": "D08-S06",
+      "title": "Amazon deploys over 1 million robots and launches new AI foundation model",
+      "url": "https://www.aboutamazon.com/news/operations/amazon-million-robots-ai-foundation-model",
+      "publisher": "Amazon",
+      "publication_date": "2025-07-01",
+      "retrieved_at": "2026-11-02",
+      "source_type": "company-doc",
+      "supporting_excerpt": "Amazon has deployed its one millionth robot in its operations.",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_08_10/amazon.txt",
+      "limitations": "公司部署规模与DeepFleet声明；同文明确机器人与员工协作，并需要可靠性、维修、工程岗位。"
+    },
+    {
+      "source_id": "D08-S07",
+      "title": "Safety Impact",
+      "url": "https://waymo.com/safety/impact/",
+      "publisher": "Waymo",
+      "publication_date": "",
+      "retrieved_at": "2026-11-02",
+      "source_type": "field-data",
+      "supporting_excerpt": "Through June 2026, Waymo has driven 271.3M rider-only miles without a human driver",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_08_10/waymo.txt",
+      "limitations": "公司持续更新的公开运行数据，截至2026年6月；驾驶无驾驶员不等于无远程支持、车队维修或道路供应。"
+    },
+    {
+      "source_id": "D08-S08",
+      "title": "Yara Birkeland, two years on | Yara International",
+      "url": "https://www.yara.com/knowledge-grows/yara-birkeland-two-years-on/",
+      "publisher": "Yara International",
+      "publication_date": "2024-05-01",
+      "retrieved_at": "2026-11-02",
+      "source_type": "company-doc",
+      "supporting_excerpt": "Yara Birkeland is not completely autonomous yet, mooring of the ship is still done manually,",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_08_10/yaratwoyears.txt",
+      "limitations": "HTML发布日期为2024-05-01、可见正文显示April28及后续2026展望，存在更新日期不清的问题；仅据页面确认有人监督与系泊边界，不断言2026仍完全相同。"
+    },
+    {
+      "source_id": "D08-S09",
+      "title": "Autonomous Delivery Technology | Zipline",
+      "url": "https://www.flyzipline.com/technology",
+      "publisher": "Zipline",
+      "publication_date": "",
+      "retrieved_at": "2026-11-02",
+      "source_type": "company-doc",
+      "supporting_excerpt": "Each Zipline flies up to 70 mph on a direct path, independent of ground traffic.",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_08_10/zipline.txt",
+      "limitations": "当前公司技术页面，未给出发布日期、无人维护指标或闭环制造证据；飞行和配送技术不能代替维修供能闭环。"
+    },
+    {
+      "source_id": "D08-S10",
+      "title": "Frontier Models for Every Robot: Announcing our API beta",
+      "url": "https://www.pi.website/blog/api-beta",
+      "publisher": "Physical Intelligence",
+      "publication_date": "2026-10-13",
+      "retrieved_at": "2026-11-02",
+      "source_type": "company-doc",
+      "supporting_excerpt": "Here, Axol deburrs spacers used in its own assembly,",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_08_10/piapi.txt",
+      "limitations": "2026年10月开发者应用展示；自身部件去毛刺仅是一个工序，数据收集、微调、网络和云推理仍依赖人类企业。"
+    },
+    {
+      "source_id": "D08-S11",
+      "title": "[2609.26157] Toward User-Mediated Self-Repair in Ubiquitous Robots Through Goal-Oriented Agentic AI",
+      "url": "https://arxiv.org/abs/2609.26157",
+      "publisher": "arXiv",
+      "publication_date": "",
+      "retrieved_at": "2026-11-02",
+      "source_type": "Paper",
+      "supporting_excerpt": "Toward User-Mediated Self-Repair in Ubiquitous Robots Through Goal-Oriented Agentic AI",
+      "verification": "abstract",
+      "cache_path": ".research_cache/domains_08_10/arxivrepairabs.txt",
+      "limitations": "预印本讨论以语言指导非专家人类维修；不能作为HR0物理自修复的正面证据。页面标示时间与标识符年月不一致，因此不填写推定发表日。"
+    },
+    {
+      "source_id": "D10-S01",
+      "title": "NASA’s Oxygen-Generating Experiment MOXIE Completes Mars Mission - NASA",
+      "url": "https://www.nasa.gov/missions/mars-2020-perseverance/nasas-oxygen-generating-experiment-moxie-completes-mars-mission/",
+      "publisher": "NASA",
+      "publication_date": "2023-09-06",
+      "retrieved_at": "2026-11-02",
+      "source_type": "government",
+      "supporting_excerpt": "MOXIE has generated a total of 122 grams of oxygen",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_08_10/moxie.txt",
+      "limitations": "火星大气制氧的特定设备试验，共16次运行；并未完成氧液化储存、设备再制造或全资源链闭环。"
+    },
+    {
+      "source_id": "D10-S02",
+      "title": "Robot Team Builds High-Performance Digital Structure for NASA - NASA",
+      "url": "https://www.nasa.gov/general/robot-team-builds-high-performance-digital-structure-for-nasa/",
+      "publisher": "NASA",
+      "publication_date": "2024-01-17",
+      "retrieved_at": "2026-11-02",
+      "source_type": "government",
+      "supporting_excerpt": "The system builds and error-corrects on its own with no machine vision or external means of measurement,",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_08_10/armadasdemo.txt",
+      "limitations": "地面技术演示，外供预制体素、结构计划与机器人；太阳能/栖居地等多为后续计划或艺术概念图。"
+    },
+    {
+      "source_id": "D10-S03",
+      "title": "CADRE | NASA Jet Propulsion Laboratory (JPL)",
+      "url": "https://www.jpl.nasa.gov/missions/cadre/",
+      "publisher": "NASA Jet Propulsion Laboratory",
+      "publication_date": "",
+      "retrieved_at": "2026-11-02",
+      "source_type": "government",
+      "supporting_excerpt": "Status\nFuture",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_08_10/cadre.txt",
+      "limitations": "核验页面仍标示Future；三车月面协作是计划中的技术验证，不能写作已完成月面自主扩张。"
+    },
+    {
+      "source_id": "D10-S04",
+      "title": "Advanced Automation for Space Missions - NASA Technical Reports Server (NTRS)",
+      "url": "https://ntrs.nasa.gov/citations/19830007077",
+      "publisher": "NASA",
+      "publication_date": "1982-11-01",
+      "retrieved_at": "2026-11-02",
+      "source_type": "government",
+      "supporting_excerpt": "The feasibility of using machine intelligence, including automation and robotics, in future space missions was studied.",
+      "verification": "abstract",
+      "cache_path": ".research_cache/domains_08_10/ntrsseed.txt",
+      "limitations": "历史研究报告的概念与可行性讨论，不是已建成种子工厂或当代工业复制运行证据。"
+    },
+    {
+      "source_id": "D10-S05",
+      "title": "In-Space Servicing, Assembly, and Manufacturing (ISAM) State of Play -  2025 Edition - NASA Technical Reports Server (NTRS)",
+      "url": "https://ntrs.nasa.gov/citations/20250008988",
+      "publisher": "NASA",
+      "publication_date": "2025-10-01",
+      "retrieved_at": "2026-11-02",
+      "source_type": "government",
+      "supporting_excerpt": "In-space Servicing, Assembly, and Manufacturing (ISAM) can vastly expand the performance, availability,",
+      "verification": "abstract",
+      "cache_path": ".research_cache/domains_08_10/nasaisam2025.txt",
+      "limitations": "2025状态综述的公开摘要，服务/组装延长资产寿命不能直接证明从原料复制全部工业体系。"
+    },
+    {
+      "source_id": "D10-S06",
+      "title": "Self Replication - Creative Machines Lab - Columbia University",
+      "url": "https://www.creativemachineslab.com/self-replication.html",
+      "publisher": "Columbia University Creative Machines Lab",
+      "publication_date": "",
+      "retrieved_at": "2026-11-02",
+      "source_type": "other",
+      "supporting_excerpt": "except for replenishing building blocks at the two 'feeding' locations circled in red.",
+      "verification": "documentation",
+      "cache_path": ".research_cache/domains_08_10/selfreplab.txt",
+      "limitations": "实验室项目页包含2005年四模块机器人复制；模块由外部补给，约2.5分钟是给定模块的组装时间，不能充当完整工业代际时间。"
+    }
+  ],
+  "records": [
+    {
+      "dimension_id": "8.1-M1",
+      "required_capability": "完全自我复制所需：在未知通行条件下持续执行巡检、搬运和导航并安全停靠；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "Amazon报告Proteus在仓库员工周围自主搬运重型货车；PI2026报告装载机商业现场无人车内操作。",
+      "gap": "已有材料不能证明“在未知通行条件下持续执行巡检、搬运和导航并安全停靠”已在HR0条件下完整成立；需要把局部功能与连续运行覆盖正常任务、环境变化和计划维护窗口，报告人工干预次数、服务质量与时长对应验证。",
+      "assessment_status": "demonstrated_limited",
+      "evidence_relation": "direct_metric",
+      "source_ids": [
+        "D08-S06",
+        "D08-S10"
+      ],
+      "human_dependency": "现有仓库/车辆制造、维修人员，预制驱动与计算硬件、外部供电。",
+      "validation_needed": "针对8.1：在未知通行条件下持续执行巡检、搬运和导航并安全停靠。验证方式：连续运行覆盖正常任务、环境变化和计划维护窗口，报告人工干预次数、服务质量与时长。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "8.1-M2",
+      "required_capability": "完全自我复制所需：识别车轮打滑、定位漂移、障碍感知失效及驱动退化；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“识别车轮打滑、定位漂移、障碍感知失效及驱动退化”的公开验证材料；相关进展：Amazon报告已在仓库部署Proteus等自主移动平台；PI2026展示无车内操作员的装载机商业作业。",
+      "gap": "“识别车轮打滑、定位漂移、障碍感知失效及驱动退化”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S06",
+        "D08-S10"
+      ],
+      "human_dependency": "现有仓库/车辆制造、维修人员，预制驱动与计算硬件、外部供电。",
+      "validation_needed": "针对8.1：识别车轮打滑、定位漂移、障碍感知失效及驱动退化。验证方式：注入代表性故障并盲测漏报率、误报率和发现延迟。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.1-M3",
+      "required_capability": "完全自我复制所需：区分地形变化、传感器损伤和底盘执行器故障的根因；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“区分地形变化、传感器损伤和底盘执行器故障的根因”的公开验证材料；相关进展：Amazon报告已在仓库部署Proteus等自主移动平台；PI2026展示无车内操作员的装载机商业作业。",
+      "gap": "“区分地形变化、传感器损伤和底盘执行器故障的根因”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S06",
+        "D08-S10"
+      ],
+      "human_dependency": "现有仓库/车辆制造、维修人员，预制驱动与计算硬件、外部供电。",
+      "validation_needed": "针对8.1：区分地形变化、传感器损伤和底盘执行器故障的根因。验证方式：在可验证根因的多故障对照中检验定位准确率与可执行诊断。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.1-M4",
+      "required_capability": "完全自我复制所需：自主拆换轮组、驱动器和制动件并重新标定底盘；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“自主拆换轮组、驱动器和制动件并重新标定底盘”的公开验证材料；相关进展：Amazon报告已在仓库部署Proteus等自主移动平台；PI2026展示无车内操作员的装载机商业作业。",
+      "gap": "“自主拆换轮组、驱动器和制动件并重新标定底盘”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S06",
+        "D08-S10"
+      ],
+      "human_dependency": "现有仓库/车辆制造、维修人员，预制驱动与计算硬件、外部供电。",
+      "validation_needed": "针对8.1：自主拆换轮组、驱动器和制动件并重新标定底盘。验证方式：使真实部件失效后由机器人拆换、复测、复位，记录外部接管与新备件来源。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.1-M5",
+      "required_capability": "完全自我复制所需：由闭环机器供应轮胎、轴承、电机、控制板及润滑材料；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“由闭环机器供应轮胎、轴承、电机、控制板及润滑材料”的公开验证材料；相关进展：Amazon报告已在仓库部署Proteus等自主移动平台；PI2026展示无车内操作员的装载机商业作业。",
+      "gap": "“由闭环机器供应轮胎、轴承、电机、控制板及润滑材料”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S06",
+        "D08-S10"
+      ],
+      "human_dependency": "现有仓库/车辆制造、维修人员，预制驱动与计算硬件、外部供电。",
+      "validation_needed": "针对8.1：由闭环机器供应轮胎、轴承、电机、控制板及润滑材料。验证方式：追踪所有关键物料和服务的来源，耗尽初始备件后仍由边界内机器补充。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.1-M6",
+      "required_capability": "完全自我复制所需：自行建设维护充电设施并恢复电池与供电链；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“自行建设维护充电设施并恢复电池与供电链”的公开验证材料；相关进展：Amazon报告已在仓库部署Proteus等自主移动平台；PI2026展示无车内操作员的装载机商业作业。",
+      "gap": "“自行建设维护充电设施并恢复电池与供电链”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S06",
+        "D08-S10"
+      ],
+      "human_dependency": "现有仓库/车辆制造、维修人员，预制驱动与计算硬件、外部供电。",
+      "validation_needed": "针对8.1：自行建设维护充电设施并恢复电池与供电链。验证方式：实测能源收支并让能源设备经历故障、维修与替换周期。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.1-M7",
+      "required_capability": "完全自我复制所需：保留导航地图、控制知识并在新地形中自主验证学习结果；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "π0.7展示跨场景和机器人平台技能泛化，但这不是全部导航/维修知识的无人工获得。",
+      "gap": "已有材料不能证明“保留导航地图、控制知识并在新地形中自主验证学习结果”已在HR0条件下完整成立；需要把局部功能与在新工艺/环境下不靠现场人类示教完成学习，并用独立测量验证知识可靠性对应验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D08-S01"
+      ],
+      "human_dependency": "现有仓库/车辆制造、维修人员，预制驱动与计算硬件、外部供电。",
+      "validation_needed": "针对8.1：保留导航地图、控制知识并在新地形中自主验证学习结果。验证方式：在新工艺/环境下不靠现场人类示教完成学习，并用独立测量验证知识可靠性。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "8.1-M8",
+      "required_capability": "完全自我复制所需：在基地断联、地图丢失或车队部分损毁后恢复移动能力；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“在基地断联、地图丢失或车队部分损毁后恢复移动能力”的公开验证材料；相关进展：Amazon报告已在仓库部署Proteus等自主移动平台；PI2026展示无车内操作员的装载机商业作业。",
+      "gap": "“在基地断联、地图丢失或车队部分损毁后恢复移动能力”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S06",
+        "D08-S10"
+      ],
+      "human_dependency": "现有仓库/车辆制造、维修人员，预制驱动与计算硬件、外部供电。",
+      "validation_needed": "针对8.1：在基地断联、地图丢失或车队部分损毁后恢复移动能力。验证方式：使关键设施、通信和备份同时部分失效，检验恢复到预定服务水平的时间。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.1-M9",
+      "required_capability": "完全自我复制所需：自行制造投运新增底盘并组织更大规模移动作业；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“自行制造投运新增底盘并组织更大规模移动作业”的公开验证材料；相关进展：Amazon报告已在仓库部署Proteus等自主移动平台；PI2026展示无车内操作员的装载机商业作业。",
+      "gap": "“自行制造投运新增底盘并组织更大规模移动作业”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S06",
+        "D08-S10"
+      ],
+      "human_dependency": "现有仓库/车辆制造、维修人员，预制驱动与计算硬件、外部供电。",
+      "validation_needed": "针对8.1：自行制造投运新增底盘并组织更大规模移动作业。验证方式：核算新建资产的净产能与全部外部输入，证明新增能力由机器自行建设并投运。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.1-M10",
+      "required_capability": "完全自我复制所需：从可再生输入制造下一代移动平台及其维护工具；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“从可再生输入制造下一代移动平台及其维护工具”的公开验证材料；相关进展：Amazon报告已在仓库部署Proteus等自主移动平台；PI2026展示无车内操作员的装载机商业作业。",
+      "gap": "“从可再生输入制造下一代移动平台及其维护工具”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S06",
+        "D08-S10"
+      ],
+      "human_dependency": "现有仓库/车辆制造、维修人员，预制驱动与计算硬件、外部供电。",
+      "validation_needed": "针对8.1：从可再生输入制造下一代移动平台及其维护工具。验证方式：完成至少连续后代的同等功能验收，逐项审计上游制造、能源和维护链，不能只补给预制模块。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.2-M1",
+      "required_capability": "完全自我复制所需：连续完成多种抓取、工具使用、插装和紧固任务；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "π0.7展示多种精细操作和新任务组合；Gemini Robotics2现行页面声明灵巧操作。",
+      "gap": "已有材料不能证明“连续完成多种抓取、工具使用、插装和紧固任务”已在HR0条件下完整成立；需要把局部功能与连续运行覆盖正常任务、环境变化和计划维护窗口，报告人工干预次数、服务质量与时长对应验证。",
+      "assessment_status": "demonstrated_limited",
+      "evidence_relation": "direct_metric",
+      "source_ids": [
+        "D08-S01",
+        "D08-S03"
+      ],
+      "human_dependency": "模型训练与数据收集、预制机械臂/工具、现场安全与设备维修。",
+      "validation_needed": "针对8.2：连续完成多种抓取、工具使用、插装和紧固任务。验证方式：连续运行覆盖正常任务、环境变化和计划维护窗口，报告人工干预次数、服务质量与时长。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "8.2-M2",
+      "required_capability": "完全自我复制所需：检测抓空、滑移、碰撞和装配质量异常；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "MEM案例展示任务中纠错，支持部分执行错误识别；不能代表所有硬件故障检测。",
+      "gap": "已有材料不能证明“检测抓空、滑移、碰撞和装配质量异常”已在HR0条件下完整成立；需要把局部功能与注入代表性故障并盲测漏报率、误报率和发现延迟对应验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D08-S02"
+      ],
+      "human_dependency": "模型训练与数据收集、预制机械臂/工具、现场安全与设备维修。",
+      "validation_needed": "针对8.2：检测抓空、滑移、碰撞和装配质量异常。验证方式：注入代表性故障并盲测漏报率、误报率和发现延迟。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "8.2-M3",
+      "required_capability": "完全自我复制所需：判断失败源于物体姿态、工具磨损、力控参数还是机械损伤；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“判断失败源于物体姿态、工具磨损、力控参数还是机械损伤”的公开验证材料；相关进展：π0.7于2026年展示跨任务技能组合；当前Gemini Robotics2页面声明精细操作和多机器人协作。",
+      "gap": "“判断失败源于物体姿态、工具磨损、力控参数还是机械损伤”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S01",
+        "D08-S03"
+      ],
+      "human_dependency": "模型训练与数据收集、预制机械臂/工具、现场安全与设备维修。",
+      "validation_needed": "针对8.2：判断失败源于物体姿态、工具磨损、力控参数还是机械损伤。验证方式：在可验证根因的多故障对照中检验定位准确率与可执行诊断。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.2-M4",
+      "required_capability": "完全自我复制所需：自主更换夹爪、末端工具与关节部件并恢复精度；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“自主更换夹爪、末端工具与关节部件并恢复精度”的公开验证材料；相关进展：π0.7于2026年展示跨任务技能组合；当前Gemini Robotics2页面声明精细操作和多机器人协作。",
+      "gap": "“自主更换夹爪、末端工具与关节部件并恢复精度”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S01",
+        "D08-S03"
+      ],
+      "human_dependency": "模型训练与数据收集、预制机械臂/工具、现场安全与设备维修。",
+      "validation_needed": "针对8.2：自主更换夹爪、末端工具与关节部件并恢复精度。验证方式：使真实部件失效后由机器人拆换、复测、复位，记录外部接管与新备件来源。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.2-M5",
+      "required_capability": "完全自我复制所需：闭环获得夹具、紧固件、减速器、力觉传感器与工具；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“闭环获得夹具、紧固件、减速器、力觉传感器与工具”的公开验证材料；相关进展：π0.7于2026年展示跨任务技能组合；当前Gemini Robotics2页面声明精细操作和多机器人协作。",
+      "gap": "“闭环获得夹具、紧固件、减速器、力觉传感器与工具”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S01",
+        "D08-S03"
+      ],
+      "human_dependency": "模型训练与数据收集、预制机械臂/工具、现场安全与设备维修。",
+      "validation_needed": "针对8.2：闭环获得夹具、紧固件、减速器、力觉传感器与工具。验证方式：追踪所有关键物料和服务的来源，耗尽初始备件后仍由边界内机器补充。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.2-M6",
+      "required_capability": "完全自我复制所需：管理机械臂和工具供电并自主恢复供能设施；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“管理机械臂和工具供电并自主恢复供能设施”的公开验证材料；相关进展：π0.7于2026年展示跨任务技能组合；当前Gemini Robotics2页面声明精细操作和多机器人协作。",
+      "gap": "“管理机械臂和工具供电并自主恢复供能设施”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S01",
+        "D08-S03"
+      ],
+      "human_dependency": "模型训练与数据收集、预制机械臂/工具、现场安全与设备维修。",
+      "validation_needed": "针对8.2：管理机械臂和工具供电并自主恢复供能设施。验证方式：实测能源收支并让能源设备经历故障、维修与替换周期。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.2-M7",
+      "required_capability": "完全自我复制所需：从经验与数字工艺知识学习新工具而不依赖现场示教；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "π0.7以多来源机器人及人类数据支持组合泛化，显示知识迁移；仍有数据和模型开发人员。",
+      "gap": "已有材料不能证明“从经验与数字工艺知识学习新工具而不依赖现场示教”已在HR0条件下完整成立；需要把局部功能与在新工艺/环境下不靠现场人类示教完成学习，并用独立测量验证知识可靠性对应验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D08-S01"
+      ],
+      "human_dependency": "模型训练与数据收集、预制机械臂/工具、现场安全与设备维修。",
+      "validation_needed": "针对8.2：从经验与数字工艺知识学习新工具而不依赖现场示教。验证方式：在新工艺/环境下不靠现场人类示教完成学习，并用独立测量验证知识可靠性。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "8.2-M8",
+      "required_capability": "完全自我复制所需：在控制器丢失、关键轴损坏或工位毁损后重建操作能力；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“在控制器丢失、关键轴损坏或工位毁损后重建操作能力”的公开验证材料；相关进展：π0.7于2026年展示跨任务技能组合；当前Gemini Robotics2页面声明精细操作和多机器人协作。",
+      "gap": "“在控制器丢失、关键轴损坏或工位毁损后重建操作能力”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S01",
+        "D08-S03"
+      ],
+      "human_dependency": "模型训练与数据收集、预制机械臂/工具、现场安全与设备维修。",
+      "validation_needed": "针对8.2：在控制器丢失、关键轴损坏或工位毁损后重建操作能力。验证方式：使关键设施、通信和备份同时部分失效，检验恢复到预定服务水平的时间。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.2-M9",
+      "required_capability": "完全自我复制所需：自行增加完整机械臂工位、校准空间并扩展生产节拍；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“自行增加完整机械臂工位、校准空间并扩展生产节拍”的公开验证材料；相关进展：π0.7于2026年展示跨任务技能组合；当前Gemini Robotics2页面声明精细操作和多机器人协作。",
+      "gap": "“自行增加完整机械臂工位、校准空间并扩展生产节拍”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S01",
+        "D08-S03"
+      ],
+      "human_dependency": "模型训练与数据收集、预制机械臂/工具、现场安全与设备维修。",
+      "validation_needed": "针对8.2：自行增加完整机械臂工位、校准空间并扩展生产节拍。验证方式：核算新建资产的净产能与全部外部输入，证明新增能力由机器自行建设并投运。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.2-M10",
+      "required_capability": "完全自我复制所需：制造可执行同等任务的机械臂连同控制器和末端工具；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“制造可执行同等任务的机械臂连同控制器和末端工具”的公开验证材料；相关进展：π0.7于2026年展示跨任务技能组合；当前Gemini Robotics2页面声明精细操作和多机器人协作。",
+      "gap": "“制造可执行同等任务的机械臂连同控制器和末端工具”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S01",
+        "D08-S03"
+      ],
+      "human_dependency": "模型训练与数据收集、预制机械臂/工具、现场安全与设备维修。",
+      "validation_needed": "针对8.2：制造可执行同等任务的机械臂连同控制器和末端工具。验证方式：完成至少连续后代的同等功能验收，逐项审计上游制造、能源和维护链，不能只补给预制模块。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.3-M1",
+      "required_capability": "完全自我复制所需：持续融合视觉、力觉、定位和本体状态进行在线感知；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "第一人称视觉自建模在12自由度机器人实验中预测动作效果并支持运动任务。",
+      "gap": "已有材料不能证明“持续融合视觉、力觉、定位和本体状态进行在线感知”已在HR0条件下完整成立；需要把局部功能与连续运行覆盖正常任务、环境变化和计划维护窗口，报告人工干预次数、服务质量与时长对应验证。",
+      "assessment_status": "demonstrated_limited",
+      "evidence_relation": "direct_metric",
+      "source_ids": [
+        "D08-S04"
+      ],
+      "human_dependency": "传感器制造、相机/执行器供给、实验设计与训练环境。",
+      "validation_needed": "针对8.3：持续融合视觉、力觉、定位和本体状态进行在线感知。验证方式：连续运行覆盖正常任务、环境变化和计划维护窗口，报告人工干预次数、服务质量与时长。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "8.3-M2",
+      "required_capability": "完全自我复制所需：发现摄像头遮挡、传感漂移、时钟失步和分布外场景；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "自建模实验利用运动预测残差发现本体或执行器损伤；这不等于检测摄像头遮挡、传感漂移、时钟失步或感知分布外场景，目标故障类型尚未被该来源直接覆盖。",
+      "gap": "已有材料不能证明“发现摄像头遮挡、传感漂移、时钟失步和分布外场景”已在HR0条件下完整成立；需要把局部功能与注入代表性故障并盲测漏报率、误报率和发现延迟对应验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D08-S04"
+      ],
+      "human_dependency": "传感器制造、相机/执行器供给、实验设计与训练环境。",
+      "validation_needed": "针对8.3：发现摄像头遮挡、传感漂移、时钟失步和分布外场景。验证方式：注入代表性故障并盲测漏报率、误报率和发现延迟。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "8.3-M3",
+      "required_capability": "完全自我复制所需：定位感知故障来自硬件、标定、模型还是环境变化；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "预测运动与实际视觉运动的偏差用于损伤识别，但未证明完整多传感故障根因定位。",
+      "gap": "已有材料不能证明“定位感知故障来自硬件、标定、模型还是环境变化”已在HR0条件下完整成立；需要把局部功能与在可验证根因的多故障对照中检验定位准确率与可执行诊断对应验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D08-S04"
+      ],
+      "human_dependency": "传感器制造、相机/执行器供给、实验设计与训练环境。",
+      "validation_needed": "针对8.3：定位感知故障来自硬件、标定、模型还是环境变化。验证方式：在可验证根因的多故障对照中检验定位准确率与可执行诊断。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "8.3-M4",
+      "required_capability": "完全自我复制所需：自主清洁更换传感器、重接线并恢复多模态标定；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“自主清洁更换传感器、重接线并恢复多模态标定”的公开验证材料；相关进展：视觉自建模研究以第一人称摄像头支持12自由度机器人运动预测和损伤适应。",
+      "gap": "“自主清洁更换传感器、重接线并恢复多模态标定”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S04"
+      ],
+      "human_dependency": "传感器制造、相机/执行器供给、实验设计与训练环境。",
+      "validation_needed": "针对8.3：自主清洁更换传感器、重接线并恢复多模态标定。验证方式：使真实部件失效后由机器人拆换、复测、复位，记录外部接管与新备件来源。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.3-M5",
+      "required_capability": "完全自我复制所需：自主制造光学件、传感芯片、线缆及测量基准；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“自主制造光学件、传感芯片、线缆及测量基准”的公开验证材料；相关进展：视觉自建模研究以第一人称摄像头支持12自由度机器人运动预测和损伤适应。",
+      "gap": "“自主制造光学件、传感芯片、线缆及测量基准”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S04"
+      ],
+      "human_dependency": "传感器制造、相机/执行器供给、实验设计与训练环境。",
+      "validation_needed": "针对8.3：自主制造光学件、传感芯片、线缆及测量基准。验证方式：追踪所有关键物料和服务的来源，耗尽初始备件后仍由边界内机器补充。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.3-M6",
+      "required_capability": "完全自我复制所需：维持传感阵列与计算节点供电并修复供能故障；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“维持传感阵列与计算节点供电并修复供能故障”的公开验证材料；相关进展：视觉自建模研究以第一人称摄像头支持12自由度机器人运动预测和损伤适应。",
+      "gap": "“维持传感阵列与计算节点供电并修复供能故障”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S04"
+      ],
+      "human_dependency": "传感器制造、相机/执行器供给、实验设计与训练环境。",
+      "validation_needed": "针对8.3：维持传感阵列与计算节点供电并修复供能故障。验证方式：实测能源收支并让能源设备经历故障、维修与替换周期。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.3-M7",
+      "required_capability": "完全自我复制所需：不靠人工标注更新环境模型并检验感知准确率；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "自监督自建模无需预先给出形态、运动学和任务模型，局部减少人工建模知识。",
+      "gap": "已有材料不能证明“不靠人工标注更新环境模型并检验感知准确率”已在HR0条件下完整成立；需要把局部功能与在新工艺/环境下不靠现场人类示教完成学习，并用独立测量验证知识可靠性对应验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D08-S04"
+      ],
+      "human_dependency": "传感器制造、相机/执行器供给、实验设计与训练环境。",
+      "validation_needed": "针对8.3：不靠人工标注更新环境模型并检验感知准确率。验证方式：在新工艺/环境下不靠现场人类示教完成学习，并用独立测量验证知识可靠性。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "8.3-M8",
+      "required_capability": "完全自我复制所需：在传感网络受损或地图污染后重建可信感知基准；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "损伤后行为适应提供局部韧性证据，尚不是感知硬件损毁后的自主再制造。",
+      "gap": "已有材料不能证明“在传感网络受损或地图污染后重建可信感知基准”已在HR0条件下完整成立；需要把局部功能与使关键设施、通信和备份同时部分失效，检验恢复到预定服务水平的时间对应验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D08-S04"
+      ],
+      "human_dependency": "传感器制造、相机/执行器供给、实验设计与训练环境。",
+      "validation_needed": "针对8.3：在传感网络受损或地图污染后重建可信感知基准。验证方式：使关键设施、通信和备份同时部分失效，检验恢复到预定服务水平的时间。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "8.3-M9",
+      "required_capability": "完全自我复制所需：自主制造安装更多传感节点并统一校准；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“自主制造安装更多传感节点并统一校准”的公开验证材料；相关进展：视觉自建模研究以第一人称摄像头支持12自由度机器人运动预测和损伤适应。",
+      "gap": "“自主制造安装更多传感节点并统一校准”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S04"
+      ],
+      "human_dependency": "传感器制造、相机/执行器供给、实验设计与训练环境。",
+      "validation_needed": "针对8.3：自主制造安装更多传感节点并统一校准。验证方式：核算新建资产的净产能与全部外部输入，证明新增能力由机器自行建设并投运。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.3-M10",
+      "required_capability": "完全自我复制所需：复制完整视觉/力觉/定位链及其校准验证设备；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“复制完整视觉/力觉/定位链及其校准验证设备”的公开验证材料；相关进展：视觉自建模研究以第一人称摄像头支持12自由度机器人运动预测和损伤适应。",
+      "gap": "“复制完整视觉/力觉/定位链及其校准验证设备”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S04"
+      ],
+      "human_dependency": "传感器制造、相机/执行器供给、实验设计与训练环境。",
+      "validation_needed": "针对8.3：复制完整视觉/力觉/定位链及其校准验证设备。验证方式：完成至少连续后代的同等功能验收，逐项审计上游制造、能源和维护链，不能只补给预制模块。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.4-M1",
+      "required_capability": "完全自我复制所需：持续执行机器人巡检、润滑、校准和定期保养；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“持续执行机器人巡检、润滑、校准和定期保养”的公开验证材料；相关进展：视觉自建模支持损伤检测及动作适应；Robot Metabolism展示模块重构。2026维修代理论文仍以人类执行技术维修为对象。 Robot Metabolism全文方法明确：全部物理Truss Link实验由操作者通过键盘控制，不能算作HR0自主维修。",
+      "gap": "“持续执行机器人巡检、润滑、校准和定期保养”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S04",
+        "D08-S05",
+        "D08-S11"
+      ],
+      "human_dependency": "现有实验的外供模块与硬件；代理辅助维修中的实际人类操作者。",
+      "validation_needed": "针对8.4：持续执行机器人巡检、润滑、校准和定期保养。验证方式：连续运行覆盖正常任务、环境变化和计划维护窗口，报告人工干预次数、服务质量与时长。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.4-M2",
+      "required_capability": "完全自我复制所需：发现关节、电池、线缆、结构和控制器的早期退化；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "12自由度视觉自建模机器人可自主检测部件损伤异常。",
+      "gap": "已有材料不能证明“发现关节、电池、线缆、结构和控制器的早期退化”已在HR0条件下完整成立；需要把局部功能与注入代表性故障并盲测漏报率、误报率和发现延迟对应验证。",
+      "assessment_status": "demonstrated_limited",
+      "evidence_relation": "direct_metric",
+      "source_ids": [
+        "D08-S04"
+      ],
+      "human_dependency": "现有实验的外供模块与硬件；代理辅助维修中的实际人类操作者。",
+      "validation_needed": "针对8.4：发现关节、电池、线缆、结构和控制器的早期退化。验证方式：注入代表性故障并盲测漏报率、误报率和发现延迟。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "8.4-M3",
+      "required_capability": "完全自我复制所需：将异常定位到可更换部件及真实根因；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "局部动力学自建模能够揭示损伤与运动偏差；完整部件根因与维修计划未被该实验全面验证。",
+      "gap": "已有材料不能证明“将异常定位到可更换部件及真实根因”已在HR0条件下完整成立；需要把局部功能与在可验证根因的多故障对照中检验定位准确率与可执行诊断对应验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D08-S04"
+      ],
+      "human_dependency": "现有实验的外供模块与硬件；代理辅助维修中的实际人类操作者。",
+      "validation_needed": "针对8.4：将异常定位到可更换部件及真实根因。验证方式：在可验证根因的多故障对照中检验定位准确率与可执行诊断。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "8.4-M4",
+      "required_capability": "完全自我复制所需：无人拆装故障部件并完成安全复测和重新投运；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "Robot Metabolism摘要报告用预制模块增长和重构；2026维修代理指导人类维修，二者均不证明通用HR0拆换与复测。 Robot Metabolism全文方法明确：全部物理Truss Link实验由操作者通过键盘控制，不能算作HR0自主维修。",
+      "gap": "已有材料不能证明“无人拆装故障部件并完成安全复测和重新投运”已在HR0条件下完整成立；需要把局部功能与使真实部件失效后由机器人拆换、复测、复位，记录外部接管与新备件来源对应验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D08-S05",
+        "D08-S11"
+      ],
+      "human_dependency": "现有实验的外供模块与硬件；代理辅助维修中的实际人类操作者。",
+      "validation_needed": "针对8.4：无人拆装故障部件并完成安全复测和重新投运。验证方式：使真实部件失效后由机器人拆换、复测、复位，记录外部接管与新备件来源。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "8.4-M5",
+      "required_capability": "完全自我复制所需：闭环补充备件、维修工具、润滑剂与校准器；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“闭环补充备件、维修工具、润滑剂与校准器”的公开验证材料；相关进展：视觉自建模支持损伤检测及动作适应；Robot Metabolism展示模块重构。2026维修代理论文仍以人类执行技术维修为对象。 Robot Metabolism全文方法明确：全部物理Truss Link实验由操作者通过键盘控制，不能算作HR0自主维修。",
+      "gap": "“闭环补充备件、维修工具、润滑剂与校准器”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S04",
+        "D08-S05",
+        "D08-S11"
+      ],
+      "human_dependency": "现有实验的外供模块与硬件；代理辅助维修中的实际人类操作者。",
+      "validation_needed": "针对8.4：闭环补充备件、维修工具、润滑剂与校准器。验证方式：追踪所有关键物料和服务的来源，耗尽初始备件后仍由边界内机器补充。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.4-M6",
+      "required_capability": "完全自我复制所需：维修电池和充电装置以保证维修机器本身供能；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“维修电池和充电装置以保证维修机器本身供能”的公开验证材料；相关进展：视觉自建模支持损伤检测及动作适应；Robot Metabolism展示模块重构。2026维修代理论文仍以人类执行技术维修为对象。 Robot Metabolism全文方法明确：全部物理Truss Link实验由操作者通过键盘控制，不能算作HR0自主维修。",
+      "gap": "“维修电池和充电装置以保证维修机器本身供能”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S04",
+        "D08-S05",
+        "D08-S11"
+      ],
+      "human_dependency": "现有实验的外供模块与硬件；代理辅助维修中的实际人类操作者。",
+      "validation_needed": "针对8.4：维修电池和充电装置以保证维修机器本身供能。验证方式：实测能源收支并让能源设备经历故障、维修与替换周期。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.4-M7",
+      "required_capability": "完全自我复制所需：自主获得新机型维修知识并验证维修步骤；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "自建模降低对人工动力学模型的依赖；人类维修指导代理仍要求操作者执行步骤。",
+      "gap": "已有材料不能证明“自主获得新机型维修知识并验证维修步骤”已在HR0条件下完整成立；需要把局部功能与在新工艺/环境下不靠现场人类示教完成学习，并用独立测量验证知识可靠性对应验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D08-S04",
+        "D08-S11"
+      ],
+      "human_dependency": "现有实验的外供模块与硬件；代理辅助维修中的实际人类操作者。",
+      "validation_needed": "针对8.4：自主获得新机型维修知识并验证维修步骤。验证方式：在新工艺/环境下不靠现场人类示教完成学习，并用独立测量验证知识可靠性。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "8.4-M8",
+      "required_capability": "完全自我复制所需：在多台维修机器人或维修站同时受损后恢复服务；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "实验中损伤后的行为适应能保持局部运动功能；不能等同于维修站毁损后恢复。",
+      "gap": "已有材料不能证明“在多台维修机器人或维修站同时受损后恢复服务”已在HR0条件下完整成立；需要把局部功能与使关键设施、通信和备份同时部分失效，检验恢复到预定服务水平的时间对应验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D08-S04"
+      ],
+      "human_dependency": "现有实验的外供模块与硬件；代理辅助维修中的实际人类操作者。",
+      "validation_needed": "针对8.4：在多台维修机器人或维修站同时受损后恢复服务。验证方式：使关键设施、通信和备份同时部分失效，检验恢复到预定服务水平的时间。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "8.4-M9",
+      "required_capability": "完全自我复制所需：制造更多维修机器人及维修工位覆盖扩张车队；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“制造更多维修机器人及维修工位覆盖扩张车队”的公开验证材料；相关进展：视觉自建模支持损伤检测及动作适应；Robot Metabolism展示模块重构。2026维修代理论文仍以人类执行技术维修为对象。 Robot Metabolism全文方法明确：全部物理Truss Link实验由操作者通过键盘控制，不能算作HR0自主维修。",
+      "gap": "“制造更多维修机器人及维修工位覆盖扩张车队”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S04",
+        "D08-S05",
+        "D08-S11"
+      ],
+      "human_dependency": "现有实验的外供模块与硬件；代理辅助维修中的实际人类操作者。",
+      "validation_needed": "针对8.4：制造更多维修机器人及维修工位覆盖扩张车队。验证方式：核算新建资产的净产能与全部外部输入，证明新增能力由机器自行建设并投运。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.4-M10",
+      "required_capability": "完全自我复制所需：复制能够维护下一代机器人的完整维修体系；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“复制能够维护下一代机器人的完整维修体系”的公开验证材料；相关进展：视觉自建模支持损伤检测及动作适应；Robot Metabolism展示模块重构。2026维修代理论文仍以人类执行技术维修为对象。 Robot Metabolism全文方法明确：全部物理Truss Link实验由操作者通过键盘控制，不能算作HR0自主维修。",
+      "gap": "“复制能够维护下一代机器人的完整维修体系”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S04",
+        "D08-S05",
+        "D08-S11"
+      ],
+      "human_dependency": "现有实验的外供模块与硬件；代理辅助维修中的实际人类操作者。",
+      "validation_needed": "针对8.4：复制能够维护下一代机器人的完整维修体系。验证方式：完成至少连续后代的同等功能验收，逐项审计上游制造、能源和维护链，不能只补给预制模块。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.5-M1",
+      "required_capability": "完全自我复制所需：按完整工艺自主制造、装配、标定并验收机器人；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "PI于2026-10-13展示Axol为用于自身装配的隔套去毛刺，是机器人参与自身零件加工的局部工序。",
+      "gap": "已有材料不能证明“按完整工艺自主制造、装配、标定并验收机器人”已在HR0条件下完整成立；需要把局部功能与连续运行覆盖正常任务、环境变化和计划维护窗口，报告人工干预次数、服务质量与时长对应验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D08-S10"
+      ],
+      "human_dependency": "外部部件制造商、机加工与装配工程师、模型训练和云计算服务。",
+      "validation_needed": "针对8.5：按完整工艺自主制造、装配、标定并验收机器人。验证方式：连续运行覆盖正常任务、环境变化和计划维护窗口，报告人工干预次数、服务质量与时长。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "8.5-M2",
+      "required_capability": "完全自我复制所需：检测机器人制造过程中的尺寸、电气与性能缺陷；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“检测机器人制造过程中的尺寸、电气与性能缺陷”的公开验证材料；相关进展：2026年PI展示Axol处理用于自身装配的隔套；模块化机器人可利用预制模块增长。 Robot Metabolism全文方法明确：全部物理Truss Link实验由操作者通过键盘控制，不能算作HR0自主维修。",
+      "gap": "“检测机器人制造过程中的尺寸、电气与性能缺陷”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S10",
+        "D08-S05"
+      ],
+      "human_dependency": "外部部件制造商、机加工与装配工程师、模型训练和云计算服务。",
+      "validation_needed": "针对8.5：检测机器人制造过程中的尺寸、电气与性能缺陷。验证方式：注入代表性故障并盲测漏报率、误报率和发现延迟。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.5-M3",
+      "required_capability": "完全自我复制所需：定位产品失效到制造工艺、设计或上游零件质量；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“定位产品失效到制造工艺、设计或上游零件质量”的公开验证材料；相关进展：2026年PI展示Axol处理用于自身装配的隔套；模块化机器人可利用预制模块增长。 Robot Metabolism全文方法明确：全部物理Truss Link实验由操作者通过键盘控制，不能算作HR0自主维修。",
+      "gap": "“定位产品失效到制造工艺、设计或上游零件质量”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S10",
+        "D08-S05"
+      ],
+      "human_dependency": "外部部件制造商、机加工与装配工程师、模型训练和云计算服务。",
+      "validation_needed": "针对8.5：定位产品失效到制造工艺、设计或上游零件质量。验证方式：在可验证根因的多故障对照中检验定位准确率与可执行诊断。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.5-M4",
+      "required_capability": "完全自我复制所需：修复机器人生产线和不合格产品并自主复验；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "模块代谢原型支持重构/舍弃损坏模块的研究路线；未证明完整机器人产线自行维修。 Robot Metabolism全文方法明确：全部物理Truss Link实验由操作者通过键盘控制，不能算作HR0自主维修。",
+      "gap": "已有材料不能证明“修复机器人生产线和不合格产品并自主复验”已在HR0条件下完整成立；需要把局部功能与使真实部件失效后由机器人拆换、复测、复位，记录外部接管与新备件来源对应验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D08-S05"
+      ],
+      "human_dependency": "外部部件制造商、机加工与装配工程师、模型训练和云计算服务。",
+      "validation_needed": "针对8.5：修复机器人生产线和不合格产品并自主复验。验证方式：使真实部件失效后由机器人拆换、复测、复位，记录外部接管与新备件来源。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "8.5-M5",
+      "required_capability": "完全自我复制所需：自制电机、减速器、芯片、传感器、电池和结构材料；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "Axol可加工自身装配用隔套，但电机、传感器、电子件等上游输入未实现该展示中的自给。",
+      "gap": "已有材料不能证明“自制电机、减速器、芯片、传感器、电池和结构材料”已在HR0条件下完整成立；需要把局部功能与追踪所有关键物料和服务的来源，耗尽初始备件后仍由边界内机器补充对应验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D08-S10"
+      ],
+      "human_dependency": "外部部件制造商、机加工与装配工程师、模型训练和云计算服务。",
+      "validation_needed": "针对8.5：自制电机、减速器、芯片、传感器、电池和结构材料。验证方式：追踪所有关键物料和服务的来源，耗尽初始备件后仍由边界内机器补充。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "8.5-M6",
+      "required_capability": "完全自我复制所需：由机器系统供给机器人生产所需电力与热能；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“由机器系统供给机器人生产所需电力与热能”的公开验证材料；相关进展：2026年PI展示Axol处理用于自身装配的隔套；模块化机器人可利用预制模块增长。 Robot Metabolism全文方法明确：全部物理Truss Link实验由操作者通过键盘控制，不能算作HR0自主维修。",
+      "gap": "“由机器系统供给机器人生产所需电力与热能”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S10",
+        "D08-S05"
+      ],
+      "human_dependency": "外部部件制造商、机加工与装配工程师、模型训练和云计算服务。",
+      "validation_needed": "针对8.5：由机器系统供给机器人生产所需电力与热能。验证方式：实测能源收支并让能源设备经历故障、维修与替换周期。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.5-M7",
+      "required_capability": "完全自我复制所需：闭环保存并改进机器人设计、工艺参数和验证知识；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“闭环保存并改进机器人设计、工艺参数和验证知识”的公开验证材料；相关进展：2026年PI展示Axol处理用于自身装配的隔套；模块化机器人可利用预制模块增长。 Robot Metabolism全文方法明确：全部物理Truss Link实验由操作者通过键盘控制，不能算作HR0自主维修。",
+      "gap": "“闭环保存并改进机器人设计、工艺参数和验证知识”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S10",
+        "D08-S05"
+      ],
+      "human_dependency": "外部部件制造商、机加工与装配工程师、模型训练和云计算服务。",
+      "validation_needed": "针对8.5：闭环保存并改进机器人设计、工艺参数和验证知识。验证方式：在新工艺/环境下不靠现场人类示教完成学习，并用独立测量验证知识可靠性。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.5-M8",
+      "required_capability": "完全自我复制所需：生产设施受损后重建机器人制造与测试链；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“生产设施受损后重建机器人制造与测试链”的公开验证材料；相关进展：2026年PI展示Axol处理用于自身装配的隔套；模块化机器人可利用预制模块增长。 Robot Metabolism全文方法明确：全部物理Truss Link实验由操作者通过键盘控制，不能算作HR0自主维修。",
+      "gap": "“生产设施受损后重建机器人制造与测试链”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S10",
+        "D08-S05"
+      ],
+      "human_dependency": "外部部件制造商、机加工与装配工程师、模型训练和云计算服务。",
+      "validation_needed": "针对8.5：生产设施受损后重建机器人制造与测试链。验证方式：使关键设施、通信和备份同时部分失效，检验恢复到预定服务水平的时间。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.5-M9",
+      "required_capability": "完全自我复制所需：建设新增机器人生产线并扩大合格产出；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "模块机器人可利用外供模块变大；属于模块扩展，不是自行制造更多完整机器人产能。 Robot Metabolism全文方法明确：全部物理Truss Link实验由操作者通过键盘控制，不能算作HR0自主维修。",
+      "gap": "已有材料不能证明“建设新增机器人生产线并扩大合格产出”已在HR0条件下完整成立；需要把局部功能与核算新建资产的净产能与全部外部输入，证明新增能力由机器自行建设并投运对应验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D08-S05"
+      ],
+      "human_dependency": "外部部件制造商、机加工与装配工程师、模型训练和云计算服务。",
+      "validation_needed": "针对8.5：建设新增机器人生产线并扩大合格产出。验证方式：核算新建资产的净产能与全部外部输入，证明新增能力由机器自行建设并投运。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "8.5-M10",
+      "required_capability": "完全自我复制所需：由原料到部件到整机制造具有同等复制能力的后代；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "四模块机器人能组装相似个体，明确需要人工补充预制模块；不是原料到整机的复制闭环。",
+      "gap": "已有材料不能证明“由原料到部件到整机制造具有同等复制能力的后代”已在HR0条件下完整成立；需要把局部功能与完成至少连续后代的同等功能验收，逐项审计上游制造、能源和维护链，不能只补给预制模块对应验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D10-S06"
+      ],
+      "human_dependency": "外部部件制造商、机加工与装配工程师、模型训练和云计算服务。",
+      "validation_needed": "针对8.5：由原料到部件到整机制造具有同等复制能力的后代。验证方式：完成至少连续后代的同等功能验收，逐项审计上游制造、能源和维护链，不能只补给预制模块。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "8.6-M1",
+      "required_capability": "完全自我复制所需：无人完成入库、拣选、分拨、搬运、盘点和出库；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "Amazon报告百万级机器人部署，承担搬运、分拨等仓内任务，员工与机器人协作。",
+      "gap": "已有材料不能证明“无人完成入库、拣选、分拨、搬运、盘点和出库”已在HR0条件下完整成立；需要把局部功能与连续运行覆盖正常任务、环境变化和计划维护窗口，报告人工干预次数、服务质量与时长对应验证。",
+      "assessment_status": "demonstrated_limited",
+      "evidence_relation": "direct_metric",
+      "source_ids": [
+        "D08-S06"
+      ],
+      "human_dependency": "仓库员工、设备可靠性与维修工程师、货物供应商及AWS基础设施。",
+      "validation_needed": "针对8.6：无人完成入库、拣选、分拨、搬运、盘点和出库。验证方式：连续运行覆盖正常任务、环境变化和计划维护窗口，报告人工干预次数、服务质量与时长。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "8.6-M2",
+      "required_capability": "完全自我复制所需：识别错拣、货损、堵塞、库存差异和设备退化；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“识别错拣、货损、堵塞、库存差异和设备退化”的公开验证材料；相关进展：Amazon报告超过百万机器人部署，DeepFleet协调仓内机器人移动，但同文明确人类维修工程岗位。",
+      "gap": "“识别错拣、货损、堵塞、库存差异和设备退化”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S06"
+      ],
+      "human_dependency": "仓库员工、设备可靠性与维修工程师、货物供应商及AWS基础设施。",
+      "validation_needed": "针对8.6：识别错拣、货损、堵塞、库存差异和设备退化。验证方式：注入代表性故障并盲测漏报率、误报率和发现延迟。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.6-M3",
+      "required_capability": "完全自我复制所需：定位物流异常是库存记录、输送设备还是调度冲突；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“定位物流异常是库存记录、输送设备还是调度冲突”的公开验证材料；相关进展：Amazon报告超过百万机器人部署，DeepFleet协调仓内机器人移动，但同文明确人类维修工程岗位。",
+      "gap": "“定位物流异常是库存记录、输送设备还是调度冲突”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S06"
+      ],
+      "human_dependency": "仓库员工、设备可靠性与维修工程师、货物供应商及AWS基础设施。",
+      "validation_needed": "针对8.6：定位物流异常是库存记录、输送设备还是调度冲突。验证方式：在可验证根因的多故障对照中检验定位准确率与可执行诊断。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.6-M4",
+      "required_capability": "完全自我复制所需：修复输送线、货架、移动平台和自动存取装置；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“修复输送线、货架、移动平台和自动存取装置”的公开验证材料；相关进展：Amazon报告超过百万机器人部署，DeepFleet协调仓内机器人移动，但同文明确人类维修工程岗位。",
+      "gap": "“修复输送线、货架、移动平台和自动存取装置”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S06"
+      ],
+      "human_dependency": "仓库员工、设备可靠性与维修工程师、货物供应商及AWS基础设施。",
+      "validation_needed": "针对8.6：修复输送线、货架、移动平台和自动存取装置。验证方式：使真实部件失效后由机器人拆换、复测、复位，记录外部接管与新备件来源。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.6-M5",
+      "required_capability": "完全自我复制所需：闭环获得包装物、备件、货架材料与仓储设备；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“闭环获得包装物、备件、货架材料与仓储设备”的公开验证材料；相关进展：Amazon报告超过百万机器人部署，DeepFleet协调仓内机器人移动，但同文明确人类维修工程岗位。",
+      "gap": "“闭环获得包装物、备件、货架材料与仓储设备”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S06"
+      ],
+      "human_dependency": "仓库员工、设备可靠性与维修工程师、货物供应商及AWS基础设施。",
+      "validation_needed": "针对8.6：闭环获得包装物、备件、货架材料与仓储设备。验证方式：追踪所有关键物料和服务的来源，耗尽初始备件后仍由边界内机器补充。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.6-M6",
+      "required_capability": "完全自我复制所需：自主建设维护仓库供配电与移动设备充电；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“自主建设维护仓库供配电与移动设备充电”的公开验证材料；相关进展：Amazon报告超过百万机器人部署，DeepFleet协调仓内机器人移动，但同文明确人类维修工程岗位。",
+      "gap": "“自主建设维护仓库供配电与移动设备充电”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S06"
+      ],
+      "human_dependency": "仓库员工、设备可靠性与维修工程师、货物供应商及AWS基础设施。",
+      "validation_needed": "针对8.6：自主建设维护仓库供配电与移动设备充电。验证方式：实测能源收支并让能源设备经历故障、维修与替换周期。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.6-M7",
+      "required_capability": "完全自我复制所需：自主更新物品识别、仓储规则和异常处理知识；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "DeepFleet使用企业库存移动数据协调机器人路径；这不证明脱离人类数据/工程服务的知识自主。",
+      "gap": "已有材料不能证明“自主更新物品识别、仓储规则和异常处理知识”已在HR0条件下完整成立；需要把局部功能与在新工艺/环境下不靠现场人类示教完成学习，并用独立测量验证知识可靠性对应验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D08-S06"
+      ],
+      "human_dependency": "仓库员工、设备可靠性与维修工程师、货物供应商及AWS基础设施。",
+      "validation_needed": "针对8.6：自主更新物品识别、仓储规则和异常处理知识。验证方式：在新工艺/环境下不靠现场人类示教完成学习，并用独立测量验证知识可靠性。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "8.6-M8",
+      "required_capability": "完全自我复制所需：火灾、断网或部分仓库损毁后恢复关键物料流；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“火灾、断网或部分仓库损毁后恢复关键物料流”的公开验证材料；相关进展：Amazon报告超过百万机器人部署，DeepFleet协调仓内机器人移动，但同文明确人类维修工程岗位。",
+      "gap": "“火灾、断网或部分仓库损毁后恢复关键物料流”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S06"
+      ],
+      "human_dependency": "仓库员工、设备可靠性与维修工程师、货物供应商及AWS基础设施。",
+      "validation_needed": "针对8.6：火灾、断网或部分仓库损毁后恢复关键物料流。验证方式：使关键设施、通信和备份同时部分失效，检验恢复到预定服务水平的时间。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.6-M9",
+      "required_capability": "完全自我复制所需：自主建造仓库与投运新增物料搬运能力；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "已报告的百万机器人规模来自人类企业制造和全球部署，证明部署规模而非仓储系统自行扩建。",
+      "gap": "已有材料不能证明“自主建造仓库与投运新增物料搬运能力”已在HR0条件下完整成立；需要把局部功能与核算新建资产的净产能与全部外部输入，证明新增能力由机器自行建设并投运对应验证。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S06"
+      ],
+      "human_dependency": "仓库员工、设备可靠性与维修工程师、货物供应商及AWS基础设施。",
+      "validation_needed": "针对8.6：自主建造仓库与投运新增物料搬运能力。验证方式：核算新建资产的净产能与全部外部输入，证明新增能力由机器自行建设并投运。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.6-M10",
+      "required_capability": "完全自我复制所需：复制可自我维护且能供给机器工业的完整仓储系统；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“复制可自我维护且能供给机器工业的完整仓储系统”的公开验证材料；相关进展：Amazon报告超过百万机器人部署，DeepFleet协调仓内机器人移动，但同文明确人类维修工程岗位。",
+      "gap": "“复制可自我维护且能供给机器工业的完整仓储系统”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S06"
+      ],
+      "human_dependency": "仓库员工、设备可靠性与维修工程师、货物供应商及AWS基础设施。",
+      "validation_needed": "针对8.6：复制可自我维护且能供给机器工业的完整仓储系统。验证方式：完成至少连续后代的同等功能验收，逐项审计上游制造、能源和维护链，不能只补给预制模块。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.7-M1",
+      "required_capability": "完全自我复制所需：在声明道路和气候范围内持续无人驾驶并完成装卸衔接；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "Waymo公开数据截至2026年6月有2.713亿无驾驶员里程；只支持其服务地域和运营边界内的驾驶能力。",
+      "gap": "已有材料不能证明“在声明道路和气候范围内持续无人驾驶并完成装卸衔接”已在HR0条件下完整成立；需要把局部功能与连续运行覆盖正常任务、环境变化和计划维护窗口，报告人工干预次数、服务质量与时长对应验证。",
+      "assessment_status": "demonstrated_limited",
+      "evidence_relation": "direct_metric",
+      "source_ids": [
+        "D08-S07"
+      ],
+      "human_dependency": "车辆制造维修、道路维护、车队支持、供电及法规机构。",
+      "validation_needed": "针对8.7：在声明道路和气候范围内持续无人驾驶并完成装卸衔接。验证方式：连续运行覆盖正常任务、环境变化和计划维护窗口，报告人工干预次数、服务质量与时长。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "8.7-M2",
+      "required_capability": "完全自我复制所需：检测交通危险、车辆机械故障与道路设施退化；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "Waymo公开碰撞和安全运行统计，但这些汇总本身不能给出全部机械故障自主发现覆盖率。",
+      "gap": "已有材料不能证明“检测交通危险、车辆机械故障与道路设施退化”已在HR0条件下完整成立；需要把局部功能与注入代表性故障并盲测漏报率、误报率和发现延迟对应验证。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S07"
+      ],
+      "human_dependency": "车辆制造维修、道路维护、车队支持、供电及法规机构。",
+      "validation_needed": "针对8.7：检测交通危险、车辆机械故障与道路设施退化。验证方式：注入代表性故障并盲测漏报率、误报率和发现延迟。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.7-M3",
+      "required_capability": "完全自我复制所需：区分感知误差、定位故障、路况限制和动力系统异常；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“区分感知误差、定位故障、路况限制和动力系统异常”的公开验证材料；相关进展：Waymo公开截至2026年6月累计2.713亿无驾驶员里程，支持限定服务范围内的无人驾驶。",
+      "gap": "“区分感知误差、定位故障、路况限制和动力系统异常”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S07"
+      ],
+      "human_dependency": "车辆制造维修、道路维护、车队支持、供电及法规机构。",
+      "validation_needed": "针对8.7：区分感知误差、定位故障、路况限制和动力系统异常。验证方式：在可验证根因的多故障对照中检验定位准确率与可执行诊断。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.7-M4",
+      "required_capability": "完全自我复制所需：自行维修车辆并重建道路、桥涵、标识等基础设施；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“自行维修车辆并重建道路、桥涵、标识等基础设施”的公开验证材料；相关进展：Waymo公开截至2026年6月累计2.713亿无驾驶员里程，支持限定服务范围内的无人驾驶。",
+      "gap": "“自行维修车辆并重建道路、桥涵、标识等基础设施”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S07"
+      ],
+      "human_dependency": "车辆制造维修、道路维护、车队支持、供电及法规机构。",
+      "validation_needed": "针对8.7：自行维修车辆并重建道路、桥涵、标识等基础设施。验证方式：使真实部件失效后由机器人拆换、复测、复位，记录外部接管与新备件来源。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.7-M5",
+      "required_capability": "完全自我复制所需：闭环提供车辆零件、轮胎、道路材料及运输设备；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“闭环提供车辆零件、轮胎、道路材料及运输设备”的公开验证材料；相关进展：Waymo公开截至2026年6月累计2.713亿无驾驶员里程，支持限定服务范围内的无人驾驶。",
+      "gap": "“闭环提供车辆零件、轮胎、道路材料及运输设备”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S07"
+      ],
+      "human_dependency": "车辆制造维修、道路维护、车队支持、供电及法规机构。",
+      "validation_needed": "针对8.7：闭环提供车辆零件、轮胎、道路材料及运输设备。验证方式：追踪所有关键物料和服务的来源，耗尽初始备件后仍由边界内机器补充。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.7-M6",
+      "required_capability": "完全自我复制所需：自主供给运输能源并制造维护充电或加注设施；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“自主供给运输能源并制造维护充电或加注设施”的公开验证材料；相关进展：Waymo公开截至2026年6月累计2.713亿无驾驶员里程，支持限定服务范围内的无人驾驶。",
+      "gap": "“自主供给运输能源并制造维护充电或加注设施”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S07"
+      ],
+      "human_dependency": "车辆制造维修、道路维护、车队支持、供电及法规机构。",
+      "validation_needed": "针对8.7：自主供给运输能源并制造维护充电或加注设施。验证方式：实测能源收支并让能源设备经历故障、维修与替换周期。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.7-M7",
+      "required_capability": "完全自我复制所需：无人更新驾驶规则、地图与车辆维修工艺；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“无人更新驾驶规则、地图与车辆维修工艺”的公开验证材料；相关进展：Waymo公开截至2026年6月累计2.713亿无驾驶员里程，支持限定服务范围内的无人驾驶。",
+      "gap": "“无人更新驾驶规则、地图与车辆维修工艺”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S07"
+      ],
+      "human_dependency": "车辆制造维修、道路维护、车队支持、供电及法规机构。",
+      "validation_needed": "针对8.7：无人更新驾驶规则、地图与车辆维修工艺。验证方式：在新工艺/环境下不靠现场人类示教完成学习，并用独立测量验证知识可靠性。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.7-M8",
+      "required_capability": "完全自我复制所需：灾害、道路中断和车队损毁后恢复关键运输走廊；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“灾害、道路中断和车队损毁后恢复关键运输走廊”的公开验证材料；相关进展：Waymo公开截至2026年6月累计2.713亿无驾驶员里程，支持限定服务范围内的无人驾驶。",
+      "gap": "“灾害、道路中断和车队损毁后恢复关键运输走廊”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S07"
+      ],
+      "human_dependency": "车辆制造维修、道路维护、车队支持、供电及法规机构。",
+      "validation_needed": "针对8.7：灾害、道路中断和车队损毁后恢复关键运输走廊。验证方式：使关键设施、通信和备份同时部分失效，检验恢复到预定服务水平的时间。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.7-M9",
+      "required_capability": "完全自我复制所需：自主制造车队并建设延伸道路与服务设施；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“自主制造车队并建设延伸道路与服务设施”的公开验证材料；相关进展：Waymo公开截至2026年6月累计2.713亿无驾驶员里程，支持限定服务范围内的无人驾驶。",
+      "gap": "“自主制造车队并建设延伸道路与服务设施”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S07"
+      ],
+      "human_dependency": "车辆制造维修、道路维护、车队支持、供电及法规机构。",
+      "validation_needed": "针对8.7：自主制造车队并建设延伸道路与服务设施。验证方式：核算新建资产的净产能与全部外部输入，证明新增能力由机器自行建设并投运。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.7-M10",
+      "required_capability": "完全自我复制所需：复制车辆、路网和保障设施构成的完整地面运输链；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“复制车辆、路网和保障设施构成的完整地面运输链”的公开验证材料；相关进展：Waymo公开截至2026年6月累计2.713亿无驾驶员里程，支持限定服务范围内的无人驾驶。",
+      "gap": "“复制车辆、路网和保障设施构成的完整地面运输链”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S07"
+      ],
+      "human_dependency": "车辆制造维修、道路维护、车队支持、供电及法规机构。",
+      "validation_needed": "针对8.7：复制车辆、路网和保障设施构成的完整地面运输链。验证方式：完成至少连续后代的同等功能验收，逐项审计上游制造、能源和维护链，不能只补给预制模块。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.8-M1",
+      "required_capability": "完全自我复制所需：持续自主执行重载运输、船舶航行、港口装卸与系泊；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "Yara运营回顾报告自动离靠泊、航行等功能，同时说明船上监督、人工系泊和远程运营边界。",
+      "gap": "已有材料不能证明“持续自主执行重载运输、船舶航行、港口装卸与系泊”已在HR0条件下完整成立；需要把局部功能与连续运行覆盖正常任务、环境变化和计划维护窗口，报告人工干预次数、服务质量与时长对应验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D08-S08"
+      ],
+      "human_dependency": "页面所述船员与远程运营中心，人工系泊、船厂和港口维修保障。",
+      "validation_needed": "针对8.8：持续自主执行重载运输、船舶航行、港口装卸与系泊。验证方式：连续运行覆盖正常任务、环境变化和计划维护窗口，报告人工干预次数、服务质量与时长。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "8.8-M2",
+      "required_capability": "完全自我复制所需：发现船体/轨道/港机故障及航行或装卸危险；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "Yara描述自动航行感知系统开发与测试，未给出全船/港口故障自主发现覆盖率。",
+      "gap": "已有材料不能证明“发现船体/轨道/港机故障及航行或装卸危险”已在HR0条件下完整成立；需要把局部功能与注入代表性故障并盲测漏报率、误报率和发现延迟对应验证。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S08"
+      ],
+      "human_dependency": "页面所述船员与远程运营中心，人工系泊、船厂和港口维修保障。",
+      "validation_needed": "针对8.8：发现船体/轨道/港机故障及航行或装卸危险。验证方式：注入代表性故障并盲测漏报率、误报率和发现延迟。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.8-M3",
+      "required_capability": "完全自我复制所需：诊断运输异常来自机械、航道、信号或调度系统；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“诊断运输异常来自机械、航道、信号或调度系统”的公开验证材料；相关进展：Yara已验证自动离靠泊/航行等限定功能；核验页面明确有人监督，系泊尚需人工，并描述技术/监管进度延迟。",
+      "gap": "“诊断运输异常来自机械、航道、信号或调度系统”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S08"
+      ],
+      "human_dependency": "页面所述船员与远程运营中心，人工系泊、船厂和港口维修保障。",
+      "validation_needed": "针对8.8：诊断运输异常来自机械、航道、信号或调度系统。验证方式：在可验证根因的多故障对照中检验定位准确率与可执行诊断。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.8-M4",
+      "required_capability": "完全自我复制所需：无人修复船舶、铁路、港机及装卸系泊设备；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“无人修复船舶、铁路、港机及装卸系泊设备”的公开验证材料；相关进展：Yara已验证自动离靠泊/航行等限定功能；核验页面明确有人监督，系泊尚需人工，并描述技术/监管进度延迟。",
+      "gap": "“无人修复船舶、铁路、港机及装卸系泊设备”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S08"
+      ],
+      "human_dependency": "页面所述船员与远程运营中心，人工系泊、船厂和港口维修保障。",
+      "validation_needed": "针对8.8：无人修复船舶、铁路、港机及装卸系泊设备。验证方式：使真实部件失效后由机器人拆换、复测、复位，记录外部接管与新备件来源。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.8-M5",
+      "required_capability": "完全自我复制所需：闭环提供钢轨、船用部件、港机、润滑剂及备件；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“闭环提供钢轨、船用部件、港机、润滑剂及备件”的公开验证材料；相关进展：Yara已验证自动离靠泊/航行等限定功能；核验页面明确有人监督，系泊尚需人工，并描述技术/监管进度延迟。",
+      "gap": "“闭环提供钢轨、船用部件、港机、润滑剂及备件”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S08"
+      ],
+      "human_dependency": "页面所述船员与远程运营中心，人工系泊、船厂和港口维修保障。",
+      "validation_needed": "针对8.8：闭环提供钢轨、船用部件、港机、润滑剂及备件。验证方式：追踪所有关键物料和服务的来源，耗尽初始备件后仍由边界内机器补充。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.8-M6",
+      "required_capability": "完全自我复制所需：自主生产并恢复船舶/铁路动力与岸电网络；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“自主生产并恢复船舶/铁路动力与岸电网络”的公开验证材料；相关进展：Yara已验证自动离靠泊/航行等限定功能；核验页面明确有人监督，系泊尚需人工，并描述技术/监管进度延迟。",
+      "gap": "“自主生产并恢复船舶/铁路动力与岸电网络”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S08"
+      ],
+      "human_dependency": "页面所述船员与远程运营中心，人工系泊、船厂和港口维修保障。",
+      "validation_needed": "针对8.8：自主生产并恢复船舶/铁路动力与岸电网络。验证方式：实测能源收支并让能源设备经历故障、维修与替换周期。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.8-M7",
+      "required_capability": "完全自我复制所需：保持航海、铁路信号、港口操作和维修知识自主更新；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“保持航海、铁路信号、港口操作和维修知识自主更新”的公开验证材料；相关进展：Yara已验证自动离靠泊/航行等限定功能；核验页面明确有人监督，系泊尚需人工，并描述技术/监管进度延迟。",
+      "gap": "“保持航海、铁路信号、港口操作和维修知识自主更新”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S08"
+      ],
+      "human_dependency": "页面所述船员与远程运营中心，人工系泊、船厂和港口维修保障。",
+      "validation_needed": "针对8.8：保持航海、铁路信号、港口操作和维修知识自主更新。验证方式：在新工艺/环境下不靠现场人类示教完成学习，并用独立测量验证知识可靠性。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.8-M8",
+      "required_capability": "完全自我复制所需：灾后恢复港口、航道、铁路线路与运输资产；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“灾后恢复港口、航道、铁路线路与运输资产”的公开验证材料；相关进展：Yara已验证自动离靠泊/航行等限定功能；核验页面明确有人监督，系泊尚需人工，并描述技术/监管进度延迟。",
+      "gap": "“灾后恢复港口、航道、铁路线路与运输资产”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S08"
+      ],
+      "human_dependency": "页面所述船员与远程运营中心，人工系泊、船厂和港口维修保障。",
+      "validation_needed": "针对8.8：灾后恢复港口、航道、铁路线路与运输资产。验证方式：使关键设施、通信和备份同时部分失效，检验恢复到预定服务水平的时间。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.8-M9",
+      "required_capability": "完全自我复制所需：自主建造新增船舶、轨道、码头和装卸能力；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“自主建造新增船舶、轨道、码头和装卸能力”的公开验证材料；相关进展：Yara已验证自动离靠泊/航行等限定功能；核验页面明确有人监督，系泊尚需人工，并描述技术/监管进度延迟。",
+      "gap": "“自主建造新增船舶、轨道、码头和装卸能力”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S08"
+      ],
+      "human_dependency": "页面所述船员与远程运营中心，人工系泊、船厂和港口维修保障。",
+      "validation_needed": "针对8.8：自主建造新增船舶、轨道、码头和装卸能力。验证方式：核算新建资产的净产能与全部外部输入，证明新增能力由机器自行建设并投运。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.8-M10",
+      "required_capability": "完全自我复制所需：复制从运输装备制造到港口/铁路保障的完整系统；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“复制从运输装备制造到港口/铁路保障的完整系统”的公开验证材料；相关进展：Yara已验证自动离靠泊/航行等限定功能；核验页面明确有人监督，系泊尚需人工，并描述技术/监管进度延迟。",
+      "gap": "“复制从运输装备制造到港口/铁路保障的完整系统”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S08"
+      ],
+      "human_dependency": "页面所述船员与远程运营中心，人工系泊、船厂和港口维修保障。",
+      "validation_needed": "针对8.8：复制从运输装备制造到港口/铁路保障的完整系统。验证方式：完成至少连续后代的同等功能验收，逐项审计上游制造、能源和维护链，不能只补给预制模块。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.9-M1",
+      "required_capability": "完全自我复制所需：在明确空域和天气条件下无人执行货物航空配送；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "Zipline当前技术页描述无人机最高70mph直线配送和空中投递；为限定物流能力的公司资料。",
+      "gap": "已有材料不能证明“在明确空域和天气条件下无人执行货物航空配送”已在HR0条件下完整成立；需要把局部功能与连续运行覆盖正常任务、环境变化和计划维护窗口，报告人工干预次数、服务质量与时长对应验证。",
+      "assessment_status": "demonstrated_limited",
+      "evidence_relation": "direct_metric",
+      "source_ids": [
+        "D08-S09"
+      ],
+      "human_dependency": "航空器生产维修、基地人员、空域管理、电池及外部能源供应。",
+      "validation_needed": "针对8.9：在明确空域和天气条件下无人执行货物航空配送。验证方式：连续运行覆盖正常任务、环境变化和计划维护窗口，报告人工干预次数、服务质量与时长。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "8.9-M2",
+      "required_capability": "完全自我复制所需：检测动力、电池、导航、避障和载荷状态异常；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“检测动力、电池、导航、避障和载荷状态异常”的公开验证材料；相关进展：Zipline当前技术页描述最高70mph直线配送与投递技术；并未在核验资料中提供无人制造维修闭环。",
+      "gap": "“检测动力、电池、导航、避障和载荷状态异常”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S09"
+      ],
+      "human_dependency": "航空器生产维修、基地人员、空域管理、电池及外部能源供应。",
+      "validation_needed": "针对8.9：检测动力、电池、导航、避障和载荷状态异常。验证方式：注入代表性故障并盲测漏报率、误报率和发现延迟。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.9-M3",
+      "required_capability": "完全自我复制所需：诊断飞行故障并区分天气限制与设备失效；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“诊断飞行故障并区分天气限制与设备失效”的公开验证材料；相关进展：Zipline当前技术页描述最高70mph直线配送与投递技术；并未在核验资料中提供无人制造维修闭环。",
+      "gap": "“诊断飞行故障并区分天气限制与设备失效”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S09"
+      ],
+      "human_dependency": "航空器生产维修、基地人员、空域管理、电池及外部能源供应。",
+      "validation_needed": "针对8.9：诊断飞行故障并区分天气限制与设备失效。验证方式：在可验证根因的多故障对照中检验定位准确率与可执行诊断。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.9-M4",
+      "required_capability": "完全自我复制所需：无人更换桨叶、电机、电池、航电并重新适航验证；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“无人更换桨叶、电机、电池、航电并重新适航验证”的公开验证材料；相关进展：Zipline当前技术页描述最高70mph直线配送与投递技术；并未在核验资料中提供无人制造维修闭环。",
+      "gap": "“无人更换桨叶、电机、电池、航电并重新适航验证”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S09"
+      ],
+      "human_dependency": "航空器生产维修、基地人员、空域管理、电池及外部能源供应。",
+      "validation_needed": "针对8.9：无人更换桨叶、电机、电池、航电并重新适航验证。验证方式：使真实部件失效后由机器人拆换、复测、复位，记录外部接管与新备件来源。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.9-M5",
+      "required_capability": "完全自我复制所需：闭环制造飞行器结构、航电、传感器和电池；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“闭环制造飞行器结构、航电、传感器和电池”的公开验证材料；相关进展：Zipline当前技术页描述最高70mph直线配送与投递技术；并未在核验资料中提供无人制造维修闭环。",
+      "gap": "“闭环制造飞行器结构、航电、传感器和电池”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S09"
+      ],
+      "human_dependency": "航空器生产维修、基地人员、空域管理、电池及外部能源供应。",
+      "validation_needed": "针对8.9：闭环制造飞行器结构、航电、传感器和电池。验证方式：追踪所有关键物料和服务的来源，耗尽初始备件后仍由边界内机器补充。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.9-M6",
+      "required_capability": "完全自我复制所需：自主获取飞行能源并维护充电/加注基础设施；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“自主获取飞行能源并维护充电/加注基础设施”的公开验证材料；相关进展：Zipline当前技术页描述最高70mph直线配送与投递技术；并未在核验资料中提供无人制造维修闭环。",
+      "gap": "“自主获取飞行能源并维护充电/加注基础设施”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S09"
+      ],
+      "human_dependency": "航空器生产维修、基地人员、空域管理、电池及外部能源供应。",
+      "validation_needed": "针对8.9：自主获取飞行能源并维护充电/加注基础设施。验证方式：实测能源收支并让能源设备经历故障、维修与替换周期。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.9-M7",
+      "required_capability": "完全自我复制所需：维护航线、天气模型和维修知识而不靠人工更新；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“维护航线、天气模型和维修知识而不靠人工更新”的公开验证材料；相关进展：Zipline当前技术页描述最高70mph直线配送与投递技术；并未在核验资料中提供无人制造维修闭环。",
+      "gap": "“维护航线、天气模型和维修知识而不靠人工更新”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S09"
+      ],
+      "human_dependency": "航空器生产维修、基地人员、空域管理、电池及外部能源供应。",
+      "validation_needed": "针对8.9：维护航线、天气模型和维修知识而不靠人工更新。验证方式：在新工艺/环境下不靠现场人类示教完成学习，并用独立测量验证知识可靠性。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.9-M8",
+      "required_capability": "完全自我复制所需：在恶劣天气、基地损毁或网络中断后恢复关键航空配送；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“在恶劣天气、基地损毁或网络中断后恢复关键航空配送”的公开验证材料；相关进展：Zipline当前技术页描述最高70mph直线配送与投递技术；并未在核验资料中提供无人制造维修闭环。",
+      "gap": "“在恶劣天气、基地损毁或网络中断后恢复关键航空配送”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S09"
+      ],
+      "human_dependency": "航空器生产维修、基地人员、空域管理、电池及外部能源供应。",
+      "validation_needed": "针对8.9：在恶劣天气、基地损毁或网络中断后恢复关键航空配送。验证方式：使关键设施、通信和备份同时部分失效，检验恢复到预定服务水平的时间。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.9-M9",
+      "required_capability": "完全自我复制所需：自主建设基地、制造飞行器并扩大运力；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“自主建设基地、制造飞行器并扩大运力”的公开验证材料；相关进展：Zipline当前技术页描述最高70mph直线配送与投递技术；并未在核验资料中提供无人制造维修闭环。",
+      "gap": "“自主建设基地、制造飞行器并扩大运力”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S09"
+      ],
+      "human_dependency": "航空器生产维修、基地人员、空域管理、电池及外部能源供应。",
+      "validation_needed": "针对8.9：自主建设基地、制造飞行器并扩大运力。验证方式：核算新建资产的净产能与全部外部输入，证明新增能力由机器自行建设并投运。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.9-M10",
+      "required_capability": "完全自我复制所需：复制从飞行器制造到基地供能维修的完整航空物流系统；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“复制从飞行器制造到基地供能维修的完整航空物流系统”的公开验证材料；相关进展：Zipline当前技术页描述最高70mph直线配送与投递技术；并未在核验资料中提供无人制造维修闭环。",
+      "gap": "“复制从飞行器制造到基地供能维修的完整航空物流系统”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S09"
+      ],
+      "human_dependency": "航空器生产维修、基地人员、空域管理、电池及外部能源供应。",
+      "validation_needed": "针对8.9：复制从飞行器制造到基地供能维修的完整航空物流系统。验证方式：完成至少连续后代的同等功能验收，逐项审计上游制造、能源和维护链，不能只补给预制模块。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.10-M1",
+      "required_capability": "完全自我复制所需：跨区域协调原料、备件、设备和运输能力满足生产计划；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "DeepFleet协调Amazon机器人运动并优化仓内拥堵和路线，覆盖供应链中的仓内执行部分。",
+      "gap": "已有材料不能证明“跨区域协调原料、备件、设备和运输能力满足生产计划”已在HR0条件下完整成立；需要把局部功能与连续运行覆盖正常任务、环境变化和计划维护窗口，报告人工干预次数、服务质量与时长对应验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D08-S06"
+      ],
+      "human_dependency": "人类供应商、采购/运营决策、运输和设施维护，以及云平台。",
+      "validation_needed": "针对8.10：跨区域协调原料、备件、设备和运输能力满足生产计划。验证方式：连续运行覆盖正常任务、环境变化和计划维护窗口，报告人工干预次数、服务质量与时长。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "8.10-M2",
+      "required_capability": "完全自我复制所需：发现供应中断、需求偏差、交期冲突和异常缺货；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“发现供应中断、需求偏差、交期冲突和异常缺货”的公开验证材料；相关进展：DeepFleet在Amazon仓网中优化移动机器人路径；这只是跨产业供应链协调的一部分。",
+      "gap": "“发现供应中断、需求偏差、交期冲突和异常缺货”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S06"
+      ],
+      "human_dependency": "人类供应商、采购/运营决策、运输和设施维护，以及云平台。",
+      "validation_needed": "针对8.10：发现供应中断、需求偏差、交期冲突和异常缺货。验证方式：注入代表性故障并盲测漏报率、误报率和发现延迟。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.10-M3",
+      "required_capability": "完全自我复制所需：定位缺料根因到供应节点、运输路径或计划错误；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“定位缺料根因到供应节点、运输路径或计划错误”的公开验证材料；相关进展：DeepFleet在Amazon仓网中优化移动机器人路径；这只是跨产业供应链协调的一部分。",
+      "gap": "“定位缺料根因到供应节点、运输路径或计划错误”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S06"
+      ],
+      "human_dependency": "人类供应商、采购/运营决策、运输和设施维护，以及云平台。",
+      "validation_needed": "针对8.10：定位缺料根因到供应节点、运输路径或计划错误。验证方式：在可验证根因的多故障对照中检验定位准确率与可执行诊断。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.10-M4",
+      "required_capability": "完全自我复制所需：自主恢复受损物流节点并修复物料执行链；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“自主恢复受损物流节点并修复物料执行链”的公开验证材料；相关进展：DeepFleet在Amazon仓网中优化移动机器人路径；这只是跨产业供应链协调的一部分。",
+      "gap": "“自主恢复受损物流节点并修复物料执行链”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S06"
+      ],
+      "human_dependency": "人类供应商、采购/运营决策、运输和设施维护，以及云平台。",
+      "validation_needed": "针对8.10：自主恢复受损物流节点并修复物料执行链。验证方式：使真实部件失效后由机器人拆换、复测、复位，记录外部接管与新备件来源。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.10-M5",
+      "required_capability": "完全自我复制所需：让关键物料由可追溯的机器生产链供给而非只自动下单；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“让关键物料由可追溯的机器生产链供给而非只自动下单”的公开验证材料；相关进展：DeepFleet在Amazon仓网中优化移动机器人路径；这只是跨产业供应链协调的一部分。",
+      "gap": "“让关键物料由可追溯的机器生产链供给而非只自动下单”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S06"
+      ],
+      "human_dependency": "人类供应商、采购/运营决策、运输和设施维护，以及云平台。",
+      "validation_needed": "针对8.10：让关键物料由可追溯的机器生产链供给而非只自动下单。验证方式：追踪所有关键物料和服务的来源，耗尽初始备件后仍由边界内机器补充。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.10-M6",
+      "required_capability": "完全自我复制所需：协调物流与生产的供能并自主恢复断能节点；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“协调物流与生产的供能并自主恢复断能节点”的公开验证材料；相关进展：DeepFleet在Amazon仓网中优化移动机器人路径；这只是跨产业供应链协调的一部分。",
+      "gap": "“协调物流与生产的供能并自主恢复断能节点”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S06"
+      ],
+      "human_dependency": "人类供应商、采购/运营决策、运输和设施维护，以及云平台。",
+      "validation_needed": "针对8.10：协调物流与生产的供能并自主恢复断能节点。验证方式：实测能源收支并让能源设备经历故障、维修与替换周期。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.10-M7",
+      "required_capability": "完全自我复制所需：无人获得并验证供应商能力、物料规格和运输知识；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "企业库存移动数据支持机器人协同优化，仍依赖既有企业数据与AWS服务。",
+      "gap": "已有材料不能证明“无人获得并验证供应商能力、物料规格和运输知识”已在HR0条件下完整成立；需要把局部功能与在新工艺/环境下不靠现场人类示教完成学习，并用独立测量验证知识可靠性对应验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D08-S06"
+      ],
+      "human_dependency": "人类供应商、采购/运营决策、运输和设施维护，以及云平台。",
+      "validation_needed": "针对8.10：无人获得并验证供应商能力、物料规格和运输知识。验证方式：在新工艺/环境下不靠现场人类示教完成学习，并用独立测量验证知识可靠性。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "8.10-M8",
+      "required_capability": "完全自我复制所需：多节点失效后重路由并重建最低关键供给网络；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“多节点失效后重路由并重建最低关键供给网络”的公开验证材料；相关进展：DeepFleet在Amazon仓网中优化移动机器人路径；这只是跨产业供应链协调的一部分。",
+      "gap": "“多节点失效后重路由并重建最低关键供给网络”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S06"
+      ],
+      "human_dependency": "人类供应商、采购/运营决策、运输和设施维护，以及云平台。",
+      "validation_needed": "针对8.10：多节点失效后重路由并重建最低关键供给网络。验证方式：使关键设施、通信和备份同时部分失效，检验恢复到预定服务水平的时间。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.10-M9",
+      "required_capability": "完全自我复制所需：自主建设更多供给与物流节点提高整体吞吐；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“自主建设更多供给与物流节点提高整体吞吐”的公开验证材料；相关进展：DeepFleet在Amazon仓网中优化移动机器人路径；这只是跨产业供应链协调的一部分。",
+      "gap": "“自主建设更多供给与物流节点提高整体吞吐”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S06"
+      ],
+      "human_dependency": "人类供应商、采购/运营决策、运输和设施维护，以及云平台。",
+      "validation_needed": "针对8.10：自主建设更多供给与物流节点提高整体吞吐。验证方式：核算新建资产的净产能与全部外部输入，证明新增能力由机器自行建设并投运。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "8.10-M10",
+      "required_capability": "完全自我复制所需：在新区域复制可持续供应全部关键输入的物流协同体系；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“在新区域复制可持续供应全部关键输入的物流协同体系”的公开验证材料；相关进展：DeepFleet在Amazon仓网中优化移动机器人路径；这只是跨产业供应链协调的一部分。",
+      "gap": "“在新区域复制可持续供应全部关键输入的物流协同体系”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S06"
+      ],
+      "human_dependency": "人类供应商、采购/运营决策、运输和设施维护，以及云平台。",
+      "validation_needed": "针对8.10：在新区域复制可持续供应全部关键输入的物流协同体系。验证方式：完成至少连续后代的同等功能验收，逐项审计上游制造、能源和维护链，不能只补给预制模块。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.1-M1",
+      "required_capability": "完全自我复制所需：持续盘点全部关键工业能力、依赖和健康状态；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "NASA2025状态综述整理ISAM能力分类，可作为能力审计参考；编制者仍是人类专家。",
+      "gap": "已有材料不能证明“持续盘点全部关键工业能力、依赖和健康状态”已在HR0条件下完整成立；需要把局部功能与连续运行覆盖正常任务、环境变化和计划维护窗口，报告人工干预次数、服务质量与时长对应验证。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D10-S05"
+      ],
+      "human_dependency": "领域专家定义系统边界、审计指标、依赖清单和证据解释。",
+      "validation_needed": "针对10.1：持续盘点全部关键工业能力、依赖和健康状态。验证方式：连续运行覆盖正常任务、环境变化和计划维护窗口，报告人工干预次数、服务质量与时长。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.1-M2",
+      "required_capability": "完全自我复制所需：发现能源—材料—制造—计算链的缺项和隐藏人类介入；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "机器人视觉自建模能发现局部本体损伤，但不能检测完整文明工业链缺项。",
+      "gap": "已有材料不能证明“发现能源—材料—制造—计算链的缺项和隐藏人类介入”已在HR0条件下完整成立；需要把局部功能与注入代表性故障并盲测漏报率、误报率和发现延迟对应验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D08-S04"
+      ],
+      "human_dependency": "领域专家定义系统边界、审计指标、依赖清单和证据解释。",
+      "validation_needed": "针对10.1：发现能源—材料—制造—计算链的缺项和隐藏人类介入。验证方式：注入代表性故障并盲测漏报率、误报率和发现延迟。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "10.1-M3",
+      "required_capability": "完全自我复制所需：诊断闭环中断的根因、级联路径和不可替代节点；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“诊断闭环中断的根因、级联路径和不可替代节点”的公开验证材料；相关进展：NASA2025 ISAM综述整理空间服务组装制造能力；机器人自建模只能检查局部本体，不是文明级完整性审计。",
+      "gap": "“诊断闭环中断的根因、级联路径和不可替代节点”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D10-S05",
+        "D08-S04"
+      ],
+      "human_dependency": "领域专家定义系统边界、审计指标、依赖清单和证据解释。",
+      "validation_needed": "针对10.1：诊断闭环中断的根因、级联路径和不可替代节点。验证方式：在可验证根因的多故障对照中检验定位准确率与可执行诊断。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.1-M4",
+      "required_capability": "完全自我复制所需：将审计结果转成自主维修/替代并验证闭环恢复；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“将审计结果转成自主维修/替代并验证闭环恢复”的公开验证材料；相关进展：NASA2025 ISAM综述整理空间服务组装制造能力；机器人自建模只能检查局部本体，不是文明级完整性审计。",
+      "gap": "“将审计结果转成自主维修/替代并验证闭环恢复”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D10-S05",
+        "D08-S04"
+      ],
+      "human_dependency": "领域专家定义系统边界、审计指标、依赖清单和证据解释。",
+      "validation_needed": "针对10.1：将审计结果转成自主维修/替代并验证闭环恢复。验证方式：使真实部件失效后由机器人拆换、复测、复位，记录外部接管与新备件来源。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.1-M5",
+      "required_capability": "完全自我复制所需：审计并消除关键部件、计量与审计工具的外部人类供给；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“审计并消除关键部件、计量与审计工具的外部人类供给”的公开验证材料；相关进展：NASA2025 ISAM综述整理空间服务组装制造能力；机器人自建模只能检查局部本体，不是文明级完整性审计。",
+      "gap": "“审计并消除关键部件、计量与审计工具的外部人类供给”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D10-S05",
+        "D08-S04"
+      ],
+      "human_dependency": "领域专家定义系统边界、审计指标、依赖清单和证据解释。",
+      "validation_needed": "针对10.1：审计并消除关键部件、计量与审计工具的外部人类供给。验证方式：追踪所有关键物料和服务的来源，耗尽初始备件后仍由边界内机器补充。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.1-M6",
+      "required_capability": "完全自我复制所需：审计全体系能源自给并实际恢复供能薄弱链；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“审计全体系能源自给并实际恢复供能薄弱链”的公开验证材料；相关进展：NASA2025 ISAM综述整理空间服务组装制造能力；机器人自建模只能检查局部本体，不是文明级完整性审计。",
+      "gap": "“审计全体系能源自给并实际恢复供能薄弱链”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D10-S05",
+        "D08-S04"
+      ],
+      "human_dependency": "领域专家定义系统边界、审计指标、依赖清单和证据解释。",
+      "validation_needed": "针对10.1：审计全体系能源自给并实际恢复供能薄弱链。验证方式：实测能源收支并让能源设备经历故障、维修与替换周期。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.1-M7",
+      "required_capability": "完全自我复制所需：校验审计模型和知识来源不依赖未数字化人类知识；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“校验审计模型和知识来源不依赖未数字化人类知识”的公开验证材料；相关进展：NASA2025 ISAM综述整理空间服务组装制造能力；机器人自建模只能检查局部本体，不是文明级完整性审计。",
+      "gap": "“校验审计模型和知识来源不依赖未数字化人类知识”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D10-S05",
+        "D08-S04"
+      ],
+      "human_dependency": "领域专家定义系统边界、审计指标、依赖清单和证据解释。",
+      "validation_needed": "针对10.1：校验审计模型和知识来源不依赖未数字化人类知识。验证方式：在新工艺/环境下不靠现场人类示教完成学习，并用独立测量验证知识可靠性。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.1-M8",
+      "required_capability": "完全自我复制所需：在数据或设施毁损后恢复可信工业能力总账；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“在数据或设施毁损后恢复可信工业能力总账”的公开验证材料；相关进展：NASA2025 ISAM综述整理空间服务组装制造能力；机器人自建模只能检查局部本体，不是文明级完整性审计。",
+      "gap": "“在数据或设施毁损后恢复可信工业能力总账”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D10-S05",
+        "D08-S04"
+      ],
+      "human_dependency": "领域专家定义系统边界、审计指标、依赖清单和证据解释。",
+      "validation_needed": "针对10.1：在数据或设施毁损后恢复可信工业能力总账。验证方式：使关键设施、通信和备份同时部分失效，检验恢复到预定服务水平的时间。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.1-M9",
+      "required_capability": "完全自我复制所需：将新增生产节点纳入自检而不漏掉新依赖；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“将新增生产节点纳入自检而不漏掉新依赖”的公开验证材料；相关进展：NASA2025 ISAM综述整理空间服务组装制造能力；机器人自建模只能检查局部本体，不是文明级完整性审计。",
+      "gap": "“将新增生产节点纳入自检而不漏掉新依赖”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D10-S05",
+        "D08-S04"
+      ],
+      "human_dependency": "领域专家定义系统边界、审计指标、依赖清单和证据解释。",
+      "validation_needed": "针对10.1：将新增生产节点纳入自检而不漏掉新依赖。验证方式：核算新建资产的净产能与全部外部输入，证明新增能力由机器自行建设并投运。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.1-M10",
+      "required_capability": "完全自我复制所需：让后代系统复制完整审计能力并证明关键链条不丢失；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“让后代系统复制完整审计能力并证明关键链条不丢失”的公开验证材料；相关进展：NASA2025 ISAM综述整理空间服务组装制造能力；机器人自建模只能检查局部本体，不是文明级完整性审计。",
+      "gap": "“让后代系统复制完整审计能力并证明关键链条不丢失”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D10-S05",
+        "D08-S04"
+      ],
+      "human_dependency": "领域专家定义系统边界、审计指标、依赖清单和证据解释。",
+      "validation_needed": "针对10.1：让后代系统复制完整审计能力并证明关键链条不丢失。验证方式：完成至少连续后代的同等功能验收，逐项审计上游制造、能源和维护链，不能只补给预制模块。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.2-M1",
+      "required_capability": "完全自我复制所需：持续识别并替换寿命到期的不可缺少部件；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "模块代谢研究展示利用预制模块重构和增长；并非生产全部关键部件的长期替换服务。 Robot Metabolism全文方法明确：全部物理Truss Link实验由操作者通过键盘控制，不能算作HR0自主维修。",
+      "gap": "已有材料不能证明“持续识别并替换寿命到期的不可缺少部件”已在HR0条件下完整成立；需要把局部功能与连续运行覆盖正常任务、环境变化和计划维护窗口，报告人工干预次数、服务质量与时长对应验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D08-S05"
+      ],
+      "human_dependency": "预制模块、电机电子件制造与补给；产业关键件仍来自人类供应链。",
+      "validation_needed": "针对10.2：持续识别并替换寿命到期的不可缺少部件。验证方式：连续运行覆盖正常任务、环境变化和计划维护窗口，报告人工干预次数、服务质量与时长。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "10.2-M2",
+      "required_capability": "完全自我复制所需：发现芯片、轴承、电源等关键件退化与缺货风险；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "视觉自建模实验可检测部件损伤，尚未覆盖完整工业关键部件清单。",
+      "gap": "已有材料不能证明“发现芯片、轴承、电源等关键件退化与缺货风险”已在HR0条件下完整成立；需要把局部功能与注入代表性故障并盲测漏报率、误报率和发现延迟对应验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D08-S04"
+      ],
+      "human_dependency": "预制模块、电机电子件制造与补给；产业关键件仍来自人类供应链。",
+      "validation_needed": "针对10.2：发现芯片、轴承、电源等关键件退化与缺货风险。验证方式：注入代表性故障并盲测漏报率、误报率和发现延迟。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "10.2-M3",
+      "required_capability": "完全自我复制所需：定位失效到具体部件、工艺或材料原因；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“定位失效到具体部件、工艺或材料原因”的公开验证材料；相关进展：Robot Metabolism利用已有模块增长重构；Columbia四模块复制实验明确要从外界补充积木。 Robot Metabolism全文方法明确：全部物理Truss Link实验由操作者通过键盘控制，不能算作HR0自主维修。",
+      "gap": "“定位失效到具体部件、工艺或材料原因”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S05",
+        "D10-S06"
+      ],
+      "human_dependency": "预制模块、电机电子件制造与补给；产业关键件仍来自人类供应链。",
+      "validation_needed": "针对10.2：定位失效到具体部件、工艺或材料原因。验证方式：在可验证根因的多故障对照中检验定位准确率与可执行诊断。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.2-M4",
+      "required_capability": "完全自我复制所需：无人拆换关键件并完成系统级重新投运；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "模块重构路线可以改变机器人结构，但模块制造与补充仍在实验外部。 Robot Metabolism全文方法明确：全部物理Truss Link实验由操作者通过键盘控制，不能算作HR0自主维修。",
+      "gap": "已有材料不能证明“无人拆换关键件并完成系统级重新投运”已在HR0条件下完整成立；需要把局部功能与使真实部件失效后由机器人拆换、复测、复位，记录外部接管与新备件来源对应验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D08-S05"
+      ],
+      "human_dependency": "预制模块、电机电子件制造与补给；产业关键件仍来自人类供应链。",
+      "validation_needed": "针对10.2：无人拆换关键件并完成系统级重新投运。验证方式：使真实部件失效后由机器人拆换、复测、复位，记录外部接管与新备件来源。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "10.2-M5",
+      "required_capability": "完全自我复制所需：从原料制造备件及制造备件所需的工具和设备；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "四模块复制项目明确补给现成积木，反映模块输入而不是原料到关键件自给。",
+      "gap": "已有材料不能证明“从原料制造备件及制造备件所需的工具和设备”已在HR0条件下完整成立；需要把局部功能与追踪所有关键物料和服务的来源，耗尽初始备件后仍由边界内机器补充对应验证。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D10-S06"
+      ],
+      "human_dependency": "预制模块、电机电子件制造与补给；产业关键件仍来自人类供应链。",
+      "validation_needed": "针对10.2：从原料制造备件及制造备件所需的工具和设备。验证方式：追踪所有关键物料和服务的来源，耗尽初始备件后仍由边界内机器补充。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.2-M6",
+      "required_capability": "完全自我复制所需：保障关键件制造和替换全过程能源可持续供应；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“保障关键件制造和替换全过程能源可持续供应”的公开验证材料；相关进展：Robot Metabolism利用已有模块增长重构；Columbia四模块复制实验明确要从外界补充积木。 Robot Metabolism全文方法明确：全部物理Truss Link实验由操作者通过键盘控制，不能算作HR0自主维修。",
+      "gap": "“保障关键件制造和替换全过程能源可持续供应”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S05",
+        "D10-S06"
+      ],
+      "human_dependency": "预制模块、电机电子件制造与补给；产业关键件仍来自人类供应链。",
+      "validation_needed": "针对10.2：保障关键件制造和替换全过程能源可持续供应。验证方式：实测能源收支并让能源设备经历故障、维修与替换周期。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.2-M7",
+      "required_capability": "完全自我复制所需：自行维护关键件设计、工艺与兼容性知识；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“自行维护关键件设计、工艺与兼容性知识”的公开验证材料；相关进展：Robot Metabolism利用已有模块增长重构；Columbia四模块复制实验明确要从外界补充积木。 Robot Metabolism全文方法明确：全部物理Truss Link实验由操作者通过键盘控制，不能算作HR0自主维修。",
+      "gap": "“自行维护关键件设计、工艺与兼容性知识”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S05",
+        "D10-S06"
+      ],
+      "human_dependency": "预制模块、电机电子件制造与补给；产业关键件仍来自人类供应链。",
+      "validation_needed": "针对10.2：自行维护关键件设计、工艺与兼容性知识。验证方式：在新工艺/环境下不靠现场人类示教完成学习，并用独立测量验证知识可靠性。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.2-M8",
+      "required_capability": "完全自我复制所需：供应库和多个关键件同时损失后重建最低替换链；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“供应库和多个关键件同时损失后重建最低替换链”的公开验证材料；相关进展：Robot Metabolism利用已有模块增长重构；Columbia四模块复制实验明确要从外界补充积木。 Robot Metabolism全文方法明确：全部物理Truss Link实验由操作者通过键盘控制，不能算作HR0自主维修。",
+      "gap": "“供应库和多个关键件同时损失后重建最低替换链”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S05",
+        "D10-S06"
+      ],
+      "human_dependency": "预制模块、电机电子件制造与补给；产业关键件仍来自人类供应链。",
+      "validation_needed": "针对10.2：供应库和多个关键件同时损失后重建最低替换链。验证方式：使关键设施、通信和备份同时部分失效，检验恢复到预定服务水平的时间。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.2-M9",
+      "required_capability": "完全自我复制所需：扩大关键备件产能并构建冗余生产节点；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“扩大关键备件产能并构建冗余生产节点”的公开验证材料；相关进展：Robot Metabolism利用已有模块增长重构；Columbia四模块复制实验明确要从外界补充积木。 Robot Metabolism全文方法明确：全部物理Truss Link实验由操作者通过键盘控制，不能算作HR0自主维修。",
+      "gap": "“扩大关键备件产能并构建冗余生产节点”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S05",
+        "D10-S06"
+      ],
+      "human_dependency": "预制模块、电机电子件制造与补给；产业关键件仍来自人类供应链。",
+      "validation_needed": "针对10.2：扩大关键备件产能并构建冗余生产节点。验证方式：核算新建资产的净产能与全部外部输入，证明新增能力由机器自行建设并投运。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.2-M10",
+      "required_capability": "完全自我复制所需：复制能够供应自身全部关键件的替换生产闭环；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“复制能够供应自身全部关键件的替换生产闭环”的公开验证材料；相关进展：Robot Metabolism利用已有模块增长重构；Columbia四模块复制实验明确要从外界补充积木。 Robot Metabolism全文方法明确：全部物理Truss Link实验由操作者通过键盘控制，不能算作HR0自主维修。",
+      "gap": "“复制能够供应自身全部关键件的替换生产闭环”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S05",
+        "D10-S06"
+      ],
+      "human_dependency": "预制模块、电机电子件制造与补给；产业关键件仍来自人类供应链。",
+      "validation_needed": "针对10.2：复制能够供应自身全部关键件的替换生产闭环。验证方式：完成至少连续后代的同等功能验收，逐项审计上游制造、能源和维护链，不能只补给预制模块。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.3-M1",
+      "required_capability": "完全自我复制所需：自主设计、施工、装配并投运完整数据中心、电厂和工厂；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "NASA ARMADAS团队机器人自主搬运和紧固预制体素，完成米尺度结构组装。",
+      "gap": "已有材料不能证明“自主设计、施工、装配并投运完整数据中心、电厂和工厂”已在HR0条件下完整成立；需要把局部功能与连续运行覆盖正常任务、环境变化和计划维护窗口，报告人工干预次数、服务质量与时长对应验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D10-S02"
+      ],
+      "human_dependency": "人类提供结构设计、预制体素、机器人、供电和测试条件。",
+      "validation_needed": "针对10.3：自主设计、施工、装配并投运完整数据中心、电厂和工厂。验证方式：连续运行覆盖正常任务、环境变化和计划维护窗口，报告人工干预次数、服务质量与时长。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "10.3-M2",
+      "required_capability": "完全自我复制所需：检测新建和存量设施在结构、能量与工艺方面的缺陷；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "ARMADAS演示可在规则格点结构上自主纠错；不是完整设施各工艺的质量检查。",
+      "gap": "已有材料不能证明“检测新建和存量设施在结构、能量与工艺方面的缺陷”已在HR0条件下完整成立；需要把局部功能与注入代表性故障并盲测漏报率、误报率和发现延迟对应验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D10-S02"
+      ],
+      "human_dependency": "人类提供结构设计、预制体素、机器人、供电和测试条件。",
+      "validation_needed": "针对10.3：检测新建和存量设施在结构、能量与工艺方面的缺陷。验证方式：注入代表性故障并盲测漏报率、误报率和发现延迟。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "10.3-M3",
+      "required_capability": "完全自我复制所需：定位设施未达设计能力的系统级原因；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“定位设施未达设计能力的系统级原因”的公开验证材料；相关进展：ARMADAS地面演示自主组装预制体素结构；不是带电力、生产设备和供应链的完整工厂复制。",
+      "gap": "“定位设施未达设计能力的系统级原因”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D10-S02"
+      ],
+      "human_dependency": "人类提供结构设计、预制体素、机器人、供电和测试条件。",
+      "validation_needed": "针对10.3：定位设施未达设计能力的系统级原因。验证方式：在可验证根因的多故障对照中检验定位准确率与可执行诊断。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.3-M4",
+      "required_capability": "完全自我复制所需：自行维修设施及其施工制造装备；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“自行维修设施及其施工制造装备”的公开验证材料；相关进展：ARMADAS地面演示自主组装预制体素结构；不是带电力、生产设备和供应链的完整工厂复制。",
+      "gap": "“自行维修设施及其施工制造装备”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D10-S02"
+      ],
+      "human_dependency": "人类提供结构设计、预制体素、机器人、供电和测试条件。",
+      "validation_needed": "针对10.3：自行维修设施及其施工制造装备。验证方式：使真实部件失效后由机器人拆换、复测、复位，记录外部接管与新备件来源。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.3-M5",
+      "required_capability": "完全自我复制所需：闭环供应建筑材料、生产设备、电子件和计量工具；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“闭环供应建筑材料、生产设备、电子件和计量工具”的公开验证材料；相关进展：ARMADAS地面演示自主组装预制体素结构；不是带电力、生产设备和供应链的完整工厂复制。",
+      "gap": "“闭环供应建筑材料、生产设备、电子件和计量工具”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D10-S02"
+      ],
+      "human_dependency": "人类提供结构设计、预制体素、机器人、供电和测试条件。",
+      "validation_needed": "针对10.3：闭环供应建筑材料、生产设备、电子件和计量工具。验证方式：追踪所有关键物料和服务的来源，耗尽初始备件后仍由边界内机器补充。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.3-M6",
+      "required_capability": "完全自我复制所需：复制设施时同时复制供能与能源恢复能力；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“复制设施时同时复制供能与能源恢复能力”的公开验证材料；相关进展：ARMADAS地面演示自主组装预制体素结构；不是带电力、生产设备和供应链的完整工厂复制。",
+      "gap": "“复制设施时同时复制供能与能源恢复能力”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D10-S02"
+      ],
+      "human_dependency": "人类提供结构设计、预制体素、机器人、供电和测试条件。",
+      "validation_needed": "针对10.3：复制设施时同时复制供能与能源恢复能力。验证方式：实测能源收支并让能源设备经历故障、维修与替换周期。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.3-M7",
+      "required_capability": "完全自我复制所需：独立保存设施设计、工程施工与调试知识；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "团队提供结构计划，软件自主规划机器人任务及构建序列；保留人类设计依赖。",
+      "gap": "已有材料不能证明“独立保存设施设计、工程施工与调试知识”已在HR0条件下完整成立；需要把局部功能与在新工艺/环境下不靠现场人类示教完成学习，并用独立测量验证知识可靠性对应验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D10-S02"
+      ],
+      "human_dependency": "人类提供结构设计、预制体素、机器人、供电和测试条件。",
+      "validation_needed": "针对10.3：独立保存设施设计、工程施工与调试知识。验证方式：在新工艺/环境下不靠现场人类示教完成学习，并用独立测量验证知识可靠性。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "10.3-M8",
+      "required_capability": "完全自我复制所需：设施毁损后用保留能力重建可运行工业节点；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“设施毁损后用保留能力重建可运行工业节点”的公开验证材料；相关进展：ARMADAS地面演示自主组装预制体素结构；不是带电力、生产设备和供应链的完整工厂复制。",
+      "gap": "“设施毁损后用保留能力重建可运行工业节点”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D10-S02"
+      ],
+      "human_dependency": "人类提供结构设计、预制体素、机器人、供电和测试条件。",
+      "validation_needed": "针对10.3：设施毁损后用保留能力重建可运行工业节点。验证方式：使关键设施、通信和备份同时部分失效，检验恢复到预定服务水平的时间。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.3-M9",
+      "required_capability": "完全自我复制所需：建成新增完整设施并验证净产能增加；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "体素结构可随外供构件增加而扩大，但没有完成具备能源/设备的新增完整工厂。",
+      "gap": "已有材料不能证明“建成新增完整设施并验证净产能增加”已在HR0条件下完整成立；需要把局部功能与核算新建资产的净产能与全部外部输入，证明新增能力由机器自行建设并投运对应验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D10-S02"
+      ],
+      "human_dependency": "人类提供结构设计、预制体素、机器人、供电和测试条件。",
+      "validation_needed": "针对10.3：建成新增完整设施并验证净产能增加。验证方式：核算新建资产的净产能与全部外部输入，证明新增能力由机器自行建设并投运。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "10.3-M10",
+      "required_capability": "完全自我复制所需：让建成的后代设施具备同等的完整设施建造能力；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "自主结构组装未展示建成设施再制造机器人、构件和下一套完整设施。",
+      "gap": "已有材料不能证明“让建成的后代设施具备同等的完整设施建造能力”已在HR0条件下完整成立；需要把局部功能与完成至少连续后代的同等功能验收，逐项审计上游制造、能源和维护链，不能只补给预制模块对应验证。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D10-S02"
+      ],
+      "human_dependency": "人类提供结构设计、预制体素、机器人、供电和测试条件。",
+      "validation_needed": "针对10.3：让建成的后代设施具备同等的完整设施建造能力。验证方式：完成至少连续后代的同等功能验收，逐项审计上游制造、能源和维护链，不能只补给预制模块。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.4-M1",
+      "required_capability": "完全自我复制所需：在新地点自主完成勘察、施工、投运与物流接入；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "ARMADAS是地面结构装配演示；CADRE核验页面仍标Future，不能计为已完成异地工业部署。",
+      "gap": "已有材料不能证明“在新地点自主完成勘察、施工、投运与物流接入”已在HR0条件下完整成立；需要把局部功能与连续运行覆盖正常任务、环境变化和计划维护窗口，报告人工干预次数、服务质量与时长对应验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D10-S02",
+        "D10-S03"
+      ],
+      "human_dependency": "航天/运输部署、人类规划、预制设备与发射基础设施。",
+      "validation_needed": "针对10.4：在新地点自主完成勘察、施工、投运与物流接入。验证方式：连续运行覆盖正常任务、环境变化和计划维护窗口，报告人工干预次数、服务质量与时长。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "10.4-M2",
+      "required_capability": "完全自我复制所需：发现新区域地质、环境、供能和物流风险；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“发现新区域地质、环境、供能和物流风险”的公开验证材料；相关进展：CADRE页面是未来月面三车协作计划；ARMADAS提供模块结构组装原型，不证明新区域完整工业落地。",
+      "gap": "“发现新区域地质、环境、供能和物流风险”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D10-S03",
+        "D10-S02"
+      ],
+      "human_dependency": "航天/运输部署、人类规划、预制设备与发射基础设施。",
+      "validation_needed": "针对10.4：发现新区域地质、环境、供能和物流风险。验证方式：注入代表性故障并盲测漏报率、误报率和发现延迟。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.4-M3",
+      "required_capability": "完全自我复制所需：诊断部署失败来自资源短缺、施工还是控制环境差异；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“诊断部署失败来自资源短缺、施工还是控制环境差异”的公开验证材料；相关进展：CADRE页面是未来月面三车协作计划；ARMADAS提供模块结构组装原型，不证明新区域完整工业落地。",
+      "gap": "“诊断部署失败来自资源短缺、施工还是控制环境差异”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D10-S03",
+        "D10-S02"
+      ],
+      "human_dependency": "航天/运输部署、人类规划、预制设备与发射基础设施。",
+      "validation_needed": "针对10.4：诊断部署失败来自资源短缺、施工还是控制环境差异。验证方式：在可验证根因的多故障对照中检验定位准确率与可执行诊断。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.4-M4",
+      "required_capability": "完全自我复制所需：无需当地人类维护地基、设备和通信基础设施；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“无需当地人类维护地基、设备和通信基础设施”的公开验证材料；相关进展：CADRE页面是未来月面三车协作计划；ARMADAS提供模块结构组装原型，不证明新区域完整工业落地。",
+      "gap": "“无需当地人类维护地基、设备和通信基础设施”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D10-S03",
+        "D10-S02"
+      ],
+      "human_dependency": "航天/运输部署、人类规划、预制设备与发射基础设施。",
+      "validation_needed": "针对10.4：无需当地人类维护地基、设备和通信基础设施。验证方式：使真实部件失效后由机器人拆换、复测、复位，记录外部接管与新备件来源。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.4-M5",
+      "required_capability": "完全自我复制所需：使用当地或闭环可再生供应取得新节点全部关键输入；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“使用当地或闭环可再生供应取得新节点全部关键输入”的公开验证材料；相关进展：CADRE页面是未来月面三车协作计划；ARMADAS提供模块结构组装原型，不证明新区域完整工业落地。",
+      "gap": "“使用当地或闭环可再生供应取得新节点全部关键输入”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D10-S03",
+        "D10-S02"
+      ],
+      "human_dependency": "航天/运输部署、人类规划、预制设备与发射基础设施。",
+      "validation_needed": "针对10.4：使用当地或闭环可再生供应取得新节点全部关键输入。验证方式：追踪所有关键物料和服务的来源，耗尽初始备件后仍由边界内机器补充。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.4-M6",
+      "required_capability": "完全自我复制所需：建立自主能源采集和储配系统支撑新地点；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "CADRE计划采用太阳能小车，但页面将其列为未来示范，未完成能源链当地复制。",
+      "gap": "已有材料不能证明“建立自主能源采集和储配系统支撑新地点”已在HR0条件下完整成立；需要把局部功能与实测能源收支并让能源设备经历故障、维修与替换周期对应验证。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D10-S03"
+      ],
+      "human_dependency": "航天/运输部署、人类规划、预制设备与发射基础设施。",
+      "validation_needed": "针对10.4：建立自主能源采集和储配系统支撑新地点。验证方式：实测能源收支并让能源设备经历故障、维修与替换周期。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.4-M7",
+      "required_capability": "完全自我复制所需：自主学习并验证新地点环境与工艺适配知识；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“自主学习并验证新地点环境与工艺适配知识”的公开验证材料；相关进展：CADRE页面是未来月面三车协作计划；ARMADAS提供模块结构组装原型，不证明新区域完整工业落地。",
+      "gap": "“自主学习并验证新地点环境与工艺适配知识”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D10-S03",
+        "D10-S02"
+      ],
+      "human_dependency": "航天/运输部署、人类规划、预制设备与发射基础设施。",
+      "validation_needed": "针对10.4：自主学习并验证新地点环境与工艺适配知识。验证方式：在新工艺/环境下不靠现场人类示教完成学习，并用独立测量验证知识可靠性。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.4-M8",
+      "required_capability": "完全自我复制所需：跨区域节点失联或受灾时恢复最低生产联系；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“跨区域节点失联或受灾时恢复最低生产联系”的公开验证材料；相关进展：CADRE页面是未来月面三车协作计划；ARMADAS提供模块结构组装原型，不证明新区域完整工业落地。",
+      "gap": "“跨区域节点失联或受灾时恢复最低生产联系”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D10-S03",
+        "D10-S02"
+      ],
+      "human_dependency": "航天/运输部署、人类规划、预制设备与发射基础设施。",
+      "validation_needed": "针对10.4：跨区域节点失联或受灾时恢复最低生产联系。验证方式：使关键设施、通信和备份同时部分失效，检验恢复到预定服务水平的时间。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.4-M9",
+      "required_capability": "完全自我复制所需：建立多个新节点并持续提高净工业产能；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“建立多个新节点并持续提高净工业产能”的公开验证材料；相关进展：CADRE页面是未来月面三车协作计划；ARMADAS提供模块结构组装原型，不证明新区域完整工业落地。",
+      "gap": "“建立多个新节点并持续提高净工业产能”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D10-S03",
+        "D10-S02"
+      ],
+      "human_dependency": "航天/运输部署、人类规划、预制设备与发射基础设施。",
+      "validation_needed": "针对10.4：建立多个新节点并持续提高净工业产能。验证方式：核算新建资产的净产能与全部外部输入，证明新增能力由机器自行建设并投运。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.4-M10",
+      "required_capability": "完全自我复制所需：每个新节点都能独立建立下一地区的同等节点；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“每个新节点都能独立建立下一地区的同等节点”的公开验证材料；相关进展：CADRE页面是未来月面三车协作计划；ARMADAS提供模块结构组装原型，不证明新区域完整工业落地。",
+      "gap": "“每个新节点都能独立建立下一地区的同等节点”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D10-S03",
+        "D10-S02"
+      ],
+      "human_dependency": "航天/运输部署、人类规划、预制设备与发射基础设施。",
+      "validation_needed": "针对10.4：每个新节点都能独立建立下一地区的同等节点。验证方式：完成至少连续后代的同等功能验收，逐项审计上游制造、能源和维护链，不能只补给预制模块。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.5-M1",
+      "required_capability": "完全自我复制所需：在大范围损毁后组织剩余机器维持最低文明功能；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“在大范围损毁后组织剩余机器维持最低文明功能”的公开验证材料；相关进展：ISAM综述讨论维护和延长特定空间资产寿命；不构成多领域机器文明灾后重建演示。",
+      "gap": "“在大范围损毁后组织剩余机器维持最低文明功能”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D10-S05"
+      ],
+      "human_dependency": "灾害恢复规划、外供备件、发射和地面工业支持。",
+      "validation_needed": "针对10.5：在大范围损毁后组织剩余机器维持最低文明功能。验证方式：连续运行覆盖正常任务、环境变化和计划维护窗口，报告人工干预次数、服务质量与时长。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.5-M2",
+      "required_capability": "完全自我复制所需：检测关键链断裂、灾损范围和剩余资源；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“检测关键链断裂、灾损范围和剩余资源”的公开验证材料；相关进展：ISAM综述讨论维护和延长特定空间资产寿命；不构成多领域机器文明灾后重建演示。",
+      "gap": "“检测关键链断裂、灾损范围和剩余资源”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D10-S05"
+      ],
+      "human_dependency": "灾害恢复规划、外供备件、发射和地面工业支持。",
+      "validation_needed": "针对10.5：检测关键链断裂、灾损范围和剩余资源。验证方式：注入代表性故障并盲测漏报率、误报率和发现延迟。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.5-M3",
+      "required_capability": "完全自我复制所需：判断恢复顺序及级联故障的根因与瓶颈；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“判断恢复顺序及级联故障的根因与瓶颈”的公开验证材料；相关进展：ISAM综述讨论维护和延长特定空间资产寿命；不构成多领域机器文明灾后重建演示。",
+      "gap": "“判断恢复顺序及级联故障的根因与瓶颈”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D10-S05"
+      ],
+      "human_dependency": "灾害恢复规划、外供备件、发射和地面工业支持。",
+      "validation_needed": "针对10.5：判断恢复顺序及级联故障的根因与瓶颈。验证方式：在可验证根因的多故障对照中检验定位准确率与可执行诊断。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.5-M4",
+      "required_capability": "完全自我复制所需：自主重建发电、材料、制造、计算和物流能力；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "NASA ISAM综述举在轨服务与维护以延长资产寿命；其尺度不是灾后跨工业链恢复。",
+      "gap": "已有材料不能证明“自主重建发电、材料、制造、计算和物流能力”已在HR0条件下完整成立；需要把局部功能与使真实部件失效后由机器人拆换、复测、复位，记录外部接管与新备件来源对应验证。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D10-S05"
+      ],
+      "human_dependency": "灾害恢复规划、外供备件、发射和地面工业支持。",
+      "validation_needed": "针对10.5：自主重建发电、材料、制造、计算和物流能力。验证方式：使真实部件失效后由机器人拆换、复测、复位，记录外部接管与新备件来源。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.5-M5",
+      "required_capability": "完全自我复制所需：用灾后仍可获得原料再造关键部件与生产工具；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“用灾后仍可获得原料再造关键部件与生产工具”的公开验证材料；相关进展：ISAM综述讨论维护和延长特定空间资产寿命；不构成多领域机器文明灾后重建演示。",
+      "gap": "“用灾后仍可获得原料再造关键部件与生产工具”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D10-S05"
+      ],
+      "human_dependency": "灾害恢复规划、外供备件、发射和地面工业支持。",
+      "validation_needed": "针对10.5：用灾后仍可获得原料再造关键部件与生产工具。验证方式：追踪所有关键物料和服务的来源，耗尽初始备件后仍由边界内机器补充。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.5-M6",
+      "required_capability": "完全自我复制所需：首先恢复黑启动能源与后续能源设备生产；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“首先恢复黑启动能源与后续能源设备生产”的公开验证材料；相关进展：ISAM综述讨论维护和延长特定空间资产寿命；不构成多领域机器文明灾后重建演示。",
+      "gap": "“首先恢复黑启动能源与后续能源设备生产”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D10-S05"
+      ],
+      "human_dependency": "灾害恢复规划、外供备件、发射和地面工业支持。",
+      "validation_needed": "针对10.5：首先恢复黑启动能源与后续能源设备生产。验证方式：实测能源收支并让能源设备经历故障、维修与替换周期。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.5-M7",
+      "required_capability": "完全自我复制所需：在数据中心和人员知识不可用时恢复关键工艺知识；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“在数据中心和人员知识不可用时恢复关键工艺知识”的公开验证材料；相关进展：ISAM综述讨论维护和延长特定空间资产寿命；不构成多领域机器文明灾后重建演示。",
+      "gap": "“在数据中心和人员知识不可用时恢复关键工艺知识”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D10-S05"
+      ],
+      "human_dependency": "灾害恢复规划、外供备件、发射和地面工业支持。",
+      "validation_needed": "针对10.5：在数据中心和人员知识不可用时恢复关键工艺知识。验证方式：在新工艺/环境下不靠现场人类示教完成学习，并用独立测量验证知识可靠性。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.5-M8",
+      "required_capability": "完全自我复制所需：实际完成跨领域灾后重建并恢复原有核心能力；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "核验ISAM综述仅提供特定空间资产服务/组装进展，没有完整机器文明灾后重建观测。",
+      "gap": "已有材料不能证明“实际完成跨领域灾后重建并恢复原有核心能力”已在HR0条件下完整成立；需要把局部功能与使关键设施、通信和备份同时部分失效，检验恢复到预定服务水平的时间对应验证。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D10-S05"
+      ],
+      "human_dependency": "灾害恢复规划、外供备件、发射和地面工业支持。",
+      "validation_needed": "针对10.5：实际完成跨领域灾后重建并恢复原有核心能力。验证方式：使关键设施、通信和备份同时部分失效，检验恢复到预定服务水平的时间。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.5-M9",
+      "required_capability": "完全自我复制所需：恢复后自主扩建冗余节点降低再次崩溃风险；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“恢复后自主扩建冗余节点降低再次崩溃风险”的公开验证材料；相关进展：ISAM综述讨论维护和延长特定空间资产寿命；不构成多领域机器文明灾后重建演示。",
+      "gap": "“恢复后自主扩建冗余节点降低再次崩溃风险”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D10-S05"
+      ],
+      "human_dependency": "灾害恢复规划、外供备件、发射和地面工业支持。",
+      "validation_needed": "针对10.5：恢复后自主扩建冗余节点降低再次崩溃风险。验证方式：核算新建资产的净产能与全部外部输入，证明新增能力由机器自行建设并投运。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.5-M10",
+      "required_capability": "完全自我复制所需：重建系统仍能复制下一套完整工业体系；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“重建系统仍能复制下一套完整工业体系”的公开验证材料；相关进展：ISAM综述讨论维护和延长特定空间资产寿命；不构成多领域机器文明灾后重建演示。",
+      "gap": "“重建系统仍能复制下一套完整工业体系”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D10-S05"
+      ],
+      "human_dependency": "灾害恢复规划、外供备件、发射和地面工业支持。",
+      "validation_needed": "针对10.5：重建系统仍能复制下一套完整工业体系。验证方式：完成至少连续后代的同等功能验收，逐项审计上游制造、能源和维护链，不能只补给预制模块。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.6-M1",
+      "required_capability": "完全自我复制所需：以声明的有限种子设备持续生产扩大工业能力；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "NASA种子工厂相关历史研究讨论自动化空间任务可行性；不构成已运行完整种子工业。",
+      "gap": "已有材料不能证明“以声明的有限种子设备持续生产扩大工业能力”已在HR0条件下完整成立；需要把局部功能与连续运行覆盖正常任务、环境变化和计划维护窗口，报告人工干预次数、服务质量与时长对应验证。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D10-S04"
+      ],
+      "human_dependency": "概念设计研究、外供种子设备、预制模块和未闭环的高端制造。",
+      "validation_needed": "针对10.6：以声明的有限种子设备持续生产扩大工业能力。验证方式：连续运行覆盖正常任务、环境变化和计划维护窗口，报告人工干预次数、服务质量与时长。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.6-M2",
+      "required_capability": "完全自我复制所需：识别种子扩展过程缺失的工艺、资源和设备功能；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“识别种子扩展过程缺失的工艺、资源和设备功能”的公开验证材料；相关进展：NASA1982研究讨论自动化/机器人空间任务可行性；ARMADAS从预制模块组装结构是局部路线而非完整种子工厂。",
+      "gap": "“识别种子扩展过程缺失的工艺、资源和设备功能”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D10-S04",
+        "D10-S02"
+      ],
+      "human_dependency": "概念设计研究、外供种子设备、预制模块和未闭环的高端制造。",
+      "validation_needed": "针对10.6：识别种子扩展过程缺失的工艺、资源和设备功能。验证方式：注入代表性故障并盲测漏报率、误报率和发现延迟。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.6-M3",
+      "required_capability": "完全自我复制所需：定位无法扩展到闭环的关键依赖和启动顺序问题；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“定位无法扩展到闭环的关键依赖和启动顺序问题”的公开验证材料；相关进展：NASA1982研究讨论自动化/机器人空间任务可行性；ARMADAS从预制模块组装结构是局部路线而非完整种子工厂。",
+      "gap": "“定位无法扩展到闭环的关键依赖和启动顺序问题”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D10-S04",
+        "D10-S02"
+      ],
+      "human_dependency": "概念设计研究、外供种子设备、预制模块和未闭环的高端制造。",
+      "validation_needed": "针对10.6：定位无法扩展到闭环的关键依赖和启动顺序问题。验证方式：在可验证根因的多故障对照中检验定位准确率与可执行诊断。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.6-M4",
+      "required_capability": "完全自我复制所需：维修种子设备并制造维持扩展所需的替换工具；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“维修种子设备并制造维持扩展所需的替换工具”的公开验证材料；相关进展：NASA1982研究讨论自动化/机器人空间任务可行性；ARMADAS从预制模块组装结构是局部路线而非完整种子工厂。",
+      "gap": "“维修种子设备并制造维持扩展所需的替换工具”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D10-S04",
+        "D10-S02"
+      ],
+      "human_dependency": "概念设计研究、外供种子设备、预制模块和未闭环的高端制造。",
+      "validation_needed": "针对10.6：维修种子设备并制造维持扩展所需的替换工具。验证方式：使真实部件失效后由机器人拆换、复测、复位，记录外部接管与新备件来源。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.6-M5",
+      "required_capability": "完全自我复制所需：由当地原料逐步制成全部关键工业输入而非消耗预装套件；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“由当地原料逐步制成全部关键工业输入而非消耗预装套件”的公开验证材料；相关进展：NASA1982研究讨论自动化/机器人空间任务可行性；ARMADAS从预制模块组装结构是局部路线而非完整种子工厂。",
+      "gap": "“由当地原料逐步制成全部关键工业输入而非消耗预装套件”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D10-S04",
+        "D10-S02"
+      ],
+      "human_dependency": "概念设计研究、外供种子设备、预制模块和未闭环的高端制造。",
+      "validation_needed": "针对10.6：由当地原料逐步制成全部关键工业输入而非消耗预装套件。验证方式：追踪所有关键物料和服务的来源，耗尽初始备件后仍由边界内机器补充。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.6-M6",
+      "required_capability": "完全自我复制所需：从种子能源扩展到可自主制造维护的能源链；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“从种子能源扩展到可自主制造维护的能源链”的公开验证材料；相关进展：NASA1982研究讨论自动化/机器人空间任务可行性；ARMADAS从预制模块组装结构是局部路线而非完整种子工厂。",
+      "gap": "“从种子能源扩展到可自主制造维护的能源链”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D10-S04",
+        "D10-S02"
+      ],
+      "human_dependency": "概念设计研究、外供种子设备、预制模块和未闭环的高端制造。",
+      "validation_needed": "针对10.6：从种子能源扩展到可自主制造维护的能源链。验证方式：实测能源收支并让能源设备经历故障、维修与替换周期。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.6-M7",
+      "required_capability": "完全自我复制所需：自主掌握并验证从矿物到机床芯片的工艺知识；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“自主掌握并验证从矿物到机床芯片的工艺知识”的公开验证材料；相关进展：NASA1982研究讨论自动化/机器人空间任务可行性；ARMADAS从预制模块组装结构是局部路线而非完整种子工厂。",
+      "gap": "“自主掌握并验证从矿物到机床芯片的工艺知识”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D10-S04",
+        "D10-S02"
+      ],
+      "human_dependency": "概念设计研究、外供种子设备、预制模块和未闭环的高端制造。",
+      "validation_needed": "针对10.6：自主掌握并验证从矿物到机床芯片的工艺知识。验证方式：在新工艺/环境下不靠现场人类示教完成学习，并用独立测量验证知识可靠性。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.6-M8",
+      "required_capability": "完全自我复制所需：在种子设备部分损失后恢复最小可行扩展路径；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“在种子设备部分损失后恢复最小可行扩展路径”的公开验证材料；相关进展：NASA1982研究讨论自动化/机器人空间任务可行性；ARMADAS从预制模块组装结构是局部路线而非完整种子工厂。",
+      "gap": "“在种子设备部分损失后恢复最小可行扩展路径”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D10-S04",
+        "D10-S02"
+      ],
+      "human_dependency": "概念设计研究、外供种子设备、预制模块和未闭环的高端制造。",
+      "validation_needed": "针对10.6：在种子设备部分损失后恢复最小可行扩展路径。验证方式：使关键设施、通信和备份同时部分失效，检验恢复到预定服务水平的时间。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.6-M9",
+      "required_capability": "完全自我复制所需：实际完成种子到多工艺完整工业体系的净扩容；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "ARMADAS展示小机器人利用外供体素组装更大结构，为种子扩展的局部技术组件。",
+      "gap": "已有材料不能证明“实际完成种子到多工艺完整工业体系的净扩容”已在HR0条件下完整成立；需要把局部功能与核算新建资产的净产能与全部外部输入，证明新增能力由机器自行建设并投运对应验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D10-S02"
+      ],
+      "human_dependency": "概念设计研究、外供种子设备、预制模块和未闭环的高端制造。",
+      "validation_needed": "针对10.6：实际完成种子到多工艺完整工业体系的净扩容。验证方式：核算新建资产的净产能与全部外部输入，证明新增能力由机器自行建设并投运。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "10.6-M10",
+      "required_capability": "完全自我复制所需：用成熟工厂制造新的完整种子并证明新种子再次展开；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "模块复制可实现外供模块下的后代组装，未包含模块和全部机器工业设备的自制。",
+      "gap": "已有材料不能证明“用成熟工厂制造新的完整种子并证明新种子再次展开”已在HR0条件下完整成立；需要把局部功能与完成至少连续后代的同等功能验收，逐项审计上游制造、能源和维护链，不能只补给预制模块对应验证。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D10-S06"
+      ],
+      "human_dependency": "概念设计研究、外供种子设备、预制模块和未闭环的高端制造。",
+      "validation_needed": "针对10.6：用成熟工厂制造新的完整种子并证明新种子再次展开。验证方式：完成至少连续后代的同等功能验收，逐项审计上游制造、能源和维护链，不能只补给预制模块。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.7-M1",
+      "required_capability": "完全自我复制所需：在新环境持续提取并加工当地物质资源；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "MOXIE在火星大气中16次制氧，累计122g，峰值12g/h，纯度98%以上。",
+      "gap": "已有材料不能证明“在新环境持续提取并加工当地物质资源”已在HR0条件下完整成立；需要把局部功能与连续运行覆盖正常任务、环境变化和计划维护窗口，报告人工干预次数、服务质量与时长对应验证。",
+      "assessment_status": "demonstrated_limited",
+      "evidence_relation": "direct_metric",
+      "source_ids": [
+        "D10-S01"
+      ],
+      "human_dependency": "地球制造运送设备，任务运营、火星车供电与未在当地制造的元件。",
+      "validation_needed": "针对10.7：在新环境持续提取并加工当地物质资源。验证方式：连续运行覆盖正常任务、环境变化和计划维护窗口，报告人工干预次数、服务质量与时长。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "10.7-M2",
+      "required_capability": "完全自我复制所需：检测当地资源处理设备和产品质量异常；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "MOXIE对产出气体进行纯度与产量分析；支持特定工艺产品监测，而不是所有设备故障发现。",
+      "gap": "已有材料不能证明“检测当地资源处理设备和产品质量异常”已在HR0条件下完整成立；需要把局部功能与注入代表性故障并盲测漏报率、误报率和发现延迟对应验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D10-S01"
+      ],
+      "human_dependency": "地球制造运送设备，任务运营、火星车供电与未在当地制造的元件。",
+      "validation_needed": "针对10.7：检测当地资源处理设备和产品质量异常。验证方式：注入代表性故障并盲测漏报率、误报率和发现延迟。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "10.7-M3",
+      "required_capability": "完全自我复制所需：判断产率下降来自原料、工艺、磨损还是环境因素；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“判断产率下降来自原料、工艺、磨损还是环境因素”的公开验证材料；相关进展：MOXIE已在火星由大气CO2制氧，16次运行累计122g，最高12g/h、纯度98%以上；不含完整设备复制。",
+      "gap": "“判断产率下降来自原料、工艺、磨损还是环境因素”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D10-S01"
+      ],
+      "human_dependency": "地球制造运送设备，任务运营、火星车供电与未在当地制造的元件。",
+      "validation_needed": "针对10.7：判断产率下降来自原料、工艺、磨损还是环境因素。验证方式：在可验证根因的多故障对照中检验定位准确率与可执行诊断。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.7-M4",
+      "required_capability": "完全自我复制所需：自主修复采集、反应、分离与储存设备；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“自主修复采集、反应、分离与储存设备”的公开验证材料；相关进展：MOXIE已在火星由大气CO2制氧，16次运行累计122g，最高12g/h、纯度98%以上；不含完整设备复制。",
+      "gap": "“自主修复采集、反应、分离与储存设备”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D10-S01"
+      ],
+      "human_dependency": "地球制造运送设备，任务运营、火星车供电与未在当地制造的元件。",
+      "validation_needed": "针对10.7：自主修复采集、反应、分离与储存设备。验证方式：使真实部件失效后由机器人拆换、复测、复位，记录外部接管与新备件来源。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.7-M5",
+      "required_capability": "完全自我复制所需：用当地资源制造消耗品及资源加工设备的替换件；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "火星CO2作为当地原料被制成氧；反应设备和其他生产输入不是在火星自主制造。",
+      "gap": "已有材料不能证明“用当地资源制造消耗品及资源加工设备的替换件”已在HR0条件下完整成立；需要把局部功能与追踪所有关键物料和服务的来源，耗尽初始备件后仍由边界内机器补充对应验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D10-S01"
+      ],
+      "human_dependency": "地球制造运送设备，任务运营、火星车供电与未在当地制造的元件。",
+      "validation_needed": "针对10.7：用当地资源制造消耗品及资源加工设备的替换件。验证方式：追踪所有关键物料和服务的来源，耗尽初始备件后仍由边界内机器补充。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "10.7-M6",
+      "required_capability": "完全自我复制所需：建立并自维护支持采集加工的当地能源能力；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“建立并自维护支持采集加工的当地能源能力”的公开验证材料；相关进展：MOXIE已在火星由大气CO2制氧，16次运行累计122g，最高12g/h、纯度98%以上；不含完整设备复制。",
+      "gap": "“建立并自维护支持采集加工的当地能源能力”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D10-S01"
+      ],
+      "human_dependency": "地球制造运送设备，任务运营、火星车供电与未在当地制造的元件。",
+      "validation_needed": "针对10.7：建立并自维护支持采集加工的当地能源能力。验证方式：实测能源收支并让能源设备经历故障、维修与替换周期。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.7-M7",
+      "required_capability": "完全自我复制所需：自主辨识陌生资源并学习可靠加工工艺；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "MOXIE运行跨一个火星年的多种条件，为原位制氧积累验证知识；不是无人自主发现全工艺。",
+      "gap": "已有材料不能证明“自主辨识陌生资源并学习可靠加工工艺”已在HR0条件下完整成立；需要把局部功能与在新工艺/环境下不靠现场人类示教完成学习，并用独立测量验证知识可靠性对应验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D10-S01"
+      ],
+      "human_dependency": "地球制造运送设备，任务运营、火星车供电与未在当地制造的元件。",
+      "validation_needed": "针对10.7：自主辨识陌生资源并学习可靠加工工艺。验证方式：在新工艺/环境下不靠现场人类示教完成学习，并用独立测量验证知识可靠性。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "10.7-M8",
+      "required_capability": "完全自我复制所需：资源厂受损或矿源变化后恢复关键物料供应；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“资源厂受损或矿源变化后恢复关键物料供应”的公开验证材料；相关进展：MOXIE已在火星由大气CO2制氧，16次运行累计122g，最高12g/h、纯度98%以上；不含完整设备复制。",
+      "gap": "“资源厂受损或矿源变化后恢复关键物料供应”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D10-S01"
+      ],
+      "human_dependency": "地球制造运送设备，任务运营、火星车供电与未在当地制造的元件。",
+      "validation_needed": "针对10.7：资源厂受损或矿源变化后恢复关键物料供应。验证方式：使关键设施、通信和备份同时部分失效，检验恢复到预定服务水平的时间。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.7-M9",
+      "required_capability": "完全自我复制所需：扩大当地资源处理并复制更多完整产线；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "NASA明确下一步需要含液化储存的全尺度系统；现有小型制氧实验没有自行扩建该系统。",
+      "gap": "已有材料不能证明“扩大当地资源处理并复制更多完整产线”已在HR0条件下完整成立；需要把局部功能与核算新建资产的净产能与全部外部输入，证明新增能力由机器自行建设并投运对应验证。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D10-S01"
+      ],
+      "human_dependency": "地球制造运送设备，任务运营、火星车供电与未在当地制造的元件。",
+      "validation_needed": "针对10.7：扩大当地资源处理并复制更多完整产线。验证方式：核算新建资产的净产能与全部外部输入，证明新增能力由机器自行建设并投运。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.7-M10",
+      "required_capability": "完全自我复制所需：让本地生产支撑复制完整ISRU设备及其上游制造链；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“让本地生产支撑复制完整ISRU设备及其上游制造链”的公开验证材料；相关进展：MOXIE已在火星由大气CO2制氧，16次运行累计122g，最高12g/h、纯度98%以上；不含完整设备复制。",
+      "gap": "“让本地生产支撑复制完整ISRU设备及其上游制造链”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D10-S01"
+      ],
+      "human_dependency": "地球制造运送设备，任务运营、火星车供电与未在当地制造的元件。",
+      "validation_needed": "针对10.7：让本地生产支撑复制完整ISRU设备及其上游制造链。验证方式：完成至少连续后代的同等功能验收，逐项审计上游制造、能源和维护链，不能只补给预制模块。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.8-M1",
+      "required_capability": "完全自我复制所需：连续跟踪完整系统复制周期、成功率和产能约束；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "四模块机器人复制序列约2.5分钟，人工在两个供料点补给现成积木。",
+      "gap": "已有材料不能证明“连续跟踪完整系统复制周期、成功率和产能约束”已在HR0条件下完整成立；需要把局部功能与连续运行覆盖正常任务、环境变化和计划维护窗口，报告人工干预次数、服务质量与时长对应验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D10-S06"
+      ],
+      "human_dependency": "人工补充预制模块、实验边界设定和未计入的部件制造时间。",
+      "validation_needed": "针对10.8：连续跟踪完整系统复制周期、成功率和产能约束。验证方式：连续运行覆盖正常任务、环境变化和计划维护窗口，报告人工干预次数、服务质量与时长。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "10.8-M2",
+      "required_capability": "完全自我复制所需：识别复制试验中的失败、遗漏部件和未计入人工；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“识别复制试验中的失败、遗漏部件和未计入人工”的公开验证材料；相关进展：Columbia模块机器人约2.5分钟完成四模块组装复制，但明确人工补给模块；不能当完整机器工业代际时间。",
+      "gap": "“识别复制试验中的失败、遗漏部件和未计入人工”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D10-S06"
+      ],
+      "human_dependency": "人工补充预制模块、实验边界设定和未计入的部件制造时间。",
+      "validation_needed": "针对10.8：识别复制试验中的失败、遗漏部件和未计入人工。验证方式：注入代表性故障并盲测漏报率、误报率和发现延迟。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.8-M3",
+      "required_capability": "完全自我复制所需：诊断代际时间瓶颈来自生产、能源、材料还是装配；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“诊断代际时间瓶颈来自生产、能源、材料还是装配”的公开验证材料；相关进展：Columbia模块机器人约2.5分钟完成四模块组装复制，但明确人工补给模块；不能当完整机器工业代际时间。",
+      "gap": "“诊断代际时间瓶颈来自生产、能源、材料还是装配”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D10-S06"
+      ],
+      "human_dependency": "人工补充预制模块、实验边界设定和未计入的部件制造时间。",
+      "validation_needed": "针对10.8：诊断代际时间瓶颈来自生产、能源、材料还是装配。验证方式：在可验证根因的多故障对照中检验定位准确率与可执行诊断。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.8-M4",
+      "required_capability": "完全自我复制所需：自主修复复制线故障并继续产生合格后代；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“自主修复复制线故障并继续产生合格后代”的公开验证材料；相关进展：Columbia模块机器人约2.5分钟完成四模块组装复制，但明确人工补给模块；不能当完整机器工业代际时间。",
+      "gap": "“自主修复复制线故障并继续产生合格后代”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D10-S06"
+      ],
+      "human_dependency": "人工补充预制模块、实验边界设定和未计入的部件制造时间。",
+      "validation_needed": "针对10.8：自主修复复制线故障并继续产生合格后代。验证方式：使真实部件失效后由机器人拆换、复测、复位，记录外部接管与新备件来源。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.8-M5",
+      "required_capability": "完全自我复制所需：将所有复制投入计入闭环核算，禁止隐匿预制件补给；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "该复制试验明确排除预制模块制造和补料自主性，不能据此计算完整工业输入闭环。",
+      "gap": "已有材料不能证明“将所有复制投入计入闭环核算，禁止隐匿预制件补给”已在HR0条件下完整成立；需要把局部功能与追踪所有关键物料和服务的来源，耗尽初始备件后仍由边界内机器补充对应验证。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D10-S06"
+      ],
+      "human_dependency": "人工补充预制模块、实验边界设定和未计入的部件制造时间。",
+      "validation_needed": "针对10.8：将所有复制投入计入闭环核算，禁止隐匿预制件补给。验证方式：追踪所有关键物料和服务的来源，耗尽初始备件后仍由边界内机器补充。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.8-M6",
+      "required_capability": "完全自我复制所需：量测复制全过程能源收支与供能设备更新；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“量测复制全过程能源收支与供能设备更新”的公开验证材料；相关进展：Columbia模块机器人约2.5分钟完成四模块组装复制，但明确人工补给模块；不能当完整机器工业代际时间。",
+      "gap": "“量测复制全过程能源收支与供能设备更新”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D10-S06"
+      ],
+      "human_dependency": "人工补充预制模块、实验边界设定和未计入的部件制造时间。",
+      "validation_needed": "针对10.8：量测复制全过程能源收支与供能设备更新。验证方式：实测能源收支并让能源设备经历故障、维修与替换周期。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.8-M7",
+      "required_capability": "完全自我复制所需：保持跨代试验日志、定义和知识可复现；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“保持跨代试验日志、定义和知识可复现”的公开验证材料；相关进展：Columbia模块机器人约2.5分钟完成四模块组装复制，但明确人工补给模块；不能当完整机器工业代际时间。",
+      "gap": "“保持跨代试验日志、定义和知识可复现”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D10-S06"
+      ],
+      "human_dependency": "人工补充预制模块、实验边界设定和未计入的部件制造时间。",
+      "validation_needed": "针对10.8：保持跨代试验日志、定义和知识可复现。验证方式：在新工艺/环境下不靠现场人类示教完成学习，并用独立测量验证知识可靠性。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.8-M8",
+      "required_capability": "完全自我复制所需：复制过程在关键设施损失后仍可恢复并完成一代；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“复制过程在关键设施损失后仍可恢复并完成一代”的公开验证材料；相关进展：Columbia模块机器人约2.5分钟完成四模块组装复制，但明确人工补给模块；不能当完整机器工业代际时间。",
+      "gap": "“复制过程在关键设施损失后仍可恢复并完成一代”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D10-S06"
+      ],
+      "human_dependency": "人工补充预制模块、实验边界设定和未计入的部件制造时间。",
+      "validation_needed": "针对10.8：复制过程在关键设施损失后仍可恢复并完成一代。验证方式：使关键设施、通信和备份同时部分失效，检验恢复到预定服务水平的时间。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.8-M9",
+      "required_capability": "完全自我复制所需：扩大并行复制能力且测得净后代产能增长；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“扩大并行复制能力且测得净后代产能增长”的公开验证材料；相关进展：Columbia模块机器人约2.5分钟完成四模块组装复制，但明确人工补给模块；不能当完整机器工业代际时间。",
+      "gap": "“扩大并行复制能力且测得净后代产能增长”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D10-S06"
+      ],
+      "human_dependency": "人工补充预制模块、实验边界设定和未计入的部件制造时间。",
+      "validation_needed": "针对10.8：扩大并行复制能力且测得净后代产能增长。验证方式：核算新建资产的净产能与全部外部输入，证明新增能力由机器自行建设并投运。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.8-M10",
+      "required_capability": "完全自我复制所需：用完整工业后代再复制下一代并估计多代时间分布；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "项目页提供模块机器人连续组装及两代复制材料，适用边界是外供模块平台。",
+      "gap": "已有材料不能证明“用完整工业后代再复制下一代并估计多代时间分布”已在HR0条件下完整成立；需要把局部功能与完成至少连续后代的同等功能验收，逐项审计上游制造、能源和维护链，不能只补给预制模块对应验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D10-S06"
+      ],
+      "human_dependency": "人工补充预制模块、实验边界设定和未计入的部件制造时间。",
+      "validation_needed": "针对10.8：用完整工业后代再复制下一代并估计多代时间分布。验证方式：完成至少连续后代的同等功能验收，逐项审计上游制造、能源和维护链，不能只补给预制模块。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "10.9-M1",
+      "required_capability": "完全自我复制所需：按同等能力定义追踪每套完整工业系统产生的有效后代数；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "模块机器人有代际组装演示，但无完整工业系统寿命和有效后代能力数据。",
+      "gap": "已有材料不能证明“按同等能力定义追踪每套完整工业系统产生的有效后代数”已在HR0条件下完整成立；需要把局部功能与连续运行覆盖正常任务、环境变化和计划维护窗口，报告人工干预次数、服务质量与时长对应验证。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D10-S06"
+      ],
+      "human_dependency": "人类部署投资、工厂和外部原料/部件供应，后代定义与测量研究。",
+      "validation_needed": "针对10.9：按同等能力定义追踪每套完整工业系统产生的有效后代数。验证方式：连续运行覆盖正常任务、环境变化和计划维护窗口，报告人工干预次数、服务质量与时长。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.9-M2",
+      "required_capability": "完全自我复制所需：检测伪后代、能力退化和增长核算中的遗漏依赖；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“检测伪后代、能力退化和增长核算中的遗漏依赖”的公开验证材料；相关进展：已有模块复制与机器人规模部署记录未提供完整机器工业系统的谱系、寿命和后代产能数据，不能估算工业R_M。",
+      "gap": "“检测伪后代、能力退化和增长核算中的遗漏依赖”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D10-S06",
+        "D08-S06"
+      ],
+      "human_dependency": "人类部署投资、工厂和外部原料/部件供应，后代定义与测量研究。",
+      "validation_needed": "针对10.9：检测伪后代、能力退化和增长核算中的遗漏依赖。验证方式：注入代表性故障并盲测漏报率、误报率和发现延迟。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.9-M3",
+      "required_capability": "完全自我复制所需：诊断R_M受限于寿命、资源、制造良率还是部署损失；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“诊断R_M受限于寿命、资源、制造良率还是部署损失”的公开验证材料；相关进展：已有模块复制与机器人规模部署记录未提供完整机器工业系统的谱系、寿命和后代产能数据，不能估算工业R_M。",
+      "gap": "“诊断R_M受限于寿命、资源、制造良率还是部署损失”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D10-S06",
+        "D08-S06"
+      ],
+      "human_dependency": "人类部署投资、工厂和外部原料/部件供应，后代定义与测量研究。",
+      "validation_needed": "针对10.9：诊断R_M受限于寿命、资源、制造良率还是部署损失。验证方式：在可验证根因的多故障对照中检验定位准确率与可执行诊断。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.9-M4",
+      "required_capability": "完全自我复制所需：自主修复导致复制数下降的生产与部署环节；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“自主修复导致复制数下降的生产与部署环节”的公开验证材料；相关进展：已有模块复制与机器人规模部署记录未提供完整机器工业系统的谱系、寿命和后代产能数据，不能估算工业R_M。",
+      "gap": "“自主修复导致复制数下降的生产与部署环节”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D10-S06",
+        "D08-S06"
+      ],
+      "human_dependency": "人类部署投资、工厂和外部原料/部件供应，后代定义与测量研究。",
+      "validation_needed": "针对10.9：自主修复导致复制数下降的生产与部署环节。验证方式：使真实部件失效后由机器人拆换、复测、复位，记录外部接管与新备件来源。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.9-M5",
+      "required_capability": "完全自我复制所需：保证每代新增系统的全部关键输入由机器闭环提供；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“保证每代新增系统的全部关键输入由机器闭环提供”的公开验证材料；相关进展：已有模块复制与机器人规模部署记录未提供完整机器工业系统的谱系、寿命和后代产能数据，不能估算工业R_M。",
+      "gap": "“保证每代新增系统的全部关键输入由机器闭环提供”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D10-S06",
+        "D08-S06"
+      ],
+      "human_dependency": "人类部署投资、工厂和外部原料/部件供应，后代定义与测量研究。",
+      "validation_needed": "针对10.9：保证每代新增系统的全部关键输入由机器闭环提供。验证方式：追踪所有关键物料和服务的来源，耗尽初始备件后仍由边界内机器补充。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.9-M6",
+      "required_capability": "完全自我复制所需：将能源获取与能源设备复制纳入空间扩张预算；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“将能源获取与能源设备复制纳入空间扩张预算”的公开验证材料；相关进展：已有模块复制与机器人规模部署记录未提供完整机器工业系统的谱系、寿命和后代产能数据，不能估算工业R_M。",
+      "gap": "“将能源获取与能源设备复制纳入空间扩张预算”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D10-S06",
+        "D08-S06"
+      ],
+      "human_dependency": "人类部署投资、工厂和外部原料/部件供应，后代定义与测量研究。",
+      "validation_needed": "针对10.9：将能源获取与能源设备复制纳入空间扩张预算。验证方式：实测能源收支并让能源设备经历故障、维修与替换周期。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.9-M7",
+      "required_capability": "完全自我复制所需：自主保存谱系、边界、统计方法与扩张决策知识；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“自主保存谱系、边界、统计方法与扩张决策知识”的公开验证材料；相关进展：已有模块复制与机器人规模部署记录未提供完整机器工业系统的谱系、寿命和后代产能数据，不能估算工业R_M。",
+      "gap": "“自主保存谱系、边界、统计方法与扩张决策知识”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D10-S06",
+        "D08-S06"
+      ],
+      "human_dependency": "人类部署投资、工厂和外部原料/部件供应，后代定义与测量研究。",
+      "validation_needed": "针对10.9：自主保存谱系、边界、统计方法与扩张决策知识。验证方式：在新工艺/环境下不靠现场人类示教完成学习，并用独立测量验证知识可靠性。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.9-M8",
+      "required_capability": "完全自我复制所需：灾害后恢复后代生产且测量净存活工业节点；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“灾害后恢复后代生产且测量净存活工业节点”的公开验证材料；相关进展：已有模块复制与机器人规模部署记录未提供完整机器工业系统的谱系、寿命和后代产能数据，不能估算工业R_M。",
+      "gap": "“灾害后恢复后代生产且测量净存活工业节点”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D10-S06",
+        "D08-S06"
+      ],
+      "human_dependency": "人类部署投资、工厂和外部原料/部件供应，后代定义与测量研究。",
+      "validation_needed": "针对10.9：灾害后恢复后代生产且测量净存活工业节点。验证方式：使关键设施、通信和备份同时部分失效，检验恢复到预定服务水平的时间。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.9-M9",
+      "required_capability": "完全自我复制所需：实测多节点持续净增加而非人类投资推动部署；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "Amazon百万机器人是企业部署规模；不能当作HR0后代系统净增长或R_M。",
+      "gap": "已有材料不能证明“实测多节点持续净增加而非人类投资推动部署”已在HR0条件下完整成立；需要把局部功能与核算新建资产的净产能与全部外部输入，证明新增能力由机器自行建设并投运对应验证。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S06"
+      ],
+      "human_dependency": "人类部署投资、工厂和外部原料/部件供应，后代定义与测量研究。",
+      "validation_needed": "针对10.9：实测多节点持续净增加而非人类投资推动部署。验证方式：核算新建资产的净产能与全部外部输入，证明新增能力由机器自行建设并投运。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.9-M10",
+      "required_capability": "完全自我复制所需：证明多代同等系统的R_M超过1并保持边界内输入闭环；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "模块复制演示缺少上游部件再生产，无法以它估计完整机器工业的R_M。",
+      "gap": "已有材料不能证明“证明多代同等系统的R_M超过1并保持边界内输入闭环”已在HR0条件下完整成立；需要把局部功能与完成至少连续后代的同等功能验收，逐项审计上游制造、能源和维护链，不能只补给预制模块对应验证。",
+      "assessment_status": "not_established_in_review",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D10-S06"
+      ],
+      "human_dependency": "人类部署投资、工厂和外部原料/部件供应，后代定义与测量研究。",
+      "validation_needed": "针对10.9：证明多代同等系统的R_M超过1并保持边界内输入闭环。验证方式：完成至少连续后代的同等功能验收，逐项审计上游制造、能源和维护链，不能只补给预制模块。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.10-M1",
+      "required_capability": "完全自我复制所需：跨代运行时保持工业功能、目标和可追溯状态；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "MEM支持最长约十五分钟任务的记忆和纠错，为任务连续性而不是工业代际连续性。",
+      "gap": "已有材料不能证明“跨代运行时保持工业功能、目标和可追溯状态”已在HR0条件下完整成立；需要把局部功能与连续运行覆盖正常任务、环境变化和计划维护窗口，报告人工干预次数、服务质量与时长对应验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D08-S02"
+      ],
+      "human_dependency": "研究工程师、训练数据、云计算和硬件制造维护。",
+      "validation_needed": "针对10.10：跨代运行时保持工业功能、目标和可追溯状态。验证方式：连续运行覆盖正常任务、环境变化和计划维护窗口，报告人工干预次数、服务质量与时长。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "10.10-M2",
+      "required_capability": "完全自我复制所需：发现升级导致的能力丢失、兼容性破坏和依赖增加；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“发现升级导致的能力丢失、兼容性破坏和依赖增加”的公开验证材料；相关进展：π0.7和2026机器人记忆展示策略泛化与分钟级任务连续性；没有核验到完整工业系统多代升级自持试验。",
+      "gap": "“发现升级导致的能力丢失、兼容性破坏和依赖增加”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S01",
+        "D08-S02"
+      ],
+      "human_dependency": "研究工程师、训练数据、云计算和硬件制造维护。",
+      "validation_needed": "针对10.10：发现升级导致的能力丢失、兼容性破坏和依赖增加。验证方式：注入代表性故障并盲测漏报率、误报率和发现延迟。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.10-M3",
+      "required_capability": "完全自我复制所需：诊断退化来自设计变更、工艺漂移还是知识丢失；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“诊断退化来自设计变更、工艺漂移还是知识丢失”的公开验证材料；相关进展：π0.7和2026机器人记忆展示策略泛化与分钟级任务连续性；没有核验到完整工业系统多代升级自持试验。",
+      "gap": "“诊断退化来自设计变更、工艺漂移还是知识丢失”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S01",
+        "D08-S02"
+      ],
+      "human_dependency": "研究工程师、训练数据、云计算和硬件制造维护。",
+      "validation_needed": "针对10.10：诊断退化来自设计变更、工艺漂移还是知识丢失。验证方式：在可验证根因的多故障对照中检验定位准确率与可执行诊断。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.10-M4",
+      "required_capability": "完全自我复制所需：自主回滚或修复硬件软件升级并恢复功能；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“自主回滚或修复硬件软件升级并恢复功能”的公开验证材料；相关进展：π0.7和2026机器人记忆展示策略泛化与分钟级任务连续性；没有核验到完整工业系统多代升级自持试验。",
+      "gap": "“自主回滚或修复硬件软件升级并恢复功能”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S01",
+        "D08-S02"
+      ],
+      "human_dependency": "研究工程师、训练数据、云计算和硬件制造维护。",
+      "validation_needed": "针对10.10：自主回滚或修复硬件软件升级并恢复功能。验证方式：使真实部件失效后由机器人拆换、复测、复位，记录外部接管与新备件来源。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.10-M5",
+      "required_capability": "完全自我复制所需：保证升级所需新材料、部件与工具仍在机器可供给边界；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“保证升级所需新材料、部件与工具仍在机器可供给边界”的公开验证材料；相关进展：π0.7和2026机器人记忆展示策略泛化与分钟级任务连续性；没有核验到完整工业系统多代升级自持试验。",
+      "gap": "“保证升级所需新材料、部件与工具仍在机器可供给边界”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S01",
+        "D08-S02"
+      ],
+      "human_dependency": "研究工程师、训练数据、云计算和硬件制造维护。",
+      "validation_needed": "针对10.10：保证升级所需新材料、部件与工具仍在机器可供给边界。验证方式：追踪所有关键物料和服务的来源，耗尽初始备件后仍由边界内机器补充。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.10-M6",
+      "required_capability": "完全自我复制所需：让升级提高或维持全生命周期能源自持能力；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“让升级提高或维持全生命周期能源自持能力”的公开验证材料；相关进展：π0.7和2026机器人记忆展示策略泛化与分钟级任务连续性；没有核验到完整工业系统多代升级自持试验。",
+      "gap": "“让升级提高或维持全生命周期能源自持能力”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S01",
+        "D08-S02"
+      ],
+      "human_dependency": "研究工程师、训练数据、云计算和硬件制造维护。",
+      "validation_needed": "针对10.10：让升级提高或维持全生命周期能源自持能力。验证方式：实测能源收支并让能源设备经历故障、维修与替换周期。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.10-M7",
+      "required_capability": "完全自我复制所需：自主保留验证并传递设计、工艺及历史知识；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "π0.7展示技能组合与跨平台泛化，但训练和验证仍由研究团队完成。",
+      "gap": "已有材料不能证明“自主保留验证并传递设计、工艺及历史知识”已在HR0条件下完整成立；需要把局部功能与在新工艺/环境下不靠现场人类示教完成学习，并用独立测量验证知识可靠性对应验证。",
+      "assessment_status": "partial_related_evidence",
+      "evidence_relation": "partial_metric",
+      "source_ids": [
+        "D08-S01"
+      ],
+      "human_dependency": "研究工程师、训练数据、云计算和硬件制造维护。",
+      "validation_needed": "针对10.10：自主保留验证并传递设计、工艺及历史知识。验证方式：在新工艺/环境下不靠现场人类示教完成学习，并用独立测量验证知识可靠性。",
+      "confidence": "Medium"
+    },
+    {
+      "dimension_id": "10.10-M8",
+      "required_capability": "完全自我复制所需：在升级失败和备份损失后重建可复制工业状态；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“在升级失败和备份损失后重建可复制工业状态”的公开验证材料；相关进展：π0.7和2026机器人记忆展示策略泛化与分钟级任务连续性；没有核验到完整工业系统多代升级自持试验。",
+      "gap": "“在升级失败和备份损失后重建可复制工业状态”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S01",
+        "D08-S02"
+      ],
+      "human_dependency": "研究工程师、训练数据、云计算和硬件制造维护。",
+      "validation_needed": "针对10.10：在升级失败和备份损失后重建可复制工业状态。验证方式：使关键设施、通信和备份同时部分失效，检验恢复到预定服务水平的时间。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.10-M9",
+      "required_capability": "完全自我复制所需：将有效升级迁移至新增设施而不依赖人类重新工程化；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“将有效升级迁移至新增设施而不依赖人类重新工程化”的公开验证材料；相关进展：π0.7和2026机器人记忆展示策略泛化与分钟级任务连续性；没有核验到完整工业系统多代升级自持试验。",
+      "gap": "“将有效升级迁移至新增设施而不依赖人类重新工程化”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S01",
+        "D08-S02"
+      ],
+      "human_dependency": "研究工程师、训练数据、云计算和硬件制造维护。",
+      "validation_needed": "针对10.10：将有效升级迁移至新增设施而不依赖人类重新工程化。验证方式：核算新建资产的净产能与全部外部输入，证明新增能力由机器自行建设并投运。",
+      "confidence": "Low"
+    },
+    {
+      "dimension_id": "10.10-M10",
+      "required_capability": "完全自我复制所需：跨多代证明系统升级且完整自复制能力不退化；全部关键外部输入须由已声明的机器工业边界持续提供。",
+      "current_capability": "本轮未取得直接证明“跨多代证明系统升级且完整自复制能力不退化”的公开验证材料；相关进展：π0.7和2026机器人记忆展示策略泛化与分钟级任务连续性；没有核验到完整工业系统多代升级自持试验。",
+      "gap": "“跨多代证明系统升级且完整自复制能力不退化”的当前达成程度未知；不能由相关子任务成功推断该项已经实现，也不能把缺证据解释为物理不可能。",
+      "assessment_status": "unknown",
+      "evidence_relation": "context_only",
+      "source_ids": [
+        "D08-S01",
+        "D08-S02"
+      ],
+      "human_dependency": "研究工程师、训练数据、云计算和硬件制造维护。",
+      "validation_needed": "针对10.10：跨多代证明系统升级且完整自复制能力不退化。验证方式：完成至少连续后代的同等功能验收，逐项审计上游制造、能源和维护链，不能只补给预制模块。",
+      "confidence": "Low"
+    }
+  ],
+  "search_log": [
+    {
+      "query": "robot metabolism self replication Columbia 2025 2026 Science Advances",
+      "retrieved_at": "2026-11-02",
+      "note": "Bing RSS结果多退化为首词泛化匹配，不能据此声称最新文献已穷尽；保留原始结果缓存。"
+    },
+    {
+      "query": "NASA ARMADAS autonomous robotic assembly 2025 2026",
+      "retrieved_at": "2026-11-02",
+      "note": "Bing RSS结果多退化为首词泛化匹配，不能据此声称最新文献已穷尽；保留原始结果缓存。"
+    },
+    {
+      "query": "robotics autonomous maintenance warehouse 2026 latest",
+      "retrieved_at": "2026-11-02",
+      "note": "Bing RSS结果多退化为首词泛化匹配，不能据此声称最新文献已穷尽；保留原始结果缓存。"
+    },
+    {
+      "query": "NASA MOXIE oxygen Mars 2023 2025 ISRU",
+      "retrieved_at": "2026-11-02",
+      "note": "Bing RSS结果多退化为首词泛化匹配，不能据此声称最新文献已穷尽；保留原始结果缓存。"
+    },
+    {
+      "query": "autonomous self replicating seed factory industrial closure 2025 2026",
+      "retrieved_at": "2026-11-02",
+      "note": "Bing RSS结果多退化为首词泛化匹配，不能据此声称最新文献已穷尽；保留原始结果缓存。"
+    },
+    {
+      "query": "Waymo autonomous driver safety impact 2026",
+      "retrieved_at": "2026-11-02",
+      "note": "Bing RSS结果多退化为首词泛化匹配，不能据此声称最新文献已穷尽；保留原始结果缓存。"
+    },
+    {
+      "query": "Amazon DeepFleet million robots 2025",
+      "retrieved_at": "2026-11-02",
+      "note": "Bing RSS结果多退化为首词泛化匹配，不能据此声称最新文献已穷尽；保留原始结果缓存。"
+    },
+    {
+      "query": "Gemini Robotics 1.5 2025 autonomous manipulation",
+      "retrieved_at": "2026-11-02",
+      "note": "Bing RSS结果多退化为首词泛化匹配，不能据此声称最新文献已穷尽；保留原始结果缓存。"
+    },
+    {
+      "query": "https://search.brave.com/search?q=NASA+ARMADAS+autonomous+assembly+2025+2026&source=web",
+      "retrieved_at": "2026-11-02",
+      "note": "Brave结果用于发现来源；具体事实均从另行获取的原始页面核验，不将搜索片段作为证据。"
+    },
+    {
+      "query": "https://search.brave.com/search?q=Yara+Birkeland+2026+autonomous+Kongsberg&source=web",
+      "retrieved_at": "2026-11-02",
+      "note": "Brave结果用于发现来源；具体事实均从另行获取的原始页面核验，不将搜索片段作为证据。"
+    },
+    {
+      "query": "https://search.brave.com/search?q=self+replicating+robot+factory+2026+physical+replication&source=web",
+      "retrieved_at": "2026-11-02",
+      "note": "Brave结果用于发现来源；具体事实均从另行获取的原始页面核验，不将搜索片段作为证据。"
+    },
+    {
+      "query": "https://search.brave.com/search?q=robot+self+modeling+2026+self+repair+Nature+2025&source=web",
+      "retrieved_at": "2026-11-02",
+      "note": "Brave结果用于发现来源；具体事实均从另行获取的原始页面核验，不将搜索片段作为证据。"
+    },
+    {
+      "query": "https://www.pi.website/blog ; https://deepmind.google/models/gemini-robotics/",
+      "retrieved_at": "2026-11-02",
+      "note": "直接浏览发布者研究索引发现2026-03、04、10月更新；现行Gemini Robotics2页未见可靠发布日期。"
+    }
+  ],
+  "domain_summaries": [
+    {
+      "domain_id": "8",
+      "summary": "已核验资料显示限定场景自主移动、操作和物流已具有实验或商业部署证据；2026机器人基础模型进一步展示泛化、记忆和参与自身零件加工。故障适应与模块重构不能等同于完整物理维修，更不能消除芯片、电机、备件、能源和人类运营依赖。",
+      "strongest_progress": "2026-10-13 PI展示Axol为自身装配隔套去毛刺；π0.7(2026-04-16)展示组合泛化；Waymo截至2026-06报告2.713亿无驾驶员里程。",
+      "principal_gap": "从限定任务的无人执行，跨越到无人维修、部件制造、能源自供以及完整机器人和运输基础设施的再生产。"
+    },
+    {
+      "domain_id": "10",
+      "summary": "可核验进展主要是预制模块组装、局部机器人重构、原位制氧和空间资产服务；它们是完整自复制的组件技术，尚不足以据此给出文明闭环度、完整工业复制数或代际时间。",
+      "strongest_progress": "MOXIE在火星16次制氧累计122g；ARMADAS在地面自主组装预制体素米尺度结构并纠错；模块机器人实现有外部积木补给的后代组装。",
+      "principal_gap": "缺少由闭环原料和能源供应支撑、能制造全部关键设备和下一代生产体系的多代工业运行验证；R_M和g_0必须保持未知。"
+    }
+  ]
+}

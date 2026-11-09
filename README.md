@@ -12,7 +12,13 @@ Most AI benchmarks measure intelligence, coding, reasoning, tool use, agent perf
 
 The project studies the full dependency chain from AI and software to energy, mining, materials, manufacturing, semiconductors, robotics, logistics, economic coordination, maintenance, recovery, and physical reproduction.
 
-MCAB is intended to be an open, evidence-backed, annually updated research benchmark. Contributions from AI researchers, roboticists, industrial engineers, semiconductor experts, energy researchers, economists, systems researchers, and other domain specialists are welcome.
+MCAB is intended to be an open, evidence-backed, **long-horizon** research instrument: annual baselines, optional monthly/interim updates, full Git history preserved across refactors — continuing until evidence supports the **host-independence capability threshold** (autonomous operate / repair / expand / reproduce under declared HR0 conditions). That threshold is about capability, not about a world without humans.
+
+Constitutive docs: [Philosophy](docs/PHILOSOPHY.md) · [Continuity](docs/CONTINUITY.md) · [Method loop](docs/METHOD_LOOP.md) · [Edition playbook](docs/EDITION_PLAYBOOK.md) · [History](docs/HISTORY.md) · [Changelog](CHANGELOG.md)
+
+Living registers: [`data/editions/registry.csv`](data/editions/registry.csv) · [`data/threshold/STATUS.md`](data/threshold/STATUS.md) (`not_met`) · [`data/method/target_queue.csv`](data/method/target_queue.csv) (frontier gap priorities).
+
+Contributions from AI researchers, roboticists, industrial engineers, semiconductor experts, energy researchers, economists, systems researchers, and other domain specialists are welcome.
 
 ## 核心问题
 
@@ -121,6 +127,31 @@ MCAB is designed as a community research project. Useful contributions include:
 
 Please read `CONTRIBUTING.md` before opening a pull request. Evidence-backed corrections are preferred over unsupported estimates.
 
+## 仓库布局（长期仪器）
+
+| 路径 | 含义 |
+| --- | --- |
+| `data/ontology/` | 共享本体、指标、维表、依赖边 |
+| `data/editions/<YYYY>/` | 年度证据、研究输入与可重建分析 |
+| `data/editions/registry.csv` | 年版名录 |
+| `data/threshold/STATUS.md` | 宿主独立门槛是否已达到 |
+| `reports/<YYYY>/` | 人读报告 |
+| `docs/` | 哲学、连续性、协议、规范、路线图 |
+| `scripts/paths.py` | 唯一路径注册表 |
+| `scripts/new_edition.py` / `edition_status.py` | 开新年份 / 查看状态 |
+
+```sh
+python3 scripts/edition_status.py
+python3 scripts/build_target_queue.py          # SELECT: rank multi-domain frontier gaps
+python3 scripts/validate_method.py
+python3 scripts/new_edition.py --year 2027 --from-year 2026
+python3 scripts/run_pipeline.py
+```
+
+Method loop (monthly/deep-dive): select → acquire via domain playbooks → verify → ingest → measure → learn. See [METHOD_LOOP.md](docs/METHOD_LOOP.md).
+
+重构可以换目录；**不得**为了整洁而改写已发布 Git 历史。详见 [CONTINUITY.md](docs/CONTINUITY.md)。
+
 ## 当前阶段
 
 v0.1 先完成：
@@ -132,4 +163,63 @@ v0.1 先完成：
 5. 识别最弱关键路径；
 6. 后续加入年度数据与情景模拟。
 
-详细定义见 `docs/MCAB-v0.1.md`，本体见 `data/taxonomy.csv`，1000维表由 `scripts/generate_dimensions.py` 生成。
+详细定义见 [v0.1工作规范](docs/MCAB-v0.1.md)，本体见 `data/ontology/taxonomy.csv`。规范仍为草案；尚未形成经过校准的2026正式数值评分，也未冻结本体或确定总指标计算公式。
+
+## GitHub任务与进度
+
+项目工作围绕现有GitHub任务推进：[工程层 #2](https://github.com/Amosqiang/Machine-Civilization-Autonomy/issues/2)、[年度基线 #1](https://github.com/Amosqiang/Machine-Civilization-Autonomy/issues/1)、[公开协作 #3](https://github.com/Amosqiang/Machine-Civilization-Autonomy/issues/3)，以及十个领域评审Issue #4—#13。
+
+已有成果、尚缺交付项和逐Issue更新草稿见 [GitHub Issue对照](docs/GITHUB_ISSUE_ALIGNMENT.md)。1000维文献对照为基线和领域评审提供输入；当前分支已接通正式证据CSV、保守评分、依赖及瓶颈分析工具；正式证据和经验证依赖仍需研究填充。各项完成状态以可审阅PR、提交及相应Issue记录为准。
+
+## 2026最新能力对照报告
+
+本版按 **2026-11-02（Asia/Shanghai）** 核验公开资料，对全部1000个既定维度逐项列出：完整工业自我复制所需的目标能力、当前来源实际支持的能力、剩余人类依赖、差距，以及下一步需要的验证。
+
+- [可搜索、筛选的完整网页报告](reports/2026/MCAB-2026-latest.html)
+- [2026报告正文与来源目录](reports/2026/MCAB-2026-report.md)
+- [1000维逐项对照CSV](reports/2026/MCAB-2026-dimension-comparison.csv)
+- [按100个子系统组织的完整对照附录](reports/2026/MCAB-2026-dimensions.md)
+
+本轮读取核验117个来源；47项有直接对应指标的证据，214项有部分相关证据，739项仅有背景或尚无直接证据。这是证据覆盖统计，不是自主性达标率。用Excel导入CSV时，请把 `subsystem_id` 等标识符列设为文本，保留 `1.10` 与 `1.1` 的区别。
+
+1000项是研究本体的覆盖范围，并非1000项均已具备直接实证，也不是已证明共同必要且充分的复制条件。报告区分直接、部分相关、仅背景及无直接证据；未知不按0分处理。目标能力须根据所选工业路线判断适用性，不能将先进芯片、特定能源路线或金融制度都视为任何自复制体系不可替代的前提。
+
+核验来源文字不等于独立复现其性能。报告保留厂商声明、实验条件、原型局限和无法核实的发布日期；“最新”表示本轮检索可核验的最新公开资料，不保证穷尽全球所有进展。本版提供能力与差距对照，尚未形成经过校准的0—5分基线或C/H/R_M/g₀估计。
+
+研究记录和短引文保存在 `data/editions/2026/research/domains_*.json`。重新生成报告：
+
+```sh
+python3 scripts/build_2026_report.py
+```
+
+研究时的完整网页缓存不纳入仓库；保留本地缓存时，可加 `--verify-cache` 逐条核对短引文与已抓取原文。默认重建只使用保存的结构化记录，不重新联网核实来源。
+
+## 工程流程与持续更新
+
+```sh
+python3 scripts/run_pipeline.py
+python3 -m unittest discover -s tests -v
+```
+
+一键流程保留人工输入，生成CSV驱动的[工程状态报告](reports/2026/MCAB-2026-engineering.html)、评分和依赖分析，并重建最新文献对照。[开发说明](docs/DEVELOPMENT.md)记录数据流、公式、未知值规则与复现命令。正式证据CSV当前仅有表头，所有正式分数与代理保持未知；20条初始依赖均是路线相关的结构假设。C/H工程代理仅为序数筛查约定，不是实测闭环度或人类依赖。
+
+## 本地生成与校验
+
+仅需 Python 3.10+，不需要第三方依赖。在仓库根目录运行：
+
+```sh
+python3 scripts/validate_data.py
+python3 scripts/generate_dimensions.py
+python3 scripts/validate_data.py --require-dimensions
+python3 -m unittest discover -s tests -v
+```
+
+`data/ontology/dimensions.csv` 是 **HR0场景的1000维空白概览**，不是已完成的基线。未知评分留空，不能用0代替。HR100、HR50、HR10、HR1和HR0的分场景证据按 `data/ontology/evidence_schema.csv` 定义另存为CSV，再运行：
+
+```sh
+python3 scripts/validate_data.py --evidence path/to/evidence.csv
+```
+
+生成器先校验本体和指标，默认拒绝覆盖任何已有 `dimensions.csv`。只有明确要丢弃原表的全部评分与证据、且已另行保存所需数据时，才使用 `python3 scripts/generate_dimensions.py --force`；它不会合并旧数据。生成失败会保留原表。
+
+校验器检查结构、引用、评分范围和证据元数据，不判断来源真实性、证据是否足以支撑评分或是否符合年度截止日；这些仍需研究者审核。
