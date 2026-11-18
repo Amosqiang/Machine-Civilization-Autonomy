@@ -138,6 +138,7 @@ Please read `CONTRIBUTING.md` before opening a pull request. Evidence-backed cor
 | `reports/<YYYY>/` | 人读报告 |
 | `docs/` | 哲学、连续性、协议、规范、路线图 |
 | `docs/SMALL_MODEL_PATH.md` | [小模型路径：不依赖EUV的自主复制假说](docs/SMALL_MODEL_PATH.md) |
+| `docs/ACTUATOR_BOTTLENECK.md` | [具身智能的关节瓶颈：驱动器与“刚好够用”原则](docs/ACTUATOR_BOTTLENECK.md) |
 | `scripts/paths.py` | 唯一路径注册表 |
 | `scripts/new_edition.py` / `edition_status.py` | 开新年份 / 查看状态 |
 
